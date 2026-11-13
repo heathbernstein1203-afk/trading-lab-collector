@@ -310,14 +310,20 @@ def find_bets(state, cfg, markets, now):
 
 
 # ---------------- Kalshi DEMO mirror (fake money) ----------------
+def redact(text):
+    """Strip anything that looks like key material before it is logged or saved."""
+    text = re.sub(r"-----BEGIN[^-]*-----.*?(-----END[^-]*-----|$)", "[redacted key]", str(text), flags=re.S)
+    return re.sub(r"[A-Za-z0-9+/=]{40,}", "[redacted]", text)
+
 def demo_request(method, path, body=None):
     key_id = (os.environ.get("KALSHI_DEMO_KEY_ID") or "").strip()
     pem = (os.environ.get("KALSHI_DEMO_PRIVATE_KEY") or "").strip()
     if "BEGIN" in key_id and "BEGIN" not in pem:  # the two secrets were pasted into each other's boxes
         key_id, pem = pem, key_id
-    if not key_id or "BEGIN" not in pem:
-        print("demo: missing or malformed KALSHI_DEMO_KEY_ID / KALSHI_DEMO_PRIVATE_KEY secrets")
-        return None
+    if not key_id or "BEGIN" in key_id or "\n" in key_id or "BEGIN" not in pem:
+        # never echo secret values: only say which secret looks wrong
+        return {"error": "secrets look wrong: KALSHI_DEMO_KEY_ID must be the short Key ID and "
+                         "KALSHI_DEMO_PRIVATE_KEY the full private key"}
     assert DEMO_BASE.startswith("https://demo-api.kalshi.co"), "demo only"
     from cryptography.hazmat.primitives import hashes, serialization
     from cryptography.hazmat.primitives.asymmetric import padding
@@ -339,9 +345,9 @@ def demo_request(method, path, body=None):
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.loads(r.read().decode() or "{}")
     except urllib.error.HTTPError as e:
-        return {"error": e.code, "detail": e.read().decode()[:300]}
+        return {"error": e.code, "detail": redact(e.read().decode()[:300])}
     except Exception as e:
-        return {"error": str(e)}
+        return {"error": type(e).__name__}  # no message text: it can contain header values
 
 
 def demo_mirror(cfg, new_bets, now):
@@ -354,9 +360,9 @@ def demo_mirror(cfg, new_bets, now):
     bal = demo_request("GET", "/portfolio/balance") or {}
     out = []
     if "balance" not in bal:
-        ds["last_error"] = {"t": now.isoformat(), "resp": bal}
+        ds["last_error"] = {"t": now.isoformat(), "resp": redact(bal)}
         save(DEMO_STATE, ds)
-        return [f"demo connection problem: {str(bal)[:200]}"]
+        return [f"demo connection problem: {redact(bal)[:200]}"]
     balance = bal["balance"] / 100.0
     ds["last_balance"], ds["last_check"] = round(balance, 2), now.isoformat()
     ds.pop("last_error", None)
@@ -381,7 +387,7 @@ def demo_mirror(cfg, new_bets, now):
             spent += qty * price
             balance -= qty * price
         ds["orders"].append({"t": now.isoformat(), "bet": b["id"], "qty": qty, "price": price, "ok": ok,
-                             "resp": (r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error")})
+                             "resp": redact((r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error"))})
         out.append(f"demo {'placed' if ok else 'FAILED'} {b['ticker']} {b['side']} x{qty} @ {cents}c")
     ds["days"][day] = round(spent, 2)
     ds["last_balance"] = round(balance, 2)

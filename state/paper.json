@@ -390,9 +390,7 @@
   {
    "cash": 1000,
    "equity": 1000,
-   "events": [
-    "demo connection problem: {'error': \"Invalid header value b'-----BEGIN PRIVATE KEY-----\\\\nMC4CAQAwBQYDK2VwBCIEIKfthHwExAm7IO0Szoe9tetcUGZyTwu3U+74BEMAWK8k\\\\n-----END PRIVATE KEY-----'\"}"
-   ],
+   "events": [],
    "markets": 560,
    "matched": 115,
    "t": "2026-11-13T08:54:55.408064+00:00"
