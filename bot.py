@@ -346,14 +346,20 @@ def demo_request(method, path, body=None):
 
 def demo_mirror(cfg, new_bets, now):
     d = cfg.get("demo", {})
-    if not d.get("on") or not new_bets or not os.environ.get("KALSHI_DEMO_KEY_ID"):
+    if not d.get("on") or not os.environ.get("KALSHI_DEMO_KEY_ID"):
         return []
     ds = load(DEMO_STATE, {"days": {}, "orders": []})
     day = now.strftime("%Y-%m-%d")
     spent = ds["days"].get(day, 0.0)
     bal = demo_request("GET", "/portfolio/balance") or {}
-    balance = (bal.get("balance") or 0) / 100.0
     out = []
+    if "balance" not in bal:
+        ds["last_error"] = {"t": now.isoformat(), "resp": bal}
+        save(DEMO_STATE, ds)
+        return [f"demo connection problem: {str(bal)[:200]}"]
+    balance = bal["balance"] / 100.0
+    ds["last_balance"], ds["last_check"] = round(balance, 2), now.isoformat()
+    ds.pop("last_error", None)
     if balance < d.get("min_balance", 20):
         out.append(f"demo balance ${balance:.2f} is under ${d.get('min_balance', 20)}: add mock funds")
     for b in new_bets:
