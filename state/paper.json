@@ -434,6 +434,16 @@
    "markets": 560,
    "matched": 115,
    "t": "2026-11-13T09:24:00.682706+00:00"
+  },
+  {
+   "cash": 1000,
+   "equity": 1000,
+   "events": [
+    "demo connection problem: {'error': 'secrets look wrong', 'checks': {'key_id_has_uuid': False, 'key_id_has_private_key': True, 'key_id_len': 118, 'private_key_has_begin': True, 'private_key_len': 118}}"
+   ],
+   "markets": 560,
+   "matched": 115,
+   "t": "2026-11-13T09:26:14.116863+00:00"
   }
  ],
  "peak": 1000
