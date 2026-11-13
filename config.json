@@ -12,7 +12,7 @@
   "strategies": {
     "line-edge": {"on": true, "min_edge": 0.03, "max_stake": 30},
     "fav-maker": {"on": true, "lo": 0.70, "hi": 0.92, "min_margin": 0.0, "max_stake": 30},
-    "no-longshot": {"on": true, "max_price": 0.10, "stake": 20, "min_volume": 1000}
+    "no-longshot": {"on": true, "min_price": 0.03, "max_price": 0.10, "stake": 20, "min_volume": 1000}
   },
   "demo": {"on": true, "daily_budget": 100, "max_pct_balance": 0.25, "min_balance": 20}
 }

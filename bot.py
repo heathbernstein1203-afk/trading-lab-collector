@@ -295,7 +295,7 @@ def find_bets(state, cfg, markets, now):
 
         # 3) no-longshot: buy NO on contracts priced 10c or less
         st = S.get("no-longshot", {})
-        if st.get("on") and m["ask"] <= st["max_price"] and (m.get("volume") or 0) >= st.get("min_volume", 0):
+        if st.get("on") and st.get("min_price", 0) <= m["ask"] <= st["max_price"] and (m.get("volume") or 0) >= st.get("min_volume", 0):
             if fair is None or fair <= m["ask"]:
                 no_bid, no_ask = round(1 - m["ask"], 2), round(1 - m["bid"], 2)
                 limit = round(no_bid + 0.01, 2)
