@@ -154,16 +154,16 @@
    "last_seen": 0.995,
    "league": "",
    "limit": 0.99,
-   "payout": null,
+   "payout": 20.0,
    "placed": "2026-11-13T08:35:24.729443+00:00",
-   "pnl": null,
+   "pnl": 0.2,
    "price": 0.99,
    "qty": 20,
    "reason": "YES at 0.01: fading the longshot with a NO limit at 0.99",
-   "settled": null,
+   "settled": "2026-11-13T19:51:11.248226+00:00",
    "side": "no",
    "start": "2026-11-13T20:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "no-longshot",
    "team": "Viterbo",
    "ticker": "KXNCAAMBGAME-26NOV13VITGB-VIT"
@@ -199,7 +199,7 @@
    "fair": 0.7229,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13OKCLAC-OKC-yes",
-   "last_seen": 0.715,
+   "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -359,9 +359,57 @@
    "strategy": "fav-maker",
    "team": "Wisconsin",
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14STANVT",
+   "fair": 0.87,
+   "fee": 0.0,
+   "id": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
+   "last_seen": 0.86,
+   "league": "CFB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-13T19:51:11.248226+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.870",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Virginia Tech",
+   "ticker": "KXNCAAFGAME-26NOV14STANVT-VT"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14BAYBYU",
+   "fair": 0.7234,
+   "fee": 0.0,
+   "id": "202611131951-KXNCAAFGAME-26NOV14BAYBYU-BYU-yes",
+   "last_seen": 0.72,
+   "league": "CFB",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-13T19:51:11.248226+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.723",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "BYU",
+   "ticker": "KXNCAAFGAME-26NOV14BAYBYU-BYU"
   }
  ],
- "cash": 926.35,
+ "cash": 946.35,
  "log": [
   {
    "cash": 1000,
@@ -545,7 +593,21 @@
    "markets": 924,
    "matched": 132,
    "t": "2026-11-13T18:47:37.979916+00:00"
+  },
+  {
+   "cash": 946.35,
+   "equity": 1000.2,
+   "events": [
+    "won KXNCAAMBGAME-26NOV13VITGB-VIT no pnl 0.2",
+    "new fav-maker KXNCAAFGAME-26NOV14STANVT-VT yes x20 @ 0.86",
+    "new fav-maker KXNCAAFGAME-26NOV14BAYBYU-BYU yes x4 @ 0.72",
+    "demo FAILED KXNCAAFGAME-26NOV14STANVT-VT yes x20 @ 86c",
+    "demo FAILED KXNCAAFGAME-26NOV14BAYBYU-BYU yes x4 @ 72c"
+   ],
+   "markets": 964,
+   "matched": 132,
+   "t": "2026-11-13T19:51:11.248226+00:00"
   }
  ],
- "peak": 1000
+ "peak": 1000.2
 }
