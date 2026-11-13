@@ -194,24 +194,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 2.16,
    "event": "KXNBAGAME-26NOV13OKCLAC",
    "fair": 0.7229,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13OKCLAC-OKC-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.715,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.72,
    "qty": 3,
    "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.723",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T03:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Oklahoma City",
    "ticker": "KXNBAGAME-26NOV13OKCLAC-OKC"
@@ -361,7 +361,7 @@
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
   }
  ],
- "cash": 990.25,
+ "cash": 988.09,
  "log": [
   {
    "cash": 1000,
@@ -472,6 +472,16 @@
    "markets": 560,
    "matched": 115,
    "t": "2026-11-13T10:28:29.460237+00:00"
+  },
+  {
+   "cash": 988.09,
+   "equity": 1000.0,
+   "events": [
+    "filled KXNBAGAME-26NOV13OKCLAC-OKC yes at 0.72"
+   ],
+   "markets": 564,
+   "matched": 116,
+   "t": "2026-11-13T11:25:29.385609+00:00"
   }
  ],
  "peak": 1000
