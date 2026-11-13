@@ -311,9 +311,12 @@ def find_bets(state, cfg, markets, now):
 
 # ---------------- Kalshi DEMO mirror (fake money) ----------------
 def demo_request(method, path, body=None):
-    key_id = os.environ.get("KALSHI_DEMO_KEY_ID")
-    pem = os.environ.get("KALSHI_DEMO_PRIVATE_KEY")
-    if not key_id or not pem:
+    key_id = (os.environ.get("KALSHI_DEMO_KEY_ID") or "").strip()
+    pem = (os.environ.get("KALSHI_DEMO_PRIVATE_KEY") or "").strip()
+    if "BEGIN" in key_id and "BEGIN" not in pem:  # the two secrets were pasted into each other's boxes
+        key_id, pem = pem, key_id
+    if not key_id or "BEGIN" not in pem:
+        print("demo: missing or malformed KALSHI_DEMO_KEY_ID / KALSHI_DEMO_PRIVATE_KEY secrets")
         return None
     assert DEMO_BASE.startswith("https://demo-api.kalshi.co"), "demo only"
     from cryptography.hazmat.primitives import hashes, serialization
