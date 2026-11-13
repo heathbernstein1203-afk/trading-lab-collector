@@ -122,24 +122,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 27.28,
    "event": "KXNCAAFGAME-26NOV14ALAVAN",
    "fair": 0.8932,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV14ALAVAN-ALA-yes",
-   "last_seen": 0.88,
+   "last_seen": 0.875,
    "league": "CFB",
    "limit": 0.88,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.88,
    "qty": 31,
    "reason": "Favorite, limit 0.88 (bid 0.88, ask 0.89), sportsbook 0.893",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T17:45:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Alabama",
    "ticker": "KXNCAAFGAME-26NOV14ALAVAN-ALA"
@@ -199,7 +199,7 @@
    "fair": 0.7229,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13OKCLAC-OKC-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.715,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -242,24 +242,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 29.12,
    "event": "KXNBAGAME-26NOV13UTAHOU",
    "fair": 0.9312,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13UTAHOU-HOU-yes",
-   "last_seen": 0.91,
+   "last_seen": 0.905,
    "league": "NBA",
    "limit": 0.91,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.91,
    "qty": 32,
    "reason": "Favorite, limit 0.91 (bid 0.91, ask 0.92), sportsbook 0.931",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T01:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Houston",
    "ticker": "KXNBAGAME-26NOV13UTAHOU-HOU"
@@ -271,7 +271,7 @@
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13ATLCHI-ATL-yes",
-   "last_seen": 0.715,
+   "last_seen": 0.705,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -409,7 +409,7 @@
    "ticker": "KXNCAAFGAME-26NOV14BAYBYU-BYU"
   }
  ],
- "cash": 946.35,
+ "cash": 889.95,
  "log": [
   {
    "cash": 1000,
@@ -607,6 +607,17 @@
    "markets": 964,
    "matched": 132,
    "t": "2026-11-13T19:51:11.248226+00:00"
+  },
+  {
+   "cash": 889.95,
+   "equity": 1000.2,
+   "events": [
+    "filled KXNCAAFGAME-26NOV14ALAVAN-ALA yes at 0.88",
+    "filled KXNBAGAME-26NOV13UTAHOU-HOU yes at 0.91"
+   ],
+   "markets": 1016,
+   "matched": 132,
+   "t": "2026-11-13T20:49:18.260032+00:00"
   }
  ],
  "peak": 1000.2
