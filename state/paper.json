@@ -127,7 +127,7 @@
    "fair": 0.8932,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV14ALAVAN-ALA-yes",
-   "last_seen": 0.865,
+   "last_seen": 0.855,
    "league": "CFB",
    "limit": 0.88,
    "payout": null,
@@ -218,24 +218,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.8,
    "event": "KXNCAAMBGAME-26NOV13ULMASU",
    "fair": null,
    "fee": 0.0,
    "id": "202611130835-KXNCAAMBGAME-26NOV13ULMASU-ULM-no",
-   "last_seen": 0.99,
+   "last_seen": 0.985,
    "league": "",
    "limit": 0.99,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.99,
    "qty": 20,
    "reason": "YES at 0.01: fading the longshot with a NO limit at 0.99",
    "settled": null,
    "side": "no",
    "start": "2026-11-14T05:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Louisiana-Monroe",
    "ticker": "KXNCAAMBGAME-26NOV13ULMASU-ULM"
@@ -271,7 +271,7 @@
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13ATLCHI-ATL-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.695,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -409,7 +409,7 @@
    "ticker": "KXNCAAFGAME-26NOV14BAYBYU-BYU"
   }
  ],
- "cash": 889.95,
+ "cash": 870.15,
  "log": [
   {
    "cash": 1000,
@@ -634,6 +634,16 @@
    "markets": 1066,
    "matched": 134,
    "t": "2026-11-13T22:40:59.880287+00:00"
+  },
+  {
+   "cash": 870.15,
+   "equity": 1000.2,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV13ULMASU-ULM no at 0.99"
+   ],
+   "markets": 1078,
+   "matched": 147,
+   "t": "2026-11-13T23:37:28.271620+00:00"
   }
  ],
  "peak": 1000.2
