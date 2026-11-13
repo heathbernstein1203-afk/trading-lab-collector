@@ -338,30 +338,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 9.75,
    "event": "KXNCAAFGAME-26NOV14WISMD",
    "fair": 0.7598,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV14WISMD-WIS-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.745,
    "league": "CFB",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 13,
    "reason": "Favorite, limit 0.75 (bid 0.74, ask 0.76), sportsbook 0.760",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T17:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Wisconsin",
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
   }
  ],
- "cash": 1000,
+ "cash": 990.25,
  "log": [
   {
    "cash": 1000,
@@ -454,6 +454,16 @@
    "markets": 560,
    "matched": 115,
    "t": "2026-11-13T09:28:47.441366+00:00"
+  },
+  {
+   "cash": 990.25,
+   "equity": 1000.0,
+   "events": [
+    "filled KXNCAAFGAME-26NOV14WISMD-WIS yes at 0.75"
+   ],
+   "markets": 560,
+   "matched": 115,
+   "t": "2026-11-13T09:30:49.729602+00:00"
   }
  ],
  "peak": 1000
