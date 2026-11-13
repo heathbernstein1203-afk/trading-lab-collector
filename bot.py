@@ -401,19 +401,24 @@ def demo_mirror(cfg, new_bets, now):
         qty = min(b["qty"], int(dollars_left // price)) if price else 0
         if qty < 1 or not 1 <= cents <= 99:
             continue
-        body = {"ticker": b["ticker"], "action": "buy", "side": b["side"], "count": qty, "type": "limit",
+        # Kalshi retired POST /portfolio/orders (v1) on the demo; v2 is POST /portfolio/events/orders.
+        # v2 prices the YES leg only: buying YES = side "bid" at the YES price; buying NO = side "ask"
+        # (sell YES) at 1 - NO price, which opens a NO position when we hold no YES contracts.
+        yes_cents = cents if b["side"] == "yes" else 100 - cents
+        body = {"ticker": b["ticker"], "side": "bid" if b["side"] == "yes" else "ask",
+                "count": str(qty), "price": f"{yes_cents / 100:.2f}",
+                "time_in_force": "good_till_canceled", "self_trade_prevention_type": "taker_at_cross",
                 "client_order_id": str(uuid.uuid4())}
-        body["yes_price" if b["side"] == "yes" else "no_price"] = cents
         start = parse_time(b["start"])
         if b["status"] == "pending" and start:
-            body["expiration_ts"] = int(start.timestamp())
-        r = demo_request("POST", "/portfolio/orders", body) or {}
-        ok = "order" in r
+            body["expiration_time"] = int(start.timestamp())
+        r = demo_request("POST", "/portfolio/events/orders", body) or {}
+        ok = "order_id" in r or "order" in r
         if ok:
             spent += qty * price
             balance -= qty * price
         ds["orders"].append({"t": now.isoformat(), "bet": b["id"], "qty": qty, "price": price, "ok": ok,
-                             "resp": redact((r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error"))})
+                             "resp": redact(r.get("order_id") or (r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error"))})
         out.append(f"demo {'placed' if ok else 'FAILED'} {b['ticker']} {b['side']} x{qty} @ {cents}c")
     ds["days"][day] = round(spent, 2)
     ds["last_balance"] = round(balance, 2)
