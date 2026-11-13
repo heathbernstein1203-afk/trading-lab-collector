@@ -266,24 +266,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 7.1,
    "event": "KXNBAGAME-26NOV13ATLCHI",
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13ATLCHI-ATL-yes",
-   "last_seen": 0.71,
+   "last_seen": 0.705,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.71,
    "qty": 10,
    "reason": "Favorite, limit 0.71 (bid 0.71, ask 0.72), sportsbook 0.719",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Atlanta",
    "ticker": "KXNBAGAME-26NOV13ATLCHI-ATL"
@@ -314,24 +314,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 14.44,
    "event": "KXNCAAFGAME-26NOV13HOUCOLO",
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV13HOUCOLO-HOU-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.755,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.76,
    "qty": 19,
    "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.774",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T03:15:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Houston",
    "ticker": "KXNCAAFGAME-26NOV13HOUCOLO-HOU"
@@ -343,7 +343,7 @@
    "fair": 0.7598,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV14WISMD-WIS-yes",
-   "last_seen": 0.745,
+   "last_seen": 0.75,
    "league": "CFB",
    "limit": 0.75,
    "payout": null,
@@ -361,7 +361,7 @@
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
   }
  ],
- "cash": 988.09,
+ "cash": 966.55,
  "log": [
   {
    "cash": 1000,
@@ -482,6 +482,17 @@
    "markets": 564,
    "matched": 116,
    "t": "2026-11-13T11:25:29.385609+00:00"
+  },
+  {
+   "cash": 966.55,
+   "equity": 1000.0,
+   "events": [
+    "filled KXNBAGAME-26NOV13ATLCHI-ATL yes at 0.71",
+    "filled KXNCAAFGAME-26NOV13HOUCOLO-HOU yes at 0.76"
+   ],
+   "markets": 564,
+   "matched": 116,
+   "t": "2026-11-13T12:25:50.151338+00:00"
   }
  ],
  "peak": 1000
