@@ -26,24 +26,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 20.4,
    "event": "KXNBAGAME-26NOV13GSWSAS",
    "fair": 0.8626,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13GSWSAS-SAS-yes",
-   "last_seen": 0.85,
+   "last_seen": 0.845,
    "league": "NBA",
    "limit": 0.85,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.85,
    "qty": 24,
    "reason": "Favorite, limit 0.85 (bid 0.85, ask 0.86), sportsbook 0.863",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T02:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "San Antonio",
    "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS"
@@ -343,7 +343,7 @@
    "fair": 0.7598,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV14WISMD-WIS-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.755,
    "league": "CFB",
    "limit": 0.75,
    "payout": null,
@@ -361,7 +361,7 @@
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
   }
  ],
- "cash": 966.55,
+ "cash": 946.15,
  "log": [
   {
    "cash": 1000,
@@ -493,6 +493,16 @@
    "markets": 564,
    "matched": 116,
    "t": "2026-11-13T12:25:50.151338+00:00"
+  },
+  {
+   "cash": 946.15,
+   "equity": 1000.0,
+   "events": [
+    "filled KXNBAGAME-26NOV13GSWSAS-SAS yes at 0.85"
+   ],
+   "markets": 564,
+   "matched": 116,
+   "t": "2026-11-13T13:43:29.744486+00:00"
   }
  ],
  "peak": 1000
