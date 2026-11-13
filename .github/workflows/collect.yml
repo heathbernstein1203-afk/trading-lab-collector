@@ -1,0 +1,38 @@
+name: Trading Lab bot
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # every 30 minutes, around the clock (GitHub may start a few minutes late)
+  workflow_dispatch: {}      # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading-lab
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet cryptography
+      - name: Collect prices and run the paper-trading bot
+        env:
+          # Optional: only needed to copy bets to the Kalshi DEMO account (fake money).
+          KALSHI_DEMO_KEY_ID: ${{ secrets.KALSHI_DEMO_KEY_ID }}
+          KALSHI_DEMO_PRIVATE_KEY: ${{ secrets.KALSHI_DEMO_PRIVATE_KEY }}
+        run: python bot.py
+      - name: Save data and bot state
+        run: |
+          git config user.name "trading-lab-bot"
+          git config user.email "trading-lab-bot@users.noreply.github.com"
+          git add data state
+          git diff --cached --quiet || git commit -m "run $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --quiet
+          git push --quiet

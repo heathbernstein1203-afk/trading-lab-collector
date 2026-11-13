@@ -1,0 +1,405 @@
+"""Trading Lab auto-bot: paper trading on sports prediction markets, 24/7.
+
+Runs right after collector.py on GitHub Actions. Every run it:
+  1. fills or cancels its paper limit orders,
+  2. records the last price before each game starts (closing line value),
+  3. settles finished games from Kalshi results,
+  4. looks for new bets using the rules in config.json,
+  5. optionally copies new bets to Heath's Kalshi DEMO account (fake money).
+
+Paper money only. The only account this code can ever trade on is the Kalshi
+demo exchange; real-money hosts are refused in code.
+"""
+import base64
+import datetime as dt
+import json
+import math
+import os
+import re
+import sys
+import time
+import urllib.parse
+import urllib.request
+import uuid
+
+import collector as col
+
+CONFIG = os.environ.get("BOT_CONFIG", "config.json")
+STATE = os.environ.get("BOT_STATE", "state/paper.json")
+DEMO_STATE = os.environ.get("BOT_DEMO_STATE", "state/demo.json")
+DEMO_BASE = "https://demo-api.kalshi.co"
+DEMO_PATH = "/trade-api/v2"
+
+
+# ---------------- helpers ----------------
+def load(path, default):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, ValueError):
+        return default
+
+
+def save(path, data):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(data, f, indent=1, sort_keys=True)
+
+
+def num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_time(s):
+    if not s:
+        return None
+    try:
+        return dt.datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def taker_fee(qty, price):
+    return math.ceil(0.07 * qty * price * (1 - price) * 100) / 100
+
+
+def norm(s):
+    s = (s or "").lower().replace("st.", "state").replace("&", "and")
+    return re.sub(r"[^a-z0-9 ]", "", s).strip()
+
+
+ALIASES = {  # Kalshi team code -> ESPN abbreviation, where they differ
+    "NYK": "NY", "GSW": "GS", "SAS": "SA", "UTA": "UTAH", "NOP": "NO", "JAC": "JAX", "WAS": "WSH",
+    "LA": "LAR", "BKN": "BKN", "PHX": "PHX", "NYR": "NYR", "TB": "TB", "SJ": "SJ", "LAK": "LA",
+}
+
+
+def team_matches(k_code, k_name, e_abbr, e_name):
+    if k_code and e_abbr and (k_code == e_abbr or ALIASES.get(k_code) == e_abbr):
+        return True
+    a, b = norm(k_name), norm(e_name)
+    return bool(a and b and (a == b or (len(a) > 3 and b.startswith(a)) or (len(b) > 3 and a.startswith(b))))
+
+
+# ---------------- market views ----------------
+def kalshi_markets(rows):
+    """Latest row per ticker, as dicts."""
+    out = {}
+    for r in rows:
+        d = dict(zip(col.KALSHI_HDR, r))
+        for k in ("bid", "ask", "last", "volume", "volume_24h"):
+            d[k] = num(d[k])
+        d["code"] = d["ticker"].rsplit("-", 1)[-1] if d.get("ticker") else ""
+        out[d["ticker"]] = d
+    return out
+
+
+def espn_games(rows):
+    games = []
+    for r in rows:
+        g = dict(zip(col.ESPN_HDR, r))
+        g["fair_away"], g["fair_home"] = num(g["fair_away"]), num(g["fair_home"])
+        g["start_dt"] = parse_time(g["start"])
+        games.append(g)
+    return games
+
+
+def attach_fair(markets, games):
+    """Give each Kalshi market the sportsbook no-vig price and start time from ESPN, when the game matches."""
+    by_event = {}
+    for m in markets.values():
+        by_event.setdefault(m.get("event"), []).append(m)
+    matched = 0
+    for ev, ms in by_event.items():
+        if len(ms) != 2:
+            continue
+        for g in games:
+            if g["fair_home"] is None or not g["start_dt"]:
+                continue
+            a, b = ms
+            for x, y in ((a, b), (b, a)):
+                if team_matches(x["code"], x["team"], g["home"], g["home_name"]) and \
+                   team_matches(y["code"], y["team"], g["away"], g["away_name"]):
+                    x["fair"], y["fair"] = g["fair_home"], g["fair_away"]
+                    x["start_dt"] = y["start_dt"] = g["start_dt"]
+                    x["league"] = y["league"] = g["league"]
+                    matched += 1
+                    break
+            if "fair" in ms[0]:
+                break
+    for m in markets.values():
+        m.setdefault("start_dt", parse_time(m.get("start")) or
+                     ((parse_time(m.get("expected_end")) - dt.timedelta(hours=3)) if parse_time(m.get("expected_end")) else None))
+    return matched
+
+
+# ---------------- paper book ----------------
+def equity(state):
+    return state["cash"] + sum(b["cost"] + b["fee"] for b in state["bets"] if b["status"] == "open")
+
+
+def open_exposure(state):
+    return sum(b["cost"] + b["fee"] for b in state["bets"] if b["status"] == "open") + \
+        sum(b["limit"] * b["qty"] for b in state["bets"] if b["status"] == "pending")
+
+
+def side_prices(m, side):
+    """(ask, bid) for buying the given side."""
+    if side == "yes":
+        return m["ask"], m["bid"]
+    return (None if m["bid"] is None else round(1 - m["bid"], 4)), (None if m["ask"] is None else round(1 - m["ask"], 4))
+
+
+def kelly_stake(prob, price, bankroll, frac, cap):
+    if prob is None or price is None or price >= 1 or prob <= price:
+        return 0.0
+    f = (prob - price) / (1 - price)
+    return max(0.0, min(cap, bankroll * f * frac))
+
+
+def place(state, cfg, m, side, strategy, price, qty, fair, reason, now, limit=False):
+    fee = 0.0 if limit else taker_fee(qty, price)
+    cost = round(qty * price, 2)
+    if not limit:
+        if cost + fee > state["cash"]:
+            return None
+        state["cash"] = round(state["cash"] - cost - fee, 2)
+    bet = {
+        "id": f"{now:%Y%m%d%H%M}-{m['ticker']}-{side}", "ticker": m["ticker"], "event": m.get("event"),
+        "team": m.get("team"), "side": side, "strategy": strategy, "qty": qty, "fair": fair,
+        "league": m.get("league", ""), "start": m["start_dt"].isoformat() if m.get("start_dt") else "",
+        "placed": now.isoformat(), "reason": reason, "last_seen": price, "close": None,
+        "payout": None, "pnl": None, "settled": None,
+    }
+    if limit:
+        bet.update(status="pending", limit=price, price=None, cost=0.0, fee=0.0)
+    else:
+        bet.update(status="open", limit=None, price=price, cost=cost, fee=fee)
+    state["bets"].append(bet)
+    return bet
+
+
+def manage_book(state, markets, now):
+    """Fill/cancel limit orders, track closing prices."""
+    events = []
+    for b in state["bets"]:
+        m = markets.get(b["ticker"])
+        start = parse_time(b["start"])
+        started = bool(start and now >= start)
+        if b["status"] == "pending":
+            if started:
+                b["status"] = "cancelled"
+                events.append(f"cancelled {b['ticker']} {b['side']} (not filled before start)")
+                continue
+            if m:
+                ask, _ = side_prices(m, b["side"])
+                if ask is not None and ask <= b["limit"]:
+                    cost = round(b["qty"] * b["limit"], 2)
+                    if cost <= state["cash"]:
+                        state["cash"] = round(state["cash"] - cost, 2)
+                        b.update(status="open", price=b["limit"], cost=cost, fee=0.0)
+                        events.append(f"filled {b['ticker']} {b['side']} at {b['limit']}")
+        if b["status"] == "open" and m and not started:
+            ask, bid = side_prices(m, b["side"])
+            mid = (ask + bid) / 2 if ask is not None and bid is not None else ask
+            if mid is not None:
+                b["last_seen"] = round(mid, 4)
+        if b["status"] == "open" and started and b["close"] is None:
+            b["close"] = b["last_seen"]
+    return events
+
+
+def settle(state, now):
+    open_tickers = sorted({b["ticker"] for b in state["bets"] if b["status"] == "open"})
+    events = []
+    for i in range(0, len(open_tickers), 50):
+        chunk = open_tickers[i:i + 50]
+        p = col.get_json(col.KALSHI + "?" + urllib.parse.urlencode({"tickers": ",".join(chunk), "limit": 200}))
+        results = {m["ticker"]: (m.get("result") or "") for m in (p or {}).get("markets", [])}
+        for b in state["bets"]:
+            r = results.get(b["ticker"], "")
+            if b["status"] != "open" or r not in ("yes", "no"):
+                continue
+            won = r == b["side"]
+            b["payout"] = float(b["qty"]) if won else 0.0
+            b["pnl"] = round(b["payout"] - b["cost"] - b["fee"], 2)
+            b["status"] = "won" if won else "lost"
+            b["settled"] = now.isoformat()
+            state["cash"] = round(state["cash"] + b["payout"], 2)
+            events.append(f"{b['status']} {b['ticker']} {b['side']} pnl {b['pnl']}")
+    return events
+
+
+def find_bets(state, cfg, markets, now):
+    S = cfg["strategies"]
+    bank = equity(state)
+    if bank < state.get("peak", bank) * (1 - cfg.get("drawdown_brake", 0.2)):
+        mult = 0.5  # drawdown brake
+    else:
+        mult = 1.0
+    held = {(b["event"]) for b in state["bets"] if b["status"] in ("open", "pending")}
+    n_open = sum(1 for b in state["bets"] if b["status"] in ("open", "pending"))
+    max_open_cash = bank * cfg["max_open_pct"]
+    new = []
+
+    def room(stake):
+        return n_open + len(new) < cfg["max_open_bets"] and open_exposure(state) + stake <= max_open_cash
+
+    for m in sorted(markets.values(), key=lambda x: -(x.get("volume") or 0)):
+        if m.get("status") not in ("active", "open") or m["event"] in held:
+            continue
+        start = m.get("start_dt")
+        if not start or start <= now + dt.timedelta(minutes=10) or start > now + dt.timedelta(hours=cfg.get("horizon_hours", 36)):
+            continue
+        if (m.get("volume") or 0) < cfg["min_volume"] or m["ask"] is None or m["bid"] is None:
+            continue
+        fair = m.get("fair")
+        cap = min(cfg["max_bet_pct"] * bank, 10**9) * mult
+
+        # 1) line-edge: sportsbook says we're getting a better price than fair, after fees
+        st = S.get("line-edge", {})
+        if st.get("on") and fair is not None:
+            for side, prob in (("yes", fair), ("no", 1 - fair)):
+                ask, _ = side_prices(m, side)
+                if ask is None or ask <= 0.10:
+                    continue
+                edge = prob - ask - 0.07 * ask * (1 - ask)
+                if edge >= st["min_edge"]:
+                    stake = kelly_stake(prob, ask, bank, cfg["kelly_fraction"], min(cap, st["max_stake"] * mult))
+                    qty = int(stake // ask)
+                    if qty >= 1 and room(qty * ask):
+                        b = place(state, cfg, m, side, "line-edge", ask, qty, round(prob, 4),
+                                  f"Sportsbook fair {prob:.3f} vs ask {ask:.2f}, edge {edge*100:.1f}c after fees", now)
+                        if b:
+                            new.append(b); held.add(m["event"]); break
+            if m["event"] in held:
+                continue
+
+        # 2) fav-maker: limit order 1c above the bid on favorites the sportsbook agrees with
+        st = S.get("fav-maker", {})
+        if st.get("on") and fair is not None and st["lo"] <= m["bid"] <= st["hi"]:
+            limit = round(m["bid"] + 0.01, 2)
+            if limit >= m["ask"]:  # 1c spread: join the bid instead of paying the ask
+                limit = round(m["bid"], 2)
+            if fair >= limit + st.get("min_margin", 0.0):
+                stake = kelly_stake(fair, limit, bank, cfg["kelly_fraction"], min(cap, st["max_stake"] * mult))
+                qty = int(stake // limit)
+                if qty >= 1 and room(qty * limit):
+                    b = place(state, cfg, m, "yes", "fav-maker", limit, qty, round(fair, 4),
+                              f"Favorite, limit {limit:.2f} (bid {m['bid']:.2f}, ask {m['ask']:.2f}), sportsbook {fair:.3f}", now, limit=True)
+                    new.append(b); held.add(m["event"])
+                    continue
+
+        # 3) no-longshot: buy NO on contracts priced 10c or less
+        st = S.get("no-longshot", {})
+        if st.get("on") and m["ask"] <= st["max_price"] and (m.get("volume") or 0) >= st.get("min_volume", 0):
+            if fair is None or fair <= m["ask"]:
+                no_bid, no_ask = round(1 - m["ask"], 2), round(1 - m["bid"], 2)
+                limit = round(no_bid + 0.01, 2)
+                if limit >= no_ask:  # 1c spread: join the bid
+                    limit = no_bid
+                qty = int(min(st["stake"] * mult, cap) // limit)
+                if qty >= 1 and 0.5 < limit <= 0.99 and room(qty * limit):
+                    b = place(state, cfg, m, "no", "no-longshot", limit, qty, None if fair is None else round(1 - fair, 4),
+                              f"YES at {m['ask']:.2f}: fading the longshot with a NO limit at {limit:.2f}", now, limit=True)
+                    new.append(b); held.add(m["event"])
+    return new
+
+
+# ---------------- Kalshi DEMO mirror (fake money) ----------------
+def demo_request(method, path, body=None):
+    key_id = os.environ.get("KALSHI_DEMO_KEY_ID")
+    pem = os.environ.get("KALSHI_DEMO_PRIVATE_KEY")
+    if not key_id or not pem:
+        return None
+    assert DEMO_BASE.startswith("https://demo-api.kalshi.co"), "demo only"
+    from cryptography.hazmat.primitives import hashes, serialization
+    from cryptography.hazmat.primitives.asymmetric import padding
+    key = serialization.load_pem_private_key(pem.encode(), password=None)
+    ts = str(int(time.time() * 1000))
+    full_path = DEMO_PATH + path
+    sig = key.sign((ts + method + full_path.split("?")[0]).encode(),
+                   padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH), hashes.SHA256())
+    headers = {"KALSHI-ACCESS-KEY": key_id, "KALSHI-ACCESS-TIMESTAMP": ts,
+               "KALSHI-ACCESS-SIGNATURE": base64.b64encode(sig).decode(), "Content-Type": "application/json"}
+    req = urllib.request.Request(DEMO_BASE + full_path, method=method, headers=headers,
+                                 data=json.dumps(body).encode() if body is not None else None)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode() or "{}")
+    except urllib.error.HTTPError as e:
+        return {"error": e.code, "detail": e.read().decode()[:300]}
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def demo_mirror(cfg, new_bets, now):
+    d = cfg.get("demo", {})
+    if not d.get("on") or not new_bets or not os.environ.get("KALSHI_DEMO_KEY_ID"):
+        return []
+    ds = load(DEMO_STATE, {"days": {}, "orders": []})
+    day = now.strftime("%Y-%m-%d")
+    spent = ds["days"].get(day, 0.0)
+    bal = demo_request("GET", "/portfolio/balance") or {}
+    balance = (bal.get("balance") or 0) / 100.0
+    out = []
+    if balance < d.get("min_balance", 20):
+        out.append(f"demo balance ${balance:.2f} is under ${d.get('min_balance', 20)}: add mock funds")
+    for b in new_bets:
+        price = b["limit"] if b["status"] == "pending" else b["price"]
+        cents = int(round(price * 100))
+        dollars_left = min(d["daily_budget"] - spent, balance * d.get("max_pct_balance", 0.25))
+        qty = min(b["qty"], int(dollars_left // price)) if price else 0
+        if qty < 1 or not 1 <= cents <= 99:
+            continue
+        body = {"ticker": b["ticker"], "action": "buy", "side": b["side"], "count": qty, "type": "limit",
+                "client_order_id": str(uuid.uuid4())}
+        body["yes_price" if b["side"] == "yes" else "no_price"] = cents
+        start = parse_time(b["start"])
+        if b["status"] == "pending" and start:
+            body["expiration_ts"] = int(start.timestamp())
+        r = demo_request("POST", "/portfolio/orders", body) or {}
+        ok = "order" in r
+        if ok:
+            spent += qty * price
+            balance -= qty * price
+        ds["orders"].append({"t": now.isoformat(), "bet": b["id"], "qty": qty, "price": price, "ok": ok,
+                             "resp": (r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error")})
+        out.append(f"demo {'placed' if ok else 'FAILED'} {b['ticker']} {b['side']} x{qty} @ {cents}c")
+    ds["days"][day] = round(spent, 2)
+    ds["last_balance"] = round(balance, 2)
+    save(DEMO_STATE, ds)
+    return out
+
+
+# ---------------- main ----------------
+def run(now, kalshi_rows, espn_rows):
+    cfg = load(CONFIG, None)
+    if not cfg or not cfg.get("on", True):
+        print("bot off")
+        return
+    state = load(STATE, {"cash": cfg["bankroll_start"], "peak": cfg["bankroll_start"], "bets": [], "log": []})
+    markets = kalshi_markets(kalshi_rows)
+    matched = attach_fair(markets, espn_games(espn_rows))
+    events = manage_book(state, markets, now)
+    events += settle(state, now)
+    new = find_bets(state, cfg, markets, now)
+    events += [f"new {b['strategy']} {b['ticker']} {b['side']} x{b['qty']} @ {b['price'] or b['limit']}" for b in new]
+    events += demo_mirror(cfg, new, now)
+    eq = equity(state)
+    state["peak"] = max(state.get("peak", eq), eq)
+    state["log"] = (state.get("log", []) + [{"t": now.isoformat(), "equity": round(eq, 2), "cash": state["cash"],
+                                             "markets": len(markets), "matched": matched, "events": events}])[-500:]
+    save(STATE, state)
+    print(f"equity {eq:.2f} cash {state['cash']:.2f} markets {len(markets)} matched {matched}")
+    for e in events:
+        print(" ", e)
+
+
+if __name__ == "__main__":
+    os.makedirs(col.DATA, exist_ok=True)
+    now, k, e = col.main()
+    run(now, k, e)
