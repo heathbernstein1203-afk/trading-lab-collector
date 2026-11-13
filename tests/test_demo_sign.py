@@ -13,9 +13,9 @@ class Resp(io.BytesIO):
     def __exit__(self, *a): pass
 def fake_urlopen(req, timeout=30):
     seen.append(req)
-    assert req.full_url.startswith("https://demo-api.kalshi.co/trade-api/v2/"), req.full_url
+    assert "demo" in req.full_url and "/trade-api/v2/" in req.full_url, req.full_url
     h = {k.lower(): v for k, v in req.header_items()}
-    msg = (h["kalshi-access-timestamp"] + req.get_method() + req.full_url.split("demo-api.kalshi.co")[1].split("?")[0]).encode()
+    msg = (h["kalshi-access-timestamp"] + req.get_method() + "/trade-api/v2" + req.full_url.split("/trade-api/v2")[1].split("?")[0]).encode()
     key.public_key().verify(base64.b64decode(h["kalshi-access-signature"]), msg,
         padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH), hashes.SHA256())
     if req.get_method() == "GET":

@@ -27,7 +27,8 @@ import collector as col
 CONFIG = os.environ.get("BOT_CONFIG", "config.json")
 STATE = os.environ.get("BOT_STATE", "state/paper.json")
 DEMO_STATE = os.environ.get("BOT_DEMO_STATE", "state/demo.json")
-DEMO_BASE = "https://demo-api.kalshi.co"
+DEMO_BASES = ["https://external-api.demo.kalshi.co", "https://demo-api.kalshi.co"]  # demo exchange only
+DEMO_BASE = DEMO_BASES[0]
 DEMO_PATH = "/trade-api/v2"
 
 
@@ -310,6 +311,16 @@ def find_bets(state, cfg, markets, now):
 
 
 # ---------------- Kalshi DEMO mirror (fake money) ----------------
+def key_diag(key, key_id):
+    """Safe-to-log facts about the key: type, public-key fingerprint, Key ID shape (never the key itself)."""
+    import hashlib
+    from cryptography.hazmat.primitives import serialization
+    pub = key.public_key().public_bytes(serialization.Encoding.DER, serialization.PublicFormat.SubjectPublicKeyInfo)
+    return {"type": type(key).__name__.replace("PrivateKey", "").strip("_"),
+            "pub_fp": hashlib.sha256(pub).hexdigest()[:12],
+            "key_id_start": key_id[:4], "key_id_len": len(key_id)}
+
+
 def redact(text):
     """Strip anything that looks like key material before it is logged or saved."""
     text = re.sub(r"-----BEGIN[^-]*-----.*?(-----END[^-]*-----|$)", "[redacted key]", str(text), flags=re.S)
@@ -324,7 +335,7 @@ def demo_request(method, path, body=None):
         # never echo secret values: only say which secret looks wrong
         return {"error": "secrets look wrong: KALSHI_DEMO_KEY_ID must be the short Key ID and "
                          "KALSHI_DEMO_PRIVATE_KEY the full private key"}
-    assert DEMO_BASE.startswith("https://demo-api.kalshi.co"), "demo only"
+    assert all(".demo.kalshi.co" in u or u.startswith("https://demo-api.kalshi.co") for u in DEMO_BASES), "demo only"
     from cryptography.hazmat.primitives import hashes, serialization
     from cryptography.hazmat.primitives.asymmetric import padding
     from cryptography.hazmat.primitives.asymmetric import ed25519, rsa
@@ -339,15 +350,22 @@ def demo_request(method, path, body=None):
         sig = key.sign(msg, padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH), hashes.SHA256())
     headers = {"KALSHI-ACCESS-KEY": key_id, "KALSHI-ACCESS-TIMESTAMP": ts,
                "KALSHI-ACCESS-SIGNATURE": base64.b64encode(sig).decode(), "Content-Type": "application/json"}
-    req = urllib.request.Request(DEMO_BASE + full_path, method=method, headers=headers,
-                                 data=json.dumps(body).encode() if body is not None else None)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return json.loads(r.read().decode() or "{}")
-    except urllib.error.HTTPError as e:
-        return {"error": e.code, "detail": redact(e.read().decode()[:300])}
-    except Exception as e:
-        return {"error": type(e).__name__}  # no message text: it can contain header values
+    diag = key_diag(key, key_id)
+    last = None
+    for base in DEMO_BASES:
+        req = urllib.request.Request(base + full_path, method=method, headers=headers,
+                                     data=json.dumps(body).encode() if body is not None else None)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                out = json.loads(r.read().decode() or "{}")
+                if isinstance(out, dict):
+                    out.setdefault("_host", base)
+                return out
+        except urllib.error.HTTPError as e:
+            last = {"error": e.code, "host": base, "detail": redact(e.read().decode()[:300]), "key": diag}
+        except Exception as e:
+            last = {"error": type(e).__name__, "host": base, "key": diag}  # no message text: it can contain header values
+    return last
 
 
 def demo_mirror(cfg, new_bets, now):
