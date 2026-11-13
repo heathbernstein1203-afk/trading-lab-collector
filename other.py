@@ -289,7 +289,12 @@ def run(now, cfg, markets=None, forecasts=None):
             ct = _t(ms[0]["close"])
             if mu is None or not day or not ct or ct - now > dt.timedelta(hours=36) or ct <= now + dt.timedelta(hours=1):
                 continue
-            sd = W["sd_today"] if day == (now - dt.timedelta(hours=5)).strftime("%Y-%m-%d") else W["sd_tomorrow"]
+            # Only bet days that have not started yet (US local time). On the day itself the high may
+            # already have happened (e.g. warm just after midnight before a cold front), which the
+            # afternoon forecast does not show, so same-day forecasts are not a fair price.
+            if day <= (now - dt.timedelta(hours=5)).strftime("%Y-%m-%d"):
+                continue
+            sd = W["sd_tomorrow"]
             best = None
             for m in ms:
                 if not ok(m):
