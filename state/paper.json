@@ -424,6 +424,16 @@
    "markets": 560,
    "matched": 115,
    "t": "2026-11-13T09:16:37.564162+00:00"
+  },
+  {
+   "cash": 1000,
+   "equity": 1000,
+   "events": [
+    "demo connection problem: {'error': 'secrets look wrong: KALSHI_DEMO_KEY_ID must be the short Key ID and KALSHI_DEMO_PRIVATE_KEY the full private key'}"
+   ],
+   "markets": 560,
+   "matched": 115,
+   "t": "2026-11-13T09:24:00.682706+00:00"
   }
  ],
  "peak": 1000

@@ -1,8 +1,8 @@
 {
  "days": {},
  "last_error": {
-  "resp": "{'error': 401, 'host': 'https://demo-api.kalshi.co', 'detail': '{\"error\":{\"code\":\"authentication_error\",\"message\":\"We could not authenticate your request\",\"details\":\"INVALID_PARAMETER\"}}', 'key': {'type': 'Ed25519', 'pub_fp': '40dda1c28ef1', 'key_id_start': 'b11a', 'key_id_len': 4}}",
-  "t": "2026-11-13T09:16:37.564162+00:00"
+  "resp": "{'error': 'secrets look wrong: KALSHI_DEMO_KEY_ID must be the short Key ID and KALSHI_DEMO_PRIVATE_KEY the full private key'}",
+  "t": "2026-11-13T09:24:00.682706+00:00"
  },
  "orders": []
 }
