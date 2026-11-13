@@ -31,7 +31,7 @@
    "fair": 0.8626,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13GSWSAS-SAS-yes",
-   "last_seen": 0.835,
+   "last_seen": 0.845,
    "league": "NBA",
    "limit": 0.85,
    "payout": null,
@@ -151,7 +151,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611130835-KXNCAAMBGAME-26NOV13VITGB-VIT-no",
-   "last_seen": 0.95,
+   "last_seen": 0.995,
    "league": "",
    "limit": 0.99,
    "payout": null,
@@ -537,6 +537,14 @@
    "markets": 566,
    "matched": 131,
    "t": "2026-11-13T17:47:28.953993+00:00"
+  },
+  {
+   "cash": 926.35,
+   "equity": 1000.0,
+   "events": [],
+   "markets": 924,
+   "matched": 132,
+   "t": "2026-11-13T18:47:37.979916+00:00"
   }
  ],
  "peak": 1000
