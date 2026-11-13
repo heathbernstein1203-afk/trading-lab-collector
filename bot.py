@@ -331,10 +331,15 @@ def demo_request(method, path, body=None):
     pem = (os.environ.get("KALSHI_DEMO_PRIVATE_KEY") or "").strip()
     if "BEGIN" in key_id and "BEGIN" not in pem:  # the two secrets were pasted into each other's boxes
         key_id, pem = pem, key_id
-    if not key_id or "BEGIN" in key_id or "\n" in key_id or "BEGIN" not in pem:
-        # never echo secret values: only say which secret looks wrong
-        return {"error": "secrets look wrong: KALSHI_DEMO_KEY_ID must be the short Key ID and "
-                         "KALSHI_DEMO_PRIVATE_KEY the full private key"}
+    uuid_re = r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+    found = re.search(uuid_re, key_id) if "BEGIN" not in key_id else None
+    if found:  # the Key ID box may also hold the key's name or extra lines; keep just the ID
+        key_id = found.group(0)
+    if not found or "BEGIN" not in pem:
+        # never echo secret values: only say what looks wrong
+        return {"error": "secrets look wrong", "checks": {
+            "key_id_has_uuid": bool(found), "key_id_has_private_key": "BEGIN" in key_id,
+            "key_id_len": len(key_id), "private_key_has_begin": "BEGIN" in pem, "private_key_len": len(pem)}}
     assert all(".demo.kalshi.co" in u or u.startswith("https://demo-api.kalshi.co") for u in DEMO_BASES), "demo only"
     from cryptography.hazmat.primitives import hashes, serialization
     from cryptography.hazmat.primitives.asymmetric import padding

@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import serialization, hashes
 key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
 pem = key.private_bytes(serialization.Encoding.PEM, serialization.PrivateFormat.PKCS8, serialization.NoEncryption()).decode()
 d = tempfile.mkdtemp()
-os.environ.update(KALSHI_DEMO_KEY_ID="test-key", KALSHI_DEMO_PRIVATE_KEY=pem, BOT_DEMO_STATE=d + "/demo.json")
+os.environ.update(KALSHI_DEMO_KEY_ID="Key name github-bot-2\n a952bcbe-ec3b-4b5b-b8f9-11dae589608c ", KALSHI_DEMO_PRIVATE_KEY=pem, BOT_DEMO_STATE=d + "/demo.json")
 import bot
 seen = []
 class Resp(io.BytesIO):
