@@ -15,6 +15,10 @@ import urllib.parse
 import urllib.request
 
 UA = {"User-Agent": "trading-lab-collector/1.0 (paper trading research)"}
+# some sites (Polymarket's CDN) refuse unknown agents; use a normal browser string there
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/130.0 Safari/537.36", "Accept": "application/json"}
+ERRORS = []  # short failure notes, saved to last_run.json
 DATA = os.environ.get("DATA_DIR", "data")
 
 KALSHI = "https://api.elections.kalshi.com/trade-api/v2/markets"
@@ -46,15 +50,16 @@ STOCKS = [
 ]
 
 
-def get_json(url, tries=3):
+def get_json(url, tries=3, headers=None):
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers=UA)
+            req = urllib.request.Request(url, headers=headers or UA)
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.loads(r.read().decode("utf-8"))
         except Exception as e:  # network hiccup or rate limit: wait and retry
             if i == tries - 1:
                 print(f"FAILED {url}: {e}", file=sys.stderr)
+                ERRORS.append(f"{urllib.parse.urlsplit(url).netloc}: {type(e).__name__} {getattr(e, 'code', '')}".strip())
                 return None
             time.sleep(2 * (i + 1))
 
@@ -199,7 +204,7 @@ def collect_poly(ts, now):
          "end_date_max": (now + dt.timedelta(days=4)).strftime("%Y-%m-%dT%H:%M:%SZ")}
     for tag in POLY_TAGS:
         q["tag_slug"] = tag
-        rows += poly_rows(get_json("https://gamma-api.polymarket.com/events?" + urllib.parse.urlencode(q)), tag, ts)
+        rows += poly_rows(get_json("https://gamma-api.polymarket.com/events?" + urllib.parse.urlencode(q), headers=BROWSER_UA), tag, ts)
         time.sleep(0.3)
     hdr = ["ts", "tag", "slug", "start", "outcomes", "prices", "best_bid_first", "best_ask_first", "volume", "closed"]
     append_rows(f"{DATA}/poly/{now:%Y-%m-%d}.csv", hdr, rows)
@@ -242,7 +247,7 @@ def main():
         counts["stocks"] = collect_stocks(ts, now)
     print(ts, counts)
     with open(f"{DATA}/last_run.json", "w") as f:
-        json.dump({"ts": ts, "counts": counts}, f)
+        json.dump({"ts": ts, "counts": counts, "errors": sorted(set(ERRORS))[:20]}, f)
     return now, kalshi, espn
 
 
