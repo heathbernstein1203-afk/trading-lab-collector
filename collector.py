@@ -30,10 +30,16 @@ KALSHI_SERIES = [
     "KXNFLGAME", "KXNCAAFGAME", "KXNBAGAME", "KXNHLGAME", "KXNCAAMBGAME", "KXUFCFIGHT",
     # soccer
     "KXEPLGAME", "KXUCLGAME", "KXLALIGAGAME", "KXSERIEAGAME", "KXBUNDESLIGAGAME",
-    "KXLIGUE1GAME", "KXMLSGAME", "KXCHNSLGAME",
+    "KXLIGUE1GAME", "KXMLSGAME", "KXUECLGAME", "KXCHNSLGAME", "KXSAUDIPLGAME",
     # tennis and table tennis
-    "KXATPMATCH", "KXWTAGAME", "KXTTELITEMATCH", "KXTABLETENNISMATCH", "KXITTFMENMATCH",
+    "KXATPMATCH", "KXWTAMATCH", "KXTTELITEMATCH", "KXTABLETENNISMATCH", "KXTTMATCH",
+    "KXTTSTARMATCH", "KXITTFMENMATCH", "KXITTFWOMENMATCH",
+    # other: boxing, women's college hoops, esports, cricket, Liiga, AHL, college hockey
+    "KXBOXINGFIGHT", "KXNCAAWBGAME", "KXCSGOGAME", "KXVALORANTGAME", "KXT20MATCH",
+    "KXLIIGAGAME", "KXAHLGAME", "KXNCAAHOCKEYGAME",
 ]
+# series whose markets close long after the match (tennis, etc.): look further ahead, filter by start time later
+LONG_CLOSE = {"KXATPMATCH", "KXWTAMATCH", "KXBOXINGFIGHT", "KXT20MATCH", "KXCSGOGAME", "KXVALORANTGAME"}
 ESPN_LEAGUES = {
     "NFL": "football/nfl",
     "CFB": "football/college-football",
@@ -92,9 +98,10 @@ def kalshi_rows(payload, ts):
 
 
 def collect_kalshi(ts, now):
-    max_close = int((now + dt.timedelta(days=4)).timestamp())
     rows = []
     for s in KALSHI_SERIES:
+        days = 20 if s in LONG_CLOSE else 4
+        max_close = int((now + dt.timedelta(days=days)).timestamp())
         cursor = ""
         for _ in range(5):  # up to 1,000 markets per series
             q = {"series_ticker": s, "status": "open", "limit": 200, "max_close_ts": max_close}

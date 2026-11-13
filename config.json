@@ -10,9 +10,40 @@
   "min_volume": 100,
   "horizon_hours": 36,
   "strategies": {
-    "line-edge": {"on": true, "min_edge": 0.03, "max_stake": 30},
-    "fav-maker": {"on": true, "lo": 0.70, "hi": 0.92, "min_margin": 0.0, "max_stake": 30},
-    "no-longshot": {"on": true, "min_price": 0.03, "max_price": 0.10, "stake": 20, "min_volume": 1000}
+    "line-edge": {
+      "on": true,
+      "min_edge": 0.03,
+      "max_stake": 30
+    },
+    "fav-maker": {
+      "on": true,
+      "lo": 0.7,
+      "hi": 0.92,
+      "min_margin": 0.0,
+      "max_stake": 30
+    },
+    "no-longshot": {
+      "on": true,
+      "min_price": 0.03,
+      "max_price": 0.1,
+      "stake": 20,
+      "min_volume": 1000
+    }
   },
-  "demo": {"on": true, "daily_budget": 100, "max_pct_balance": 0.25, "min_balance": 20}
+  "demo": {
+    "on": true,
+    "daily_budget": 100,
+    "max_pct_balance": 0.25,
+    "min_balance": 20
+  },
+  "data_pot": {
+    "on": true,
+    "bankroll": 1000,
+    "stake": 2,
+    "min_hours": 0.25,
+    "max_hours": 6,
+    "max_open": 600,
+    "min_volume": 100,
+    "note": "Separate fake $1,000 pot: about $2 on one pseudo-random outcome of every Kalshi game starting in the next 6 hours, all sports. For data (calibration, fees, line movement), never copied to the demo."
+  }
 }

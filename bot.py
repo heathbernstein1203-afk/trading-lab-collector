@@ -23,6 +23,7 @@ import urllib.request
 import uuid
 
 import collector as col
+import datapot
 
 CONFIG = os.environ.get("BOT_CONFIG", "config.json")
 STATE = os.environ.get("BOT_STATE", "state/paper.json")
@@ -437,6 +438,10 @@ def run(now, kalshi_rows, espn_rows):
     state["log"] = (state.get("log", []) + [{"t": now.isoformat(), "equity": round(eq, 2), "cash": state["cash"],
                                              "markets": len(markets), "matched": matched, "events": events}])[-500:]
     save(STATE, state)
+    try:  # separate tiny-stake data bankroll; a failure here never stops the main bot
+        events += datapot.run(now, markets, cfg)
+    except Exception as e:
+        print("data pot error:", type(e).__name__, e)
     print(f"equity {eq:.2f} cash {state['cash']:.2f} markets {len(markets)} matched {matched}")
     for e in events:
         print(" ", e)
