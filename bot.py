@@ -318,11 +318,16 @@ def demo_request(method, path, body=None):
     assert DEMO_BASE.startswith("https://demo-api.kalshi.co"), "demo only"
     from cryptography.hazmat.primitives import hashes, serialization
     from cryptography.hazmat.primitives.asymmetric import padding
+    from cryptography.hazmat.primitives.asymmetric import ed25519, rsa
+    pem = pem.strip().replace("\\n", "\n")
     key = serialization.load_pem_private_key(pem.encode(), password=None)
     ts = str(int(time.time() * 1000))
     full_path = DEMO_PATH + path
-    sig = key.sign((ts + method + full_path.split("?")[0]).encode(),
-                   padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH), hashes.SHA256())
+    msg = (ts + method + full_path.split("?")[0]).encode()
+    if isinstance(key, ed25519.Ed25519PrivateKey):  # newer Kalshi key type
+        sig = key.sign(msg)
+    else:  # RSA keys: RSA-PSS with SHA-256
+        sig = key.sign(msg, padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH), hashes.SHA256())
     headers = {"KALSHI-ACCESS-KEY": key_id, "KALSHI-ACCESS-TIMESTAMP": ts,
                "KALSHI-ACCESS-SIGNATURE": base64.b64encode(sig).decode(), "Content-Type": "application/json"}
     req = urllib.request.Request(DEMO_BASE + full_path, method=method, headers=headers,
