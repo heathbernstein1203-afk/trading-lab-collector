@@ -146,24 +146,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.8,
    "event": "KXNCAAMBGAME-26NOV13VITGB",
    "fair": null,
    "fee": 0.0,
    "id": "202611130835-KXNCAAMBGAME-26NOV13VITGB-VIT-no",
-   "last_seen": 0.99,
+   "last_seen": 0.95,
    "league": "",
    "limit": 0.99,
    "payout": null,
    "placed": "2026-11-13T08:35:24.729443+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.99,
    "qty": 20,
    "reason": "YES at 0.01: fading the longshot with a NO limit at 0.99",
    "settled": null,
    "side": "no",
    "start": "2026-11-13T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Viterbo",
    "ticker": "KXNCAAMBGAME-26NOV13VITGB-VIT"
@@ -361,7 +361,7 @@
    "ticker": "KXNCAAFGAME-26NOV14WISMD-WIS"
   }
  ],
- "cash": 946.15,
+ "cash": 926.35,
  "log": [
   {
    "cash": 1000,
@@ -527,6 +527,16 @@
    "markets": 566,
    "matched": 131,
    "t": "2026-11-13T16:49:55.986597+00:00"
+  },
+  {
+   "cash": 926.35,
+   "equity": 1000.0,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV13VITGB-VIT no at 0.99"
+   ],
+   "markets": 566,
+   "matched": 131,
+   "t": "2026-11-13T17:47:28.953993+00:00"
   }
  ],
  "peak": 1000
