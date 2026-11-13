@@ -45,5 +45,25 @@
     "max_open": 600,
     "min_volume": 100,
     "note": "Separate fake $1,000 pot: about $2 on one pseudo-random outcome of every Kalshi game starting in the next 6 hours, all sports. For data (calibration, fees, line movement), never copied to the demo."
+  },
+  "other_markets": {
+    "on": true,
+    "bankroll": 1000,
+    "data_stake": 2,
+    "max_open": 500,
+    "min_volume": 100,
+    "weather": {
+      "on": true,
+      "min_edge": 0.08,
+      "stake": 5,
+      "sd_today": 2.0,
+      "sd_tomorrow": 3.0,
+      "max_per_day": 1
+    },
+    "note": "Separate fake $1,000 pot for Kalshi weather (7 cities), crypto (BTC/ETH hourly) and economics (CPI, jobs, Fed). $2 data bets on one random live outcome per event, plus the weather-forecast strategy vs the National Weather Service forecast. Never copied to the demo."
+  },
+  "backtest": {
+    "on": true,
+    "note": "Stock strategy backtests on ~20 years of Yahoo prices, rerun weekly into state/backtest.json."
   }
 }

@@ -24,6 +24,8 @@ import uuid
 
 import collector as col
 import datapot
+import other
+import backtest
 
 CONFIG = os.environ.get("BOT_CONFIG", "config.json")
 STATE = os.environ.get("BOT_STATE", "state/paper.json")
@@ -442,6 +444,15 @@ def run(now, kalshi_rows, espn_rows):
         events += datapot.run(now, markets, cfg)
     except Exception as e:
         print("data pot error:", type(e).__name__, e)
+    try:  # weather, crypto and economics markets (separate fake pot)
+        events += other.run(now, cfg)
+    except Exception as e:
+        print("other markets error:", type(e).__name__, e)
+    try:  # stock backtests, once a week
+        if cfg.get("backtest", {}).get("on", True):
+            events += backtest.maybe_run(now)
+    except Exception as e:
+        print("backtest error:", type(e).__name__, e)
     print(f"equity {eq:.2f} cash {state['cash']:.2f} markets {len(markets)} matched {matched}")
     for e in events:
         print(" ", e)
