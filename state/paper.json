@@ -607,7 +607,7 @@
    "fair": 0.8344,
    "fee": 0.0,
    "id": "202611140448-KXNBAGAME-26NOV14DENNOP-DEN-yes",
-   "last_seen": 0.825,
+   "last_seen": 0.835,
    "league": "NBA",
    "limit": 0.83,
    "payout": null,
@@ -1085,6 +1085,14 @@
    "markets": 952,
    "matched": 131,
    "t": "2026-11-14T07:56:42.950293+00:00"
+  },
+  {
+   "cash": 923.96,
+   "equity": 983.18,
+   "events": [],
+   "markets": 946,
+   "matched": 131,
+   "t": "2026-11-14T08:45:47.107579+00:00"
   }
  ],
  "peak": 1000.2
