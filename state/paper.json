@@ -607,7 +607,7 @@
    "fair": 0.8344,
    "fee": 0.0,
    "id": "202611140448-KXNBAGAME-26NOV14DENNOP-DEN-yes",
-   "last_seen": 0.84,
+   "last_seen": 0.835,
    "league": "NBA",
    "limit": 0.83,
    "payout": null,
@@ -631,7 +631,7 @@
    "fair": 0.7949,
    "fee": 0.0,
    "id": "202611140546-KXNCAAFGAME-26NOV14MICHORE-ORE-yes",
-   "last_seen": 0.775,
+   "last_seen": 0.785,
    "league": "CFB",
    "limit": 0.78,
    "payout": null,
@@ -1161,6 +1161,14 @@
    "markets": 944,
    "matched": 131,
    "t": "2026-11-14T13:27:07.095307+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [],
+   "markets": 944,
+   "matched": 136,
+   "t": "2026-11-14T14:16:30.134648+00:00"
   }
  ],
  "peak": 1000.2
