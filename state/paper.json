@@ -19,13 +19,13 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T02:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "UCLA",
    "ticker": "KXNCAAFGAME-26NOV13ILLUCLA-UCLA"
   },
   {
-   "close": null,
+   "close": 0.845,
    "cost": 20.4,
    "event": "KXNBAGAME-26NOV13GSWSAS",
    "fair": 0.8626,
@@ -199,7 +199,7 @@
    "fair": 0.7229,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13OKCLAC-OKC-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.685,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -455,6 +455,30 @@
    "strategy": "no-longshot",
    "team": "Milwaukee",
    "ticker": "KXNBAGAME-26NOV13MILORL-MIL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14GTCLEM",
+   "fair": 0.849,
+   "fee": 0.0,
+   "id": "202611140245-KXNCAAFGAME-26NOV14GTCLEM-CLEM-yes",
+   "last_seen": 0.84,
+   "league": "CFB",
+   "limit": 0.84,
+   "payout": null,
+   "placed": "2026-11-14T02:45:13.829318+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 16,
+   "reason": "Favorite, limit 0.84 (bid 0.84, ask 0.85), sportsbook 0.849",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T17:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Clemson",
+   "ticker": "KXNCAAFGAME-26NOV14GTCLEM-CLEM"
   }
  ],
  "cash": 870.15,
@@ -716,6 +740,18 @@
    "markets": 1106,
    "matched": 106,
    "t": "2026-11-14T01:57:22.506285+00:00"
+  },
+  {
+   "cash": 870.15,
+   "equity": 1000.2,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV13ILLUCLA-UCLA yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV14GTCLEM-CLEM yes x16 @ 0.84",
+    "demo placed KXNCAAFGAME-26NOV14GTCLEM-CLEM yes x16 @ 84c"
+   ],
+   "markets": 1062,
+   "matched": 108,
+   "t": "2026-11-14T02:45:13.829318+00:00"
   }
  ],
  "peak": 1000.2
