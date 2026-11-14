@@ -743,6 +743,30 @@
    "strategy": "fav-maker",
    "team": "Carolina",
    "ticker": "KXNHLGAME-26NOV14SEACAR-CAR"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV14MOHEVAN",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611140941-KXNCAAMBGAME-26NOV14MOHEVAN-MOH-yes",
+   "last_seen": 0.76,
+   "league": "NCAAMB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-14T09:41:40.960428+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 5,
+   "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T19:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Miami (OH)",
+   "ticker": "KXNCAAMBGAME-26NOV14MOHEVAN-MOH"
   }
  ],
  "cash": 923.96,
@@ -1093,6 +1117,16 @@
    "markets": 946,
    "matched": 131,
    "t": "2026-11-14T08:45:47.107579+00:00"
+  },
+  {
+   "cash": 923.96,
+   "equity": 983.18,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV14MOHEVAN-MOH yes x5 @ 0.76"
+   ],
+   "markets": 942,
+   "matched": 131,
+   "t": "2026-11-14T09:41:40.960428+00:00"
   }
  ],
  "peak": 1000.2

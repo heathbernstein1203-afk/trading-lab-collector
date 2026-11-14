@@ -76,7 +76,7 @@
    "ticker": "KXHIGHDEN-26NOV13-B64.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-14T09:00:00Z",
    "cost": 4.95,
    "event": "KXHIGHLAX-26NOV13",
@@ -109,7 +109,7 @@
    "fee": 0.19,
    "id": "202611131847-KXHIGHMIA-26NOV14-B72.5-no",
    "kind": "weather",
-   "last_seen": 0.365,
+   "last_seen": 0.405,
    "mid": 0.41,
    "payout": null,
    "placed": "2026-11-13T18:47:37.979916+00:00",
@@ -159,7 +159,7 @@
    "fee": 0.2,
    "id": "202611131847-KXHIGHNY-26NOV14-B46.5-no",
    "kind": "weather",
-   "last_seen": 0.39,
+   "last_seen": 0.315,
    "mid": 0.44,
    "payout": null,
    "placed": "2026-11-13T18:47:37.979916+00:00",
@@ -276,7 +276,7 @@
    "ticker": "KXHIGHDEN-26NOV13-B62.5"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-14T09:00:00Z",
    "cost": 1.68,
    "event": "KXHIGHLAX-26NOV13",
@@ -334,7 +334,7 @@
    "fee": 0.06,
    "id": "202611131847-KXHIGHMIA-26NOV14-B72.5-yes",
    "kind": "weather",
-   "last_seen": 0.635,
+   "last_seen": 0.595,
    "mid": 0.59,
    "payout": null,
    "placed": "2026-11-13T18:47:37.979916+00:00",
@@ -384,7 +384,7 @@
    "fee": 0.09,
    "id": "202611131847-KXHIGHNY-26NOV14-T46-yes",
    "kind": "weather",
-   "last_seen": 0.3,
+   "last_seen": 0.235,
    "mid": 0.385,
    "payout": null,
    "placed": "2026-11-13T18:47:37.979916+00:00",
@@ -459,7 +459,7 @@
    "fee": 0.18,
    "id": "202611131951-KXHIGHCHI-26NOV14-B46.5-no",
    "kind": "weather",
-   "last_seen": 0.585,
+   "last_seen": 0.575,
    "mid": 0.475,
    "payout": null,
    "placed": "2026-11-13T19:51:11.248226+00:00",
@@ -509,7 +509,7 @@
    "fee": 0.06,
    "id": "202611131951-KXHIGHCHI-26NOV14-B46.5-yes",
    "kind": "weather",
-   "last_seen": 0.415,
+   "last_seen": 0.425,
    "mid": 0.525,
    "payout": null,
    "placed": "2026-11-13T19:51:11.248226+00:00",
@@ -534,7 +534,7 @@
    "fee": 0.2,
    "id": "202611132049-KXHIGHDEN-26NOV14-T50-no",
    "kind": "weather",
-   "last_seen": 0.42,
+   "last_seen": 0.41,
    "mid": 0.44,
    "payout": null,
    "placed": "2026-11-13T20:49:18.260032+00:00",
@@ -634,7 +634,7 @@
    "fee": 0.21,
    "id": "202611132143-KXHIGHLAX-26NOV14-B71.5-no",
    "kind": "weather",
-   "last_seen": 0.375,
+   "last_seen": 0.385,
    "mid": 0.345,
    "payout": null,
    "placed": "2026-11-13T21:43:51.671418+00:00",
@@ -659,7 +659,7 @@
    "fee": 0.12,
    "id": "202611132143-KXHIGHLAX-26NOV14-B73.5-yes",
    "kind": "weather",
-   "last_seen": 0.135,
+   "last_seen": 0.105,
    "mid": 0.155,
    "payout": null,
    "placed": "2026-11-13T21:43:51.671418+00:00",
@@ -729,5 +729,5 @@
    "won": 0
   }
  },
- "updated": "2026-11-14T08:45:47.107579+00:00"
+ "updated": "2026-11-14T09:41:40.960428+00:00"
 }
