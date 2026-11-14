@@ -34,16 +34,16 @@
    "last_seen": 0.845,
    "league": "NBA",
    "limit": 0.85,
-   "payout": null,
+   "payout": 24.0,
    "placed": "2026-11-13T08:35:24.729443+00:00",
-   "pnl": null,
+   "pnl": 3.6,
    "price": 0.85,
    "qty": 24,
    "reason": "Favorite, limit 0.85 (bid 0.85, ask 0.86), sportsbook 0.863",
-   "settled": null,
+   "settled": "2026-11-14T05:46:44.436067+00:00",
    "side": "yes",
    "start": "2026-11-14T02:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "San Antonio",
    "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS"
@@ -623,9 +623,57 @@
    "strategy": "fav-maker",
    "team": "Denver",
    "ticker": "KXNBAGAME-26NOV14DENNOP-DEN"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14MICHORE",
+   "fair": 0.7949,
+   "fee": 0.0,
+   "id": "202611140546-KXNCAAFGAME-26NOV14MICHORE-ORE-yes",
+   "last_seen": 0.78,
+   "league": "CFB",
+   "limit": 0.78,
+   "payout": null,
+   "placed": "2026-11-14T05:46:44.436067+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "Favorite, limit 0.78 (bid 0.78, ask 0.79), sportsbook 0.795",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Oregon",
+   "ticker": "KXNCAAFGAME-26NOV14MICHORE-ORE"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV14TOLDET",
+   "fair": 0.8326,
+   "fee": 0.0,
+   "id": "202611140546-KXNCAAMBGAME-26NOV14TOLDET-TOL-yes",
+   "last_seen": 0.83,
+   "league": "NCAAMB",
+   "limit": 0.83,
+   "payout": null,
+   "placed": "2026-11-14T05:46:44.436067+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.83 (bid 0.83, ask 0.84), sportsbook 0.833",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T21:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Toledo",
+   "ticker": "KXNCAAMBGAME-26NOV14TOLDET-TOL"
   }
  ],
- "cash": 922.15,
+ "cash": 946.15,
  "log": [
   {
    "cash": 1000,
@@ -928,6 +976,18 @@
    "markets": 984,
    "matched": 123,
    "t": "2026-11-14T04:48:51.142682+00:00"
+  },
+  {
+   "cash": 946.15,
+   "equity": 999.78,
+   "events": [
+    "won KXNBAGAME-26NOV13GSWSAS-SAS yes pnl 3.6",
+    "new fav-maker KXNCAAFGAME-26NOV14MICHORE-ORE yes x21 @ 0.78",
+    "new fav-maker KXNCAAMBGAME-26NOV14TOLDET-TOL yes x4 @ 0.83"
+   ],
+   "markets": 964,
+   "matched": 124,
+   "t": "2026-11-14T05:46:44.436067+00:00"
   }
  ],
  "peak": 1000.2
