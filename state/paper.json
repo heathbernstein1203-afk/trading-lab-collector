@@ -193,7 +193,7 @@
    "ticker": "KXNCAAFGAME-26NOV14USCIND-IND"
   },
   {
-   "close": null,
+   "close": 0.685,
    "cost": 2.16,
    "event": "KXNBAGAME-26NOV13OKCLAC",
    "fair": 0.7229,
@@ -307,13 +307,13 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-14T03:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Merrimack",
    "ticker": "KXNCAAMBGAME-26NOV13MRMKFLA-MRMK"
   },
   {
-   "close": null,
+   "close": 0.735,
    "cost": 14.44,
    "event": "KXNCAAFGAME-26NOV13HOUCOLO",
    "fair": 0.7741,
@@ -451,7 +451,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-14T03:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Milwaukee",
    "ticker": "KXNBAGAME-26NOV13MILORL-MIL"
@@ -479,6 +479,54 @@
    "strategy": "fav-maker",
    "team": "Clemson",
    "ticker": "KXNCAAFGAME-26NOV14GTCLEM-CLEM"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14MIZZUGA",
+   "fair": 0.87,
+   "fee": 0.0,
+   "id": "202611140346-KXNCAAFGAME-26NOV14MIZZUGA-UGA-yes",
+   "last_seen": 0.86,
+   "league": "CFB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-14T03:46:14.241200+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.870",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-14T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Georgia",
+   "ticker": "KXNCAAFGAME-26NOV14MIZZUGA-UGA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14CSUWSU",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611140346-KXNCAAFGAME-26NOV14CSUWSU-WSU-yes",
+   "last_seen": 0.74,
+   "league": "CFB",
+   "limit": 0.74,
+   "payout": null,
+   "placed": "2026-11-14T03:46:14.241200+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 31,
+   "reason": "Favorite, limit 0.74 (bid 0.74, ask 0.75), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T03:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Washington St.",
+   "ticker": "KXNCAAFGAME-26NOV14CSUWSU-WSU"
   }
  ],
  "cash": 870.15,
@@ -752,6 +800,21 @@
    "markets": 1062,
    "matched": 108,
    "t": "2026-11-14T02:45:13.829318+00:00"
+  },
+  {
+   "cash": 870.15,
+   "equity": 1000.2,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV13MRMKFLA-MRMK no (not filled before start)",
+    "cancelled KXNBAGAME-26NOV13MILORL-MIL no (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV14MIZZUGA-UGA yes x20 @ 0.86",
+    "new fav-maker KXNCAAFGAME-26NOV14CSUWSU-WSU yes x31 @ 0.74",
+    "demo placed KXNCAAFGAME-26NOV14MIZZUGA-UGA yes x20 @ 86c",
+    "demo placed KXNCAAFGAME-26NOV14CSUWSU-WSU yes x31 @ 74c"
+   ],
+   "markets": 1018,
+   "matched": 115,
+   "t": "2026-11-14T03:46:14.241200+00:00"
   }
  ],
  "peak": 1000.2
