@@ -1,9 +1,10 @@
 {
  "days": {
-  "2026-11-13": 0.0
+  "2026-11-13": 0.0,
+  "2026-11-14": 2.13
  },
- "last_balance": 2600.0,
- "last_check": "2026-11-13T23:37:28.271620+00:00",
+ "last_balance": 2597.87,
+ "last_check": "2026-11-14T00:52:41.820429+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -20,6 +21,14 @@
    "qty": 4,
    "resp": "{\"error\":{\"code\":\"deprecated_v1_order_endpoint\",\"message\":\"Please switch to the V2 endpoints\",\"details\":\"https://docs.kalshi.com/api-reference/orders/create-order-v2\"}}",
    "t": "2026-11-13T19:51:11.248226+00:00"
+  },
+  {
+   "bet": "202611140052-KXNCAAFGAME-26NOV14NDSUHAW-NDSU-yes",
+   "ok": true,
+   "price": 0.71,
+   "qty": 3,
+   "resp": "01a1d78b-bdf0-7c24-95b0-695943d8803d",
+   "t": "2026-11-14T00:52:41.820429+00:00"
   }
  ]
 }

@@ -91,7 +91,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "New York",
    "ticker": "KXNBAGAME-26NOV13NYKIND-NYK"
@@ -247,7 +247,7 @@
    "fair": 0.9312,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13UTAHOU-HOU-yes",
-   "last_seen": 0.905,
+   "last_seen": 0.915,
    "league": "NBA",
    "limit": 0.91,
    "payout": null,
@@ -271,7 +271,7 @@
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611130835-KXNBAGAME-26NOV13ATLCHI-ATL-yes",
-   "last_seen": 0.695,
+   "last_seen": 0.685,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -319,7 +319,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611130835-KXNCAAFGAME-26NOV13HOUCOLO-HOU-yes",
-   "last_seen": 0.745,
+   "last_seen": 0.735,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
@@ -407,6 +407,30 @@
    "strategy": "fav-maker",
    "team": "BYU",
    "ticker": "KXNCAAFGAME-26NOV14BAYBYU-BYU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14NDSUHAW",
+   "fair": 0.7131,
+   "fee": 0.0,
+   "id": "202611140052-KXNCAAFGAME-26NOV14NDSUHAW-NDSU-yes",
+   "last_seen": 0.71,
+   "league": "CFB",
+   "limit": 0.71,
+   "payout": null,
+   "placed": "2026-11-14T00:52:41.820429+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 3,
+   "reason": "Favorite, limit 0.71 (bid 0.71, ask 0.72), sportsbook 0.713",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T04:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "North Dakota St.",
+   "ticker": "KXNCAAFGAME-26NOV14NDSUHAW-NDSU"
   }
  ],
  "cash": 870.15,
@@ -644,6 +668,18 @@
    "markets": 1078,
    "matched": 147,
    "t": "2026-11-13T23:37:28.271620+00:00"
+  },
+  {
+   "cash": 870.15,
+   "equity": 1000.2,
+   "events": [
+    "cancelled KXNBAGAME-26NOV13NYKIND-NYK yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV14NDSUHAW-NDSU yes x3 @ 0.71",
+    "demo placed KXNCAAFGAME-26NOV14NDSUHAW-NDSU yes x3 @ 71c"
+   ],
+   "markets": 1078,
+   "matched": 99,
+   "t": "2026-11-14T00:52:41.820429+00:00"
   }
  ],
  "peak": 1000.2
