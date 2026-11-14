@@ -337,7 +337,7 @@
    "ticker": "KXNCAAFGAME-26NOV13HOUCOLO-HOU"
   },
   {
-   "close": null,
+   "close": 0.755,
    "cost": 9.75,
    "event": "KXNCAAFGAME-26NOV14WISMD",
    "fair": 0.7598,
@@ -547,7 +547,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T17:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Miami (FL)",
    "ticker": "KXNCAAFGAME-26NOV14DUKEMIA-MIA"
@@ -571,7 +571,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T17:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Ohio St.",
    "ticker": "KXNCAAFGAME-26NOV14NWOSU-OSU"
@@ -767,6 +767,54 @@
    "strategy": "fav-maker",
    "team": "Miami (OH)",
    "ticker": "KXNCAAMBGAME-26NOV14MOHEVAN-MOH"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNFLGAME-26NOV15SEALV",
+   "fair": 0.7367,
+   "fee": 0.0,
+   "id": "202611141711-KXNFLGAME-26NOV15SEALV-SEA-yes",
+   "last_seen": 0.72,
+   "league": "NFL",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-14T17:11:48.988675+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.737",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T21:05:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Seattle",
+   "ticker": "KXNFLGAME-26NOV15SEALV-SEA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNFLGAME-26NOV15JACTEN",
+   "fair": 0.8625,
+   "fee": 0.0,
+   "id": "202611141711-KXNFLGAME-26NOV15JACTEN-JAC-yes",
+   "last_seen": 0.83,
+   "league": "NFL",
+   "limit": 0.83,
+   "payout": null,
+   "placed": "2026-11-14T17:11:48.988675+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 35,
+   "reason": "Favorite, limit 0.83 (bid 0.83, ask 0.84), sportsbook 0.863",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T18:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Jacksonville",
+   "ticker": "KXNFLGAME-26NOV15JACTEN-JAC"
   }
  ],
  "cash": 920.16,
@@ -1185,6 +1233,19 @@
    "markets": 942,
    "matched": 136,
    "t": "2026-11-14T16:11:42.972242+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV14DUKEMIA-MIA yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV14NWOSU-OSU yes (not filled before start)",
+    "new fav-maker KXNFLGAME-26NOV15SEALV-SEA yes x20 @ 0.72",
+    "new fav-maker KXNFLGAME-26NOV15JACTEN-JAC yes x35 @ 0.83"
+   ],
+   "markets": 928,
+   "matched": 140,
+   "t": "2026-11-14T17:11:48.988675+00:00"
   }
  ],
  "peak": 1000.2
