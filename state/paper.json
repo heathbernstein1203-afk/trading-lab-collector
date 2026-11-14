@@ -631,7 +631,7 @@
    "fair": 0.7949,
    "fee": 0.0,
    "id": "202611140546-KXNCAAFGAME-26NOV14MICHORE-ORE-yes",
-   "last_seen": 0.785,
+   "last_seen": 0.775,
    "league": "CFB",
    "limit": 0.78,
    "payout": null,
@@ -745,7 +745,7 @@
    "ticker": "KXNHLGAME-26NOV14SEACAR-CAR"
   },
   {
-   "close": null,
+   "close": 0.795,
    "cost": 3.8,
    "event": "KXNCAAMBGAME-26NOV14MOHEVAN",
    "fair": 0.7644,
@@ -1290,6 +1290,14 @@
    "markets": 916,
    "matched": 127,
    "t": "2026-11-14T18:43:43.249460+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [],
+   "markets": 904,
+   "matched": 117,
+   "t": "2026-11-14T19:38:54.758080+00:00"
   }
  ],
  "peak": 1000.2
