@@ -178,7 +178,8 @@ def espn_rows(payload, league, ts):
 def collect_espn(ts, now):
     rows = []
     for league, path in ESPN_LEAGUES.items():
-        for d in (now, now + dt.timedelta(days=1)):
+        # include yesterday (UTC): US evening games are dated the previous day once UTC passes midnight
+        for d in (now - dt.timedelta(days=1), now, now + dt.timedelta(days=1)):
             extra = "&groups=80&limit=300" if league == "CFB" else ("&groups=50&limit=300" if league == "NCAAMB" else "")
             url = f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={d:%Y%m%d}{extra}"
             rows += espn_rows(get_json(url), league, ts)

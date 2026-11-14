@@ -134,9 +134,14 @@ def attach_fair(markets, games):
                     break
             if "fair" in ms[0]:
                 break
+    # No ESPN match: Kalshi's occurrence/expected-expiration times are about 3 hours AFTER the real start
+    # (e.g. Bucks @ Magic tipped 00:00Z, Kalshi said 03:00Z), so use the earlier of the two minus 3 hours.
+    # Before this fix (Nov 13) the bots placed bets on games already in progress.
     for m in markets.values():
-        m.setdefault("start_dt", parse_time(m.get("start")) or
-                     ((parse_time(m.get("expected_end")) - dt.timedelta(hours=3)) if parse_time(m.get("expected_end")) else None))
+        if m.get("start_dt"):
+            continue
+        times = [t for t in (parse_time(m.get("start")), parse_time(m.get("expected_end"))) if t]
+        m["start_dt"] = (min(times) - dt.timedelta(hours=3)) if times else None
     return matched
 
 
