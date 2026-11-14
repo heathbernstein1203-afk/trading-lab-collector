@@ -121,7 +121,7 @@
    "ticker": "KXNCAAMBGAME-26NOV13UNAMIA-UNA"
   },
   {
-   "close": null,
+   "close": 0.855,
    "cost": 27.28,
    "event": "KXNCAAFGAME-26NOV14ALAVAN",
    "fair": 0.8932,
@@ -475,7 +475,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T17:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Clemson",
    "ticker": "KXNCAAFGAME-26NOV14GTCLEM-CLEM"
@@ -739,7 +739,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T18:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Carolina",
    "ticker": "KXNHLGAME-26NOV14SEACAR-CAR"
@@ -815,6 +815,30 @@
    "strategy": "fav-maker",
    "team": "Jacksonville",
    "ticker": "KXNFLGAME-26NOV15JACTEN-JAC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV14SCARARK",
+   "fair": 0.7488,
+   "fee": 0.0,
+   "id": "202611141805-KXNCAAFGAME-26NOV14SCARARK-SCAR-yes",
+   "last_seen": 0.73,
+   "league": "CFB",
+   "limit": 0.73,
+   "payout": null,
+   "placed": "2026-11-14T18:05:53.530704+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 23,
+   "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.749",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T00:45:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "South Carolina",
+   "ticker": "KXNCAAFGAME-26NOV14SCARARK-SCAR"
   }
  ],
  "cash": 920.16,
@@ -1246,6 +1270,18 @@
    "markets": 928,
    "matched": 140,
    "t": "2026-11-14T17:11:48.988675+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV14GTCLEM-CLEM yes (not filled before start)",
+    "cancelled KXNHLGAME-26NOV14SEACAR-CAR yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV14SCARARK-SCAR yes x23 @ 0.73"
+   ],
+   "markets": 918,
+   "matched": 130,
+   "t": "2026-11-14T18:05:53.530704+00:00"
   }
  ],
  "peak": 1000.2
