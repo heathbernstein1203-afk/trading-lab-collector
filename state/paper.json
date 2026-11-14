@@ -751,7 +751,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611140941-KXNCAAMBGAME-26NOV14MOHEVAN-MOH-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.79,
    "league": "NCAAMB",
    "limit": 0.76,
    "payout": null,
@@ -1153,6 +1153,14 @@
    "markets": 938,
    "matched": 132,
    "t": "2026-11-14T12:10:56.530454+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [],
+   "markets": 944,
+   "matched": 131,
+   "t": "2026-11-14T13:27:07.095307+00:00"
   }
  ],
  "peak": 1000.2
