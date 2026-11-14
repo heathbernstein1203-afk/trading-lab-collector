@@ -746,30 +746,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 3.8,
    "event": "KXNCAAMBGAME-26NOV14MOHEVAN",
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611140941-KXNCAAMBGAME-26NOV14MOHEVAN-MOH-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.755,
    "league": "NCAAMB",
    "limit": 0.76,
    "payout": null,
    "placed": "2026-11-14T09:41:40.960428+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.76,
    "qty": 5,
    "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T19:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Miami (OH)",
    "ticker": "KXNCAAMBGAME-26NOV14MOHEVAN-MOH"
   }
  ],
- "cash": 923.96,
+ "cash": 920.16,
  "log": [
   {
    "cash": 1000,
@@ -1135,6 +1135,16 @@
    "markets": 942,
    "matched": 131,
    "t": "2026-11-14T10:38:25.913386+00:00"
+  },
+  {
+   "cash": 920.16,
+   "equity": 983.18,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV14MOHEVAN-MOH yes at 0.76"
+   ],
+   "markets": 940,
+   "matched": 131,
+   "t": "2026-11-14T11:33:45.420426+00:00"
   }
  ],
  "peak": 1000.2
