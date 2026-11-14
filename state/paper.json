@@ -607,7 +607,7 @@
    "fair": 0.8344,
    "fee": 0.0,
    "id": "202611140448-KXNBAGAME-26NOV14DENNOP-DEN-yes",
-   "last_seen": 0.845,
+   "last_seen": 0.835,
    "league": "NBA",
    "limit": 0.83,
    "payout": null,
@@ -907,7 +907,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-14T23:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Boise St.",
    "ticker": "KXNCAAFGAME-26NOV14ORSTBSU-BSU"
@@ -1031,6 +1031,54 @@
    "strategy": "fav-maker",
    "team": "San Francisco",
    "ticker": "KXNCAAMBGAME-26NOV14PRSTSF-SF"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV14DALCLE",
+   "fair": 0.7523,
+   "fee": 0.0,
+   "id": "202611142307-KXNBAGAME-26NOV14DALCLE-DAL-yes",
+   "last_seen": 0.75,
+   "league": "NBA",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-14T23:07:37.281634+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 3,
+   "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.752",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Dallas",
+   "ticker": "KXNBAGAME-26NOV14DALCLE-DAL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV15SASUTA",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611142307-KXNBAGAME-26NOV15SASUTA-UTA-no",
+   "last_seen": 0.9,
+   "league": "",
+   "limit": 0.9,
+   "payout": null,
+   "placed": "2026-11-14T23:07:37.281634+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 22,
+   "reason": "YES at 0.10: fading the longshot with a NO limit at 0.90",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-15T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Utah",
+   "ticker": "KXNBAGAME-26NOV15SASUTA-UTA"
   }
  ],
  "cash": 956.16,
@@ -1534,6 +1582,18 @@
    "markets": 718,
    "matched": 90,
    "t": "2026-11-14T22:09:09.202893+00:00"
+  },
+  {
+   "cash": 956.16,
+   "equity": 978.35,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV14ORSTBSU-BSU yes (not filled before start)",
+    "new fav-maker KXNBAGAME-26NOV14DALCLE-DAL yes x3 @ 0.75",
+    "new no-longshot KXNBAGAME-26NOV15SASUTA-UTA no x22 @ 0.9"
+   ],
+   "markets": 682,
+   "matched": 83,
+   "t": "2026-11-14T23:07:37.281634+00:00"
   }
  ],
  "peak": 1000.2
