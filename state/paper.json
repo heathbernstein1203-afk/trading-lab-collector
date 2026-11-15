@@ -415,7 +415,7 @@
    "fair": 0.7131,
    "fee": 0.0,
    "id": "202611140052-KXNCAAFGAME-26NOV14NDSUHAW-NDSU-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.735,
    "league": "CFB",
    "limit": 0.71,
    "payout": null,
@@ -505,7 +505,7 @@
    "ticker": "KXNCAAFGAME-26NOV14MIZZUGA-UGA"
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 22.94,
    "event": "KXNCAAFGAME-26NOV14CSUWSU",
    "fair": 0.7644,
@@ -577,7 +577,7 @@
    "ticker": "KXNCAAFGAME-26NOV14NWOSU-OSU"
   },
   {
-   "close": null,
+   "close": 0.715,
    "cost": 2.88,
    "event": "KXNCAAFGAME-26NOV14WYOUTEP",
    "fair": 0.7234,
@@ -1129,7 +1129,7 @@
    "ticker": "KXNCAAMBGAME-26NOV15BSUNEB-NEB"
   },
   {
-   "close": null,
+   "close": 0.825,
    "cost": 3.32,
    "event": "KXNCAAMBGAME-26NOV14UVUNEV",
    "fair": 0.8326,
@@ -1183,7 +1183,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611150059-KXNCAAMBGAME-26NOV15PEPPORE-PEPP-no",
-   "last_seen": 0.93,
+   "last_seen": 0.925,
    "league": "",
    "limit": 0.95,
    "payout": null,
@@ -1271,6 +1271,54 @@
    "strategy": "fav-maker",
    "team": "Loyola Marymount",
    "ticker": "KXNCAAMBGAME-26NOV15CHSLMU-LMU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV14IDSTSEA",
+   "fair": 0.9389,
+   "fee": 0.0,
+   "id": "202611150348-KXNCAAMBGAME-26NOV14IDSTSEA-IDST-no",
+   "last_seen": 0.94,
+   "league": "NCAAMB",
+   "limit": 0.94,
+   "payout": null,
+   "placed": "2026-11-15T03:48:59.617077+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.94",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-15T21:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Idaho St.",
+   "ticker": "KXNCAAMBGAME-26NOV14IDSTSEA-IDST"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV15CANBUFF",
+   "fair": 0.9059,
+   "fee": 0.0,
+   "id": "202611150348-KXNCAAMBGAME-26NOV15CANBUFF-BUFF-yes",
+   "last_seen": 0.9,
+   "league": "NCAAMB",
+   "limit": 0.9,
+   "payout": null,
+   "placed": "2026-11-15T03:48:59.617077+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 16,
+   "reason": "Favorite, limit 0.90 (bid 0.89, ask 0.91), sportsbook 0.906",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T22:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Buffalo",
+   "ticker": "KXNCAAMBGAME-26NOV15CANBUFF-BUFF"
   }
  ],
  "cash": 932.94,
@@ -1855,6 +1903,19 @@
    "markets": 618,
    "matched": 50,
    "t": "2026-11-15T02:46:48.983733+00:00"
+  },
+  {
+   "cash": 932.94,
+   "equity": 984.16,
+   "events": [
+    "new no-longshot KXNCAAMBGAME-26NOV14IDSTSEA-IDST no x21 @ 0.94",
+    "new fav-maker KXNCAAMBGAME-26NOV15CANBUFF-BUFF yes x16 @ 0.9",
+    "demo placed KXNCAAMBGAME-26NOV14IDSTSEA-IDST no x21 @ 94c",
+    "demo placed KXNCAAMBGAME-26NOV15CANBUFF-BUFF yes x16 @ 90c"
+   ],
+   "markets": 568,
+   "matched": 49,
+   "t": "2026-11-15T03:48:59.617077+00:00"
   }
  ],
  "peak": 1000.2
