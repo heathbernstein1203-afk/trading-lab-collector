@@ -1367,6 +1367,30 @@
    "strategy": "fav-maker",
    "team": "Oklahoma City",
    "ticker": "KXNBAGAME-26NOV15OKCSAC-OKC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV15WMUUSI",
+   "fair": 0.7402,
+   "fee": 0.0,
+   "id": "202611150847-KXNCAAMBGAME-26NOV15WMUUSI-WMU-yes",
+   "last_seen": 0.73,
+   "league": "NCAAMB",
+   "limit": 0.73,
+   "payout": null,
+   "placed": "2026-11-15T08:47:46.424212+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 12,
+   "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.740",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T21:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Western Michigan",
+   "ticker": "KXNCAAMBGAME-26NOV15WMUUSI-WMU"
   }
  ],
  "cash": 911.81,
@@ -2011,6 +2035,17 @@
    "markets": 500,
    "matched": 54,
    "t": "2026-11-15T08:00:35.401767+00:00"
+  },
+  {
+   "cash": 911.81,
+   "equity": 990.89,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV15WMUUSI-WMU yes x12 @ 0.73",
+    "demo FAILED KXNCAAMBGAME-26NOV15WMUUSI-WMU yes x12 @ 73c"
+   ],
+   "markets": 500,
+   "matched": 54,
+   "t": "2026-11-15T08:47:46.424212+00:00"
   }
  ],
  "peak": 1000.2
