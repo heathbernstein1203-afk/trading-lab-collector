@@ -1279,7 +1279,7 @@
    "fair": 0.9389,
    "fee": 0.0,
    "id": "202611150348-KXNCAAMBGAME-26NOV14IDSTSEA-IDST-no",
-   "last_seen": 0.93,
+   "last_seen": 0.935,
    "league": "NCAAMB",
    "limit": 0.94,
    "payout": null,
@@ -1391,6 +1391,30 @@
    "strategy": "fav-maker",
    "team": "Western Michigan",
    "ticker": "KXNCAAMBGAME-26NOV15WMUUSI-WMU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV15PRINURI",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611150942-KXNCAAMBGAME-26NOV15PRINURI-URI-yes",
+   "last_seen": 0.76,
+   "league": "NCAAMB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-15T09:42:50.833014+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 5,
+   "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T19:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Rhode Island",
+   "ticker": "KXNCAAMBGAME-26NOV15PRINURI-URI"
   }
  ],
  "cash": 911.81,
@@ -2046,6 +2070,17 @@
    "markets": 500,
    "matched": 54,
    "t": "2026-11-15T08:47:46.424212+00:00"
+  },
+  {
+   "cash": 911.81,
+   "equity": 990.89,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV15PRINURI-URI yes x5 @ 0.76",
+    "demo FAILED KXNCAAMBGAME-26NOV15PRINURI-URI yes x5 @ 76c"
+   ],
+   "markets": 504,
+   "matched": 54,
+   "t": "2026-11-15T09:42:50.833014+00:00"
   }
  ],
  "peak": 1000.2

@@ -9451,7 +9451,7 @@
    "volume": 516
   },
   {
-   "close": null,
+   "close": 0.36,
    "cost": 1.86,
    "event": "KXVALORANTGAME-26NOV150300SLGALT",
    "fair": null,
@@ -9482,7 +9482,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611150656-KXVALORANTGAME-26NOV150600LNGAT-LNG-yes",
-   "last_seen": 0.22,
+   "last_seen": 0.21,
    "league": "",
    "mid": 0.13,
    "payout": null,
@@ -9507,7 +9507,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611150800-KXATPMATCH-26NOV15ZVEJOD-ZVE-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.715,
    "league": "",
    "mid": 0.705,
    "payout": null,
@@ -9557,7 +9557,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611150847-KXVALORANTGAME-26NOV150600URHYP-UR-yes",
-   "last_seen": 0.67,
+   "last_seen": 0.665,
    "league": "",
    "mid": 0.67,
    "payout": null,
@@ -10392,5 +10392,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-15T08:47:46.424212+00:00"
+ "updated": "2026-11-15T09:42:50.833014+00:00"
 }
