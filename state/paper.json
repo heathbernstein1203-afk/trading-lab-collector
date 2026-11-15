@@ -1057,7 +1057,7 @@
    "ticker": "KXNBAGAME-26NOV14DALCLE-DAL"
   },
   {
-   "close": null,
+   "close": 0.895,
    "cost": 19.8,
    "event": "KXNBAGAME-26NOV15SASUTA",
    "fair": null,
@@ -1177,7 +1177,7 @@
    "ticker": "KXNCAAMBGAME-26NOV15SCSTCOFC-SCST"
   },
   {
-   "close": null,
+   "close": 0.865,
    "cost": 19.95,
    "event": "KXNCAAMBGAME-26NOV15PEPPORE",
    "fair": null,
@@ -1369,7 +1369,7 @@
    "ticker": "KXNBAGAME-26NOV15OKCSAC-OKC"
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 8.76,
    "event": "KXNCAAMBGAME-26NOV15WMUUSI",
    "fair": 0.7402,
@@ -1402,16 +1402,16 @@
    "last_seen": 0.755,
    "league": "NCAAMB",
    "limit": 0.76,
-   "payout": null,
+   "payout": 5.0,
    "placed": "2026-11-15T09:42:50.833014+00:00",
-   "pnl": null,
+   "pnl": 1.2,
    "price": 0.76,
    "qty": 5,
    "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
-   "settled": null,
+   "settled": "2026-11-15T22:09:54.015870+00:00",
    "side": "yes",
    "start": "2026-11-15T19:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Rhode Island",
    "ticker": "KXNCAAMBGAME-26NOV15PRINURI-URI"
@@ -1555,7 +1555,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-15T21:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "New Haven",
    "ticker": "KXNCAAMBGAME-26NOV15NHCPSU-NHC"
@@ -1583,9 +1583,33 @@
    "strategy": "fav-maker",
    "team": "St. John's",
    "ticker": "KXNCAAMBGAME-26NOV15SYRSJU-SJU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAWBGAME-26NOV15PRINUCLA",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611152209-KXNCAAWBGAME-26NOV15PRINUCLA-PRIN-no",
+   "last_seen": 0.95,
+   "league": "",
+   "limit": 0.95,
+   "payout": null,
+   "placed": "2026-11-15T22:09:54.015870+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.06: fading the longshot with a NO limit at 0.95",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-15T23:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Princeton",
+   "ticker": "KXNCAAWBGAME-26NOV15PRINUCLA-PRIN"
   }
  ],
- "cash": 873.91,
+ "cash": 878.91,
  "log": [
   {
    "cash": 1000,
@@ -2381,6 +2405,18 @@
    "markets": 418,
    "matched": 25,
    "t": "2026-11-15T21:14:36.727023+00:00"
+  },
+  {
+   "cash": 878.91,
+   "equity": 995.1,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV15NHCPSU-NHC no (not filled before start)",
+    "won KXNCAAMBGAME-26NOV15PRINURI-URI yes pnl 1.2",
+    "new no-longshot KXNCAAWBGAME-26NOV15PRINUCLA-PRIN no x21 @ 0.95"
+   ],
+   "markets": 378,
+   "matched": 31,
+   "t": "2026-11-15T22:09:54.015870+00:00"
   }
  ],
  "peak": 1000.2
