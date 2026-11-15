@@ -1183,7 +1183,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611150059-KXNCAAMBGAME-26NOV15PEPPORE-PEPP-no",
-   "last_seen": 0.875,
+   "last_seen": 0.865,
    "league": "",
    "limit": 0.95,
    "payout": null,
@@ -1330,16 +1330,16 @@
    "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.72,
-   "payout": null,
+   "payout": 7.0,
    "placed": "2026-11-15T06:56:50.349205+00:00",
-   "pnl": null,
+   "pnl": 1.96,
    "price": 0.72,
    "qty": 7,
    "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.727",
-   "settled": null,
+   "settled": "2026-11-15T20:36:01.553485+00:00",
    "side": "yes",
    "start": "2026-11-15T18:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Philadelphia",
    "ticker": "KXNBAGAME-26NOV15INDPHI-PHI"
@@ -1511,9 +1511,33 @@
    "strategy": "fav-maker",
    "team": "Utah",
    "ticker": "KXNHLGAME-26NOV16VANUTA-UTA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV15CPMTST",
+   "fair": 0.7273,
+   "fee": 0.0,
+   "id": "202611152036-KXNCAAMBGAME-26NOV15CPMTST-MTST-yes",
+   "last_seen": 0.72,
+   "league": "NCAAMB",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-15T20:36:01.553485+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.727",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-15T23:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Montana St.",
+   "ticker": "KXNCAAMBGAME-26NOV15CPMTST-MTST"
   }
  ],
- "cash": 860.31,
+ "cash": 867.31,
  "log": [
   {
    "cash": 1000,
@@ -2283,6 +2307,17 @@
    "markets": 522,
    "matched": 37,
    "t": "2026-11-15T19:40:37.157591+00:00"
+  },
+  {
+   "cash": 867.31,
+   "equity": 992.85,
+   "events": [
+    "won KXNBAGAME-26NOV15INDPHI-PHI yes pnl 1.96",
+    "new fav-maker KXNCAAMBGAME-26NOV15CPMTST-MTST yes x8 @ 0.72"
+   ],
+   "markets": 472,
+   "matched": 32,
+   "t": "2026-11-15T20:36:01.553485+00:00"
   }
  ],
  "peak": 1000.2
