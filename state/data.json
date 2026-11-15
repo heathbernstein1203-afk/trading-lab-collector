@@ -9460,17 +9460,17 @@
    "last_seen": 0.36,
    "league": "",
    "mid": 0.455,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-15T05:50:26.557374+00:00",
-   "pnl": null,
+   "pnl": -1.91,
    "price": 0.62,
    "qty": 3,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-15T10:40:01.006081+00:00",
    "side": "yes",
    "spread": 0.33,
    "start": "2026-11-15T09:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Alter Ego x Kertanegara",
    "ticker": "KXVALORANTGAME-26NOV150300SLGALT-ALT",
    "volume": 121
@@ -9482,7 +9482,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611150656-KXVALORANTGAME-26NOV150600LNGAT-LNG-yes",
-   "last_seen": 0.21,
+   "last_seen": 0.16,
    "league": "",
    "mid": 0.13,
    "payout": null,
@@ -9557,7 +9557,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611150847-KXVALORANTGAME-26NOV150600URHYP-UR-yes",
-   "last_seen": 0.665,
+   "last_seen": 0.65,
    "league": "",
    "mid": 0.67,
    "payout": null,
@@ -9574,9 +9574,34 @@
    "team": "Unsettled Resentment",
    "ticker": "KXVALORANTGAME-26NOV150600URHYP-UR",
    "volume": 104
+  },
+  {
+   "close": null,
+   "cost": 1.6,
+   "event": "KXT20MATCH-26NOV150615KGOPAV",
+   "fair": null,
+   "fee": 0.07,
+   "id": "202611151040-KXT20MATCH-26NOV150615KGOPAV-PAV-yes",
+   "last_seen": 0.39,
+   "league": "",
+   "mid": 0.39,
+   "payout": null,
+   "placed": "2026-11-15T10:40:01.006081+00:00",
+   "pnl": null,
+   "price": 0.4,
+   "qty": 4,
+   "series": "KXT20MATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-15T12:15:00+00:00",
+   "status": "open",
+   "team": "Pokhara Avengers",
+   "ticker": "KXT20MATCH-26NOV150615KGOPAV-PAV",
+   "volume": 801
   }
  ],
- "cash": 912.74,
+ "cash": 911.07,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -9938,6 +9963,7 @@
   "KXT20MATCH-26NOV140615LLIBKI",
   "KXT20MATCH-26NOV140700WPRLIO",
   "KXT20MATCH-26NOV150145KYACRH",
+  "KXT20MATCH-26NOV150615KGOPAV",
   "KXUFCFIGHT-26NOV14BORBEL",
   "KXUFCFIGHT-26NOV14CHIMES",
   "KXUFCFIGHT-26NOV14COSGOR",
@@ -10346,10 +10372,14 @@
    "won": 4
   },
   "KXVALORANTGAME": {
-   "avg_clv": 0.0583,
-   "avg_price": 0.523,
+   "avg_clv": -0.0213,
+   "avg_price": 0.547,
    "buckets": {
     "10-20c": [
+     1,
+     0
+    ],
+    "40-50c": [
      1,
      0
     ],
@@ -10362,12 +10392,12 @@
      1
     ]
    },
-   "clv_n": 3,
-   "n": 3,
-   "pnl": -3.65,
-   "roi": -0.646,
-   "staked": 5.65,
-   "win_rate": 0.333,
+   "clv_n": 4,
+   "n": 4,
+   "pnl": -5.56,
+   "roi": -0.735,
+   "staked": 7.56,
+   "win_rate": 0.25,
    "won": 1
   },
   "KXWTAMATCH": {
@@ -10392,5 +10422,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-15T09:42:50.833014+00:00"
+ "updated": "2026-11-15T10:40:01.006081+00:00"
 }

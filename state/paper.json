@@ -1183,7 +1183,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611150059-KXNCAAMBGAME-26NOV15PEPPORE-PEPP-no",
-   "last_seen": 0.895,
+   "last_seen": 0.885,
    "league": "",
    "limit": 0.95,
    "payout": null,
@@ -1279,7 +1279,7 @@
    "fair": 0.9389,
    "fee": 0.0,
    "id": "202611150348-KXNCAAMBGAME-26NOV14IDSTSEA-IDST-no",
-   "last_seen": 0.935,
+   "last_seen": 0.94,
    "league": "NCAAMB",
    "limit": 0.94,
    "payout": null,
@@ -2081,6 +2081,14 @@
    "markets": 504,
    "matched": 54,
    "t": "2026-11-15T09:42:50.833014+00:00"
+  },
+  {
+   "cash": 911.81,
+   "equity": 990.89,
+   "events": [],
+   "markets": 514,
+   "matched": 59,
+   "t": "2026-11-15T10:40:01.006081+00:00"
   }
  ],
  "peak": 1000.2
