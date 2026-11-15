@@ -2,10 +2,10 @@
  "days": {
   "2026-11-13": 0.0,
   "2026-11-14": 99.51,
-  "2026-11-15": 81.4
+  "2026-11-15": 99.46
  },
- "last_balance": 2603.52,
- "last_check": "2026-11-15T17:12:20.031324+00:00",
+ "last_balance": 2585.46,
+ "last_check": "2026-11-15T18:05:12.418882+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -182,6 +182,14 @@
    "qty": 5,
    "resp": "{\"error\":{\"code\":\"Trading_is_not_currently_allowed_in_Washington_on_markets_in_Sports,_Elections,_Politics,_Culture,_Tech_and_Science,_and_Mentions.\",\"message\":\"Trading is not currently allowed in Washington on markets in Sports, Elections, Politics, Culture, Tech and Science, and Mentions.\"}}",
    "t": "2026-11-15T09:42:50.833014+00:00"
+  },
+  {
+   "bet": "202611151805-KXNBAGAME-26NOV15DALBOS-BOS-yes",
+   "ok": true,
+   "price": 0.86,
+   "qty": 21,
+   "resp": "01a1e063-75a8-7a13-9d2c-ef9d3bb8ddf4",
+   "t": "2026-11-15T18:05:12.418882+00:00"
   }
  ]
 }
