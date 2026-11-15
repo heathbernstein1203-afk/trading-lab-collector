@@ -1327,7 +1327,7 @@
    "fair": 0.7265,
    "fee": 0.0,
    "id": "202611150656-KXNBAGAME-26NOV15INDPHI-PHI-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.72,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -2113,6 +2113,14 @@
    "markets": 504,
    "matched": 59,
    "t": "2026-11-15T13:28:34.519452+00:00"
+  },
+  {
+   "cash": 911.81,
+   "equity": 990.89,
+   "events": [],
+   "markets": 506,
+   "matched": 59,
+   "t": "2026-11-15T14:18:05.015241+00:00"
   }
  ],
  "peak": 1000.2
