@@ -1279,7 +1279,7 @@
    "fair": 0.9389,
    "fee": 0.0,
    "id": "202611150348-KXNCAAMBGAME-26NOV14IDSTSEA-IDST-no",
-   "last_seen": 0.94,
+   "last_seen": 0.93,
    "league": "NCAAMB",
    "limit": 0.94,
    "payout": null,
@@ -2089,6 +2089,14 @@
    "markets": 514,
    "matched": 59,
    "t": "2026-11-15T10:40:01.006081+00:00"
+  },
+  {
+   "cash": 911.81,
+   "equity": 990.89,
+   "events": [],
+   "markets": 508,
+   "matched": 59,
+   "t": "2026-11-15T11:36:17.509108+00:00"
   }
  ],
  "peak": 1000.2
