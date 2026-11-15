@@ -381,16 +381,46 @@ def demo_request(method, path, body=None):
     return last
 
 
-def demo_mirror(cfg, new_bets, now):
+GEO_BLOCK = "not currently allowed in"  # Kalshi's state geo check; GitHub runner IPs sometimes look like Washington
+DEMO_MAX_RETRIES = 3
+
+
+def demo_order(b, qty, price):
+    """Send one demo order for paper bet b. Returns (ok, response)."""
+    cents = int(round(price * 100))
+    # Kalshi retired POST /portfolio/orders (v1) on the demo; v2 is POST /portfolio/events/orders.
+    # v2 prices the YES leg only: buying YES = side "bid" at the YES price; buying NO = side "ask"
+    # (sell YES) at 1 - NO price, which opens a NO position when we hold no YES contracts.
+    yes_cents = cents if b["side"] == "yes" else 100 - cents
+    body = {"ticker": b["ticker"], "side": "bid" if b["side"] == "yes" else "ask",
+            "count": str(qty), "price": f"{yes_cents / 100:.2f}",
+            "time_in_force": "good_till_canceled", "self_trade_prevention_type": "taker_at_cross",
+            "client_order_id": str(uuid.uuid4())}
+    start = parse_time(b["start"])
+    if b["status"] == "pending" and start:
+        body["expiration_time"] = int(start.timestamp())
+    r = demo_request("POST", "/portfolio/events/orders", body) or {}
+    return ("order_id" in r or "order" in r), r
+
+
+def is_geo_block(r):
+    return GEO_BLOCK in json.dumps(r) if isinstance(r, dict) else GEO_BLOCK in str(r)
+
+
+def demo_mirror(cfg, new_bets, now, state=None):
     d = cfg.get("demo", {})
     if not d.get("on") or not os.environ.get("KALSHI_DEMO_KEY_ID"):
         return []
     ds = load(DEMO_STATE, {"days": {}, "orders": []})
+    ds.setdefault("retry", [])
     day = now.strftime("%Y-%m-%d")
     spent = ds["days"].get(day, 0.0)
     bal = demo_request("GET", "/portfolio/balance") or {}
     out = []
     if "balance" not in bal:
+        # keep this run's new bets so they are tried again next run (still before game start)
+        for b in new_bets:
+            ds["retry"].append({"bet": b, "tries": 0})
         ds["last_error"] = {"t": now.isoformat(), "resp": redact(bal)}
         save(DEMO_STATE, ds)
         return [f"demo connection problem: {redact(bal)[:200]}"]
@@ -399,32 +429,47 @@ def demo_mirror(cfg, new_bets, now):
     ds.pop("last_error", None)
     if balance < d.get("min_balance", 20):
         out.append(f"demo balance ${balance:.2f} is under ${d.get('min_balance', 20)}: add mock funds")
-    for b in new_bets:
+
+    # 1) earlier orders refused by the geo check: retry before the game starts, at most DEMO_MAX_RETRIES times
+    live = {x["id"]: x for x in (state or {}).get("bets", [])}
+    queue, ds["retry"] = ds["retry"], []
+    todo = []
+    for item in queue:
+        b = item["bet"]
+        start = parse_time(b.get("start"))
+        paper = live.get(b["id"])
+        if start and start <= now:
+            out.append(f"demo retry dropped {b['ticker']}: game started")
+            continue
+        if paper is not None and paper.get("status") not in ("pending", "open"):
+            out.append(f"demo retry dropped {b['ticker']}: paper bet is {paper.get('status')}")
+            continue
+        if item["tries"] >= DEMO_MAX_RETRIES:
+            out.append(f"demo retry gave up {b['ticker']} after {item['tries']} retries")
+            continue
+        todo.append((b, item["tries"] + 1))
+    todo += [(b, 0) for b in new_bets]
+
+    # 2) place retries first, then this run's new bets
+    for b, tries in todo:
         price = b["limit"] if b["status"] == "pending" else b["price"]
-        cents = int(round(price * 100))
+        cents = int(round(price * 100)) if price else 0
         dollars_left = min(d["daily_budget"] - spent, balance * d.get("max_pct_balance", 0.25))
         qty = min(b["qty"], int(dollars_left // price)) if price else 0
         if qty < 1 or not 1 <= cents <= 99:
             continue
-        # Kalshi retired POST /portfolio/orders (v1) on the demo; v2 is POST /portfolio/events/orders.
-        # v2 prices the YES leg only: buying YES = side "bid" at the YES price; buying NO = side "ask"
-        # (sell YES) at 1 - NO price, which opens a NO position when we hold no YES contracts.
-        yes_cents = cents if b["side"] == "yes" else 100 - cents
-        body = {"ticker": b["ticker"], "side": "bid" if b["side"] == "yes" else "ask",
-                "count": str(qty), "price": f"{yes_cents / 100:.2f}",
-                "time_in_force": "good_till_canceled", "self_trade_prevention_type": "taker_at_cross",
-                "client_order_id": str(uuid.uuid4())}
-        start = parse_time(b["start"])
-        if b["status"] == "pending" and start:
-            body["expiration_time"] = int(start.timestamp())
-        r = demo_request("POST", "/portfolio/events/orders", body) or {}
-        ok = "order_id" in r or "order" in r
+        ok, r = demo_order(b, qty, price)
         if ok:
             spent += qty * price
             balance -= qty * price
+        elif is_geo_block(r):
+            ds["retry"].append({"bet": b, "tries": tries})
         ds["orders"].append({"t": now.isoformat(), "bet": b["id"], "qty": qty, "price": price, "ok": ok,
+                             "retry": tries,
                              "resp": redact(r.get("order_id") or (r.get("order") or {}).get("order_id") or r.get("detail") or r.get("error"))})
-        out.append(f"demo {'placed' if ok else 'FAILED'} {b['ticker']} {b['side']} x{qty} @ {cents}c")
+        tag = f" (retry {tries})" if tries else ""
+        out.append(f"demo {'placed' if ok else 'FAILED'}{tag} {b['ticker']} {b['side']} x{qty} @ {cents}c"
+                   + (" - geo-blocked, will retry" if not ok and is_geo_block(r) and tries < DEMO_MAX_RETRIES else ""))
     ds["days"][day] = round(spent, 2)
     ds["last_balance"] = round(balance, 2)
     save(DEMO_STATE, ds)
@@ -444,7 +489,7 @@ def run(now, kalshi_rows, espn_rows):
     events += settle(state, now)
     new = find_bets(state, cfg, markets, now)
     events += [f"new {b['strategy']} {b['ticker']} {b['side']} x{b['qty']} @ {b['price'] or b['limit']}" for b in new]
-    events += demo_mirror(cfg, new, now)
+    events += demo_mirror(cfg, new, now, state)
     eq = equity(state)
     state["peak"] = max(state.get("peak", eq), eq)
     state["log"] = (state.get("log", []) + [{"t": now.isoformat(), "equity": round(eq, 2), "cash": state["cash"],
