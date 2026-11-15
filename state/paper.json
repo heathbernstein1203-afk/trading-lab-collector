@@ -1138,16 +1138,16 @@
    "last_seen": 0.825,
    "league": "NCAAMB",
    "limit": 0.83,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-15T00:04:33.554842+00:00",
-   "pnl": null,
+   "pnl": -3.32,
    "price": 0.83,
    "qty": 4,
    "reason": "Favorite, limit 0.83 (bid 0.83, ask 0.84), sportsbook 0.833",
-   "settled": null,
+   "settled": "2026-11-15T05:50:26.557374+00:00",
    "side": "yes",
    "start": "2026-11-15T03:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "strategy": "fav-maker",
    "team": "Nevada",
    "ticker": "KXNCAAMBGAME-26NOV14UVUNEV-NEV"
@@ -1183,7 +1183,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611150059-KXNCAAMBGAME-26NOV15PEPPORE-PEPP-no",
-   "last_seen": 0.895,
+   "last_seen": 0.885,
    "league": "",
    "limit": 0.95,
    "payout": null,
@@ -1274,24 +1274,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.74,
    "event": "KXNCAAMBGAME-26NOV14IDSTSEA",
    "fair": 0.9389,
    "fee": 0.0,
    "id": "202611150348-KXNCAAMBGAME-26NOV14IDSTSEA-IDST-no",
-   "last_seen": 0.94,
+   "last_seen": 0.935,
    "league": "NCAAMB",
    "limit": 0.94,
    "payout": null,
    "placed": "2026-11-15T03:48:59.617077+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.94,
    "qty": 21,
    "reason": "YES at 0.07: fading the longshot with a NO limit at 0.94",
    "settled": null,
    "side": "no",
    "start": "2026-11-15T21:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Idaho St.",
    "ticker": "KXNCAAMBGAME-26NOV14IDSTSEA-IDST"
@@ -1321,7 +1321,7 @@
    "ticker": "KXNCAAMBGAME-26NOV15CANBUFF-BUFF"
   }
  ],
- "cash": 932.94,
+ "cash": 913.2,
  "log": [
   {
    "cash": 1000,
@@ -1924,6 +1924,17 @@
    "markets": 540,
    "matched": 52,
    "t": "2026-11-15T04:51:37.710104+00:00"
+  },
+  {
+   "cash": 913.2,
+   "equity": 980.84,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV14IDSTSEA-IDST no at 0.94",
+    "lost KXNCAAMBGAME-26NOV14UVUNEV-NEV yes pnl -3.32"
+   ],
+   "markets": 522,
+   "matched": 52,
+   "t": "2026-11-15T05:50:26.557374+00:00"
   }
  ],
  "peak": 1000.2
