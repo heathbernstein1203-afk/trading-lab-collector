@@ -12876,7 +12876,7 @@
    "volume": 172
   },
   {
-   "close": null,
+   "close": 0.115,
    "cost": 1.92,
    "event": "KXATPMATCH-26NOV16ALCTIA",
    "fair": null,
@@ -12951,7 +12951,7 @@
    "volume": 386
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 1.86,
    "event": "KXT20MATCH-26NOV160600PNJBDELHI",
    "fair": null,
@@ -13007,7 +13007,7 @@
    "fair": null,
    "fee": 0.11,
    "id": "202611161002-KXNCAAWBGAME-26NOV16UNCWPRE-PRE-yes",
-   "last_seen": 0.175,
+   "last_seen": 0.18,
    "league": "",
    "mid": 0.2,
    "payout": null,
@@ -13026,7 +13026,7 @@
    "volume": 309
   },
   {
-   "close": null,
+   "close": 0.98,
    "cost": 1.82,
    "event": "KXVALORANTGAME-26NOV160600AQLGD",
    "fair": null,
@@ -13035,23 +13035,23 @@
    "last_seen": 0.98,
    "league": "",
    "mid": 0.895,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-16T10:02:15.812587+00:00",
-   "pnl": null,
+   "pnl": 0.16,
    "price": 0.91,
    "qty": 2,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-16T13:35:05.277306+00:00",
    "side": "yes",
    "spread": 0.03,
    "start": "2026-11-16T12:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Any Questions Gaming",
    "ticker": "KXVALORANTGAME-26NOV160600AQLGD-AQ",
    "volume": 377
   },
   {
-   "close": null,
+   "close": 0.73,
    "cost": 1.48,
    "event": "KXT20MATCH-26NOV160600CHGRHBENG",
    "fair": null,
@@ -13076,7 +13076,7 @@
    "volume": 421
   },
   {
-   "close": null,
+   "close": 0.565,
    "cost": 1.74,
    "event": "KXT20MATCH-26NOV160600MAHAKER",
    "fair": null,
@@ -13099,9 +13099,34 @@
    "team": "Maharashtra",
    "ticker": "KXT20MATCH-26NOV160600MAHAKER-MAHA",
    "volume": 1622
+  },
+  {
+   "close": null,
+   "cost": 1.54,
+   "event": "KXATPMATCH-26NOV16MEDCOB",
+   "fair": null,
+   "fee": 0.03,
+   "id": "202611161335-KXATPMATCH-26NOV16MEDCOB-MED-yes",
+   "last_seen": 0.765,
+   "league": "",
+   "mid": 0.765,
+   "payout": null,
+   "placed": "2026-11-16T13:35:05.277306+00:00",
+   "pnl": null,
+   "price": 0.77,
+   "qty": 2,
+   "series": "KXATPMATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.01,
+   "start": "2026-11-16T19:30:00+00:00",
+   "status": "open",
+   "team": "Daniil Medvedev",
+   "ticker": "KXATPMATCH-26NOV16MEDCOB-MED",
+   "volume": 8514
   }
  ],
- "cash": 899.08,
+ "cash": 899.51,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -13123,6 +13148,7 @@
   "KXATPMATCH-26NOV15SHEFIL",
   "KXATPMATCH-26NOV15ZVEJOD",
   "KXATPMATCH-26NOV16ALCTIA",
+  "KXATPMATCH-26NOV16MEDCOB",
   "KXLIIGAGAME-26NOV131130JOKTPS",
   "KXLIIGAGAME-26NOV131130JYPKOO",
   "KXLIIGAGAME-26NOV131130MIKHPK",
@@ -14073,8 +14099,8 @@
    "won": 4
   },
   "KXVALORANTGAME": {
-   "avg_clv": 0.0257,
-   "avg_price": 0.484,
+   "avg_clv": 0.0312,
+   "avg_price": 0.531,
    "buckets": {
     "10-20c": [
      2,
@@ -14099,15 +14125,19 @@
     "70-80c": [
      1,
      1
+    ],
+    "80-90c": [
+     1,
+     1
     ]
    },
-   "clv_n": 7,
-   "n": 8,
-   "pnl": -8.03,
-   "roi": -0.534,
-   "staked": 15.03,
-   "win_rate": 0.375,
-   "won": 3
+   "clv_n": 8,
+   "n": 9,
+   "pnl": -7.87,
+   "roi": -0.467,
+   "staked": 16.87,
+   "win_rate": 0.444,
+   "won": 4
   },
   "KXWTAMATCH": {
    "avg_clv": -0.0117,
@@ -14135,5 +14165,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-16T11:20:47.340816+00:00"
+ "updated": "2026-11-16T13:35:05.277306+00:00"
 }
