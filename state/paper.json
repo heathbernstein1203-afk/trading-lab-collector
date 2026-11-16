@@ -1831,7 +1831,7 @@
    "fair": 0.7977,
    "fee": 0.0,
    "id": "202611160251-KXNBAGAME-26NOV16CHICLE-CLE-yes",
-   "last_seen": 0.775,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.79,
    "payout": null,
@@ -2841,6 +2841,14 @@
    "markets": 482,
    "matched": 30,
    "t": "2026-11-16T10:02:15.812587+00:00"
+  },
+  {
+   "cash": 904.92,
+   "equity": 1005.82,
+   "events": [],
+   "markets": 482,
+   "matched": 30,
+   "t": "2026-11-16T11:20:47.340816+00:00"
   }
  ],
  "peak": 1015.9599999999999
