@@ -1807,7 +1807,7 @@
    "fair": 0.7775,
    "fee": 0.0,
    "id": "202611160251-KXNBAGAME-26NOV16ORLBOS-BOS-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -1943,6 +1943,30 @@
    "strategy": "fav-maker",
    "team": "Ohio",
    "ticker": "KXNCAAFGAME-26NOV17BALLOHIO-OHIO"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV17MOHKENT",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611161823-KXNCAAFGAME-26NOV17MOHKENT-MOH-yes",
+   "last_seen": 0.76,
+   "league": "CFB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-16T18:23:30.526095+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 6,
+   "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-18T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Miami (OH)",
+   "ticker": "KXNCAAFGAME-26NOV17MOHKENT-MOH"
   }
  ],
  "cash": 893.07,
@@ -2900,6 +2924,16 @@
    "markets": 476,
    "matched": 32,
    "t": "2026-11-16T17:08:20.932155+00:00"
+  },
+  {
+   "cash": 893.07,
+   "equity": 1005.82,
+   "events": [
+    "new fav-maker KXNCAAFGAME-26NOV17MOHKENT-MOH yes x6 @ 0.76"
+   ],
+   "markets": 492,
+   "matched": 49,
+   "t": "2026-11-16T18:23:30.526095+00:00"
   }
  ],
  "peak": 1015.9599999999999
