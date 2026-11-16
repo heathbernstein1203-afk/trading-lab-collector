@@ -1490,24 +1490,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 6.0,
    "event": "KXNHLGAME-26NOV16VANUTA",
    "fair": 0.7568,
    "fee": 0.0,
    "id": "202611151805-KXNHLGAME-26NOV16VANUTA-UTA-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.745,
    "league": "NHL",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-15T18:05:12.418882+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 8,
    "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.757",
    "settled": null,
    "side": "yes",
    "start": "2026-11-17T02:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Utah",
    "ticker": "KXNHLGAME-26NOV16VANUTA-UTA"
@@ -1802,24 +1802,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 7.7,
    "event": "KXNBAGAME-26NOV16ORLBOS",
    "fair": 0.7775,
    "fee": 0.0,
    "id": "202611160251-KXNBAGAME-26NOV16ORLBOS-BOS-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
    "placed": "2026-11-16T02:51:55.870715+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.77,
    "qty": 10,
    "reason": "Favorite, limit 0.77 (bid 0.77, ask 0.78), sportsbook 0.777",
    "settled": null,
    "side": "yes",
    "start": "2026-11-17T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Boston",
    "ticker": "KXNBAGAME-26NOV16ORLBOS-BOS"
@@ -1831,7 +1831,7 @@
    "fair": 0.7977,
    "fee": 0.0,
    "id": "202611160251-KXNBAGAME-26NOV16CHICLE-CLE-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.775,
    "league": "NBA",
    "limit": 0.79,
    "payout": null,
@@ -1903,7 +1903,7 @@
    "fair": 0.7488,
    "fee": 0.0,
    "id": "202611160405-KXNCAAMBGAME-26NOV16ACMOSU-MOSU-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.725,
    "league": "NCAAMB",
    "limit": 0.74,
    "payout": null,
@@ -1921,7 +1921,7 @@
    "ticker": "KXNCAAMBGAME-26NOV16ACMOSU-MOSU"
   }
  ],
- "cash": 918.62,
+ "cash": 904.92,
  "log": [
   {
    "cash": 1000,
@@ -2830,6 +2830,17 @@
    "markets": 482,
    "matched": 30,
    "t": "2026-11-16T07:08:00.881119+00:00"
+  },
+  {
+   "cash": 904.92,
+   "equity": 1005.82,
+   "events": [
+    "filled KXNHLGAME-26NOV16VANUTA-UTA yes at 0.75",
+    "filled KXNBAGAME-26NOV16ORLBOS-BOS yes at 0.77"
+   ],
+   "markets": 482,
+   "matched": 30,
+   "t": "2026-11-16T10:02:15.812587+00:00"
   }
  ],
  "peak": 1015.9599999999999
