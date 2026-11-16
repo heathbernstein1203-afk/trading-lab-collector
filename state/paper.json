@@ -1634,24 +1634,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.4,
    "event": "KXNCAAMBGAME-26NOV16CITCLEM",
    "fair": 0.9874,
    "fee": 0.0,
    "id": "202611152308-KXNCAAMBGAME-26NOV16CITCLEM-CIT-no",
-   "last_seen": 0.97,
+   "last_seen": 0.965,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
    "placed": "2026-11-15T23:08:43.656808+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.97,
    "qty": 20,
    "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
    "settled": null,
    "side": "no",
    "start": "2026-11-17T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "The Citadel",
    "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CIT"
@@ -1921,7 +1921,7 @@
    "ticker": "KXNCAAMBGAME-26NOV16ACMOSU-MOSU"
   }
  ],
- "cash": 938.02,
+ "cash": 918.62,
  "log": [
   {
    "cash": 1000,
@@ -2820,6 +2820,16 @@
    "markets": 484,
    "matched": 30,
    "t": "2026-11-16T05:33:33.371764+00:00"
+  },
+  {
+   "cash": 918.62,
+   "equity": 1005.82,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV16CITCLEM-CIT no at 0.97"
+   ],
+   "markets": 482,
+   "matched": 30,
+   "t": "2026-11-16T07:08:00.881119+00:00"
   }
  ],
  "peak": 1015.9599999999999
