@@ -1951,7 +1951,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611161823-KXNCAAFGAME-26NOV17MOHKENT-MOH-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.76,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
@@ -2996,6 +2996,14 @@
    "markets": 496,
    "matched": 50,
    "t": "2026-11-16T19:30:17.287489+00:00"
+  },
+  {
+   "cash": 858.63,
+   "equity": 1005.82,
+   "events": [],
+   "markets": 500,
+   "matched": 50,
+   "t": "2026-11-16T20:21:06.984862+00:00"
   }
  ],
  "peak": 1015.9599999999999
