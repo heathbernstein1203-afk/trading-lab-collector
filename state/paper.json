@@ -2263,7 +2263,7 @@
    "fair": 0.8766,
    "fee": 0.0,
    "id": "202611170455-KXNCAAMBGAME-26NOV17MURRHOF-MURR-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.845,
    "league": "NCAAMB",
    "limit": 0.86,
    "payout": null,
@@ -3510,6 +3510,14 @@
    "markets": 648,
    "matched": 69,
    "t": "2026-11-17T15:23:54.385094+00:00"
+  },
+  {
+   "cash": 847.74,
+   "equity": 956.33,
+   "events": [],
+   "markets": 658,
+   "matched": 70,
+   "t": "2026-11-17T16:30:30.353925+00:00"
   }
  ],
  "peak": 1015.9599999999999
