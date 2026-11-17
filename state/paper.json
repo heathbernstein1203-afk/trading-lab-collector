@@ -1999,7 +1999,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611161930-KXNCAAMBGAME-26NOV17ILLDUKE-DUKE-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.755,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -2095,7 +2095,7 @@
    "fair": 0.7775,
    "fee": 0.0,
    "id": "202611170250-KXNBAGAME-26NOV17CHALAL-LAL-yes",
-   "last_seen": 0.74,
+   "last_seen": 0.735,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -2209,7 +2209,7 @@
    "ticker": "KXNCAAMBGAME-26NOV17ODUUVA-ODU"
   },
   {
-   "close": null,
+   "close": 0.91,
    "cost": 19.11,
    "event": "KXVALORANTGAME-26NOV170100ATQIA",
    "fair": null,
@@ -3389,6 +3389,14 @@
    "markets": 648,
    "matched": 69,
    "t": "2026-11-17T05:56:36.635041+00:00"
+  },
+  {
+   "cash": 880.72,
+   "equity": 954.44,
+   "events": [],
+   "markets": 646,
+   "matched": 69,
+   "t": "2026-11-17T07:08:57.449536+00:00"
   }
  ],
  "peak": 1015.9599999999999
