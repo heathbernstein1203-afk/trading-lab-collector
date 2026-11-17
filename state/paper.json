@@ -1999,7 +1999,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611161930-KXNCAAMBGAME-26NOV17ILLDUKE-DUKE-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.775,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -2257,7 +2257,7 @@
    "ticker": "KXNCAAMBGAME-26NOV17LIPPUR-LIP"
   },
   {
-   "close": null,
+   "close": 0.845,
    "cost": 28.38,
    "event": "KXNCAAMBGAME-26NOV17MURRHOF",
    "fair": 0.8766,
@@ -2327,6 +2327,30 @@
    "strategy": "fav-maker",
    "team": "Dayton",
    "ticker": "KXNCAAMBGAME-26NOV17CMUDAY-DAY"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV17FORMAN",
+   "fair": 0.8625,
+   "fee": 0.0,
+   "id": "202611171732-KXNCAAMBGAME-26NOV17FORMAN-FOR-yes",
+   "last_seen": 0.86,
+   "league": "NCAAMB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-17T17:32:09.576592+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.863",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-18T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Fordham",
+   "ticker": "KXNCAAMBGAME-26NOV17FORMAN-FOR"
   }
  ],
  "cash": 847.74,
@@ -3518,6 +3542,16 @@
    "markets": 658,
    "matched": 70,
    "t": "2026-11-17T16:30:30.353925+00:00"
+  },
+  {
+   "cash": 847.74,
+   "equity": 956.33,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV17FORMAN-FOR yes x4 @ 0.86"
+   ],
+   "markets": 658,
+   "matched": 75,
+   "t": "2026-11-17T17:32:09.576592+00:00"
   }
  ],
  "peak": 1015.9599999999999
