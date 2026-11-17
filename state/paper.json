@@ -1927,7 +1927,7 @@
    "fair": 0.8055,
    "fee": 0.0,
    "id": "202611161559-KXNCAAFGAME-26NOV17BALLOHIO-OHIO-yes",
-   "last_seen": 0.795,
+   "last_seen": 0.785,
    "league": "CFB",
    "limit": 0.8,
    "payout": null,
@@ -3552,6 +3552,14 @@
    "markets": 658,
    "matched": 75,
    "t": "2026-11-17T17:32:09.576592+00:00"
+  },
+  {
+   "cash": 847.74,
+   "equity": 956.33,
+   "events": [],
+   "markets": 654,
+   "matched": 75,
+   "t": "2026-11-17T18:22:24.103677+00:00"
   }
  ],
  "peak": 1015.9599999999999
