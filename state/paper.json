@@ -2114,24 +2114,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.32,
    "event": "KXNCAAMBGAME-26NOV17FLAND",
    "fair": 0.9342,
    "fee": 0.0,
    "id": "202611170250-KXNCAAMBGAME-26NOV17FLAND-ND-no",
-   "last_seen": 0.92,
+   "last_seen": 0.915,
    "league": "NCAAMB",
    "limit": 0.92,
    "payout": null,
    "placed": "2026-11-17T02:50:33.616102+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.92,
    "qty": 21,
    "reason": "YES at 0.08: fading the longshot with a NO limit at 0.92",
    "settled": null,
    "side": "no",
    "start": "2026-11-17T21:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Notre Dame",
    "ticker": "KXNCAAMBGAME-26NOV17FLAND-ND"
@@ -2359,7 +2359,7 @@
    "fair": 0.5883,
    "fee": 0.98,
    "id": "202611171935-KXNCAAMBGAME-26NOV18CONNARIZ-CONN-no",
-   "last_seen": 0.575,
+   "last_seen": 0.585,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -2401,7 +2401,7 @@
    "ticker": "KXNCAAMBGAME-26NOV17NORFGT-NORF"
   }
  ],
- "cash": 851.2,
+ "cash": 831.88,
  "log": [
   {
    "cash": 1000,
@@ -3630,6 +3630,16 @@
    "markets": 640,
    "matched": 75,
    "t": "2026-11-17T20:25:18.783579+00:00"
+  },
+  {
+   "cash": 831.88,
+   "equity": 960.95,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV17FLAND-ND no at 0.92"
+   ],
+   "markets": 630,
+   "matched": 75,
+   "t": "2026-11-17T21:23:11.246181+00:00"
   }
  ],
  "peak": 1015.9599999999999
