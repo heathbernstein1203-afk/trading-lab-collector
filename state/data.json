@@ -14576,7 +14576,7 @@
    "volume": 1432
   },
   {
-   "close": null,
+   "close": 0.205,
    "cost": 1.56,
    "event": "KXT20MATCH-26NOV170615SROLLI",
    "fair": null,
@@ -14626,7 +14626,7 @@
    "volume": 231
   },
   {
-   "close": null,
+   "close": 0.77,
    "cost": 1.36,
    "event": "KXVALORANTGAME-26NOV170600VICTEC",
    "fair": null,
@@ -14635,17 +14635,17 @@
    "last_seen": 0.77,
    "league": "",
    "mid": 0.665,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-17T07:08:57.449536+00:00",
-   "pnl": null,
+   "pnl": -1.4,
    "price": 0.68,
    "qty": 2,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-17T12:58:14.815470+00:00",
    "side": "yes",
    "spread": 0.03,
    "start": "2026-11-17T12:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "TEC Esports",
    "ticker": "KXVALORANTGAME-26NOV170600VICTEC-TEC",
    "volume": 519
@@ -14676,7 +14676,7 @@
    "volume": 9864
   },
   {
-   "close": null,
+   "close": 0.24,
    "cost": 1.98,
    "event": "KXVALORANTGAME-26NOV170600AQYOU",
    "fair": null,
@@ -14685,17 +14685,17 @@
    "last_seen": 0.24,
    "league": "",
    "mid": 0.205,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-17T09:58:03.188159+00:00",
-   "pnl": null,
+   "pnl": -2.09,
    "price": 0.22,
    "qty": 9,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-17T12:58:14.815470+00:00",
    "side": "yes",
    "spread": 0.03,
    "start": "2026-11-17T12:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Young Gaming",
    "ticker": "KXVALORANTGAME-26NOV170600AQYOU-YOU",
    "volume": 311
@@ -14757,7 +14757,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611171057-KXNCAAWBGAME-26NOV17UNFUCF-UNF-yes",
-   "last_seen": 0.14,
+   "last_seen": 0.13,
    "league": "",
    "mid": 0.14,
    "payout": null,
@@ -14832,7 +14832,7 @@
    "fair": null,
    "fee": 0.02,
    "id": "202611171146-KXNCAAWBGAME-26NOV17PFWWIU-WIU-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.875,
    "league": "",
    "mid": 0.855,
    "payout": null,
@@ -15901,8 +15901,8 @@
    "won": 4
   },
   "KXVALORANTGAME": {
-   "avg_clv": 0.0467,
-   "avg_price": 0.534,
+   "avg_clv": 0.0479,
+   "avg_price": 0.523,
    "buckets": {
     "00-10c": [
      1,
@@ -15913,7 +15913,7 @@
      0
     ],
     "20-30c": [
-     1,
+     2,
      0
     ],
     "40-50c": [
@@ -15925,7 +15925,7 @@
      1
     ],
     "60-70c": [
-     3,
+     4,
      2
     ],
     "70-80c": [
@@ -15941,12 +15941,12 @@
      1
     ]
    },
-   "clv_n": 12,
-   "n": 13,
-   "pnl": -6.81,
-   "roi": -0.274,
-   "staked": 24.81,
-   "win_rate": 0.538,
+   "clv_n": 14,
+   "n": 15,
+   "pnl": -10.3,
+   "roi": -0.364,
+   "staked": 28.3,
+   "win_rate": 0.467,
    "won": 7
   },
   "KXWTAMATCH": {
@@ -15975,5 +15975,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-17T11:46:39.049693+00:00"
+ "updated": "2026-11-17T12:58:14.815470+00:00"
 }
