@@ -2501,7 +2501,7 @@
    "ticker": "KXHIGHDEN-26NOV16-B62.5"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-17T09:00:00Z",
    "cost": 4.64,
    "event": "KXHIGHLAX-26NOV16",
@@ -2526,7 +2526,7 @@
    "ticker": "KXHIGHLAX-26NOV16-B70.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-17T09:00:00Z",
    "cost": 1.88,
    "event": "KXHIGHLAX-26NOV16",
@@ -3084,7 +3084,7 @@
    "fee": 0.12,
    "id": "202611161823-KXHIGHMIA-26NOV17-B78.5-no",
    "kind": "weather",
-   "last_seen": 0.5,
+   "last_seen": 0.505,
    "mid": 0.625,
    "payout": null,
    "placed": "2026-11-16T18:23:30.526095+00:00",
@@ -3109,7 +3109,7 @@
    "fee": 0.2,
    "id": "202611161823-KXHIGHNY-26NOV17-B57.5-no",
    "kind": "weather",
-   "last_seen": 0.395,
+   "last_seen": 0.385,
    "mid": 0.44,
    "payout": null,
    "placed": "2026-11-16T18:23:30.526095+00:00",
@@ -3134,7 +3134,7 @@
    "fee": 0.18,
    "id": "202611161823-KXHIGHPHIL-26NOV17-B58.5-no",
    "kind": "weather",
-   "last_seen": 0.25,
+   "last_seen": 0.235,
    "mid": 0.44,
    "payout": null,
    "placed": "2026-11-16T18:23:30.526095+00:00",
@@ -3209,7 +3209,7 @@
    "fee": 0.13,
    "id": "202611161823-KXHIGHMIA-26NOV17-B82.5-yes",
    "kind": "weather",
-   "last_seen": 0.045,
+   "last_seen": 0.05,
    "mid": 0.1,
    "payout": null,
    "placed": "2026-11-16T18:23:30.526095+00:00",
@@ -3234,7 +3234,7 @@
    "fee": 0.06,
    "id": "202611161823-KXHIGHNY-26NOV17-B57.5-yes",
    "kind": "weather",
-   "last_seen": 0.605,
+   "last_seen": 0.615,
    "mid": 0.56,
    "payout": null,
    "placed": "2026-11-16T18:23:30.526095+00:00",
@@ -3309,7 +3309,7 @@
    "fee": 0.23,
    "id": "202611161930-KXHIGHCHI-26NOV17-B57.5-no",
    "kind": "weather",
-   "last_seen": 0.305,
+   "last_seen": 0.3,
    "mid": 0.31,
    "payout": null,
    "placed": "2026-11-16T19:30:17.287489+00:00",
@@ -3409,7 +3409,7 @@
    "fee": 0.13,
    "id": "202611161930-KXHIGHCHI-26NOV17-B59.5-yes",
    "kind": "weather",
-   "last_seen": 0.135,
+   "last_seen": 0.13,
    "mid": 0.1,
    "payout": null,
    "placed": "2026-11-16T19:30:17.287489+00:00",
@@ -4073,5 +4073,5 @@
    "won": 10
   }
  },
- "updated": "2026-11-17T08:37:23.136549+00:00"
+ "updated": "2026-11-17T09:58:03.188159+00:00"
 }
