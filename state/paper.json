@@ -2113,7 +2113,7 @@
    "ticker": "KXNBAGAME-26NOV17CHALAL-LAL"
   },
   {
-   "close": null,
+   "close": 0.915,
    "cost": 19.32,
    "event": "KXNCAAMBGAME-26NOV17FLAND",
    "fair": 0.9342,
@@ -3640,6 +3640,14 @@
    "markets": 630,
    "matched": 75,
    "t": "2026-11-17T21:23:11.246181+00:00"
+  },
+  {
+   "cash": 831.88,
+   "equity": 960.95,
+   "events": [],
+   "markets": 624,
+   "matched": 74,
+   "t": "2026-11-17T22:25:00.993351+00:00"
   }
  ],
  "peak": 1015.9599999999999
