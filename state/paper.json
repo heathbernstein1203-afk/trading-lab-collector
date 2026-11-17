@@ -1922,24 +1922,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 6.4,
    "event": "KXNCAAFGAME-26NOV17BALLOHIO",
    "fair": 0.8055,
    "fee": 0.0,
    "id": "202611161559-KXNCAAFGAME-26NOV17BALLOHIO-OHIO-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.795,
    "league": "CFB",
    "limit": 0.8,
    "payout": null,
    "placed": "2026-11-16T15:59:05.147071+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.8,
    "qty": 8,
    "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.805",
    "settled": null,
    "side": "yes",
    "start": "2026-11-18T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Ohio",
    "ticker": "KXNCAAFGAME-26NOV17BALLOHIO-OHIO"
@@ -1999,7 +1999,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611161930-KXNCAAMBGAME-26NOV17ILLDUKE-DUKE-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -2095,7 +2095,7 @@
    "fair": 0.7775,
    "fee": 0.0,
    "id": "202611170250-KXNBAGAME-26NOV17CHALAL-LAL-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -2239,7 +2239,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611170455-KXNCAAMBGAME-26NOV17LIPPUR-LIP-no",
-   "last_seen": 0.955,
+   "last_seen": 0.965,
    "league": "",
    "limit": 0.96,
    "payout": null,
@@ -2329,7 +2329,7 @@
    "ticker": "KXNCAAMBGAME-26NOV17CMUDAY-DAY"
   }
  ],
- "cash": 854.14,
+ "cash": 847.74,
  "log": [
   {
    "cash": 1000,
@@ -3500,6 +3500,16 @@
    "markets": 638,
    "matched": 69,
    "t": "2026-11-17T14:14:45.744381+00:00"
+  },
+  {
+   "cash": 847.74,
+   "equity": 956.33,
+   "events": [
+    "filled KXNCAAFGAME-26NOV17BALLOHIO-OHIO yes at 0.8"
+   ],
+   "markets": 648,
+   "matched": 69,
+   "t": "2026-11-17T15:23:54.385094+00:00"
   }
  ],
  "peak": 1015.9599999999999

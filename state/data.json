@@ -14435,17 +14435,17 @@
    "last_seen": 0.495,
    "league": "",
    "mid": 0.495,
-   "payout": null,
+   "payout": 4.0,
    "placed": "2026-11-17T04:55:29.116068+00:00",
-   "pnl": null,
+   "pnl": 1.92,
    "price": 0.5,
    "qty": 4,
    "series": "KXATPMATCH",
-   "settled": null,
+   "settled": "2026-11-17T15:23:54.385094+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-17T10:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Arthur Fils",
    "ticker": "KXATPMATCH-26NOV17FILJOD-FIL",
    "volume": 51901
@@ -14585,17 +14585,17 @@
    "last_seen": 0.205,
    "league": "",
    "mid": 0.505,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-17T07:08:57.449536+00:00",
-   "pnl": null,
+   "pnl": -1.62,
    "price": 0.52,
    "qty": 3,
    "series": "KXT20MATCH",
-   "settled": null,
+   "settled": "2026-11-17T15:23:54.385094+00:00",
    "side": "yes",
    "spread": 0.03,
    "start": "2026-11-17T12:15:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Sudurpaschim Royals",
    "ticker": "KXT20MATCH-26NOV170615SROLLI-SRO",
    "volume": 3555
@@ -14707,7 +14707,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611171057-KXAHLGAME-26NOV171100CHAHAR-CHA-yes",
-   "last_seen": 0.56,
+   "last_seen": 0.55,
    "league": "",
    "mid": 0.56,
    "payout": null,
@@ -14732,7 +14732,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611171057-KXNCAAWBGAME-26NOV17SCSTWIN-SCST-no",
-   "last_seen": 0.94,
+   "last_seen": 0.935,
    "league": "",
    "mid": 0.935,
    "payout": null,
@@ -14857,7 +14857,7 @@
    "fair": 0.9526,
    "fee": 0.01,
    "id": "202611171414-KXNCAAMBGAME-26NOV17HOURUTG-HOU-yes",
-   "last_seen": 0.935,
+   "last_seen": 0.945,
    "league": "NCAAMB",
    "mid": 0.935,
    "payout": null,
@@ -14882,7 +14882,7 @@
    "fair": null,
    "fee": 0.02,
    "id": "202611171414-KXNCAAWBGAME-26NOV17MURRORE-ORE-yes",
-   "last_seen": 0.915,
+   "last_seen": 0.905,
    "league": "",
    "mid": 0.915,
    "payout": null,
@@ -14907,7 +14907,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611171414-KXNCAAWBGAME-26NOV17PEPPNEV-PEPP-yes",
-   "last_seen": 0.715,
+   "last_seen": 0.755,
    "league": "",
    "mid": 0.715,
    "payout": null,
@@ -14924,9 +14924,34 @@
    "team": "Pepperdine",
    "ticker": "KXNCAAWBGAME-26NOV17PEPPNEV-PEPP",
    "volume": 527
+  },
+  {
+   "close": null,
+   "cost": 1.59,
+   "event": "KXAHLGAME-26NOV171330COLBAK",
+   "fair": null,
+   "fee": 0.06,
+   "id": "202611171523-KXAHLGAME-26NOV171330COLBAK-COL-yes",
+   "last_seen": 0.52,
+   "league": "",
+   "mid": 0.52,
+   "payout": null,
+   "placed": "2026-11-17T15:23:54.385094+00:00",
+   "pnl": null,
+   "price": 0.53,
+   "qty": 3,
+   "series": "KXAHLGAME",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-17T18:30:00+00:00",
+   "status": "open",
+   "team": "Colorado Eagles",
+   "ticker": "KXAHLGAME-26NOV171330COLBAK-COL",
+   "volume": 117
   }
  ],
- "cash": 881.59,
+ "cash": 883.94,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -14945,6 +14970,7 @@
   "KXAHLGAME-26NOV151600MANCHI",
   "KXAHLGAME-26NOV152000COLONT",
   "KXAHLGAME-26NOV171100CHAHAR",
+  "KXAHLGAME-26NOV171330COLBAK",
   "KXATPMATCH-26NOV14FRITIR",
   "KXATPMATCH-26NOV15SHEFIL",
   "KXATPMATCH-26NOV15ZVEJOD",
@@ -15557,12 +15583,16 @@
    "won": 9
   },
   "KXATPMATCH": {
-   "avg_clv": -0.001,
-   "avg_price": 0.614,
+   "avg_clv": -0.0017,
+   "avg_price": 0.595,
    "buckets": {
     "10-20c": [
      1,
      0
+    ],
+    "40-50c": [
+     1,
+     1
     ],
     "60-70c": [
      1,
@@ -15577,13 +15607,13 @@
      1
     ]
    },
-   "clv_n": 5,
-   "n": 5,
-   "pnl": 0.3,
-   "roi": 0.034,
-   "staked": 8.7,
-   "win_rate": 0.8,
-   "won": 4
+   "clv_n": 6,
+   "n": 6,
+   "pnl": 2.22,
+   "roi": 0.206,
+   "staked": 10.78,
+   "win_rate": 0.833,
+   "won": 5
   },
   "KXLIIGAGAME": {
    "avg_clv": -0.1958,
@@ -15893,8 +15923,8 @@
    "won": 10
   },
   "KXT20MATCH": {
-   "avg_clv": -0.0258,
-   "avg_price": 0.549,
+   "avg_clv": -0.0352,
+   "avg_price": 0.548,
    "buckets": {
     "10-20c": [
      1,
@@ -15913,7 +15943,7 @@
      2
     ],
     "50-60c": [
-     5,
+     6,
      4
     ],
     "60-70c": [
@@ -15933,12 +15963,12 @@
      1
     ]
    },
-   "clv_n": 30,
-   "n": 31,
-   "pnl": 1.4,
-   "roi": 0.025,
-   "staked": 55.6,
-   "win_rate": 0.613,
+   "clv_n": 31,
+   "n": 32,
+   "pnl": -0.22,
+   "roi": -0.004,
+   "staked": 57.22,
+   "win_rate": 0.594,
    "won": 19
   },
   "KXUFCFIGHT": {
@@ -16053,5 +16083,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-17T14:14:45.744381+00:00"
+ "updated": "2026-11-17T15:23:54.385094+00:00"
 }
