@@ -14285,17 +14285,17 @@
    "last_seen": 0.09,
    "league": "",
    "mid": 0.09,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-17T01:49:37.432199+00:00",
-   "pnl": null,
+   "pnl": -2.11,
    "price": 0.11,
    "qty": 18,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-17T08:37:23.136549+00:00",
    "side": "yes",
    "spread": 0.04,
    "start": "2026-11-17T07:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Qian Xing Gaming",
    "ticker": "KXVALORANTGAME-26NOV170100ATQIA-QIA",
    "volume": 906
@@ -14357,7 +14357,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611170455-KXATPMATCH-26NOV17ALCCOB-ALC-yes",
-   "last_seen": 0.91,
+   "last_seen": 0.925,
    "league": "",
    "mid": 0.905,
    "payout": null,
@@ -14457,7 +14457,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611170455-KXATPMATCH-26NOV17MEDTIA-MED-yes",
-   "last_seen": 0.54,
+   "last_seen": 0.515,
    "league": "",
    "mid": 0.55,
    "payout": null,
@@ -14482,7 +14482,7 @@
    "fair": null,
    "fee": 0.1,
    "id": "202611170455-KXATPMATCH-26NOV17SHEJOD-JOD-yes",
-   "last_seen": 0.3,
+   "last_seen": 0.4,
    "league": "",
    "mid": 0.29,
    "payout": null,
@@ -14507,7 +14507,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611170455-KXATPMATCH-26NOV17ZVEFIL-FIL-yes",
-   "last_seen": 0.25,
+   "last_seen": 0.26,
    "league": "",
    "mid": 0.255,
    "payout": null,
@@ -14560,17 +14560,17 @@
    "last_seen": 0.6,
    "league": "",
    "mid": 0.605,
-   "payout": null,
+   "payout": 3.0,
    "placed": "2026-11-17T04:55:29.116068+00:00",
-   "pnl": null,
+   "pnl": 1.09,
    "price": 0.62,
    "qty": 3,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-17T08:37:23.136549+00:00",
    "side": "yes",
    "spread": 0.03,
    "start": "2026-11-17T07:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "XJG",
    "ticker": "KXVALORANTGAME-26NOV170100HYPXJG-XJG",
    "volume": 1432
@@ -14582,7 +14582,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611170708-KXT20MATCH-26NOV170615SROLLI-SRO-yes",
-   "last_seen": 0.505,
+   "last_seen": 0.52,
    "league": "",
    "mid": 0.505,
    "payout": null,
@@ -14607,7 +14607,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611170708-KXVALORANTGAME-26NOV170330HAVLGD-HAV-yes",
-   "last_seen": 0.47,
+   "last_seen": 0.85,
    "league": "",
    "mid": 0.47,
    "payout": null,
@@ -14649,9 +14649,34 @@
    "team": "TEC Esports",
    "ticker": "KXVALORANTGAME-26NOV170600VICTEC-TEC",
    "volume": 519
+  },
+  {
+   "close": null,
+   "cost": 1.88,
+   "event": "KXVALORANTGAME-26NOV170330KBGALG",
+   "fair": null,
+   "fee": 0.01,
+   "id": "202611170837-KXVALORANTGAME-26NOV170330KBGALG-ALG-no",
+   "last_seen": 0.93,
+   "league": "",
+   "mid": 0.93,
+   "payout": null,
+   "placed": "2026-11-17T08:37:23.136549+00:00",
+   "pnl": null,
+   "price": 0.94,
+   "qty": 2,
+   "series": "KXVALORANTGAME",
+   "settled": null,
+   "side": "no",
+   "spread": 0.02,
+   "start": "2026-11-17T09:30:00+00:00",
+   "status": "open",
+   "team": "Ambitious Legend Gaming",
+   "ticker": "KXVALORANTGAME-26NOV170330KBGALG-ALG",
+   "volume": 9864
   }
  ],
- "cash": 891.01,
+ "cash": 892.12,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -15233,6 +15258,7 @@
   "KXVALORANTGAME-26NOV170100ATQIA",
   "KXVALORANTGAME-26NOV170100HYPXJG",
   "KXVALORANTGAME-26NOV170330HAVLGD",
+  "KXVALORANTGAME-26NOV170330KBGALG",
   "KXVALORANTGAME-26NOV170600VICTEC",
   "KXWTAMATCH-26NOV13ANDSHN",
   "KXWTAMATCH-26NOV13SABSVI",
@@ -15693,9 +15719,13 @@
    "won": 4
   },
   "KXVALORANTGAME": {
-   "avg_clv": 0.0312,
-   "avg_price": 0.531,
+   "avg_clv": 0.021,
+   "avg_price": 0.501,
    "buckets": {
+    "00-10c": [
+     1,
+     0
+    ],
     "10-20c": [
      2,
      0
@@ -15713,8 +15743,8 @@
      1
     ],
     "60-70c": [
-     2,
-     1
+     3,
+     2
     ],
     "70-80c": [
      1,
@@ -15725,13 +15755,13 @@
      1
     ]
    },
-   "clv_n": 8,
-   "n": 9,
-   "pnl": -7.87,
-   "roi": -0.467,
-   "staked": 16.87,
-   "win_rate": 0.444,
-   "won": 4
+   "clv_n": 10,
+   "n": 11,
+   "pnl": -8.89,
+   "roi": -0.426,
+   "staked": 20.89,
+   "win_rate": 0.455,
+   "won": 5
   },
   "KXWTAMATCH": {
    "avg_clv": -0.0117,
@@ -15759,5 +15789,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-17T07:08:57.449536+00:00"
+ "updated": "2026-11-17T08:37:23.136549+00:00"
 }
