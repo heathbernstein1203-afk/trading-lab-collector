@@ -1951,7 +1951,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611161823-KXNCAAFGAME-26NOV17MOHKENT-MOH-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.765,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
@@ -2258,24 +2258,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 28.38,
    "event": "KXNCAAMBGAME-26NOV17MURRHOF",
    "fair": 0.8766,
    "fee": 0.0,
    "id": "202611170455-KXNCAAMBGAME-26NOV17MURRHOF-MURR-yes",
-   "last_seen": 0.86,
+   "last_seen": 0.855,
    "league": "NCAAMB",
    "limit": 0.86,
    "payout": null,
    "placed": "2026-11-17T04:55:29.116068+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.86,
    "qty": 33,
    "reason": "Favorite, limit 0.86 (bid 0.85, ask 0.87), sportsbook 0.877",
    "settled": null,
    "side": "yes",
    "start": "2026-11-17T17:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Murray St.",
    "ticker": "KXNCAAMBGAME-26NOV17MURRHOF-MURR"
@@ -2329,7 +2329,7 @@
    "ticker": "KXNCAAMBGAME-26NOV17CMUDAY-DAY"
   }
  ],
- "cash": 882.52,
+ "cash": 854.14,
  "log": [
   {
    "cash": 1000,
@@ -3490,6 +3490,16 @@
    "markets": 636,
    "matched": 69,
    "t": "2026-11-17T12:58:14.815470+00:00"
+  },
+  {
+   "cash": 854.14,
+   "equity": 956.33,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV17MURRHOF-MURR yes at 0.86"
+   ],
+   "markets": 638,
+   "matched": 69,
+   "t": "2026-11-17T14:14:45.744381+00:00"
   }
  ],
  "peak": 1015.9599999999999
