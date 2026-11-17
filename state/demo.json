@@ -4,10 +4,10 @@
   "2026-11-14": 99.51,
   "2026-11-15": 99.46,
   "2026-11-16": 99.45,
-  "2026-11-17": 49.23
+  "2026-11-17": 99.45
  },
- "last_balance": 2602.01,
- "last_check": "2026-11-17T02:50:33.616102+00:00",
+ "last_balance": 2551.79,
+ "last_check": "2026-11-17T03:50:59.586548+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -318,143 +318,34 @@
    "resp": "{\"error\":{\"code\":\"Trading_is_not_currently_allowed_in_Washington_on_markets_in_Sports,_Elections,_Politics,_Culture,_Tech_and_Science,_and_Mentions.\",\"message\":\"Trading is not currently allowed in Washington on markets in Sports, Elections, Politics, Culture, Tech and Science, and Mentions.\"}}",
    "retry": 0,
    "t": "2026-11-17T02:50:33.616102+00:00"
+  },
+  {
+   "bet": "202611170250-KXNBAGAME-26NOV17CHALAL-LAL-yes",
+   "ok": true,
+   "price": 0.75,
+   "qty": 35,
+   "resp": "01a1e7a2-2a58-7335-98ad-6b8e52047d1f",
+   "retry": 1,
+   "t": "2026-11-17T03:50:59.586548+00:00"
+  },
+  {
+   "bet": "202611170250-KXNCAAMBGAME-26NOV17FLAND-ND-no",
+   "ok": true,
+   "price": 0.92,
+   "qty": 21,
+   "resp": "01a1e7a2-2a58-75cb-8f9e-3932b080c002",
+   "retry": 1,
+   "t": "2026-11-17T03:50:59.586548+00:00"
+  },
+  {
+   "bet": "202611170250-KXNCAAMBGAME-26NOV17HOURUTG-RUTG-no",
+   "ok": true,
+   "price": 0.93,
+   "qty": 5,
+   "resp": "01a1e7a2-2a58-77c4-a84c-3dfbfd1d5ba4",
+   "retry": 1,
+   "t": "2026-11-17T03:50:59.586548+00:00"
   }
  ],
- "retry": [
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNBAGAME-26NOV17CHALAL",
-    "fair": 0.7775,
-    "fee": 0.0,
-    "id": "202611170250-KXNBAGAME-26NOV17CHALAL-LAL-yes",
-    "last_seen": 0.75,
-    "league": "NBA",
-    "limit": 0.75,
-    "payout": null,
-    "placed": "2026-11-17T02:50:33.616102+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 35,
-    "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.777",
-    "settled": null,
-    "side": "yes",
-    "start": "2026-11-18T04:00:00+00:00",
-    "status": "pending",
-    "strategy": "fav-maker",
-    "team": "Los Angeles L",
-    "ticker": "KXNBAGAME-26NOV17CHALAL-LAL"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAMBGAME-26NOV17FLAND",
-    "fair": 0.9342,
-    "fee": 0.0,
-    "id": "202611170250-KXNCAAMBGAME-26NOV17FLAND-ND-no",
-    "last_seen": 0.92,
-    "league": "NCAAMB",
-    "limit": 0.92,
-    "payout": null,
-    "placed": "2026-11-17T02:50:33.616102+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 21,
-    "reason": "YES at 0.08: fading the longshot with a NO limit at 0.92",
-    "settled": null,
-    "side": "no",
-    "start": "2026-11-17T21:30:00+00:00",
-    "status": "pending",
-    "strategy": "no-longshot",
-    "team": "Notre Dame",
-    "ticker": "KXNCAAMBGAME-26NOV17FLAND-ND"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAMBGAME-26NOV17HOURUTG",
-    "fair": 0.9342,
-    "fee": 0.0,
-    "id": "202611170250-KXNCAAMBGAME-26NOV17HOURUTG-RUTG-no",
-    "last_seen": 0.93,
-    "league": "NCAAMB",
-    "limit": 0.93,
-    "payout": null,
-    "placed": "2026-11-17T02:50:33.616102+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 21,
-    "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
-    "settled": null,
-    "side": "no",
-    "start": "2026-11-17T19:00:00+00:00",
-    "status": "pending",
-    "strategy": "no-longshot",
-    "team": "Rutgers",
-    "ticker": "KXNCAAMBGAME-26NOV17HOURUTG-RUTG"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAMBGAME-26NOV17KUUNLV",
-    "fair": 0.9526,
-    "fee": 0.0,
-    "id": "202611170250-KXNCAAMBGAME-26NOV17KUUNLV-UNLV-no",
-    "last_seen": 0.94,
-    "league": "NCAAMB",
-    "limit": 0.94,
-    "payout": null,
-    "placed": "2026-11-17T02:50:33.616102+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 21,
-    "reason": "YES at 0.06: fading the longshot with a NO limit at 0.94",
-    "settled": null,
-    "side": "no",
-    "start": "2026-11-18T02:30:00+00:00",
-    "status": "pending",
-    "strategy": "no-longshot",
-    "team": "UNLV",
-    "ticker": "KXNCAAMBGAME-26NOV17KUUNLV-UNLV"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAMBGAME-26NOV17ODUUVA",
-    "fair": null,
-    "fee": 0.0,
-    "id": "202611170250-KXNCAAMBGAME-26NOV17ODUUVA-ODU-no",
-    "last_seen": 0.97,
-    "league": "",
-    "limit": 0.97,
-    "payout": null,
-    "placed": "2026-11-17T02:50:33.616102+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 20,
-    "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
-    "settled": null,
-    "side": "no",
-    "start": "2026-11-18T02:00:00+00:00",
-    "status": "pending",
-    "strategy": "no-longshot",
-    "team": "Old Dominion",
-    "ticker": "KXNCAAMBGAME-26NOV17ODUUVA-ODU"
-   },
-   "tries": 0
-  }
- ]
+ "retry": []
 }
