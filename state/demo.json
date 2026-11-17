@@ -4,10 +4,10 @@
   "2026-11-14": 99.51,
   "2026-11-15": 99.46,
   "2026-11-16": 99.45,
-  "2026-11-17": 0.0
+  "2026-11-17": 49.23
  },
- "last_balance": 2578.81,
- "last_check": "2026-11-17T00:15:04.776016+00:00",
+ "last_balance": 2529.58,
+ "last_check": "2026-11-17T01:49:37.432199+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -246,35 +246,34 @@
    "resp": "{\"error\":{\"code\":\"Trading_is_not_currently_allowed_in_Washington_on_markets_in_Sports,_Elections,_Politics,_Culture,_Tech_and_Science,_and_Mentions.\",\"message\":\"Trading is not currently allowed in Washington on markets in Sports, Elections, Politics, Culture, Tech and Science, and Mentions.\"}}",
    "retry": 0,
    "t": "2026-11-17T00:15:04.776016+00:00"
+  },
+  {
+   "bet": "202611170015-KXNCAAMBGAME-26NOV16ETAMORST-ETAM-no",
+   "ok": true,
+   "price": 0.93,
+   "qty": 21,
+   "resp": "01a1e732-f980-7e70-9e1e-f5b8cf56ec42",
+   "retry": 1,
+   "t": "2026-11-17T01:49:37.432199+00:00"
+  },
+  {
+   "bet": "202611170149-KXNBAGAME-26NOV17DETSAS-SAS-yes",
+   "ok": true,
+   "price": 0.75,
+   "qty": 13,
+   "resp": "01a1e732-f980-787c-938c-28820779a833",
+   "retry": 0,
+   "t": "2026-11-17T01:49:37.432199+00:00"
+  },
+  {
+   "bet": "202611170149-KXNCAAMBGAME-26NOV16TXSOUCSD-TXSO-no",
+   "ok": true,
+   "price": 0.95,
+   "qty": 21,
+   "resp": "01a1e732-f980-7d6d-b4ef-35122fc6bbdc",
+   "retry": 0,
+   "t": "2026-11-17T01:49:37.432199+00:00"
   }
  ],
- "retry": [
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAMBGAME-26NOV16ETAMORST",
-    "fair": 0.9342,
-    "fee": 0.0,
-    "id": "202611170015-KXNCAAMBGAME-26NOV16ETAMORST-ETAM-no",
-    "last_seen": 0.93,
-    "league": "NCAAMB",
-    "limit": 0.93,
-    "payout": null,
-    "placed": "2026-11-17T00:15:04.776016+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 21,
-    "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
-    "settled": null,
-    "side": "no",
-    "start": "2026-11-17T02:30:00+00:00",
-    "status": "pending",
-    "strategy": "no-longshot",
-    "team": "East Texas A&M",
-    "ticker": "KXNCAAMBGAME-26NOV16ETAMORST-ETAM"
-   },
-   "tries": 0
-  }
- ]
+ "retry": []
 }
