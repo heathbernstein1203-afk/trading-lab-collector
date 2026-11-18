@@ -2527,7 +2527,7 @@
    "fair": 0.873,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18MILMIA-MIA-yes",
-   "last_seen": 0.845,
+   "last_seen": 0.855,
    "league": "NBA",
    "limit": 0.86,
    "payout": null,
@@ -2647,7 +2647,7 @@
    "fair": 0.9526,
    "fee": 0.0,
    "id": "202611180352-KXNCAAMBGAME-26NOV18IUINPSU-IUIN-no",
-   "last_seen": 0.945,
+   "last_seen": 0.935,
    "league": "NCAAMB",
    "limit": 0.95,
    "payout": null,
@@ -2738,24 +2738,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 7.1,
    "event": "KXNCAAMBGAME-26NOV18HOWDUQ",
    "fair": 0.7186,
    "fee": 0.0,
    "id": "202611180558-KXNCAAMBGAME-26NOV18HOWDUQ-DUQ-yes",
-   "last_seen": 0.71,
+   "last_seen": 0.665,
    "league": "NCAAMB",
    "limit": 0.71,
    "payout": null,
    "placed": "2026-11-18T05:58:36.283187+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.71,
    "qty": 10,
    "reason": "Favorite, limit 0.71 (bid 0.70, ask 0.72), sportsbook 0.719",
    "settled": null,
    "side": "yes",
    "start": "2026-11-19T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Duquesne",
    "ticker": "KXNCAAMBGAME-26NOV18HOWDUQ-DUQ"
@@ -2809,7 +2809,7 @@
    "ticker": "KXNBAGAME-26NOV18DETNOP-DET"
   }
  ],
- "cash": 811.1,
+ "cash": 804.0,
  "log": [
   {
    "cash": 1000,
@@ -4230,6 +4230,16 @@
    "markets": 612,
    "matched": 70,
    "t": "2026-11-18T14:16:49.668964+00:00"
+  },
+  {
+   "cash": 804.0,
+   "equity": 972.63,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV18HOWDUQ-DUQ yes at 0.71"
+   ],
+   "markets": 592,
+   "matched": 72,
+   "t": "2026-11-18T15:26:25.055585+00:00"
   }
  ],
  "peak": 1015.9599999999999
