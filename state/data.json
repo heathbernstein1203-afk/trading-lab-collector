@@ -17060,17 +17060,17 @@
    "last_seen": 0.725,
    "league": "NBA",
    "mid": 0.725,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-17T22:25:00.993351+00:00",
-   "pnl": null,
+   "pnl": 0.51,
    "price": 0.73,
    "qty": 2,
    "series": "KXNBAGAME",
-   "settled": null,
+   "settled": "2026-11-18T07:08:46.051946+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-18T04:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Los Angeles L",
    "ticker": "KXNBAGAME-26NOV17CHALAL-LAL",
    "volume": 455226
@@ -17135,17 +17135,17 @@
    "last_seen": 0.975,
    "league": "NCAAMB",
    "mid": 0.975,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-17T22:25:00.993351+00:00",
-   "pnl": null,
+   "pnl": 0.03,
    "price": 0.98,
    "qty": 2,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-18T07:08:46.051946+00:00",
    "side": "no",
    "spread": 0.01,
    "start": "2026-11-18T04:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Montana St.",
    "ticker": "KXNCAAMBGAME-26NOV17MTSTGONZ-MTST",
    "volume": 13204
@@ -17360,23 +17360,23 @@
    "last_seen": 0.18,
    "league": "",
    "mid": 0.18,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-18T03:52:13.857957+00:00",
-   "pnl": null,
+   "pnl": -2.01,
    "price": 0.19,
    "qty": 10,
    "series": "KXT20MATCH",
-   "settled": null,
+   "settled": "2026-11-18T07:08:46.051946+00:00",
    "side": "yes",
    "spread": 0.02,
    "start": "2026-11-18T04:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Odisha",
    "ticker": "KXT20MATCH-26NOV172230ODSHCGARH-ODSH",
    "volume": 7601
   },
   {
-   "close": null,
+   "close": 0.625,
    "cost": 1.71,
    "event": "KXVALORANTGAME-26NOV180100SECALG",
    "fair": null,
@@ -17407,7 +17407,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611180352-KXVALORANTGAME-26NOV180330KBGTEC-TEC-yes",
-   "last_seen": 0.32,
+   "last_seen": 0.325,
    "league": "",
    "mid": 0.36,
    "payout": null,
@@ -17426,7 +17426,7 @@
    "volume": 266
   },
   {
-   "close": null,
+   "close": 0.305,
    "cost": 1.92,
    "event": "KXT20MATCH-26NOV180030RLYSPNJB",
    "fair": null,
@@ -17457,7 +17457,7 @@
    "fair": null,
    "fee": 0.1,
    "id": "202611180456-KXT20MATCH-26NOV180300MUMGOA-GOA-yes",
-   "last_seen": 0.18,
+   "last_seen": 0.15,
    "league": "",
    "mid": 0.22,
    "payout": null,
@@ -17501,7 +17501,7 @@
    "volume": 103
   },
   {
-   "close": null,
+   "close": 0.65,
    "cost": 1.98,
    "event": "KXT20MATCH-26NOV180030HPMAHA",
    "fair": null,
@@ -17526,7 +17526,7 @@
    "volume": 313
   },
   {
-   "close": null,
+   "close": 0.42,
    "cost": 1.84,
    "event": "KXT20MATCH-26NOV180030RAJCHGRH",
    "fair": null,
@@ -17551,7 +17551,7 @@
    "volume": 872
   },
   {
-   "close": null,
+   "close": 0.545,
    "cost": 1.68,
    "event": "KXT20MATCH-26NOV180030VIDARHYD",
    "fair": null,
@@ -17576,7 +17576,7 @@
    "volume": 1980
   },
   {
-   "close": null,
+   "close": 0.945,
    "cost": 1.92,
    "event": "KXVALORANTGAME-26NOV180100FPXLGD",
    "fair": null,
@@ -17599,9 +17599,34 @@
    "team": "FunPlus Phoenix",
    "ticker": "KXVALORANTGAME-26NOV180100FPXLGD-FPX",
    "volume": 185
+  },
+  {
+   "close": null,
+   "cost": 1.8,
+   "event": "KXT20MATCH-26NOV180600TPURAMP",
+   "fair": null,
+   "fee": 0.02,
+   "id": "202611180708-KXT20MATCH-26NOV180600TPURAMP-MP-yes",
+   "last_seen": 0.89,
+   "league": "",
+   "mid": 0.89,
+   "payout": null,
+   "placed": "2026-11-18T07:08:46.051946+00:00",
+   "pnl": null,
+   "price": 0.9,
+   "qty": 2,
+   "series": "KXT20MATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-18T12:00:00+00:00",
+   "status": "open",
+   "team": "Madhya Pradesh",
+   "ticker": "KXT20MATCH-26NOV180600TPURAMP-MP",
+   "volume": 267
   }
  ],
- "cash": 903.15,
+ "cash": 905.33,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -18270,6 +18295,7 @@
   "KXT20MATCH-26NOV180030RLYSPNJB",
   "KXT20MATCH-26NOV180030VIDARHYD",
   "KXT20MATCH-26NOV180300MUMGOA",
+  "KXT20MATCH-26NOV180600TPURAMP",
   "KXUFCFIGHT-26NOV14BORBEL",
   "KXUFCFIGHT-26NOV14CHIMES",
   "KXUFCFIGHT-26NOV14COSGOR",
@@ -18409,8 +18435,8 @@
    "won": 4
   },
   "KXNBAGAME": {
-   "avg_clv": -0.0059,
-   "avg_price": 0.529,
+   "avg_clv": -0.0058,
+   "avg_price": 0.535,
    "buckets": {
     "10-20c": [
      3,
@@ -18437,8 +18463,8 @@
      1
     ],
     "70-80c": [
-     6,
-     3
+     7,
+     4
     ],
     "80-90c": [
      3,
@@ -18449,13 +18475,13 @@
      2
     ]
    },
-   "clv_n": 35,
-   "n": 35,
-   "pnl": 6.05,
-   "roi": 0.096,
-   "staked": 62.95,
-   "win_rate": 0.543,
-   "won": 19
+   "clv_n": 36,
+   "n": 36,
+   "pnl": 6.56,
+   "roi": 0.102,
+   "staked": 64.44,
+   "win_rate": 0.556,
+   "won": 20
   },
   "KXNCAAFGAME": {
    "avg_clv": -0.0067,
@@ -18508,7 +18534,7 @@
   },
   "KXNCAAMBGAME": {
    "avg_clv": -0.0059,
-   "avg_price": 0.659,
+   "avg_price": 0.66,
    "buckets": {
     "10-20c": [
      19,
@@ -18543,17 +18569,17 @@
      16
     ],
     "90-100c": [
-     61,
-     60
+     62,
+     61
     ]
    },
-   "clv_n": 200,
-   "n": 201,
-   "pnl": 25.44,
+   "clv_n": 201,
+   "n": 202,
+   "pnl": 25.47,
    "roi": 0.068,
-   "staked": 371.56,
-   "win_rate": 0.657,
-   "won": 132
+   "staked": 373.53,
+   "win_rate": 0.658,
+   "won": 133
   },
   "KXNCAAWBGAME": {
    "avg_clv": -0.0143,
@@ -18683,11 +18709,11 @@
    "won": 17
   },
   "KXT20MATCH": {
-   "avg_clv": -0.0352,
-   "avg_price": 0.548,
+   "avg_clv": -0.0344,
+   "avg_price": 0.537,
    "buckets": {
     "10-20c": [
-     1,
+     2,
      0
     ],
     "20-30c": [
@@ -18723,12 +18749,12 @@
      1
     ]
    },
-   "clv_n": 31,
-   "n": 32,
-   "pnl": -0.22,
-   "roi": -0.004,
-   "staked": 57.22,
-   "win_rate": 0.594,
+   "clv_n": 32,
+   "n": 33,
+   "pnl": -2.23,
+   "roi": -0.038,
+   "staked": 59.23,
+   "win_rate": 0.576,
    "won": 19
   },
   "KXUFCFIGHT": {
@@ -18843,5 +18869,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-18T05:58:36.283187+00:00"
+ "updated": "2026-11-18T07:08:46.051946+00:00"
 }

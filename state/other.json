@@ -3076,7 +3076,7 @@
    "ticker": "KXETHD-26NOV1613-T1829.99"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 4.41,
    "event": "KXHIGHMIA-26NOV17",
@@ -3101,7 +3101,7 @@
    "ticker": "KXHIGHMIA-26NOV17-B78.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 4.95,
    "event": "KXHIGHNY-26NOV17",
@@ -3126,7 +3126,7 @@
    "ticker": "KXHIGHNY-26NOV17-B57.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 4.6,
    "event": "KXHIGHPHIL-26NOV17",
@@ -3201,7 +3201,7 @@
    "ticker": "KXETHD-26NOV1614-T1809.99"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 1.98,
    "event": "KXHIGHMIA-26NOV17",
@@ -3226,7 +3226,7 @@
    "ticker": "KXHIGHMIA-26NOV17-B82.5"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 1.71,
    "event": "KXHIGHNY-26NOV17",
@@ -3251,7 +3251,7 @@
    "ticker": "KXHIGHNY-26NOV17-B57.5"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-18T06:00:00Z",
    "cost": 1.84,
    "event": "KXHIGHPHIL-26NOV17",
@@ -3276,7 +3276,7 @@
    "ticker": "KXHIGHPHIL-26NOV17-B56.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T07:00:00Z",
    "cost": 4.62,
    "event": "KXHIGHAUS-26NOV17",
@@ -3301,7 +3301,7 @@
    "ticker": "KXHIGHAUS-26NOV17-B66.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T07:00:00Z",
    "cost": 4.8,
    "event": "KXHIGHCHI-26NOV17",
@@ -3376,7 +3376,7 @@
    "ticker": "KXETHD-26NOV1615-T1809.99"
   },
   {
-   "close": null,
+   "close": 0.995,
    "close_time": "2026-11-18T07:00:00Z",
    "cost": 1.8,
    "event": "KXHIGHAUS-26NOV17",
@@ -3401,7 +3401,7 @@
    "ticker": "KXHIGHAUS-26NOV17-B66.5"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-18T07:00:00Z",
    "cost": 1.98,
    "event": "KXHIGHCHI-26NOV17",
@@ -4009,7 +4009,7 @@
    "fee": 0.14,
    "id": "202611171822-KXHIGHMIA-26NOV18-B78.5-no",
    "kind": "weather",
-   "last_seen": 0.24,
+   "last_seen": 0.15,
    "mid": 0.545,
    "payout": null,
    "placed": "2026-11-17T18:22:24.103677+00:00",
@@ -4059,7 +4059,7 @@
    "fee": 0.23,
    "id": "202611171822-KXHIGHPHIL-26NOV18-B64.5-no",
    "kind": "weather",
-   "last_seen": 0.305,
+   "last_seen": 0.315,
    "mid": 0.345,
    "payout": null,
    "placed": "2026-11-17T18:22:24.103677+00:00",
@@ -4134,7 +4134,7 @@
    "fee": 0.07,
    "id": "202611171822-KXHIGHMIA-26NOV18-B78.5-yes",
    "kind": "weather",
-   "last_seen": 0.76,
+   "last_seen": 0.85,
    "mid": 0.455,
    "payout": null,
    "placed": "2026-11-17T18:22:24.103677+00:00",
@@ -4159,7 +4159,7 @@
    "fee": 0.11,
    "id": "202611171822-KXHIGHNY-26NOV18-B64.5-yes",
    "kind": "weather",
-   "last_seen": 0.135,
+   "last_seen": 0.175,
    "mid": 0.235,
    "payout": null,
    "placed": "2026-11-17T18:22:24.103677+00:00",
@@ -4184,7 +4184,7 @@
    "fee": 0.05,
    "id": "202611171822-KXHIGHPHIL-26NOV18-B64.5-yes",
    "kind": "weather",
-   "last_seen": 0.695,
+   "last_seen": 0.685,
    "mid": 0.655,
    "payout": null,
    "placed": "2026-11-17T18:22:24.103677+00:00",
@@ -4209,7 +4209,7 @@
    "fee": 0.16,
    "id": "202611171935-KXHIGHAUS-26NOV18-B72.5-no",
    "kind": "weather",
-   "last_seen": 0.46,
+   "last_seen": 0.515,
    "mid": 0.535,
    "payout": null,
    "placed": "2026-11-17T19:35:48.394582+00:00",
@@ -4309,7 +4309,7 @@
    "fee": 0.07,
    "id": "202611171935-KXHIGHAUS-26NOV18-B72.5-yes",
    "kind": "weather",
-   "last_seen": 0.54,
+   "last_seen": 0.485,
    "mid": 0.465,
    "payout": null,
    "placed": "2026-11-17T19:35:48.394582+00:00",
@@ -4359,7 +4359,7 @@
    "fee": 0.16,
    "id": "202611172025-KXHIGHDEN-26NOV18-B58.5-no",
    "kind": "weather",
-   "last_seen": 0.555,
+   "last_seen": 0.53,
    "mid": 0.535,
    "payout": null,
    "placed": "2026-11-17T20:25:18.783579+00:00",
@@ -4459,7 +4459,7 @@
    "fee": 0.22,
    "id": "202611172123-KXHIGHLAX-26NOV18-B68.5-no",
    "kind": "weather",
-   "last_seen": 0.415,
+   "last_seen": 0.425,
    "mid": 0.365,
    "payout": null,
    "placed": "2026-11-17T21:23:11.246181+00:00",
@@ -4699,9 +4699,59 @@
    "strategy": "data",
    "sub": "$1,825 or above",
    "ticker": "KXETHD-26NOV1720-T1824.99"
+  },
+  {
+   "close": null,
+   "close_time": "2026-11-18T08:00:00Z",
+   "cost": 1.38,
+   "event": "KXBTCD-26NOV1803",
+   "fair": null,
+   "fee": 0.03,
+   "id": "202611180708-KXBTCD-26NOV1803-T64599.99-yes",
+   "kind": "crypto",
+   "last_seen": 0.685,
+   "mid": 0.685,
+   "payout": null,
+   "placed": "2026-11-18T07:08:46.051946+00:00",
+   "pnl": null,
+   "price": 0.69,
+   "qty": 2,
+   "reason": "random live outcome for calibration",
+   "series": "KXBTCD",
+   "settled": null,
+   "side": "yes",
+   "status": "open",
+   "strategy": "data",
+   "sub": "$64,600 or above",
+   "ticker": "KXBTCD-26NOV1803-T64599.99"
+  },
+  {
+   "close": null,
+   "close_time": "2026-11-18T08:00:00Z",
+   "cost": 1.68,
+   "event": "KXETHD-26NOV1803",
+   "fair": null,
+   "fee": 0.07,
+   "id": "202611180708-KXETHD-26NOV1803-T1814.99-yes",
+   "kind": "crypto",
+   "last_seen": 0.41,
+   "mid": 0.41,
+   "payout": null,
+   "placed": "2026-11-18T07:08:46.051946+00:00",
+   "pnl": null,
+   "price": 0.42,
+   "qty": 4,
+   "reason": "random live outcome for calibration",
+   "series": "KXETHD",
+   "settled": null,
+   "side": "yes",
+   "status": "open",
+   "strategy": "data",
+   "sub": "$1,815 or above",
+   "ticker": "KXETHD-26NOV1803-T1814.99"
   }
  ],
- "cash": 838.44,
+ "cash": 835.28,
  "nws_grid": {
   "KXHIGHAUS": "https://api.weather.gov/gridpoints/EWX/159,88/forecast",
   "KXHIGHCHI": "https://api.weather.gov/gridpoints/LOT/72,69/forecast",
@@ -4767,6 +4817,7 @@
   "KXBTCD-26NOV1718",
   "KXBTCD-26NOV1719",
   "KXBTCD-26NOV1720",
+  "KXBTCD-26NOV1803",
   "KXETHD-26NOV1317",
   "KXETHD-26NOV1407",
   "KXETHD-26NOV1408",
@@ -4819,6 +4870,7 @@
   "KXETHD-26NOV1718",
   "KXETHD-26NOV1719",
   "KXETHD-26NOV1720",
+  "KXETHD-26NOV1803",
   "KXHIGHAUS-26NOV13",
   "KXHIGHAUS-26NOV14",
   "KXHIGHAUS-26NOV15",
@@ -5002,5 +5054,5 @@
    "won": 12
   }
  },
- "updated": "2026-11-18T05:58:36.283187+00:00"
+ "updated": "2026-11-18T07:08:46.051946+00:00"
 }
