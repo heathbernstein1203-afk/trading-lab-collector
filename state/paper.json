@@ -2551,7 +2551,7 @@
    "fair": 0.7134,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18ATLOKC-OKC-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.715,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -2594,24 +2594,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.4,
    "event": "KXNCAAMBGAME-26NOV18NAVYGTWN",
    "fair": null,
    "fee": 0.0,
    "id": "202611180152-KXNCAAMBGAME-26NOV18NAVYGTWN-NAVY-no",
-   "last_seen": 0.97,
+   "last_seen": 0.965,
    "league": "",
    "limit": 0.97,
    "payout": null,
    "placed": "2026-11-18T01:52:03.958259+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.97,
    "qty": 20,
    "reason": "YES at 0.04: fading the longshot with a NO limit at 0.97",
    "settled": null,
    "side": "no",
    "start": "2026-11-18T23:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Navy",
    "ticker": "KXNCAAMBGAME-26NOV18NAVYGTWN-NAVY"
@@ -2809,7 +2809,7 @@
    "ticker": "KXNBAGAME-26NOV18DETNOP-DET"
   }
  ],
- "cash": 849.9,
+ "cash": 830.5,
  "log": [
   {
    "cash": 1000,
@@ -4202,6 +4202,16 @@
    "markets": 620,
    "matched": 69,
    "t": "2026-11-18T10:58:12.996529+00:00"
+  },
+  {
+   "cash": 830.5,
+   "equity": 972.63,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV18NAVYGTWN-NAVY no at 0.97"
+   ],
+   "markets": 618,
+   "matched": 69,
+   "t": "2026-11-18T11:56:01.586388+00:00"
   }
  ],
  "peak": 1015.9599999999999
