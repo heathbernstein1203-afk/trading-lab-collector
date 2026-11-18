@@ -5,10 +5,10 @@
   "2026-11-15": 99.46,
   "2026-11-16": 99.45,
   "2026-11-17": 99.96,
-  "2026-11-18": 44.08
+  "2026-11-18": 99.84
  },
- "last_balance": 2531.68,
- "last_check": "2026-11-18T00:18:54.920810+00:00",
+ "last_balance": 2514.72,
+ "last_check": "2026-11-18T01:52:03.958259+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -382,6 +382,42 @@
    "resp": "01a1ec06-4f98-7144-aa4d-93faeb56081a",
    "retry": 0,
    "t": "2026-11-18T00:18:54.920810+00:00"
+  },
+  {
+   "bet": "202611180152-KXNBAGAME-26NOV18MILMIA-MIA-yes",
+   "ok": true,
+   "price": 0.86,
+   "qty": 26,
+   "resp": "01a1ec5b-97a0-763d-b0af-83d3ff52debf",
+   "retry": 0,
+   "t": "2026-11-18T01:52:03.958259+00:00"
+  },
+  {
+   "bet": "202611180152-KXNBAGAME-26NOV18ATLOKC-OKC-yes",
+   "ok": true,
+   "price": 0.71,
+   "qty": 3,
+   "resp": "01a1ec5b-97a0-79bf-b3f5-cf210b474e26",
+   "retry": 0,
+   "t": "2026-11-18T01:52:03.958259+00:00"
+  },
+  {
+   "bet": "202611180152-KXNCAAMBGAME-26NOV17SEACBU-SEA-yes",
+   "ok": true,
+   "price": 0.76,
+   "qty": 22,
+   "resp": "01a1ec5b-9b88-7086-a667-c817c275396d",
+   "retry": 0,
+   "t": "2026-11-18T01:52:03.958259+00:00"
+  },
+  {
+   "bet": "202611180152-KXNCAAMBGAME-26NOV18NAVYGTWN-NAVY-no",
+   "ok": true,
+   "price": 0.97,
+   "qty": 15,
+   "resp": "01a1ec5b-9b88-7082-b997-fe9acc12c4db",
+   "retry": 0,
+   "t": "2026-11-18T01:52:03.958259+00:00"
   }
  ],
  "retry": []
