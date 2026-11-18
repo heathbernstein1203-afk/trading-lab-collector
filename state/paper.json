@@ -2527,7 +2527,7 @@
    "fair": 0.873,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18MILMIA-MIA-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.845,
    "league": "NBA",
    "limit": 0.86,
    "payout": null,
@@ -2690,24 +2690,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.4,
    "event": "KXNCAAMBGAME-26NOV18CORSYR",
    "fair": 0.9754,
    "fee": 0.0,
    "id": "202611180456-KXNCAAMBGAME-26NOV18CORSYR-COR-no",
-   "last_seen": 0.97,
+   "last_seen": 0.965,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
    "placed": "2026-11-18T04:56:58.336982+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.97,
    "qty": 20,
    "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
    "settled": null,
    "side": "no",
    "start": "2026-11-19T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Cornell",
    "ticker": "KXNCAAMBGAME-26NOV18CORSYR-COR"
@@ -2767,7 +2767,7 @@
    "fair": 0.8256,
    "fee": 0.0,
    "id": "202611180708-KXNBAGAME-26NOV18UTALAL-LAL-yes",
-   "last_seen": 0.795,
+   "last_seen": 0.785,
    "league": "NBA",
    "limit": 0.8,
    "payout": null,
@@ -2809,7 +2809,7 @@
    "ticker": "KXNBAGAME-26NOV18DETNOP-DET"
   }
  ],
- "cash": 830.5,
+ "cash": 811.1,
  "log": [
   {
    "cash": 1000,
@@ -4220,6 +4220,16 @@
    "markets": 616,
    "matched": 68,
    "t": "2026-11-18T13:02:39.762411+00:00"
+  },
+  {
+   "cash": 811.1,
+   "equity": 972.63,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV18CORSYR-COR no at 0.97"
+   ],
+   "markets": 612,
+   "matched": 70,
+   "t": "2026-11-18T14:16:49.668964+00:00"
   }
  ],
  "peak": 1015.9599999999999
