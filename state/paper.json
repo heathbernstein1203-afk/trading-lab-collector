@@ -1921,7 +1921,7 @@
    "ticker": "KXNCAAMBGAME-26NOV16ACMOSU-MOSU"
   },
   {
-   "close": null,
+   "close": 0.785,
    "cost": 6.4,
    "event": "KXNCAAFGAME-26NOV17BALLOHIO",
    "fair": 0.8055,
@@ -1945,7 +1945,7 @@
    "ticker": "KXNCAAFGAME-26NOV17BALLOHIO-OHIO"
   },
   {
-   "close": null,
+   "close": 0.765,
    "cost": 4.56,
    "event": "KXNCAAFGAME-26NOV17MOHKENT",
    "fair": 0.7644,
@@ -1993,7 +1993,7 @@
    "ticker": "KXNCAAFGAME-26NOV17EMUWMU-WMU"
   },
   {
-   "close": null,
+   "close": 0.775,
    "cost": 3.85,
    "event": "KXNCAAMBGAME-26NOV17ILLDUKE",
    "fair": 0.7741,
@@ -2122,16 +2122,16 @@
    "last_seen": 0.915,
    "league": "NCAAMB",
    "limit": 0.92,
-   "payout": null,
+   "payout": 21.0,
    "placed": "2026-11-17T02:50:33.616102+00:00",
-   "pnl": null,
+   "pnl": 1.68,
    "price": 0.92,
    "qty": 21,
    "reason": "YES at 0.08: fading the longshot with a NO limit at 0.92",
-   "settled": null,
+   "settled": "2026-11-18T00:18:54.920810+00:00",
    "side": "no",
    "start": "2026-11-17T21:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "no-longshot",
    "team": "Notre Dame",
    "ticker": "KXNCAAMBGAME-26NOV17FLAND-ND"
@@ -2233,7 +2233,7 @@
    "ticker": "KXVALORANTGAME-26NOV170100ATQIA-QIA"
   },
   {
-   "close": null,
+   "close": 0.965,
    "cost": 19.2,
    "event": "KXNCAAMBGAME-26NOV17LIPPUR",
    "fair": null,
@@ -2323,7 +2323,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-18T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Dayton",
    "ticker": "KXNCAAMBGAME-26NOV17CMUDAY-DAY"
@@ -2347,7 +2347,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-18T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Fordham",
    "ticker": "KXNCAAMBGAME-26NOV17FORMAN-FOR"
@@ -2359,7 +2359,7 @@
    "fair": 0.5883,
    "fee": 0.98,
    "id": "202611171935-KXNCAAMBGAME-26NOV18CONNARIZ-CONN-no",
-   "last_seen": 0.58,
+   "last_seen": 0.59,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -2395,7 +2395,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-18T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Norfolk St.",
    "ticker": "KXNCAAMBGAME-26NOV17NORFGT-NORF"
@@ -2447,9 +2447,81 @@
    "strategy": "fav-maker",
    "team": "UMass",
    "ticker": "KXNCAAMBGAME-26NOV17BRYMASS-MASS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV17ORUSMU",
+   "fair": 0.9838,
+   "fee": 0.0,
+   "id": "202611180018-KXNCAAMBGAME-26NOV17ORUSMU-ORU-no",
+   "last_seen": 0.97,
+   "league": "NCAAMB",
+   "limit": 0.97,
+   "payout": null,
+   "placed": "2026-11-18T00:18:54.920810+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-18T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Oral Roberts",
+   "ticker": "KXNCAAMBGAME-26NOV17ORUSMU-ORU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV17MTSTGONZ",
+   "fair": 0.9754,
+   "fee": 0.0,
+   "id": "202611180018-KXNCAAMBGAME-26NOV17MTSTGONZ-MTST-no",
+   "last_seen": 0.97,
+   "league": "NCAAMB",
+   "limit": 0.97,
+   "payout": null,
+   "placed": "2026-11-18T00:18:54.920810+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-18T04:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Montana St.",
+   "ticker": "KXNCAAMBGAME-26NOV17MTSTGONZ-MTST"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV17EWUUTAH",
+   "fair": 0.8827,
+   "fee": 0.0,
+   "id": "202611180018-KXNCAAMBGAME-26NOV17EWUUTAH-UTAH-yes",
+   "last_seen": 0.88,
+   "league": "NCAAMB",
+   "limit": 0.88,
+   "payout": null,
+   "placed": "2026-11-18T00:18:54.920810+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 6,
+   "reason": "Favorite, limit 0.88 (bid 0.88, ask 0.89), sportsbook 0.883",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-18T01:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Utah",
+   "ticker": "KXNCAAMBGAME-26NOV17EWUUTAH-UTAH"
   }
  ],
- "cash": 812.14,
+ "cash": 833.14,
  "log": [
   {
    "cash": 1000,
@@ -3709,6 +3781,25 @@
    "markets": 646,
    "matched": 70,
    "t": "2026-11-17T23:23:17.264793+00:00"
+  },
+  {
+   "cash": 833.14,
+   "equity": 962.63,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV17CMUDAY-DAY yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV17FORMAN-FOR yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV17NORFGT-NORF no (not filled before start)",
+    "won KXNCAAMBGAME-26NOV17FLAND-ND no pnl 1.68",
+    "new no-longshot KXNCAAMBGAME-26NOV17ORUSMU-ORU no x20 @ 0.97",
+    "new no-longshot KXNCAAMBGAME-26NOV17MTSTGONZ-MTST no x20 @ 0.97",
+    "new fav-maker KXNCAAMBGAME-26NOV17EWUUTAH-UTAH yes x6 @ 0.88",
+    "demo placed KXNCAAMBGAME-26NOV17ORUSMU-ORU no x20 @ 97c",
+    "demo placed KXNCAAMBGAME-26NOV17MTSTGONZ-MTST no x20 @ 97c",
+    "demo placed KXNCAAMBGAME-26NOV17EWUUTAH-UTAH yes x6 @ 88c"
+   ],
+   "markets": 710,
+   "matched": 47,
+   "t": "2026-11-18T00:18:54.920810+00:00"
   }
  ],
  "peak": 1015.9599999999999
