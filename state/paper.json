@@ -2551,7 +2551,7 @@
    "fair": 0.7134,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18ATLOKC-OKC-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.695,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -2791,7 +2791,7 @@
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611180708-KXNBAGAME-26NOV18DETNOP-DET-yes",
-   "last_seen": 0.7,
+   "last_seen": 0.645,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -4266,6 +4266,14 @@
    "markets": 605,
    "matched": 85,
    "t": "2026-11-18T18:18:31.815635+00:00"
+  },
+  {
+   "cash": 796.9,
+   "equity": 972.63,
+   "events": [],
+   "markets": 593,
+   "matched": 84,
+   "t": "2026-11-18T19:29:44.754727+00:00"
   }
  ],
  "peak": 1015.9599999999999
