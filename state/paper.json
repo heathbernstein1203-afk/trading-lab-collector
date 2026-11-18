@@ -2527,7 +2527,7 @@
    "fair": 0.873,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18MILMIA-MIA-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.845,
    "league": "NBA",
    "limit": 0.86,
    "payout": null,
@@ -2786,30 +2786,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 7.1,
    "event": "KXNBAGAME-26NOV18DETNOP",
    "fair": 0.7189,
    "fee": 0.0,
    "id": "202611180708-KXNBAGAME-26NOV18DETNOP-DET-yes",
-   "last_seen": 0.71,
+   "last_seen": 0.7,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
    "placed": "2026-11-18T07:08:46.051946+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.71,
    "qty": 10,
    "reason": "Favorite, limit 0.71 (bid 0.71, ask 0.72), sportsbook 0.719",
    "settled": null,
    "side": "yes",
    "start": "2026-11-19T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Detroit",
    "ticker": "KXNBAGAME-26NOV18DETNOP-DET"
   }
  ],
- "cash": 804.0,
+ "cash": 796.9,
  "log": [
   {
    "cash": 1000,
@@ -4240,6 +4240,16 @@
    "markets": 592,
    "matched": 72,
    "t": "2026-11-18T15:26:25.055585+00:00"
+  },
+  {
+   "cash": 796.9,
+   "equity": 972.63,
+   "events": [
+    "filled KXNBAGAME-26NOV18DETNOP-DET yes at 0.71"
+   ],
+   "markets": 592,
+   "matched": 82,
+   "t": "2026-11-18T16:31:26.820465+00:00"
   }
  ],
  "peak": 1015.9599999999999
