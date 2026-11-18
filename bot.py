@@ -111,6 +111,21 @@ def espn_games(rows):
     return games
 
 
+SERIES_LEAGUE = {  # Kalshi series -> ESPN league label. Only these series can take an ESPN line.
+    "KXNFLGAME": "NFL", "KXNBAGAME": "NBA", "KXNHLGAME": "NHL", "KXNCAAFGAME": "CFB", "KXNCAAMBGAME": "NCAAMB",
+}
+
+
+def same_game(m, g):
+    """League and date must agree, so NBA Rockets @ Pacers never takes the NFL Colts @ Texans line (bug found Nov 18)."""
+    if SERIES_LEAGUE.get((m.get("ticker") or "").split("-")[0]) != g.get("league"):
+        return False
+    times = [t for t in (parse_time(m.get("start")), parse_time(m.get("expected_end"))) if t]
+    if times and g.get("start_dt") and abs((min(times) - g["start_dt"]).total_seconds()) > 18 * 3600:
+        return False
+    return True
+
+
 def attach_fair(markets, games):
     """Give each Kalshi market the sportsbook no-vig price and start time from ESPN, when the game matches."""
     by_event = {}
@@ -121,7 +136,7 @@ def attach_fair(markets, games):
         if len(ms) != 2:
             continue
         for g in games:
-            if g["fair_home"] is None or not g["start_dt"]:
+            if g["fair_home"] is None or not g["start_dt"] or not same_game(ms[0], g):
                 continue
             a, b = ms
             for x, y in ((a, b), (b, a)):
