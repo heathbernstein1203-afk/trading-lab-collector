@@ -2762,24 +2762,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 28.8,
    "event": "KXNBAGAME-26NOV18UTALAL",
    "fair": 0.8256,
    "fee": 0.0,
    "id": "202611180708-KXNBAGAME-26NOV18UTALAL-LAL-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.785,
    "league": "NBA",
    "limit": 0.8,
    "payout": null,
    "placed": "2026-11-18T07:08:46.051946+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.8,
    "qty": 36,
    "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.826",
    "settled": null,
    "side": "yes",
    "start": "2026-11-19T03:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Los Angeles L",
    "ticker": "KXNBAGAME-26NOV18UTALAL-LAL"
@@ -2809,7 +2809,7 @@
    "ticker": "KXNBAGAME-26NOV18DETNOP-DET"
   }
  ],
- "cash": 878.7,
+ "cash": 849.9,
  "log": [
   {
    "cash": 1000,
@@ -4176,6 +4176,16 @@
    "markets": 628,
    "matched": 65,
    "t": "2026-11-18T07:08:46.051946+00:00"
+  },
+  {
+   "cash": 849.9,
+   "equity": 972.63,
+   "events": [
+    "filled KXNBAGAME-26NOV18UTALAL-LAL yes at 0.8"
+   ],
+   "markets": 620,
+   "matched": 65,
+   "t": "2026-11-18T08:38:27.350036+00:00"
   }
  ],
  "peak": 1015.9599999999999
