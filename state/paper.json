@@ -2089,7 +2089,7 @@
    "ticker": "KXNCAAMBGAME-26NOV16TXSOUCSD-TXSO"
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 26.25,
    "event": "KXNBAGAME-26NOV17CHALAL",
    "fair": 0.7775,
@@ -2359,7 +2359,7 @@
    "fair": 0.5883,
    "fee": 0.98,
    "id": "202611171935-KXNCAAMBGAME-26NOV18CONNARIZ-CONN-no",
-   "last_seen": 0.585,
+   "last_seen": 0.59,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -2491,7 +2491,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-18T04:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Montana St.",
    "ticker": "KXNCAAMBGAME-26NOV17MTSTGONZ-MTST"
@@ -2527,7 +2527,7 @@
    "fair": 0.873,
    "fee": 0.0,
    "id": "202611180152-KXNBAGAME-26NOV18MILMIA-MIA-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.865,
    "league": "NBA",
    "limit": 0.86,
    "payout": null,
@@ -2642,24 +2642,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.95,
    "event": "KXNCAAMBGAME-26NOV18IUINPSU",
    "fair": 0.9526,
    "fee": 0.0,
    "id": "202611180352-KXNCAAMBGAME-26NOV18IUINPSU-IUIN-no",
-   "last_seen": 0.95,
+   "last_seen": 0.945,
    "league": "NCAAMB",
    "limit": 0.95,
    "payout": null,
    "placed": "2026-11-18T03:52:13.857957+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.95,
    "qty": 21,
    "reason": "YES at 0.05: fading the longshot with a NO limit at 0.95",
    "settled": null,
    "side": "no",
    "start": "2026-11-18T23:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "IU Indy",
    "ticker": "KXNCAAMBGAME-26NOV18IUINPSU-IUIN"
@@ -2687,9 +2687,33 @@
    "strategy": "fav-maker",
    "team": "South Carolina",
    "ticker": "KXNCAAMBGAME-26NOV18ELONSCAR-SCAR"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV18CORSYR",
+   "fair": 0.9754,
+   "fee": 0.0,
+   "id": "202611180456-KXNCAAMBGAME-26NOV18CORSYR-COR-no",
+   "last_seen": 0.97,
+   "league": "NCAAMB",
+   "limit": 0.97,
+   "payout": null,
+   "placed": "2026-11-18T04:56:58.336982+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-19T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Cornell",
+   "ticker": "KXNCAAMBGAME-26NOV18CORSYR-COR"
   }
  ],
- "cash": 844.78,
+ "cash": 824.83,
  "log": [
   {
    "cash": 1000,
@@ -4019,6 +4043,18 @@
    "markets": 658,
    "matched": 55,
    "t": "2026-11-18T03:52:13.857957+00:00"
+  },
+  {
+   "cash": 824.83,
+   "equity": 962.62,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV17MTSTGONZ-MTST no (not filled before start)",
+    "filled KXNCAAMBGAME-26NOV18IUINPSU-IUIN no at 0.95",
+    "new no-longshot KXNCAAMBGAME-26NOV18CORSYR-COR no x20 @ 0.97"
+   ],
+   "markets": 646,
+   "matched": 54,
+   "t": "2026-11-18T04:56:58.336982+00:00"
   }
  ],
  "peak": 1015.9599999999999
