@@ -21135,17 +21135,17 @@
    "last_seen": 0.46,
    "league": "",
    "mid": 0.46,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-19T03:53:53.734286+00:00",
-   "pnl": null,
+   "pnl": -1.71,
    "price": 0.55,
    "qty": 3,
    "series": "KXT20MATCH",
-   "settled": null,
+   "settled": "2026-11-19T08:41:36.511318+00:00",
    "side": "yes",
    "spread": 0.18,
    "start": "2026-11-19T04:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Sunny XI",
    "ticker": "KXT20MATCH-26NOV182230OMCHRSUNXI-SUNXI",
    "volume": 217
@@ -21182,7 +21182,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611190558-KXT20MATCH-26NOV190545CRHSRO-CRH-yes",
-   "last_seen": 0.48,
+   "last_seen": 0.47,
    "league": "",
    "mid": 0.45,
    "payout": null,
@@ -21207,7 +21207,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611190558-KXVALORANTGAME-26NOV190330HYPHAV-HYP-yes",
-   "last_seen": 0.305,
+   "last_seen": 0.275,
    "league": "",
    "mid": 0.305,
    "payout": null,
@@ -21232,7 +21232,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611190708-KXVALORANTGAME-26NOV190600URAQ-AQ-yes",
-   "last_seen": 0.665,
+   "last_seen": 0.545,
    "league": "",
    "mid": 0.665,
    "payout": null,
@@ -22483,8 +22483,8 @@
    "won": 20
   },
   "KXT20MATCH": {
-   "avg_clv": -0.031,
-   "avg_price": 0.539,
+   "avg_clv": -0.0322,
+   "avg_price": 0.54,
    "buckets": {
     "10-20c": [
      3,
@@ -22499,7 +22499,7 @@
      1
     ],
     "40-50c": [
-     7,
+     8,
      5
     ],
     "50-60c": [
@@ -22523,12 +22523,12 @@
      2
     ]
    },
-   "clv_n": 47,
-   "n": 48,
-   "pnl": -6.39,
-   "roi": -0.073,
-   "staked": 87.39,
-   "win_rate": 0.562,
+   "clv_n": 48,
+   "n": 49,
+   "pnl": -8.1,
+   "roi": -0.091,
+   "staked": 89.1,
+   "win_rate": 0.551,
    "won": 27
   },
   "KXUFCFIGHT": {
@@ -22647,5 +22647,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T07:08:25.724472+00:00"
+ "updated": "2026-11-19T08:41:36.511318+00:00"
 }
