@@ -3031,7 +3031,7 @@
    "fair": 0.5547,
    "fee": 1.12,
    "id": "202611190353-KXNCAAMBGAME-26NOV19OREORST-ORST-yes",
-   "last_seen": 0.48,
+   "last_seen": 0.485,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -3055,7 +3055,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611190353-KXNCAAMBGAME-26NOV19MTSTHP-MTST-no",
-   "last_seen": 0.9,
+   "last_seen": 0.895,
    "league": "",
    "limit": 0.9,
    "payout": null,
@@ -3103,7 +3103,7 @@
    "fair": 0.7542,
    "fee": 0.0,
    "id": "202611190459-KXNBAGAME-26NOV19GSWMEM-MEM-yes",
-   "last_seen": 0.695,
+   "last_seen": 0.685,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -4939,6 +4939,14 @@
    "markets": 542,
    "matched": 50,
    "t": "2026-11-19T13:06:39.000595+00:00"
+  },
+  {
+   "cash": 866.04,
+   "equity": 979.85,
+   "events": [],
+   "markets": 556,
+   "matched": 50,
+   "t": "2026-11-19T14:23:08.243976+00:00"
   }
  ],
  "peak": 1015.9599999999999
