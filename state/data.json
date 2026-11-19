@@ -20835,17 +20835,17 @@
    "last_seen": 0.505,
    "league": "NHL",
    "mid": 0.505,
-   "payout": null,
+   "payout": 3.0,
    "placed": "2026-11-18T21:24:23.415423+00:00",
-   "pnl": null,
+   "pnl": 1.41,
    "price": 0.51,
    "qty": 3,
    "series": "KXNHLGAME",
-   "settled": null,
+   "settled": "2026-11-19T07:08:25.724472+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-19T03:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Utah",
    "ticker": "KXNHLGAME-26NOV18COLUTA-UTA",
    "volume": 17647
@@ -21076,7 +21076,7 @@
    "volume": 227
   },
   {
-   "close": null,
+   "close": 0.805,
    "cost": 1.7,
    "event": "KXVALORANTGAME-26NOV190100FPXXJG",
    "fair": null,
@@ -21101,7 +21101,7 @@
    "volume": 182
   },
   {
-   "close": null,
+   "close": 0.81,
    "cost": 1.46,
    "event": "KXVALORANTGAME-26NOV190100SECQIA",
    "fair": null,
@@ -21182,7 +21182,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611190558-KXT20MATCH-26NOV190545CRHSRO-CRH-yes",
-   "last_seen": 0.45,
+   "last_seen": 0.48,
    "league": "",
    "mid": 0.45,
    "payout": null,
@@ -21224,9 +21224,34 @@
    "team": "Hyper Tide Gaming",
    "ticker": "KXVALORANTGAME-26NOV190330HYPHAV-HYP",
    "volume": 259
+  },
+  {
+   "close": null,
+   "cost": 1.36,
+   "event": "KXVALORANTGAME-26NOV190600URAQ",
+   "fair": null,
+   "fee": 0.04,
+   "id": "202611190708-KXVALORANTGAME-26NOV190600URAQ-AQ-yes",
+   "last_seen": 0.665,
+   "league": "",
+   "mid": 0.665,
+   "payout": null,
+   "placed": "2026-11-19T07:08:25.724472+00:00",
+   "pnl": null,
+   "price": 0.68,
+   "qty": 2,
+   "series": "KXVALORANTGAME",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.03,
+   "start": "2026-11-19T12:00:00+00:00",
+   "status": "open",
+   "team": "Any Questions Gaming",
+   "ticker": "KXVALORANTGAME-26NOV190600URAQ-AQ",
+   "volume": 202
   }
  ],
- "cash": 918.58,
+ "cash": 920.18,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -22072,6 +22097,7 @@
   "KXVALORANTGAME-26NOV190100SECQIA",
   "KXVALORANTGAME-26NOV190330ATKBG",
   "KXVALORANTGAME-26NOV190330HYPHAV",
+  "KXVALORANTGAME-26NOV190600URAQ",
   "KXWTAMATCH-26NOV13ANDSHN",
   "KXWTAMATCH-26NOV13SABSVI",
   "KXWTAMATCH-26NOV14NOSSVI",
@@ -22436,8 +22462,8 @@
      4
     ],
     "50-60c": [
-     13,
-     8
+     14,
+     9
     ],
     "60-70c": [
      5,
@@ -22448,13 +22474,13 @@
      1
     ]
    },
-   "clv_n": 36,
-   "n": 36,
-   "pnl": 5.18,
-   "roi": 0.08,
-   "staked": 64.82,
-   "win_rate": 0.528,
-   "won": 19
+   "clv_n": 37,
+   "n": 37,
+   "pnl": 6.59,
+   "roi": 0.099,
+   "staked": 66.41,
+   "win_rate": 0.541,
+   "won": 20
   },
   "KXT20MATCH": {
    "avg_clv": -0.031,
@@ -22621,5 +22647,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T05:58:53.892176+00:00"
+ "updated": "2026-11-19T07:08:25.724472+00:00"
 }
