@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.875,
+   "last_seen": 0.885,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -3103,7 +3103,7 @@
    "fair": 0.7542,
    "fee": 0.0,
    "id": "202611190459-KXNBAGAME-26NOV19GSWMEM-MEM-yes",
-   "last_seen": 0.685,
+   "last_seen": 0.665,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -3194,24 +3194,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.4,
    "event": "KXNCAAWBGAME-26NOV19MTSTIOWA",
    "fair": null,
    "fee": 0.0,
    "id": "202611190841-KXNCAAWBGAME-26NOV19MTSTIOWA-MTST-no",
-   "last_seen": 0.97,
+   "last_seen": 0.96,
    "league": "",
    "limit": 0.97,
    "payout": null,
    "placed": "2026-11-19T08:41:36.511318+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.97,
    "qty": 20,
    "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
    "settled": null,
    "side": "no",
    "start": "2026-11-20T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Montana St.",
    "ticker": "KXNCAAWBGAME-26NOV19MTSTIOWA-MTST"
@@ -3307,7 +3307,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-19T19:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Florida",
    "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-FLA"
@@ -3335,9 +3335,33 @@
    "strategy": "fav-maker",
    "team": "Toledo",
    "ticker": "KXNCAAFGAME-26NOV20BGSUTOL-TOL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV20UNMWYO",
+   "fair": 0.7367,
+   "fee": 0.0,
+   "id": "202611191934-KXNCAAFGAME-26NOV20UNMWYO-UNM-yes",
+   "last_seen": 0.73,
+   "league": "CFB",
+   "limit": 0.73,
+   "payout": null,
+   "placed": "2026-11-19T19:34:23.971021+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.73 (bid 0.72, ask 0.74), sportsbook 0.737",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T02:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "New Mexico",
+   "ticker": "KXNCAAFGAME-26NOV20UNMWYO-UNM"
   }
  ],
- "cash": 883.69,
+ "cash": 864.29,
  "log": [
   {
    "cash": 1000,
@@ -5034,6 +5058,18 @@
    "markets": 716,
    "matched": 50,
    "t": "2026-11-19T18:21:46.156711+00:00"
+  },
+  {
+   "cash": 864.29,
+   "equity": 979.01,
+   "events": [
+    "filled KXNCAAWBGAME-26NOV19MTSTIOWA-MTST no at 0.97",
+    "cancelled KXNCAAMBGAME-26NOV19FLAWVU-FLA yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV20UNMWYO-UNM yes x8 @ 0.73"
+   ],
+   "markets": 803,
+   "matched": 49,
+   "t": "2026-11-19T19:34:23.971021+00:00"
   }
  ],
  "peak": 1015.9599999999999
