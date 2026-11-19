@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.885,
+   "last_seen": 0.875,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -5070,6 +5070,14 @@
    "markets": 803,
    "matched": 49,
    "t": "2026-11-19T19:34:23.971021+00:00"
+  },
+  {
+   "cash": 864.29,
+   "equity": 979.01,
+   "events": [],
+   "markets": 927,
+   "matched": 49,
+   "t": "2026-11-19T20:27:38.721410+00:00"
   }
  ],
  "peak": 1015.9599999999999
