@@ -1186,16 +1186,16 @@
    "last_seen": 0.865,
    "league": "",
    "limit": 0.95,
-   "payout": null,
+   "payout": 19.11,
    "placed": "2026-11-15T00:59:38.020533+00:00",
-   "pnl": null,
+   "pnl": -0.84,
    "price": 0.95,
    "qty": 21,
    "reason": "YES at 0.05: fading the longshot with a NO limit at 0.95",
-   "settled": null,
+   "settled": "2026-11-19T18:21:46.156711+00:00",
    "side": "no",
    "start": "2026-11-15T22:00:00+00:00",
-   "status": "open",
+   "status": "push",
    "strategy": "no-longshot",
    "team": "Pepperdine",
    "ticker": "KXNCAAMBGAME-26NOV15PEPPORE-PEPP"
@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.88,
+   "last_seen": 0.875,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -3311,9 +3311,33 @@
    "strategy": "fav-maker",
    "team": "Florida",
    "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-FLA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV20BGSUTOL",
+   "fair": 0.87,
+   "fee": 0.0,
+   "id": "202611191821-KXNCAAFGAME-26NOV20BGSUTOL-TOL-yes",
+   "last_seen": 0.86,
+   "league": "CFB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-19T18:21:46.156711+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.870",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Toledo",
+   "ticker": "KXNCAAFGAME-26NOV20BGSUTOL-TOL"
   }
  ],
- "cash": 864.58,
+ "cash": 883.69,
  "log": [
   {
    "cash": 1000,
@@ -4999,6 +5023,17 @@
    "markets": 657,
    "matched": 50,
    "t": "2026-11-19T17:27:45.138660+00:00"
+  },
+  {
+   "cash": 883.69,
+   "equity": 979.01,
+   "events": [
+    "push KXNCAAMBGAME-26NOV15PEPPORE-PEPP no (cancelled, fair-price 0.09) pnl -0.84",
+    "new fav-maker KXNCAAFGAME-26NOV20BGSUTOL-TOL yes x20 @ 0.86"
+   ],
+   "markets": 716,
+   "matched": 50,
+   "t": "2026-11-19T18:21:46.156711+00:00"
   }
  ],
  "peak": 1015.9599999999999
