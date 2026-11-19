@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.895,
+   "last_seen": 0.875,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -3103,7 +3103,7 @@
    "fair": 0.7542,
    "fee": 0.0,
    "id": "202611190459-KXNBAGAME-26NOV19GSWMEM-MEM-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.705,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -4872,6 +4872,14 @@
    "markets": 542,
    "matched": 42,
    "t": "2026-11-19T10:57:08.908805+00:00"
+  },
+  {
+   "cash": 866.04,
+   "equity": 979.85,
+   "events": [],
+   "markets": 538,
+   "matched": 44,
+   "t": "2026-11-19T11:54:57.546471+00:00"
   }
  ],
  "peak": 1015.9599999999999

@@ -21085,17 +21085,17 @@
    "last_seen": 0.805,
    "league": "",
    "mid": 0.84,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-19T01:48:59.374586+00:00",
-   "pnl": null,
+   "pnl": 0.28,
    "price": 0.85,
    "qty": 2,
    "series": "KXVALORANTGAME",
-   "settled": null,
+   "settled": "2026-11-19T11:54:57.546471+00:00",
    "side": "yes",
    "spread": 0.02,
    "start": "2026-11-19T07:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "FunPlus Phoenix",
    "ticker": "KXVALORANTGAME-26NOV190100FPXXJG-FPX",
    "volume": 182
@@ -21176,7 +21176,7 @@
    "volume": 804
   },
   {
-   "close": null,
+   "close": 0.445,
    "cost": 1.53,
    "event": "KXT20MATCH-26NOV190545CRHSRO",
    "fair": null,
@@ -21232,7 +21232,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611190708-KXVALORANTGAME-26NOV190600URAQ-AQ-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.895,
    "league": "",
    "mid": 0.665,
    "payout": null,
@@ -21257,7 +21257,7 @@
    "fair": null,
    "fee": 0.11,
    "id": "202611191057-KXLIIGAGAME-26NOV191130VAATAP-VAA-yes",
-   "last_seen": 0.235,
+   "last_seen": 0.24,
    "league": "",
    "mid": 0.235,
    "payout": null,
@@ -21282,7 +21282,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611191057-KXNCAAWBGAME-26NOV19BGSUPSU-BGSU-yes",
-   "last_seen": 0.355,
+   "last_seen": 0.37,
    "league": "",
    "mid": 0.355,
    "payout": null,
@@ -21307,7 +21307,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611191057-KXNCAAWBGAME-26NOV19LIBELON-LIB-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.755,
    "league": "",
    "mid": 0.725,
    "payout": null,
@@ -21332,7 +21332,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611191057-KXNCAAWBGAME-26NOV19PURFSU-FSU-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.76,
    "league": "",
    "mid": 0.77,
    "payout": null,
@@ -21382,7 +21382,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611191057-KXVALORANTGAME-26NOV190600LNGVIC-LNG-yes",
-   "last_seen": 0.08,
+   "last_seen": 0.005,
    "league": "",
    "mid": 0.08,
    "payout": null,
@@ -21399,9 +21399,34 @@
    "team": "LNG Esports",
    "ticker": "KXVALORANTGAME-26NOV190600LNGVIC-LNG",
    "volume": 1515
+  },
+  {
+   "close": null,
+   "cost": 1.92,
+   "event": "KXNCAAWBGAME-26NOV19USAMEM",
+   "fair": null,
+   "fee": 0.01,
+   "id": "202611191154-KXNCAAWBGAME-26NOV19USAMEM-MEM-yes",
+   "last_seen": 0.955,
+   "league": "",
+   "mid": 0.955,
+   "payout": null,
+   "placed": "2026-11-19T11:54:57.546471+00:00",
+   "pnl": null,
+   "price": 0.96,
+   "qty": 2,
+   "series": "KXNCAAWBGAME",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.01,
+   "start": "2026-11-19T17:00:00+00:00",
+   "status": "open",
+   "team": "Memphis",
+   "ticker": "KXNCAAWBGAME-26NOV19USAMEM-MEM",
+   "volume": 1490
   }
  ],
- "cash": 914.9,
+ "cash": 914.97,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -22112,6 +22137,7 @@
   "KXNCAAWBGAME-26NOV19LIBELON",
   "KXNCAAWBGAME-26NOV19PURFSU",
   "KXNCAAWBGAME-26NOV19UMESRUTG",
+  "KXNCAAWBGAME-26NOV19USAMEM",
   "KXNFLGAME-26NOV15BUFNYJ",
   "KXNFLGAME-26NOV15CARNO",
   "KXNFLGAME-26NOV15HOUCLE",
@@ -22725,8 +22751,8 @@
    "won": 4
   },
   "KXVALORANTGAME": {
-   "avg_clv": 0.0027,
-   "avg_price": 0.529,
+   "avg_clv": 0.0008,
+   "avg_price": 0.541,
    "buckets": {
     "00-10c": [
      1,
@@ -22761,21 +22787,21 @@
      2
     ],
     "80-90c": [
-     1,
-     1
+     2,
+     2
     ],
     "90-100c": [
      2,
      2
     ]
    },
-   "clv_n": 24,
-   "n": 25,
-   "pnl": -10.33,
-   "roi": -0.218,
-   "staked": 47.33,
-   "win_rate": 0.52,
-   "won": 13
+   "clv_n": 25,
+   "n": 26,
+   "pnl": -10.05,
+   "roi": -0.205,
+   "staked": 49.05,
+   "win_rate": 0.538,
+   "won": 14
   },
   "KXWTAMATCH": {
    "avg_clv": -0.0117,
@@ -22803,5 +22829,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T10:57:08.908805+00:00"
+ "updated": "2026-11-19T11:54:57.546471+00:00"
 }
