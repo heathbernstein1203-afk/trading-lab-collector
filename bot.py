@@ -243,8 +243,23 @@ def settle(state, now):
         chunk = open_tickers[i:i + 50]
         p = col.get_json(col.KALSHI + "?" + urllib.parse.urlencode({"tickers": ",".join(chunk), "limit": 200}))
         results = {m["ticker"]: (m.get("result") or "") for m in (p or {}).get("markets", [])}
+        values = {m["ticker"]: m.get("settlement_value_dollars") for m in (p or {}).get("markets", [])}
         for b in state["bets"]:
             r = results.get(b["ticker"], "")
+            if b["status"] == "open" and r == "scalar":
+                # Cancelled game: Kalshi settles both sides at a "fair price" (YES pays settlement_value_dollars).
+                try:
+                    yes_val = float(values.get(b["ticker"]))
+                except (TypeError, ValueError):
+                    continue
+                per = yes_val if b["side"] == "yes" else 1.0 - yes_val
+                b["payout"] = round(float(b["qty"]) * per, 2)
+                b["pnl"] = round(b["payout"] - b["cost"] - b["fee"], 2)
+                b["status"] = "push"
+                b["settled"] = now.isoformat()
+                state["cash"] = round(state["cash"] + b["payout"], 2)
+                events.append(f"push {b['ticker']} {b['side']} (cancelled, fair-price {yes_val}) pnl {b['pnl']}")
+                continue
             if b["status"] != "open" or r not in ("yes", "no"):
                 continue
             won = r == b["side"]
