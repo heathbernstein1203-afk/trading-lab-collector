@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.875,
+   "last_seen": 0.88,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -3287,6 +3287,30 @@
    "strategy": "fav-maker",
    "team": "Toledo",
    "ticker": "KXNCAAMBGAME-26NOV19RMUTOL-TOL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV19FLAWVU",
+   "fair": 0.7767,
+   "fee": 0.0,
+   "id": "202611191727-KXNCAAMBGAME-26NOV19FLAWVU-FLA-yes",
+   "last_seen": 0.77,
+   "league": "NCAAMB",
+   "limit": 0.77,
+   "payout": null,
+   "placed": "2026-11-19T17:27:45.138660+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 9,
+   "reason": "Favorite, limit 0.77 (bid 0.77, ask 0.78), sportsbook 0.777",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-19T19:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Florida",
+   "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-FLA"
   }
  ],
  "cash": 864.58,
@@ -4965,6 +4989,16 @@
    "markets": 604,
    "matched": 49,
    "t": "2026-11-19T16:31:39.369475+00:00"
+  },
+  {
+   "cash": 864.58,
+   "equity": 979.85,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV19FLAWVU-FLA yes x9 @ 0.77"
+   ],
+   "markets": 657,
+   "matched": 50,
+   "t": "2026-11-19T17:27:45.138660+00:00"
   }
  ],
  "peak": 1015.9599999999999
