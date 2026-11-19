@@ -21151,7 +21151,7 @@
    "volume": 217
   },
   {
-   "close": null,
+   "close": 0.465,
    "cost": 1.96,
    "event": "KXVALORANTGAME-26NOV190330ATKBG",
    "fair": null,
@@ -21201,7 +21201,7 @@
    "volume": 375
   },
   {
-   "close": null,
+   "close": 0.275,
    "cost": 1.8,
    "event": "KXVALORANTGAME-26NOV190330HYPHAV",
    "fair": null,
@@ -22647,5 +22647,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T08:41:36.511318+00:00"
+ "updated": "2026-11-19T09:59:18.845981+00:00"
 }
