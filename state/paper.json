@@ -2959,7 +2959,7 @@
    "fair": 0.9088,
    "fee": 0.0,
    "id": "202611190248-KXNBAGAME-26NOV19LACSAS-LAC-no",
-   "last_seen": 0.89,
+   "last_seen": 0.895,
    "league": "NBA",
    "limit": 0.9,
    "payout": null,
@@ -3055,7 +3055,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611190353-KXNCAAMBGAME-26NOV19MTSTHP-MTST-no",
-   "last_seen": 0.89,
+   "last_seen": 0.905,
    "league": "",
    "limit": 0.9,
    "payout": null,
@@ -3103,7 +3103,7 @@
    "fair": 0.7542,
    "fee": 0.0,
    "id": "202611190459-KXNBAGAME-26NOV19GSWMEM-MEM-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.72,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -3215,6 +3215,30 @@
    "strategy": "no-longshot",
    "team": "Montana St.",
    "ticker": "KXNCAAWBGAME-26NOV19MTSTIOWA-MTST"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV19SACSTAN",
+   "fair": 0.9318,
+   "fee": 0.0,
+   "id": "202611191057-KXNCAAMBGAME-26NOV19SACSTAN-STAN-yes",
+   "last_seen": 0.93,
+   "league": "NCAAMB",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-19T10:57:08.908805+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 6,
+   "reason": "Favorite, limit 0.93 (bid 0.92, ask 0.95), sportsbook 0.932",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-20T03:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Stanford",
+   "ticker": "KXNCAAMBGAME-26NOV19SACSTAN-STAN"
   }
  ],
  "cash": 866.04,
@@ -4838,6 +4862,16 @@
    "markets": 550,
    "matched": 42,
    "t": "2026-11-19T09:59:18.845981+00:00"
+  },
+  {
+   "cash": 866.04,
+   "equity": 979.85,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV19SACSTAN-STAN yes x6 @ 0.93"
+   ],
+   "markets": 542,
+   "matched": 42,
+   "t": "2026-11-19T10:57:08.908805+00:00"
   }
  ],
  "peak": 1015.9599999999999
