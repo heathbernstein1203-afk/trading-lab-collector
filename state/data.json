@@ -14485,17 +14485,17 @@
    "last_seen": 0.395,
    "league": "",
    "mid": 0.29,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-17T04:55:29.116068+00:00",
-   "pnl": null,
+   "pnl": -2.08,
    "price": 0.33,
    "qty": 6,
    "series": "KXATPMATCH",
-   "settled": null,
+   "settled": "2026-11-19T15:27:57.129891+00:00",
    "side": "yes",
    "spread": 0.08,
    "start": "2026-11-17T10:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Rafael Jodar",
    "ticker": "KXATPMATCH-26NOV17SHEJOD-JOD",
    "volume": 222
@@ -21185,17 +21185,17 @@
    "last_seen": 0.445,
    "league": "",
    "mid": 0.45,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-19T05:58:53.892176+00:00",
-   "pnl": null,
+   "pnl": -1.59,
    "price": 0.51,
    "qty": 3,
    "series": "KXT20MATCH",
-   "settled": null,
+   "settled": "2026-11-19T15:27:57.129891+00:00",
    "side": "yes",
    "spread": 0.12,
    "start": "2026-11-19T11:45:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Chitwan Rhinos",
    "ticker": "KXT20MATCH-26NOV190545CRHSRO-CRH",
    "volume": 375
@@ -21257,7 +21257,7 @@
    "fair": null,
    "fee": 0.11,
    "id": "202611191057-KXLIIGAGAME-26NOV191130VAATAP-VAA-yes",
-   "last_seen": 0.23,
+   "last_seen": 0.24,
    "league": "",
    "mid": 0.235,
    "payout": null,
@@ -21282,7 +21282,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611191057-KXNCAAWBGAME-26NOV19BGSUPSU-BGSU-yes",
-   "last_seen": 0.41,
+   "last_seen": 0.405,
    "league": "",
    "mid": 0.355,
    "payout": null,
@@ -21307,7 +21307,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611191057-KXNCAAWBGAME-26NOV19LIBELON-LIB-yes",
-   "last_seen": 0.695,
+   "last_seen": 0.69,
    "league": "",
    "mid": 0.725,
    "payout": null,
@@ -21332,7 +21332,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611191057-KXNCAAWBGAME-26NOV19PURFSU-FSU-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.785,
    "league": "",
    "mid": 0.77,
    "payout": null,
@@ -21407,7 +21407,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611191154-KXNCAAWBGAME-26NOV19USAMEM-MEM-yes",
-   "last_seen": 0.96,
+   "last_seen": 0.965,
    "league": "",
    "mid": 0.955,
    "payout": null,
@@ -21432,7 +21432,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611191306-KXVALORANTGAME-26NOV191200GESBRE-BRE-yes",
-   "last_seen": 0.385,
+   "last_seen": 0.4,
    "league": "",
    "mid": 0.38,
    "payout": null,
@@ -22369,15 +22369,15 @@
    "won": 14
   },
   "KXATPMATCH": {
-   "avg_clv": -0.0067,
-   "avg_price": 0.55,
+   "avg_clv": 0.0005,
+   "avg_price": 0.528,
    "buckets": {
     "10-20c": [
      1,
      0
     ],
     "20-30c": [
-     1,
+     2,
      0
     ],
     "40-50c": [
@@ -22397,12 +22397,12 @@
      1
     ]
    },
-   "clv_n": 9,
-   "n": 9,
-   "pnl": -0.8,
-   "roi": -0.048,
-   "staked": 16.8,
-   "win_rate": 0.667,
+   "clv_n": 10,
+   "n": 10,
+   "pnl": -2.88,
+   "roi": -0.153,
+   "staked": 18.88,
+   "win_rate": 0.6,
    "won": 6
   },
   "KXLIIGAGAME": {
@@ -22717,8 +22717,8 @@
    "won": 20
   },
   "KXT20MATCH": {
-   "avg_clv": -0.0322,
-   "avg_price": 0.54,
+   "avg_clv": -0.0329,
+   "avg_price": 0.539,
    "buckets": {
     "10-20c": [
      3,
@@ -22733,7 +22733,7 @@
      1
     ],
     "40-50c": [
-     8,
+     9,
      5
     ],
     "50-60c": [
@@ -22757,12 +22757,12 @@
      2
     ]
    },
-   "clv_n": 48,
-   "n": 49,
-   "pnl": -8.1,
-   "roi": -0.091,
-   "staked": 89.1,
-   "win_rate": 0.551,
+   "clv_n": 49,
+   "n": 50,
+   "pnl": -9.69,
+   "roi": -0.107,
+   "staked": 90.69,
+   "win_rate": 0.54,
    "won": 27
   },
   "KXUFCFIGHT": {
@@ -22881,5 +22881,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T14:23:08.243976+00:00"
+ "updated": "2026-11-19T15:27:57.129891+00:00"
 }

@@ -3031,7 +3031,7 @@
    "fair": 0.5547,
    "fee": 1.12,
    "id": "202611190353-KXNCAAMBGAME-26NOV19OREORST-ORST-yes",
-   "last_seen": 0.485,
+   "last_seen": 0.475,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -3266,30 +3266,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 1.46,
    "event": "KXNCAAMBGAME-26NOV19RMUTOL",
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611191306-KXNCAAMBGAME-26NOV19RMUTOL-TOL-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.725,
    "league": "NCAAMB",
    "limit": 0.73,
    "payout": null,
    "placed": "2026-11-19T13:06:39.000595+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.73,
    "qty": 2,
    "reason": "Favorite, limit 0.73 (bid 0.72, ask 0.74), sportsbook 0.732",
    "settled": null,
    "side": "yes",
    "start": "2026-11-20T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Toledo",
    "ticker": "KXNCAAMBGAME-26NOV19RMUTOL-TOL"
   }
  ],
- "cash": 866.04,
+ "cash": 864.58,
  "log": [
   {
    "cash": 1000,
@@ -4947,6 +4947,16 @@
    "markets": 556,
    "matched": 50,
    "t": "2026-11-19T14:23:08.243976+00:00"
+  },
+  {
+   "cash": 864.58,
+   "equity": 979.85,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV19RMUTOL-TOL yes at 0.73"
+   ],
+   "markets": 591,
+   "matched": 50,
+   "t": "2026-11-19T15:27:57.129891+00:00"
   }
  ],
  "peak": 1015.9599999999999
