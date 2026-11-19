@@ -3031,7 +3031,7 @@
    "fair": 0.5547,
    "fee": 1.12,
    "id": "202611190353-KXNCAAMBGAME-26NOV19OREORST-ORST-yes",
-   "last_seen": 0.475,
+   "last_seen": 0.465,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -5078,6 +5078,14 @@
    "markets": 927,
    "matched": 49,
    "t": "2026-11-19T20:27:38.721410+00:00"
+  },
+  {
+   "cash": 864.29,
+   "equity": 979.01,
+   "events": [],
+   "markets": 978,
+   "matched": 49,
+   "t": "2026-11-19T21:22:17.369445+00:00"
   }
  ],
  "peak": 1015.9599999999999

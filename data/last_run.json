@@ -1,1 +1,1 @@
-{"ts": "2026-11-19T20:27:38Z", "counts": {"kalshi": 927, "espn": 216, "poly": 0}, "errors": ["gamma-api.polymarket.com: HTTPError 406"]}
+{"ts": "2026-11-19T21:22:17Z", "counts": {"kalshi": 978, "espn": 216, "poly": 0, "stocks": 0}, "errors": ["gamma-api.polymarket.com: HTTPError 406", "query1.finance.yahoo.com: HTTPError 429"]}
