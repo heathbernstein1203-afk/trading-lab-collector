@@ -3643,7 +3643,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-20T20:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Virginia Tech",
    "ticker": "KXNCAAMBGAME-26NOV20NWVT-VT"
@@ -3655,7 +3655,7 @@
    "fair": 0.7121,
    "fee": 0.0,
    "id": "202611200558-KXNBAGAME-26NOV20INDCLE-CLE-yes",
-   "last_seen": 0.675,
+   "last_seen": 0.665,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -3815,6 +3815,30 @@
    "strategy": "fav-maker",
    "team": "Georgia",
    "ticker": "KXNCAAFGAME-26NOV21UGASCAR-UGA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV21GASOTROY",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611202021-KXNCAAFGAME-26NOV21GASOTROY-GASO-yes",
+   "last_seen": 0.76,
+   "league": "CFB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-20T20:21:56.200202+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 6,
+   "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T21:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Georgia Southern",
+   "ticker": "KXNCAAFGAME-26NOV21GASOTROY-GASO"
   }
  ],
  "cash": 929.24,
@@ -5762,6 +5786,17 @@
    "markets": 1093,
    "matched": 124,
    "t": "2026-11-20T19:33:40.404481+00:00"
+  },
+  {
+   "cash": 929.24,
+   "equity": 1020.29,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV20NWVT-VT yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV21GASOTROY-GASO yes x6 @ 0.76"
+   ],
+   "markets": 1122,
+   "matched": 123,
+   "t": "2026-11-20T20:21:56.200202+00:00"
   }
  ],
  "peak": 1020.2900000000001
