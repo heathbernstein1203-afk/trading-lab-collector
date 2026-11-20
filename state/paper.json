@@ -3391,7 +3391,7 @@
    "fair": 0.7284,
    "fee": 0.0,
    "id": "202611200015-KXNBAGAME-26NOV20TORDET-DET-yes",
-   "last_seen": 0.71,
+   "last_seen": 0.715,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -3703,7 +3703,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611200708-KXNCAAFGAME-26NOV21HOUWVU-HOU-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.735,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -5719,6 +5719,14 @@
    "markets": 1007,
    "matched": 127,
    "t": "2026-11-20T17:27:53.066766+00:00"
+  },
+  {
+   "cash": 929.24,
+   "equity": 1020.29,
+   "events": [],
+   "markets": 1056,
+   "matched": 125,
+   "t": "2026-11-20T18:26:51.420308+00:00"
   }
  ],
  "peak": 1020.2900000000001
