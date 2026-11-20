@@ -3703,7 +3703,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611200708-KXNCAAFGAME-26NOV21HOUWVU-HOU-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.73,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -3727,7 +3727,7 @@
    "fair": 0.7831,
    "fee": 0.0,
    "id": "202611200839-KXNCAAFGAME-26NOV21NCSTFSU-FSU-yes",
-   "last_seen": 0.775,
+   "last_seen": 0.785,
    "league": "CFB",
    "limit": 0.78,
    "payout": null,
@@ -5805,6 +5805,14 @@
    "markets": 1145,
    "matched": 122,
    "t": "2026-11-20T21:19:52.978815+00:00"
+  },
+  {
+   "cash": 929.24,
+   "equity": 1020.29,
+   "events": [],
+   "markets": 1170,
+   "matched": 123,
+   "t": "2026-11-20T22:18:54.732590+00:00"
   }
  ],
  "peak": 1020.2900000000001
