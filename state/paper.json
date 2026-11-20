@@ -3242,24 +3242,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 11.48,
    "event": "KXNCAAFGAME-26NOV20CLEMDUKE",
    "fair": 0.8287,
    "fee": 0.0,
    "id": "202611191306-KXNCAAFGAME-26NOV20CLEMDUKE-DUKE-yes",
-   "last_seen": 0.82,
+   "last_seen": 0.815,
    "league": "CFB",
    "limit": 0.82,
    "payout": null,
    "placed": "2026-11-19T13:06:39.000595+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.82,
    "qty": 14,
    "reason": "Favorite, limit 0.82 (bid 0.82, ask 0.83), sportsbook 0.829",
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T00:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Duke",
    "ticker": "KXNCAAFGAME-26NOV20CLEMDUKE-DUKE"
@@ -3391,7 +3391,7 @@
    "fair": 0.7284,
    "fee": 0.0,
    "id": "202611200015-KXNBAGAME-26NOV20TORDET-DET-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.71,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
@@ -3655,7 +3655,7 @@
    "fair": 0.7121,
    "fee": 0.0,
    "id": "202611200558-KXNBAGAME-26NOV20INDCLE-CLE-yes",
-   "last_seen": 0.685,
+   "last_seen": 0.675,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -3745,7 +3745,7 @@
    "ticker": "KXNCAAFGAME-26NOV21NCSTFSU-FSU"
   }
  ],
- "cash": 943.84,
+ "cash": 932.36,
  "log": [
   {
    "cash": 1000,
@@ -5647,6 +5647,16 @@
    "markets": 985,
    "matched": 113,
    "t": "2026-11-20T15:26:27.421849+00:00"
+  },
+  {
+   "cash": 932.36,
+   "equity": 1020.29,
+   "events": [
+    "filled KXNCAAFGAME-26NOV20CLEMDUKE-DUKE yes at 0.82"
+   ],
+   "markets": 990,
+   "matched": 128,
+   "t": "2026-11-20T16:26:55.637756+00:00"
   }
  ],
  "peak": 1020.2900000000001
