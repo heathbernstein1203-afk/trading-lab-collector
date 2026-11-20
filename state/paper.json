@@ -3650,24 +3650,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 1.42,
    "event": "KXNBAGAME-26NOV20INDCLE",
    "fair": 0.7121,
    "fee": 0.0,
    "id": "202611200558-KXNBAGAME-26NOV20INDCLE-CLE-yes",
-   "last_seen": 0.71,
+   "last_seen": 0.705,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
    "placed": "2026-11-20T05:58:33.831518+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.71,
    "qty": 2,
    "reason": "Favorite, limit 0.71 (bid 0.70, ask 0.72), sportsbook 0.712",
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T00:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Cleveland",
    "ticker": "KXNBAGAME-26NOV20INDCLE-CLE"
@@ -3745,7 +3745,7 @@
    "ticker": "KXNCAAFGAME-26NOV21NCSTFSU-FSU"
   }
  ],
- "cash": 945.26,
+ "cash": 943.84,
  "log": [
   {
    "cash": 1000,
@@ -5613,6 +5613,16 @@
    "markets": 979,
    "matched": 111,
    "t": "2026-11-20T10:57:02.072703+00:00"
+  },
+  {
+   "cash": 943.84,
+   "equity": 1020.29,
+   "events": [
+    "filled KXNBAGAME-26NOV20INDCLE-CLE yes at 0.71"
+   ],
+   "markets": 978,
+   "matched": 111,
+   "t": "2026-11-20T11:54:42.604414+00:00"
   }
  ],
  "peak": 1020.2900000000001
