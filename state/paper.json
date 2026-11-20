@@ -2827,7 +2827,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-20T01:15:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Houston",
    "ticker": "KXNFLGAME-26NOV19INDHOU-HOU"
@@ -2953,7 +2953,7 @@
    "ticker": "KXNCAAMBGAME-26NOV18IDHONEV-IDHO"
   },
   {
-   "close": null,
+   "close": 0.875,
    "cost": 19.8,
    "event": "KXNBAGAME-26NOV19LACSAS",
    "fair": 0.9088,
@@ -3097,7 +3097,7 @@
    "ticker": "KXNCAAMBGAME-26NOV19NEBUT-BUT"
   },
   {
-   "close": null,
+   "close": 0.665,
    "cost": 3.75,
    "event": "KXNBAGAME-26NOV19GSWMEM",
    "fair": 0.7542,
@@ -3139,7 +3139,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-20T01:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Portland",
    "ticker": "KXNBAGAME-26NOV19PORMIL-POR"
@@ -3193,7 +3193,7 @@
    "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE"
   },
   {
-   "close": null,
+   "close": 0.965,
    "cost": 19.4,
    "event": "KXNCAAWBGAME-26NOV19MTSTIOWA",
    "fair": null,
@@ -3431,6 +3431,30 @@
    "strategy": "no-longshot",
    "team": "UTEP",
    "ticker": "KXNCAAFGAME-26NOV20UTEPAFA-UTEP"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV20SACLAL",
+   "fair": 0.9012,
+   "fee": 0.0,
+   "id": "202611200145-KXNBAGAME-26NOV20SACLAL-LAL-yes",
+   "last_seen": 0.87,
+   "league": "NBA",
+   "limit": 0.87,
+   "payout": null,
+   "placed": "2026-11-20T01:45:25.464202+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 33,
+   "reason": "Favorite, limit 0.87 (bid 0.86, ask 0.88), sportsbook 0.901",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T03:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Los Angeles L",
+   "ticker": "KXNBAGAME-26NOV20SACLAL-LAL"
   }
  ],
  "cash": 864.29,
@@ -5191,6 +5215,19 @@
    "markets": 1063,
    "matched": 109,
    "t": "2026-11-20T00:15:43.714392+00:00"
+  },
+  {
+   "cash": 864.29,
+   "equity": 979.01,
+   "events": [
+    "cancelled KXNFLGAME-26NOV19INDHOU-HOU yes (not filled before start)",
+    "cancelled KXNBAGAME-26NOV19PORMIL-POR yes (not filled before start)",
+    "new fav-maker KXNBAGAME-26NOV20SACLAL-LAL yes x33 @ 0.87",
+    "demo placed KXNBAGAME-26NOV20SACLAL-LAL yes x33 @ 87c"
+   ],
+   "markets": 1117,
+   "matched": 101,
+   "t": "2026-11-20T01:45:25.464202+00:00"
   }
  ],
  "peak": 1015.9599999999999
