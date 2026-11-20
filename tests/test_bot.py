@@ -1,7 +1,9 @@
 import os, sys, json, tempfile, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 d = tempfile.mkdtemp()
-os.environ.update(BOT_STATE=d + "/paper.json", BOT_DEMO_STATE=d + "/demo.json", DATA_DIR=d + "/data")
+os.environ.update(BOT_STATE=d + "/paper.json", BOT_DEMO_STATE=d + "/demo.json", DATA_DIR=d + "/data",
+                  BOT_DATA_STATE=d + "/data.json", BOT_OTHER_STATE=d + "/other.json", BOT_WILD_STATE=d + "/wild.json",
+                  BOT_PARLAY_STATE=d + "/parlay.json", BOT_CATS_STATE=d + "/cats.json")
 import collector as col, bot
 
 now = dt.datetime(2026, 11, 15, 12, 0, tzinfo=dt.timezone.utc)
