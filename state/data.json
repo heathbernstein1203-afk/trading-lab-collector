@@ -21751,7 +21751,7 @@
    "volume": 906
   },
   {
-   "close": null,
+   "close": 0.785,
    "cost": 1.6,
    "event": "KXNCAAFGAME-26NOV19SELANICH",
    "fair": null,
@@ -21776,7 +21776,7 @@
    "volume": 5613
   },
   {
-   "close": null,
+   "close": 0.135,
    "cost": 1.96,
    "event": "KXNCAAMBGAME-26NOV19BUFFSBON",
    "fair": 0.1234,
@@ -21801,7 +21801,7 @@
    "volume": 10557
   },
   {
-   "close": null,
+   "close": 0.785,
    "cost": 1.66,
    "event": "KXNCAAMBGAME-26NOV19MEQUIN",
    "fair": 0.8384,
@@ -21826,7 +21826,7 @@
    "volume": 169
   },
   {
-   "close": null,
+   "close": 0.885,
    "cost": 1.8,
    "event": "KXNCAAMBGAME-26NOV19MTSTHP",
    "fair": 0.8977,
@@ -21851,7 +21851,7 @@
    "volume": 5013
   },
   {
-   "close": null,
+   "close": 0.925,
    "cost": 1.86,
    "event": "KXNCAAMBGAME-26NOV19NEBUT",
    "fair": 0.9342,
@@ -21876,7 +21876,7 @@
    "volume": 1361
   },
   {
-   "close": null,
+   "close": 0.265,
    "cost": 1.89,
    "event": "KXNCAAMBGAME-26NOV19RMUTOL",
    "fair": 0.2633,
@@ -21901,7 +21901,7 @@
    "volume": 8631
   },
   {
-   "close": null,
+   "close": 0.465,
    "cost": 1.84,
    "event": "KXNCAAMBGAME-26NOV19UALRJAC",
    "fair": 0.4546,
@@ -21926,7 +21926,7 @@
    "volume": 2504
   },
   {
-   "close": null,
+   "close": 0.985,
    "cost": 1.98,
    "event": "KXNCAAMBGAME-26NOV19UMBCOSU",
    "fair": null,
@@ -21951,7 +21951,7 @@
    "volume": 266231
   },
   {
-   "close": null,
+   "close": 0.2,
    "cost": 1.8,
    "event": "KXNCAAWBGAME-26NOV19CHATPEAY",
    "fair": null,
@@ -21976,7 +21976,7 @@
    "volume": 1103
   },
   {
-   "close": null,
+   "close": 0.995,
    "cost": 1.94,
    "event": "KXNCAAWBGAME-26NOV19FIUMIA",
    "fair": null,
@@ -22001,7 +22001,7 @@
    "volume": 1654
   },
   {
-   "close": null,
+   "close": 0.93,
    "cost": 1.86,
    "event": "KXNCAAWBGAME-26NOV19GTWNNCST",
    "fair": null,
@@ -22026,7 +22026,7 @@
    "volume": 576
   },
   {
-   "close": null,
+   "close": 0.86,
    "cost": 1.78,
    "event": "KXNCAAWBGAME-26NOV19LONGTROY",
    "fair": null,
@@ -22051,7 +22051,7 @@
    "volume": 181
   },
   {
-   "close": null,
+   "close": 0.505,
    "cost": 1.59,
    "event": "KXNCAAWBGAME-26NOV19MANLIU",
    "fair": null,
@@ -22076,7 +22076,7 @@
    "volume": 978
   },
   {
-   "close": null,
+   "close": 0.16,
    "cost": 1.87,
    "event": "KXNCAAWBGAME-26NOV19NCCUUNCG",
    "fair": null,
@@ -22101,7 +22101,7 @@
    "volume": 664
   },
   {
-   "close": null,
+   "close": 0.565,
    "cost": 1.83,
    "event": "KXNCAAWBGAME-26NOV19SHSUULM",
    "fair": null,
@@ -22126,7 +22126,7 @@
    "volume": 639
   },
   {
-   "close": null,
+   "close": 0.94,
    "cost": 1.92,
    "event": "KXNCAAWBGAME-26NOV19STETUCF",
    "fair": null,
@@ -22151,7 +22151,7 @@
    "volume": 595
   },
   {
-   "close": null,
+   "close": 0.695,
    "cost": 1.42,
    "event": "KXNCAAWBGAME-26NOV19UABAAMU",
    "fair": null,
@@ -22176,7 +22176,7 @@
    "volume": 167
   },
   {
-   "close": null,
+   "close": 0.295,
    "cost": 1.86,
    "event": "KXNCAAWBGAME-26NOV19WMODU",
    "fair": null,
@@ -22201,7 +22201,7 @@
    "volume": 902
   },
   {
-   "close": null,
+   "close": 0.565,
    "cost": 1.71,
    "event": "KXNHLGAME-26NOV19BUFWSH",
    "fair": 0.5547,
@@ -22226,7 +22226,7 @@
    "volume": 5490
   },
   {
-   "close": null,
+   "close": 0.525,
    "cost": 1.56,
    "event": "KXNHLGAME-26NOV19LATOR",
    "fair": 0.5116,
@@ -22251,7 +22251,7 @@
    "volume": 51745
   },
   {
-   "close": null,
+   "close": 0.245,
    "cost": 1.82,
    "event": "KXNHLGAME-26NOV19MTLCAR",
    "fair": 0.2598,
@@ -22276,7 +22276,7 @@
    "volume": 8891
   },
   {
-   "close": null,
+   "close": 0.465,
    "cost": 1.88,
    "event": "KXNHLGAME-26NOV19NYIWPG",
    "fair": 0.4814,
@@ -22301,7 +22301,7 @@
    "volume": 15247
   },
   {
-   "close": null,
+   "close": 0.585,
    "cost": 1.77,
    "event": "KXNHLGAME-26NOV19PHIOTT",
    "fair": 0.6057,
@@ -22326,7 +22326,7 @@
    "volume": 25496
   },
   {
-   "close": null,
+   "close": 0.485,
    "cost": 2.0,
    "event": "KXNHLGAME-26NOV19STLPIT",
    "fair": 0.4954,
@@ -22357,7 +22357,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611191934-KXMLSGAME-26NOV19ORLCIN-CIN-yes",
-   "last_seen": 0.375,
+   "last_seen": 0.365,
    "league": "",
    "mid": 0.365,
    "payout": null,
@@ -22382,7 +22382,7 @@
    "fair": 0.3329,
    "fee": 0.08,
    "id": "202611191934-KXNBAGAME-26NOV19GSWMEM-GSW-yes",
-   "last_seen": 0.345,
+   "last_seen": 0.335,
    "league": "NBA",
    "mid": 0.335,
    "payout": null,
@@ -22476,7 +22476,7 @@
    "volume": 48549
   },
   {
-   "close": null,
+   "close": 0.995,
    "cost": 1.98,
    "event": "KXNCAAFGAME-26NOV19NWSTSFA",
    "fair": null,
@@ -22532,7 +22532,7 @@
    "fair": 0.5278,
    "fee": 0.06,
    "id": "202611191934-KXNCAAMBGAME-26NOV19COFCDRKE-DRKE-yes",
-   "last_seen": 0.535,
+   "last_seen": 0.525,
    "league": "NCAAMB",
    "mid": 0.525,
    "payout": null,
@@ -22557,7 +22557,7 @@
    "fair": 0.4117,
    "fee": 0.07,
    "id": "202611191934-KXNCAAMBGAME-26NOV19GASOHCU-GASO-yes",
-   "last_seen": 0.395,
+   "last_seen": 0.385,
    "league": "NCAAMB",
    "mid": 0.395,
    "payout": null,
@@ -22757,7 +22757,7 @@
    "fair": null,
    "fee": 0.13,
    "id": "202611191934-KXNCAAWBGAME-26NOV19NMSUARIZ-NMSU-yes",
-   "last_seen": 0.105,
+   "last_seen": 0.11,
    "league": "",
    "mid": 0.095,
    "payout": null,
@@ -23032,7 +23032,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611192027-KXNCAAWBGAME-26NOV19SDSUCSN-SDSU-yes",
-   "last_seen": 0.955,
+   "last_seen": 0.96,
    "league": "",
    "mid": 0.975,
    "payout": null,
@@ -23151,7 +23151,7 @@
    "volume": 2215
   },
   {
-   "close": null,
+   "close": 0.945,
    "cost": 1.9,
    "event": "KXNCAAWBGAME-26NOV19MRMKBRWN",
    "fair": null,
@@ -23182,7 +23182,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611192122-KXNCAAWBGAME-26NOV19WEBCSF-CSF-yes",
-   "last_seen": 0.44,
+   "last_seen": 0.45,
    "league": "",
    "mid": 0.42,
    "payout": null,
@@ -23332,7 +23332,7 @@
    "fair": null,
    "fee": 0.02,
    "id": "202611192221-KXT20MATCH-26NOV192130MEGHAARPR-MEGHA-yes",
-   "last_seen": 0.835,
+   "last_seen": 0.83,
    "league": "",
    "mid": 0.855,
    "payout": null,
@@ -23357,7 +23357,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611192221-KXT20MATCH-26NOV192200ASSAMMAHA-MAHA-yes",
-   "last_seen": 0.775,
+   "last_seen": 0.79,
    "league": "",
    "mid": 0.775,
    "payout": null,
@@ -23382,7 +23382,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611192316-KXNCAAWBGAME-26NOV19INSTSEMO-SEMO-yes",
-   "last_seen": 0.305,
+   "last_seen": 0.285,
    "league": "",
    "mid": 0.305,
    "payout": null,
@@ -23407,7 +23407,7 @@
    "fair": null,
    "fee": 0.02,
    "id": "202611192316-KXNCAAWBGAME-26NOV19LINWUIC-UIC-yes",
-   "last_seen": 0.88,
+   "last_seen": 0.85,
    "league": "",
    "mid": 0.88,
    "payout": null,
@@ -23432,7 +23432,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611192316-KXNCAAWBGAME-26NOV19NDSUUTRGV-NDSU-yes",
-   "last_seen": 0.945,
+   "last_seen": 0.935,
    "league": "",
    "mid": 0.945,
    "payout": null,
@@ -23451,7 +23451,7 @@
    "volume": 1164
   },
   {
-   "close": null,
+   "close": 0.35,
    "cost": 1.85,
    "event": "KXNCAAWBGAME-26NOV19TARLULL",
    "fair": null,
@@ -23476,7 +23476,7 @@
    "volume": 120
   },
   {
-   "close": null,
+   "close": 0.195,
    "cost": 1.8,
    "event": "KXNCAAWBGAME-26NOV19TOLDET",
    "fair": null,
@@ -23524,9 +23524,34 @@
    "team": "Hyderabad",
    "ticker": "KXT20MATCH-26NOV192230GOAHYD-HYD",
    "volume": 326
+  },
+  {
+   "close": null,
+   "cost": 1.82,
+   "event": "KXNCAAWBGAME-26NOV19FAIRORE",
+   "fair": null,
+   "fee": 0.1,
+   "id": "202611200015-KXNCAAWBGAME-26NOV19FAIRORE-FAIR-yes",
+   "last_seen": 0.25,
+   "league": "",
+   "mid": 0.25,
+   "payout": null,
+   "placed": "2026-11-20T00:15:43.714392+00:00",
+   "pnl": null,
+   "price": 0.26,
+   "qty": 7,
+   "series": "KXNCAAWBGAME",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-20T03:00:00+00:00",
+   "status": "open",
+   "team": "Fairfield",
+   "ticker": "KXNCAAWBGAME-26NOV19FAIRORE-FAIR",
+   "volume": 104
   }
  ],
- "cash": 778.86,
+ "cash": 776.94,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -24273,6 +24298,7 @@
   "KXNCAAWBGAME-26NOV19ARMYSIE",
   "KXNCAAWBGAME-26NOV19BGSUPSU",
   "KXNCAAWBGAME-26NOV19CHATPEAY",
+  "KXNCAAWBGAME-26NOV19FAIRORE",
   "KXNCAAWBGAME-26NOV19FAUFLA",
   "KXNCAAWBGAME-26NOV19FIUMIA",
   "KXNCAAWBGAME-26NOV19GTWNNCST",
@@ -25017,5 +25043,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-19T23:16:46.982986+00:00"
+ "updated": "2026-11-20T00:15:43.714392+00:00"
 }
