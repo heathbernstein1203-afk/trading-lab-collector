@@ -3187,7 +3187,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-20T19:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "FC K\u00f6ln",
    "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE"
@@ -3791,6 +3791,30 @@
    "strategy": "no-longshot",
    "team": "Celta Vigo",
    "ticker": "KXLALIGAGAME-26NOV21RMARCC-RCC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV21UGASCAR",
+   "fair": 0.87,
+   "fee": 0.0,
+   "id": "202611201933-KXNCAAFGAME-26NOV21UGASCAR-UGA-yes",
+   "last_seen": 0.86,
+   "league": "CFB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-20T19:33:40.404481+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "Favorite, limit 0.86 (bid 0.85, ask 0.87), sportsbook 0.870",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Georgia",
+   "ticker": "KXNCAAFGAME-26NOV21UGASCAR-UGA"
   }
  ],
  "cash": 929.24,
@@ -5727,6 +5751,17 @@
    "markets": 1056,
    "matched": 125,
    "t": "2026-11-20T18:26:51.420308+00:00"
+  },
+  {
+   "cash": 929.24,
+   "equity": 1020.29,
+   "events": [
+    "cancelled KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE no (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV21UGASCAR-UGA yes x21 @ 0.86"
+   ],
+   "markets": 1093,
+   "matched": 124,
+   "t": "2026-11-20T19:33:40.404481+00:00"
   }
  ],
  "peak": 1020.2900000000001
