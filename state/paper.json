@@ -3247,7 +3247,7 @@
    "fair": 0.8287,
    "fee": 0.0,
    "id": "202611191306-KXNCAAFGAME-26NOV20CLEMDUKE-DUKE-yes",
-   "last_seen": 0.815,
+   "last_seen": 0.805,
    "league": "CFB",
    "limit": 0.82,
    "payout": null,
@@ -3655,7 +3655,7 @@
    "fair": 0.7121,
    "fee": 0.0,
    "id": "202611200558-KXNBAGAME-26NOV20INDCLE-CLE-yes",
-   "last_seen": 0.675,
+   "last_seen": 0.665,
    "league": "NBA",
    "limit": 0.71,
    "payout": null,
@@ -3703,7 +3703,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611200708-KXNCAAFGAME-26NOV21HOUWVU-HOU-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.725,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -3818,30 +3818,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 4.56,
    "event": "KXNCAAFGAME-26NOV21GASOTROY",
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611202021-KXNCAAFGAME-26NOV21GASOTROY-GASO-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.755,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
    "placed": "2026-11-20T20:21:56.200202+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.76,
    "qty": 6,
    "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T21:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Georgia Southern",
    "ticker": "KXNCAAFGAME-26NOV21GASOTROY-GASO"
   }
  ],
- "cash": 929.24,
+ "cash": 924.68,
  "log": [
   {
    "cash": 1000,
@@ -5813,6 +5813,16 @@
    "markets": 1170,
    "matched": 123,
    "t": "2026-11-20T22:18:54.732590+00:00"
+  },
+  {
+   "cash": 924.68,
+   "equity": 1020.29,
+   "events": [
+    "filled KXNCAAFGAME-26NOV21GASOTROY-GASO yes at 0.76"
+   ],
+   "markets": 1182,
+   "matched": 124,
+   "t": "2026-11-20T23:18:03.609643+00:00"
   }
  ],
  "peak": 1020.2900000000001
