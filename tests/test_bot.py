@@ -50,3 +50,18 @@ assert all(b["close"] is not None for b in st["bets"])
 eq = bot.equity(st)
 assert abs(eq - (1000 + sum(b["pnl"] for b in st["bets"]))) < 0.02, (eq, st["cash"])
 print("bot simulation passed; equity", round(eq, 2))
+
+# Nov 20 fix: 'Georgia' is a prefix of 'Georgia Tech'; codes must decide which side gets which price.
+def mk(t, ev, team):
+    d = dict(zip(col.KALSHI_HDR, krow(t, ev, team, "0.2", "0.3")))
+    d["code"] = t.rsplit("-", 1)[-1]
+    return d
+for order in (0, 1):
+    ms = [mk("KXNCAAMBGAME-26NOV20UGAGT-UGA", "E9", "Georgia"), mk("KXNCAAMBGAME-26NOV20UGAGT-GT", "E9", "Georgia Tech")]
+    if order:
+        ms.reverse()
+    g = bot.espn_games([["T", "NCAAMB", "9", "2026-11-15T20:00Z", "pre", "UGA", "Georgia", "GT", "Georgia Tech", "", "", 0.7568, 0.2432, "", "", "", "", ""]])
+    bot.attach_fair({m["ticker"]: m for m in ms}, g)
+    fair = {m["code"]: m.get("fair") for m in ms}
+    assert fair == {"UGA": 0.7568, "GT": 0.2432}, fair
+print("georgia/georgia tech ok")
