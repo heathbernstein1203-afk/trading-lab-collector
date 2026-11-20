@@ -22935,17 +22935,17 @@
    "last_seen": 0.475,
    "league": "NCAAMB",
    "mid": 0.465,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-19T20:27:38.721410+00:00",
-   "pnl": null,
+   "pnl": -1.95,
    "price": 0.47,
    "qty": 4,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-20T02:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Grambling St.",
    "ticker": "KXNCAAMBGAME-26NOV19USMGRAM-GRAM",
    "volume": 2059
@@ -23085,17 +23085,17 @@
    "last_seen": 0.255,
    "league": "",
    "mid": 0.255,
-   "payout": null,
+   "payout": 7.0,
    "placed": "2026-11-19T21:22:17.369445+00:00",
-   "pnl": null,
+   "pnl": 5.08,
    "price": 0.26,
    "qty": 7,
    "series": "KXMLSGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-20T03:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Tie",
    "ticker": "KXMLSGAME-26NOV19SEARSL-TIE",
    "volume": 1083
@@ -23135,17 +23135,17 @@
    "last_seen": 0.935,
    "league": "NCAAMB",
    "mid": 0.935,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-19T21:22:17.369445+00:00",
-   "pnl": null,
+   "pnl": 0.11,
    "price": 0.94,
    "qty": 2,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "no",
    "spread": 0.01,
    "start": "2026-11-20T03:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Sacramento St.",
    "ticker": "KXNCAAMBGAME-26NOV19SACSTAN-SAC",
    "volume": 2215
@@ -23185,17 +23185,17 @@
    "last_seen": 0.45,
    "league": "",
    "mid": 0.42,
-   "payout": null,
+   "payout": 4.0,
    "placed": "2026-11-19T21:22:17.369445+00:00",
-   "pnl": null,
+   "pnl": 2.17,
    "price": 0.44,
    "qty": 4,
    "series": "KXNCAAWBGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "yes",
    "spread": 0.04,
    "start": "2026-11-20T03:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Cal State Fullerton",
    "ticker": "KXNCAAWBGAME-26NOV19WEBCSF-CSF",
    "volume": 170
@@ -23210,17 +23210,17 @@
    "last_seen": 0.525,
    "league": "NHL",
    "mid": 0.525,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-19T21:22:17.369445+00:00",
-   "pnl": null,
+   "pnl": -1.65,
    "price": 0.53,
    "qty": 3,
    "series": "KXNHLGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-20T03:00:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Vegas",
    "ticker": "KXNHLGAME-26NOV19DALVGK-VGK",
    "volume": 57993
@@ -23235,17 +23235,17 @@
    "last_seen": 0.405,
    "league": "NHL",
    "mid": 0.405,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-19T21:22:17.369445+00:00",
-   "pnl": null,
+   "pnl": -1.71,
    "price": 0.41,
    "qty": 4,
    "series": "KXNHLGAME",
-   "settled": null,
+   "settled": "2026-11-20T05:58:33.831518+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-20T02:40:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Vancouver",
    "ticker": "KXNHLGAME-26NOV19VANSEA-VAN",
    "volume": 18023
@@ -23607,7 +23607,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611200145-KXT20MATCH-26NOV200030APMP-MP-yes",
-   "last_seen": 0.665,
+   "last_seen": 0.52,
    "league": "",
    "mid": 0.655,
    "payout": null,
@@ -23682,7 +23682,7 @@
    "fair": null,
    "fee": 0.02,
    "id": "202611200249-KXVALORANTGAME-26NOV200100URLGD-UR-yes",
-   "last_seen": 0.89,
+   "last_seen": 0.885,
    "league": "",
    "mid": 0.83,
    "payout": null,
@@ -23707,7 +23707,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611200350-KXT20MATCH-26NOV200030ODSHUKHND-ODSH-yes",
-   "last_seen": 0.455,
+   "last_seen": 0.465,
    "league": "",
    "mid": 0.465,
    "payout": null,
@@ -23757,7 +23757,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611200350-KXT20MATCH-26NOV200300SAUDELHI-SAU-yes",
-   "last_seen": 0.4,
+   "last_seen": 0.365,
    "league": "",
    "mid": 0.405,
    "payout": null,
@@ -23782,7 +23782,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611200350-KXVALORANTGAME-26NOV200330ATTEC-TEC-yes",
-   "last_seen": 0.435,
+   "last_seen": 0.505,
    "league": "",
    "mid": 0.44,
    "payout": null,
@@ -23807,7 +23807,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611200456-KXVALORANTGAME-26NOV200100LNGALG-LNG-yes",
-   "last_seen": 0.525,
+   "last_seen": 0.545,
    "league": "",
    "mid": 0.525,
    "payout": null,
@@ -23832,7 +23832,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611200456-KXVALORANTGAME-26NOV200330HYPYOU-YOU-yes",
-   "last_seen": 0.785,
+   "last_seen": 0.825,
    "league": "",
    "mid": 0.785,
    "payout": null,
@@ -23849,9 +23849,59 @@
    "team": "Young Gaming",
    "ticker": "KXVALORANTGAME-26NOV200330HYPYOU-YOU",
    "volume": 172
+  },
+  {
+   "close": null,
+   "cost": 1.85,
+   "event": "KXT20MATCH-26NOV200030BIHARJK",
+   "fair": null,
+   "fee": 0.09,
+   "id": "202611200558-KXT20MATCH-26NOV200030BIHARJK-BIHAR-yes",
+   "last_seen": 0.36,
+   "league": "",
+   "mid": 0.36,
+   "payout": null,
+   "placed": "2026-11-20T05:58:33.831518+00:00",
+   "pnl": null,
+   "price": 0.37,
+   "qty": 5,
+   "series": "KXT20MATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-20T06:30:00+00:00",
+   "status": "open",
+   "team": "Bihar",
+   "ticker": "KXT20MATCH-26NOV200030BIHARJK-BIHAR",
+   "volume": 8479
+  },
+  {
+   "close": null,
+   "cost": 1.74,
+   "event": "KXT20MATCH-26NOV200030JKANDKNTKA",
+   "fair": null,
+   "fee": 0.06,
+   "id": "202611200558-KXT20MATCH-26NOV200030JKANDKNTKA-KNTKA-yes",
+   "last_seen": 0.57,
+   "league": "",
+   "mid": 0.57,
+   "payout": null,
+   "placed": "2026-11-20T05:58:33.831518+00:00",
+   "pnl": null,
+   "price": 0.58,
+   "qty": 3,
+   "series": "KXT20MATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.02,
+   "start": "2026-11-20T06:30:00+00:00",
+   "status": "open",
+   "team": "Karnataka",
+   "ticker": "KXT20MATCH-26NOV200030JKANDKNTKA-KNTKA",
+   "volume": 2221
   }
  ],
- "cash": 878.57,
+ "cash": 887.83,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -24753,6 +24803,8 @@
   "KXT20MATCH-26NOV192230TNPNJB",
   "KXT20MATCH-26NOV192230UPCHGRH",
   "KXT20MATCH-26NOV200030APMP",
+  "KXT20MATCH-26NOV200030BIHARJK",
+  "KXT20MATCH-26NOV200030JKANDKNTKA",
   "KXT20MATCH-26NOV200030ODSHUKHND",
   "KXT20MATCH-26NOV200300MIZORBENG",
   "KXT20MATCH-26NOV200300SAUDELHI",
@@ -24918,20 +24970,24 @@
   },
   "KXMLSGAME": {
    "avg_clv": -0.005,
-   "avg_price": 0.37,
+   "avg_price": 0.315,
    "buckets": {
+    "20-30c": [
+     1,
+     1
+    ],
     "30-40c": [
      1,
      1
     ]
    },
-   "clv_n": 1,
-   "n": 1,
-   "pnl": 3.06,
-   "roi": 1.577,
-   "staked": 1.94,
+   "clv_n": 2,
+   "n": 2,
+   "pnl": 8.14,
+   "roi": 2.109,
+   "staked": 3.86,
    "win_rate": 1.0,
-   "won": 1
+   "won": 2
   },
   "KXNBAGAME": {
    "avg_clv": -0.0058,
@@ -25032,7 +25088,7 @@
    "won": 66
   },
   "KXNCAAMBGAME": {
-   "avg_clv": -0.0063,
+   "avg_clv": -0.0062,
    "avg_price": 0.659,
    "buckets": {
     "10-20c": [
@@ -25048,7 +25104,7 @@
      9
     ],
     "40-50c": [
-     35,
+     36,
      16
     ],
     "50-60c": [
@@ -25068,21 +25124,21 @@
      20
     ],
     "90-100c": [
-     85,
-     83
+     86,
+     84
     ]
    },
-   "clv_n": 277,
-   "n": 278,
-   "pnl": 27.33,
-   "roi": 0.053,
-   "staked": 513.67,
-   "win_rate": 0.673,
-   "won": 187
+   "clv_n": 279,
+   "n": 280,
+   "pnl": 25.49,
+   "roi": 0.049,
+   "staked": 517.51,
+   "win_rate": 0.671,
+   "won": 188
   },
   "KXNCAAWBGAME": {
-   "avg_clv": -0.0138,
-   "avg_price": 0.641,
+   "avg_clv": -0.0137,
+   "avg_price": 0.64,
    "buckets": {
     "00-10c": [
      3,
@@ -25101,8 +25157,8 @@
      6
     ],
     "40-50c": [
-     13,
-     4
+     14,
+     5
     ],
     "50-60c": [
      18,
@@ -25125,13 +25181,13 @@
      77
     ]
    },
-   "clv_n": 232,
-   "n": 257,
-   "pnl": -84.41,
-   "roi": -0.176,
-   "staked": 480.41,
-   "win_rate": 0.588,
-   "won": 151
+   "clv_n": 233,
+   "n": 258,
+   "pnl": -82.24,
+   "roi": -0.171,
+   "staked": 482.24,
+   "win_rate": 0.589,
+   "won": 152
   },
   "KXNFLGAME": {
    "avg_clv": -0.0043,
@@ -25172,7 +25228,7 @@
   },
   "KXNHLGAME": {
    "avg_clv": -0.0049,
-   "avg_price": 0.518,
+   "avg_price": 0.516,
    "buckets": {
     "20-30c": [
      2,
@@ -25183,11 +25239,11 @@
      3
     ],
     "40-50c": [
-     15,
+     16,
      4
     ],
     "50-60c": [
-     17,
+     18,
      9
     ],
     "60-70c": [
@@ -25199,12 +25255,12 @@
      1
     ]
    },
-   "clv_n": 47,
-   "n": 47,
-   "pnl": 0.4,
-   "roi": 0.005,
-   "staked": 84.6,
-   "win_rate": 0.489,
+   "clv_n": 49,
+   "n": 49,
+   "pnl": -2.96,
+   "roi": -0.034,
+   "staked": 87.96,
+   "win_rate": 0.469,
    "won": 23
   },
   "KXT20MATCH": {
@@ -25372,5 +25428,5 @@
    "won": 4
   }
  },
- "updated": "2026-11-20T04:56:35.068245+00:00"
+ "updated": "2026-11-20T05:58:33.831518+00:00"
 }

@@ -6059,7 +6059,7 @@
    "fee": 0.12,
    "id": "202611191821-KXHIGHNY-26NOV20-B68.5-no",
    "kind": "weather",
-   "last_seen": 0.585,
+   "last_seen": 0.555,
    "mid": 0.625,
    "payout": null,
    "placed": "2026-11-19T18:21:46.156711+00:00",
@@ -6084,7 +6084,7 @@
    "fee": 0.14,
    "id": "202611191821-KXHIGHPHIL-26NOV20-B70.5-no",
    "kind": "weather",
-   "last_seen": 0.375,
+   "last_seen": 0.365,
    "mid": 0.605,
    "payout": null,
    "placed": "2026-11-19T18:21:46.156711+00:00",
@@ -6159,7 +6159,7 @@
    "fee": 0.12,
    "id": "202611191821-KXHIGHMIA-26NOV20-B80.5-yes",
    "kind": "weather",
-   "last_seen": 0.195,
+   "last_seen": 0.175,
    "mid": 0.155,
    "payout": null,
    "placed": "2026-11-19T18:21:46.156711+00:00",
@@ -6209,7 +6209,7 @@
    "fee": 0.06,
    "id": "202611191821-KXHIGHPHIL-26NOV20-B68.5-yes",
    "kind": "weather",
-   "last_seen": 0.275,
+   "last_seen": 0.31,
    "mid": 0.525,
    "payout": null,
    "placed": "2026-11-19T18:21:46.156711+00:00",
@@ -6259,7 +6259,7 @@
    "fee": 0.21,
    "id": "202611191934-KXHIGHCHI-26NOV20-B68.5-no",
    "kind": "weather",
-   "last_seen": 0.32,
+   "last_seen": 0.385,
    "mid": 0.4,
    "payout": null,
    "placed": "2026-11-19T19:34:23.971021+00:00",
@@ -6384,7 +6384,7 @@
    "fee": 0.16,
    "id": "202611192027-KXHIGHDEN-26NOV20-B63.5-no",
    "kind": "weather",
-   "last_seen": 0.52,
+   "last_seen": 0.545,
    "mid": 0.505,
    "payout": null,
    "placed": "2026-11-19T20:27:38.721410+00:00",
@@ -7099,5 +7099,5 @@
    "won": 16
   }
  },
- "updated": "2026-11-20T04:56:35.068245+00:00"
+ "updated": "2026-11-20T05:58:33.831518+00:00"
 }

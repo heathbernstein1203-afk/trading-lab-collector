@@ -3386,24 +3386,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 7.2,
    "event": "KXNBAGAME-26NOV20TORDET",
    "fair": 0.7284,
    "fee": 0.0,
    "id": "202611200015-KXNBAGAME-26NOV20TORDET-DET-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.715,
    "league": "NBA",
    "limit": 0.72,
    "payout": null,
    "placed": "2026-11-20T00:15:43.714392+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.72,
    "qty": 10,
    "reason": "Favorite, limit 0.72 (bid 0.71, ask 0.73), sportsbook 0.728",
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T00:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Detroit",
    "ticker": "KXNBAGAME-26NOV20TORDET-DET"
@@ -3439,7 +3439,7 @@
    "fair": 0.9012,
    "fee": 0.0,
    "id": "202611200145-KXNBAGAME-26NOV20SACLAL-LAL-yes",
-   "last_seen": 0.885,
+   "last_seen": 0.875,
    "league": "NBA",
    "limit": 0.87,
    "payout": null,
@@ -3647,9 +3647,57 @@
    "strategy": "fav-maker",
    "team": "Virginia Tech",
    "ticker": "KXNCAAMBGAME-26NOV20NWVT-VT"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV20INDCLE",
+   "fair": 0.7121,
+   "fee": 0.0,
+   "id": "202611200558-KXNBAGAME-26NOV20INDCLE-CLE-yes",
+   "last_seen": 0.71,
+   "league": "NBA",
+   "limit": 0.71,
+   "payout": null,
+   "placed": "2026-11-20T05:58:33.831518+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 2,
+   "reason": "Favorite, limit 0.71 (bid 0.70, ask 0.72), sportsbook 0.712",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Cleveland",
+   "ticker": "KXNBAGAME-26NOV20INDCLE-CLE"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV20BELLEKY",
+   "fair": 0.7568,
+   "fee": 0.0,
+   "id": "202611200558-KXNCAAMBGAME-26NOV20BELLEKY-EKY-yes",
+   "last_seen": 0.75,
+   "league": "NCAAMB",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-20T05:58:33.831518+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 9,
+   "reason": "Favorite, limit 0.75 (bid 0.74, ask 0.76), sportsbook 0.757",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Eastern Kentucky",
+   "ticker": "KXNCAAMBGAME-26NOV20BELLEKY-EKY"
   }
  ],
- "cash": 960.67,
+ "cash": 953.47,
  "log": [
   {
    "cash": 1000,
@@ -5467,7 +5515,19 @@
    "markets": 1016,
    "matched": 104,
    "t": "2026-11-20T04:56:35.068245+00:00"
+  },
+  {
+   "cash": 953.47,
+   "equity": 1020.29,
+   "events": [
+    "filled KXNBAGAME-26NOV20TORDET-DET yes at 0.72",
+    "new fav-maker KXNBAGAME-26NOV20INDCLE-CLE yes x2 @ 0.71",
+    "new fav-maker KXNCAAMBGAME-26NOV20BELLEKY-EKY yes x9 @ 0.75"
+   ],
+   "markets": 1005,
+   "matched": 106,
+   "t": "2026-11-20T05:58:33.831518+00:00"
   }
  ],
- "peak": 1020.29
+ "peak": 1020.2900000000001
 }
