@@ -65,5 +65,30 @@
   "backtest": {
     "on": true,
     "note": "Stock strategy backtests on ~20 years of Yahoo prices, rerun weekly into state/backtest.json."
+  },
+  "wild": {
+    "on": true,
+    "bankroll": 1000,
+    "stake": 1,
+    "max_open": 400,
+    "min_volume": 200,
+    "max_new_per_run": 12,
+    "lookahead_hours": 72,
+    "min_hours": 0.5,
+    "max_pages": 6,
+    "note": "Separate fake $1,000 wildcard pot (state/wild.json): about $1 on one random outcome of each liquid Kalshi event the other pots don't cover (pop culture, AI/tech, gas, TSA, weather extras, mentions, sports props). Least-covered categories first, max 3 new per category per run. Never copied to the demo."
+  },
+  "parlays": {
+    "on": true,
+    "bankroll": 500,
+    "stake": 1,
+    "max_open": 150,
+    "max_new_per_run": 6,
+    "min_price": 0.01,
+    "max_price": 0.95,
+    "log_pages": 2,
+    "note": "Separate fake $500 parlay pot (state/parlay.json): keeps running totals for every traded+settled Kalshi combo (what buyers at the last trade price got back, by legs, same-game vs mixed, and topic; a 10% sample of rows goes to data/parlays/), and places ~$1 paper bets on combos real buyers just bought (public trade feed) at the price they paid, balanced across 2-3 / 4-6 / 7+ legs and same-game / mixed. Never copied to the demo.",
+    "trade_pages": 2,
+    "csv_sample_pct": 10
   }
 }

@@ -25,6 +25,7 @@ import uuid
 import collector as col
 import datapot
 import other
+import extras
 import backtest
 
 CONFIG = os.environ.get("BOT_CONFIG", "config.json")
@@ -551,6 +552,10 @@ def run(now, kalshi_rows, espn_rows):
         events += other.run(now, cfg)
     except Exception as e:
         print("other markets error:", type(e).__name__, e)
+    try:  # wildcard pot (pop culture, AI, gas, props...) and parlay pot (separate fake pots)
+        events += extras.run(now, cfg, set(col.KALSHI_SERIES) | set(other.SERIES))
+    except Exception as e:
+        print("extras error:", type(e).__name__, e)
     try:  # stock backtests, once a week
         if cfg.get("backtest", {}).get("on", True):
             events += backtest.maybe_run(now)
