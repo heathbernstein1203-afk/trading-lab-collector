@@ -81,11 +81,23 @@ ALIASES = {  # Kalshi team code -> ESPN abbreviation, where they differ
 }
 
 
-def team_matches(k_code, k_name, e_abbr, e_name):
+def match_score(k_code, k_name, e_abbr, e_name):
+    """3 = same team code, 2 = same name, 1 = one name starts with the other, 0 = no match.
+    Prefix matches are weak: 'Georgia' is a prefix of 'Georgia Tech' and 'Oregon' of 'Oregon State'."""
     if k_code and e_abbr and (k_code == e_abbr or ALIASES.get(k_code) == e_abbr):
-        return True
+        return 3
     a, b = norm(k_name), norm(e_name)
-    return bool(a and b and (a == b or (len(a) > 3 and b.startswith(a)) or (len(b) > 3 and a.startswith(b))))
+    if not (a and b):
+        return 0
+    if a == b:
+        return 2
+    if (len(a) > 3 and b.startswith(a)) or (len(b) > 3 and a.startswith(b)):
+        return 1
+    return 0
+
+
+def team_matches(k_code, k_name, e_abbr, e_name):
+    return match_score(k_code, k_name, e_abbr, e_name) > 0
 
 
 # ---------------- market views ----------------
@@ -139,16 +151,22 @@ def attach_fair(markets, games):
             if g["fair_home"] is None or not g["start_dt"] or not same_game(ms[0], g):
                 continue
             a, b = ms
+            # Score both orderings and take the clearly better one. Before Nov 20 the first ordering that
+            # passed a loose name check won, so Georgia @ Georgia Tech and Oregon St. @ Oregon got their
+            # sportsbook prices swapped (line-edge then saw fake 10-48c edges). A tie means we can't tell: skip.
+            scores = []
             for x, y in ((a, b), (b, a)):
-                if team_matches(x["code"], x["team"], g["home"], g["home_name"]) and \
-                   team_matches(y["code"], y["team"], g["away"], g["away_name"]):
-                    x["fair"], y["fair"] = g["fair_home"], g["fair_away"]
-                    x["start_dt"] = y["start_dt"] = g["start_dt"]
-                    x["league"] = y["league"] = g["league"]
-                    matched += 1
-                    break
-            if "fair" in ms[0]:
-                break
+                sh = match_score(x["code"], x["team"], g["home"], g["home_name"])
+                sa = match_score(y["code"], y["team"], g["away"], g["away_name"])
+                scores.append(sh + sa if sh and sa else 0)
+            if max(scores) == 0 or scores[0] == scores[1]:
+                continue
+            x, y = (a, b) if scores[0] > scores[1] else (b, a)
+            x["fair"], y["fair"] = g["fair_home"], g["fair_away"]
+            x["start_dt"] = y["start_dt"] = g["start_dt"]
+            x["league"] = y["league"] = g["league"]
+            matched += 1
+            break
     # No ESPN match: Kalshi's occurrence/expected-expiration times are about 3 hours AFTER the real start
     # (e.g. Bucks @ Magic tipped 00:00Z, Kalshi said 03:00Z), so use the earlier of the two minus 3 hours.
     # Before this fix (Nov 13) the bots placed bets on games already in progress.
