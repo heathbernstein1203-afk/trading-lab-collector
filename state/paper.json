@@ -3241,7 +3241,7 @@
    "ticker": "KXNCAAMBGAME-26NOV19SACSTAN-STAN"
   },
   {
-   "close": null,
+   "close": 0.805,
    "cost": 11.48,
    "event": "KXNCAAFGAME-26NOV20CLEMDUKE",
    "fair": 0.8287,
@@ -3331,7 +3331,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Toledo",
    "ticker": "KXNCAAFGAME-26NOV20BGSUTOL-TOL"
@@ -3379,13 +3379,13 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T01:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Oregon",
    "ticker": "KXNCAAFGAME-26NOV20OREMSU-ORE"
   },
   {
-   "close": null,
+   "close": 0.705,
    "cost": 7.2,
    "event": "KXNBAGAME-26NOV20TORDET",
    "fair": 0.7284,
@@ -3427,7 +3427,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-21T01:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "UTEP",
    "ticker": "KXNCAAFGAME-26NOV20UTEPAFA-UTEP"
@@ -3529,7 +3529,7 @@
    "ticker": "KXNCAAMBGAME-26NOV20OAKPUR-OAK"
   },
   {
-   "close": null,
+   "close": 0.235,
    "cost": 29.38,
    "event": "KXNCAAMBGAME-26NOV20UGAGT",
    "fair": 0.7568,
@@ -3553,7 +3553,7 @@
    "ticker": "KXNCAAMBGAME-26NOV20UGAGT-GT"
   },
   {
-   "close": null,
+   "close": 0.805,
    "cost": 12.15,
    "event": "KXNBAGAME-26NOV20NOPOKC",
    "fair": 0.8196,
@@ -3649,7 +3649,7 @@
    "ticker": "KXNCAAMBGAME-26NOV20NWVT-VT"
   },
   {
-   "close": null,
+   "close": 0.675,
    "cost": 1.42,
    "event": "KXNBAGAME-26NOV20INDCLE",
    "fair": 0.7121,
@@ -3751,7 +3751,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611201727-KXNCAAFGAME-26NOV21TNTCMSST-TNTC-no",
-   "last_seen": 0.935,
+   "last_seen": 0.945,
    "league": "",
    "limit": 0.94,
    "payout": null,
@@ -3799,7 +3799,7 @@
    "fair": 0.87,
    "fee": 0.0,
    "id": "202611201933-KXNCAAFGAME-26NOV21UGASCAR-UGA-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.865,
    "league": "CFB",
    "limit": 0.86,
    "payout": null,
@@ -3887,6 +3887,78 @@
    "strategy": "no-longshot",
    "team": "Arkansas",
    "ticker": "KXNCAAFGAME-26NOV21ARKTEX-ARK"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV20MURRWIS",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611210146-KXNCAAMBGAME-26NOV20MURRWIS-WIS-no",
+   "last_seen": 0.93,
+   "league": "",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-21T01:46:31.515076+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-21T02:30:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Wisconsin",
+   "ticker": "KXNCAAMBGAME-26NOV20MURRWIS-WIS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXLALIGAGAME-26NOV22BARVIL",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611210146-KXLALIGAGAME-26NOV22BARVIL-VIL-no",
+   "last_seen": 0.92,
+   "league": "",
+   "limit": 0.92,
+   "payout": null,
+   "placed": "2026-11-21T01:46:31.515076+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.08: fading the longshot with a NO limit at 0.92",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T13:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Villarreal",
+   "ticker": "KXLALIGAGAME-26NOV22BARVIL-VIL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV21ARIZKSU",
+   "fair": 0.7273,
+   "fee": 0.0,
+   "id": "202611210146-KXNCAAFGAME-26NOV21ARIZKSU-ARIZ-yes",
+   "last_seen": 0.72,
+   "league": "CFB",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-21T01:46:31.515076+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 9,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.727",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Arizona",
+   "ticker": "KXNCAAFGAME-26NOV21ARIZKSU-ARIZ"
   }
  ],
  "cash": 874.73,
@@ -5889,6 +5961,24 @@
    "markets": 1195,
    "matched": 131,
    "t": "2026-11-21T00:18:12.539756+00:00"
+  },
+  {
+   "cash": 874.73,
+   "equity": 1020.29,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV20BGSUTOL-TOL yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV20OREMSU-ORE yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV20UTEPAFA-UTEP no (not filled before start)",
+    "new no-longshot KXNCAAMBGAME-26NOV20MURRWIS-WIS no x21 @ 0.93",
+    "new no-longshot KXLALIGAGAME-26NOV22BARVIL-VIL no x21 @ 0.92",
+    "new fav-maker KXNCAAFGAME-26NOV21ARIZKSU-ARIZ yes x9 @ 0.72",
+    "demo placed KXNCAAMBGAME-26NOV20MURRWIS-WIS no x21 @ 93c",
+    "demo placed KXLALIGAGAME-26NOV22BARVIL-VIL no x21 @ 92c",
+    "demo placed KXNCAAFGAME-26NOV21ARIZKSU-ARIZ yes x9 @ 72c"
+   ],
+   "markets": 1179,
+   "matched": 117,
+   "t": "2026-11-21T01:46:31.515076+00:00"
   }
  ],
  "peak": 1020.2900000000001
