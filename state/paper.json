@@ -4507,7 +4507,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T23:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Texas St.",
    "ticker": "KXNCAAFGAME-26NOV21WSUTXST-TXST"
@@ -4535,6 +4535,30 @@
    "strategy": "fav-maker",
    "team": "Louisiana Tech",
    "ticker": "KXNCAAFGAME-26NOV21ARSTLT-LT"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV21BRADPAC",
+   "fair": 0.7831,
+   "fee": 0.0,
+   "id": "202611212312-KXNCAAMBGAME-26NOV21BRADPAC-PAC-yes",
+   "last_seen": 0.78,
+   "league": "NCAAMB",
+   "limit": 0.78,
+   "payout": null,
+   "placed": "2026-11-21T23:12:27.274326+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.78 (bid 0.78, ask 0.79), sportsbook 0.783",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T03:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Pacific",
+   "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC"
   }
  ],
  "cash": 897.95,
@@ -6781,6 +6805,17 @@
    "markets": 761,
    "matched": 70,
    "t": "2026-11-21T22:12:08.099249+00:00"
+  },
+  {
+   "cash": 897.95,
+   "equity": 974.52,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV21WSUTXST-TXST yes (not filled before start)",
+    "new fav-maker KXNCAAMBGAME-26NOV21BRADPAC-PAC yes x4 @ 0.78"
+   ],
+   "markets": 720,
+   "matched": 70,
+   "t": "2026-11-21T23:12:27.274326+00:00"
   }
  ],
  "peak": 1020.2900000000001
