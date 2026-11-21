@@ -4082,24 +4082,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 8.76,
    "event": "KXNCAAFGAME-26NOV21USUORST",
    "fair": 0.7402,
    "fee": 0.0,
    "id": "202611210349-KXNCAAFGAME-26NOV21USUORST-ORST-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.725,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
    "placed": "2026-11-21T03:49:27.102901+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.73,
    "qty": 12,
    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.740",
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T03:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Oregon St.",
    "ticker": "KXNCAAFGAME-26NOV21USUORST-ORST"
@@ -4177,7 +4177,7 @@
    "ticker": "KXNCAAFGAME-26NOV21CHSSUU-CHS"
   }
  ],
- "cash": 899.67,
+ "cash": 890.91,
  "log": [
   {
    "cash": 1000,
@@ -6329,6 +6329,16 @@
    "markets": 1021,
    "matched": 131,
    "t": "2026-11-21T15:17:02.876213+00:00"
+  },
+  {
+   "cash": 890.91,
+   "equity": 971.67,
+   "events": [
+    "filled KXNCAAFGAME-26NOV21USUORST-ORST yes at 0.73"
+   ],
+   "markets": 1015,
+   "matched": 136,
+   "t": "2026-11-21T16:15:48.024959+00:00"
   }
  ],
  "peak": 1020.2900000000001
