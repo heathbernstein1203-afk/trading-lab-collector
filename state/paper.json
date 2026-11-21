@@ -4111,7 +4111,7 @@
    "fair": 0.8541,
    "fee": 0.0,
    "id": "202611210452-KXNBAGAME-26NOV21MILPHI-PHI-yes",
-   "last_seen": 0.845,
+   "last_seen": 0.835,
    "league": "NBA",
    "limit": 0.85,
    "payout": null,
@@ -6263,6 +6263,14 @@
    "markets": 1037,
    "matched": 128,
    "t": "2026-11-21T07:00:23.699092+00:00"
+  },
+  {
+   "cash": 918.78,
+   "equity": 971.67,
+   "events": [],
+   "markets": 1029,
+   "matched": 128,
+   "t": "2026-11-21T08:08:28.563915+00:00"
   }
  ],
  "peak": 1020.2900000000001
