@@ -3751,7 +3751,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611201727-KXNCAAFGAME-26NOV21TNTCMSST-TNTC-no",
-   "last_seen": 0.925,
+   "last_seen": 0.935,
    "league": "",
    "limit": 0.94,
    "payout": null,
@@ -3842,24 +3842,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.11,
    "event": "KXNCAAFGAME-26NOV21SMUND",
    "fair": 0.9342,
    "fee": 0.0,
    "id": "202611210018-KXNCAAFGAME-26NOV21SMUND-SMU-no",
-   "last_seen": 0.91,
+   "last_seen": 0.905,
    "league": "CFB",
    "limit": 0.91,
    "payout": null,
    "placed": "2026-11-21T00:18:12.539756+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.91,
    "qty": 21,
    "reason": "YES at 0.09: fading the longshot with a NO limit at 0.91",
    "settled": null,
    "side": "no",
    "start": "2026-11-22T00:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "SMU",
    "ticker": "KXNCAAFGAME-26NOV21SMUND-SMU"
@@ -4177,7 +4177,7 @@
    "ticker": "KXNCAAFGAME-26NOV21CHSSUU-CHS"
   }
  ],
- "cash": 918.78,
+ "cash": 899.67,
  "log": [
   {
    "cash": 1000,
@@ -6303,6 +6303,16 @@
    "markets": 1043,
    "matched": 128,
    "t": "2026-11-21T12:14:28.912681+00:00"
+  },
+  {
+   "cash": 899.67,
+   "equity": 971.67,
+   "events": [
+    "filled KXNCAAFGAME-26NOV21SMUND-SMU no at 0.91"
+   ],
+   "markets": 1039,
+   "matched": 128,
+   "t": "2026-11-21T13:31:53.877834+00:00"
   }
  ],
  "peak": 1020.2900000000001
