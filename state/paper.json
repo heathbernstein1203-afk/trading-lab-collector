@@ -3697,7 +3697,7 @@
    "ticker": "KXNCAAMBGAME-26NOV20BELLEKY-EKY"
   },
   {
-   "close": null,
+   "close": 0.685,
    "cost": 1.46,
    "event": "KXNCAAFGAME-26NOV21HOUWVU",
    "fair": 0.7323,
@@ -3745,7 +3745,7 @@
    "ticker": "KXNCAAFGAME-26NOV21NCSTFSU-FSU"
   },
   {
-   "close": null,
+   "close": 0.925,
    "cost": 19.74,
    "event": "KXNCAAFGAME-26NOV21TNTCMSST",
    "fair": null,
@@ -4087,7 +4087,7 @@
    "fair": 0.7402,
    "fee": 0.0,
    "id": "202611210349-KXNCAAFGAME-26NOV21USUORST-ORST-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.715,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -4105,7 +4105,7 @@
    "ticker": "KXNCAAFGAME-26NOV21USUORST-ORST"
   },
   {
-   "close": null,
+   "close": 0.815,
    "cost": 5.95,
    "event": "KXNBAGAME-26NOV21MILPHI",
    "fair": 0.8541,
@@ -4250,30 +4250,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 3.85,
    "event": "KXNCAAMBGAME-26NOV21WEBBVMI",
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611211715-KXNCAAMBGAME-26NOV21WEBBVMI-VMI-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
    "placed": "2026-11-21T17:15:41.933468+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.77,
    "qty": 5,
    "reason": "Favorite, limit 0.77 (bid 0.76, ask 0.78), sportsbook 0.774",
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "VMI",
    "ticker": "KXNCAAMBGAME-26NOV21WEBBVMI-VMI"
   }
  ],
- "cash": 871.8,
+ "cash": 867.95,
  "log": [
   {
    "cash": 1000,
@@ -6451,6 +6451,16 @@
    "markets": 984,
    "matched": 125,
    "t": "2026-11-21T17:15:41.933468+00:00"
+  },
+  {
+   "cash": 867.95,
+   "equity": 971.67,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV21WEBBVMI-VMI yes at 0.77"
+   ],
+   "markets": 972,
+   "matched": 115,
+   "t": "2026-11-21T18:11:46.639697+00:00"
   }
  ],
  "peak": 1020.2900000000001
