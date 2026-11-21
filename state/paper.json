@@ -3721,7 +3721,7 @@
    "ticker": "KXNCAAFGAME-26NOV21HOUWVU-HOU"
   },
   {
-   "close": null,
+   "close": 0.785,
    "cost": 3.12,
    "event": "KXNCAAFGAME-26NOV21NCSTFSU",
    "fair": 0.7831,
@@ -3817,7 +3817,7 @@
    "ticker": "KXNCAAFGAME-26NOV21UGASCAR-UGA"
   },
   {
-   "close": null,
+   "close": 0.755,
    "cost": 4.56,
    "event": "KXNCAAFGAME-26NOV21GASOTROY",
    "fair": 0.7644,
@@ -3865,7 +3865,7 @@
    "ticker": "KXNCAAFGAME-26NOV21SMUND-SMU"
   },
   {
-   "close": null,
+   "close": 0.905,
    "cost": 19.11,
    "event": "KXNCAAFGAME-26NOV21ARKTEX",
    "fair": 0.9318,
@@ -4003,7 +4003,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-21T20:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Indiana",
    "ticker": "KXNCAAFGAME-26NOV21INDWASH-IND"
@@ -4114,16 +4114,16 @@
    "last_seen": 0.815,
    "league": "NBA",
    "limit": 0.85,
-   "payout": null,
+   "payout": 7.0,
    "placed": "2026-11-21T04:52:51.642251+00:00",
-   "pnl": null,
+   "pnl": 1.05,
    "price": 0.85,
    "qty": 7,
    "reason": "Favorite, limit 0.85 (bid 0.85, ask 0.86), sportsbook 0.854",
-   "settled": null,
+   "settled": "2026-11-21T21:14:13.745587+00:00",
    "side": "yes",
    "start": "2026-11-21T18:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Philadelphia",
    "ticker": "KXNBAGAME-26NOV21MILPHI-PHI"
@@ -4391,9 +4391,81 @@
    "strategy": "fav-maker",
    "team": "Jacksonville",
    "ticker": "KXNFLGAME-26NOV22JACNYG-JAC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNFLGAME-26NOV22TENDAL",
+   "fair": 0.7665,
+   "fee": 0.0,
+   "id": "202611212114-KXNFLGAME-26NOV22TENDAL-DAL-yes",
+   "last_seen": 0.76,
+   "league": "NFL",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-21T21:14:13.745587+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.766",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T18:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Dallas",
+   "ticker": "KXNFLGAME-26NOV22TENDAL-DAL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV21PRETNTC",
+   "fair": 0.7598,
+   "fee": 0.0,
+   "id": "202611212114-KXNCAAMBGAME-26NOV21PRETNTC-TNTC-yes",
+   "last_seen": 0.75,
+   "league": "NCAAMB",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-21T21:14:13.745587+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 12,
+   "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.760",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Tennessee Tech",
+   "ticker": "KXNCAAMBGAME-26NOV21PRETNTC-TNTC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV21WINWOF",
+   "fair": 0.7131,
+   "fee": 0.0,
+   "id": "202611212114-KXNCAAMBGAME-26NOV21WINWOF-WOF-yes",
+   "last_seen": 0.71,
+   "league": "NCAAMB",
+   "limit": 0.71,
+   "payout": null,
+   "placed": "2026-11-21T21:14:13.745587+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 3,
+   "reason": "Favorite, limit 0.71 (bid 0.70, ask 0.72), sportsbook 0.713",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-21T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Wofford",
+   "ticker": "KXNCAAMBGAME-26NOV21WINWOF-WOF"
   }
  ],
- "cash": 867.95,
+ "cash": 874.95,
  "log": [
   {
    "cash": 1000,
@@ -6608,6 +6680,20 @@
    "markets": 922,
    "matched": 92,
    "t": "2026-11-21T20:13:52.326231+00:00"
+  },
+  {
+   "cash": 874.95,
+   "equity": 972.72,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV21INDWASH-IND yes (not filled before start)",
+    "won KXNBAGAME-26NOV21MILPHI-PHI yes pnl 1.05",
+    "new fav-maker KXNFLGAME-26NOV22TENDAL-DAL yes x8 @ 0.76",
+    "new fav-maker KXNCAAMBGAME-26NOV21PRETNTC-TNTC yes x12 @ 0.75",
+    "new fav-maker KXNCAAMBGAME-26NOV21WINWOF-WOF yes x3 @ 0.71"
+   ],
+   "markets": 819,
+   "matched": 72,
+   "t": "2026-11-21T21:14:13.745587+00:00"
   }
  ],
  "peak": 1020.2900000000001
