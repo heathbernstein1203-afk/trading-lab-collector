@@ -3751,7 +3751,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611201727-KXNCAAFGAME-26NOV21TNTCMSST-TNTC-no",
-   "last_seen": 0.935,
+   "last_seen": 0.925,
    "league": "",
    "limit": 0.94,
    "payout": null,
@@ -3823,7 +3823,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611202021-KXNCAAFGAME-26NOV21GASOTROY-GASO-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.755,
    "league": "CFB",
    "limit": 0.76,
    "payout": null,
@@ -6255,6 +6255,14 @@
    "markets": 1035,
    "matched": 126,
    "t": "2026-11-21T05:52:44.320468+00:00"
+  },
+  {
+   "cash": 918.78,
+   "equity": 971.67,
+   "events": [],
+   "markets": 1037,
+   "matched": 128,
+   "t": "2026-11-21T07:00:23.699092+00:00"
   }
  ],
  "peak": 1020.2900000000001
