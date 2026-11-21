@@ -8,10 +8,10 @@
   "2026-11-18": 99.84,
   "2026-11-19": 99.69,
   "2026-11-20": 99.93,
-  "2026-11-21": 83.55
+  "2026-11-21": 99.92
  },
- "last_balance": 2556.06,
- "last_check": "2026-11-21T02:48:19.782996+00:00",
+ "last_balance": 2539.69,
+ "last_check": "2026-11-21T03:49:27.102901+00:00",
  "orders": [
   {
    "bet": "202611131951-KXNCAAFGAME-26NOV14STANVT-VT-yes",
@@ -601,89 +601,25 @@
    "resp": "{\"error\":{\"code\":\"Trading_is_not_currently_allowed_in_Washington_on_markets_in_Sports,_Elections,_Politics,_Culture,_Tech_and_Science,_and_Mentions.\",\"message\":\"Trading is not currently allowed in Washington on markets in Sports, Elections, Politics, Culture, Tech and Science, and Mentions.\"}}",
    "retry": 0,
    "t": "2026-11-21T02:48:19.782996+00:00"
+  },
+  {
+   "bet": "202611210248-KXNCAAFGAME-26NOV21UTAHTCU-UTAH-yes",
+   "ok": true,
+   "price": 0.71,
+   "qty": 21,
+   "resp": "01a1fc3a-2b28-7d38-8d62-981a6ce354c1",
+   "retry": 1,
+   "t": "2026-11-21T03:49:27.102901+00:00"
+  },
+  {
+   "bet": "202611210248-KXNCAAFGAME-26NOV21INDWASH-IND-yes",
+   "ok": true,
+   "price": 0.73,
+   "qty": 2,
+   "resp": "01a1fc3a-2b28-75ad-8cfa-d9d95fb6369c",
+   "retry": 1,
+   "t": "2026-11-21T03:49:27.102901+00:00"
   }
  ],
- "retry": [
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAFGAME-26NOV21UTAHTCU",
-    "fair": 0.7273,
-    "fee": 0.0,
-    "id": "202611210248-KXNCAAFGAME-26NOV21UTAHTCU-UTAH-yes",
-    "last_seen": 0.71,
-    "league": "CFB",
-    "limit": 0.71,
-    "payout": null,
-    "placed": "2026-11-21T02:48:19.782996+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 21,
-    "reason": "Favorite, limit 0.71 (bid 0.71, ask 0.72), sportsbook 0.727",
-    "settled": null,
-    "side": "yes",
-    "start": "2026-11-22T02:00:00+00:00",
-    "status": "pending",
-    "strategy": "fav-maker",
-    "team": "Utah",
-    "ticker": "KXNCAAFGAME-26NOV21UTAHTCU-UTAH"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNCAAFGAME-26NOV21INDWASH",
-    "fair": 0.7402,
-    "fee": 0.0,
-    "id": "202611210248-KXNCAAFGAME-26NOV21INDWASH-IND-yes",
-    "last_seen": 0.73,
-    "league": "CFB",
-    "limit": 0.73,
-    "payout": null,
-    "placed": "2026-11-21T02:48:19.782996+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 13,
-    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.740",
-    "settled": null,
-    "side": "yes",
-    "start": "2026-11-21T20:30:00+00:00",
-    "status": "pending",
-    "strategy": "fav-maker",
-    "team": "Indiana",
-    "ticker": "KXNCAAFGAME-26NOV21INDWASH-IND"
-   },
-   "tries": 0
-  },
-  {
-   "bet": {
-    "close": null,
-    "cost": 0.0,
-    "event": "KXNHLGAME-26NOV21MINVAN",
-    "fair": 0.7323,
-    "fee": 0.0,
-    "id": "202611210248-KXNHLGAME-26NOV21MINVAN-MIN-yes",
-    "last_seen": 0.73,
-    "league": "NHL",
-    "limit": 0.73,
-    "payout": null,
-    "placed": "2026-11-21T02:48:19.782996+00:00",
-    "pnl": null,
-    "price": null,
-    "qty": 2,
-    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.732",
-    "settled": null,
-    "side": "yes",
-    "start": "2026-11-22T03:00:00+00:00",
-    "status": "pending",
-    "strategy": "fav-maker",
-    "team": "Minnesota",
-    "ticker": "KXNHLGAME-26NOV21MINVAN-MIN"
-   },
-   "tries": 0
-  }
- ]
+ "retry": []
 }
