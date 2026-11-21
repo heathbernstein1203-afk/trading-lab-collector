@@ -4171,7 +4171,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-21T19:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Chicago St.",
    "ticker": "KXNCAAFGAME-26NOV21CHSSUU-CHS"
@@ -4271,6 +4271,30 @@
    "strategy": "fav-maker",
    "team": "VMI",
    "ticker": "KXNCAAMBGAME-26NOV21WEBBVMI-VMI"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV21COLOCIN",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611211923-KXNCAAFGAME-26NOV21COLOCIN-COLO-no",
+   "last_seen": 0.9,
+   "league": "",
+   "limit": 0.9,
+   "payout": null,
+   "placed": "2026-11-21T19:23:45.589760+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 22,
+   "reason": "YES at 0.10: fading the longshot with a NO limit at 0.90",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-21T20:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Colorado",
+   "ticker": "KXNCAAFGAME-26NOV21COLOCIN-COLO"
   }
  ],
  "cash": 867.95,
@@ -6461,6 +6485,17 @@
    "markets": 972,
    "matched": 115,
    "t": "2026-11-21T18:11:46.639697+00:00"
+  },
+  {
+   "cash": 867.95,
+   "equity": 971.67,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV21CHSSUU-CHS no (not filled before start)",
+    "new no-longshot KXNCAAFGAME-26NOV21COLOCIN-COLO no x22 @ 0.9"
+   ],
+   "markets": 953,
+   "matched": 102,
+   "t": "2026-11-21T19:23:45.589760+00:00"
   }
  ],
  "peak": 1020.2900000000001
