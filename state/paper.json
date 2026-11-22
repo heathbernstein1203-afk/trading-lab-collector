@@ -3793,7 +3793,7 @@
    "ticker": "KXLALIGAGAME-26NOV21RMARCC-RCC"
   },
   {
-   "close": null,
+   "close": 0.865,
    "cost": 18.06,
    "event": "KXNCAAFGAME-26NOV21UGASCAR",
    "fair": 0.87,
@@ -3826,22 +3826,22 @@
    "last_seen": 0.755,
    "league": "CFB",
    "limit": 0.76,
-   "payout": null,
+   "payout": 6.0,
    "placed": "2026-11-20T20:21:56.200202+00:00",
-   "pnl": null,
+   "pnl": 1.44,
    "price": 0.76,
    "qty": 6,
    "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
-   "settled": null,
+   "settled": "2026-11-22T01:45:22.654475+00:00",
    "side": "yes",
    "start": "2026-11-21T21:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Georgia Southern",
    "ticker": "KXNCAAFGAME-26NOV21GASOTROY-GASO"
   },
   {
-   "close": null,
+   "close": 0.905,
    "cost": 19.11,
    "event": "KXNCAAFGAME-26NOV21SMUND",
    "fair": 0.9342,
@@ -4339,7 +4339,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T01:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "New Orleans",
    "ticker": "KXNBAGAME-26NOV21NOPSAS-NOP"
@@ -4435,7 +4435,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Tennessee Tech",
    "ticker": "KXNCAAMBGAME-26NOV21PRETNTC-TNTC"
@@ -4627,7 +4627,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Louisville",
    "ticker": "KXNCAAFGAME-26NOV21PITTLOU-LOU"
@@ -4655,9 +4655,57 @@
    "strategy": "fav-maker",
    "team": "Denver",
    "ticker": "KXNBAGAME-26NOV22DENCHI-DEN"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV21SDSUBSU",
+   "fair": 0.9258,
+   "fee": 0.0,
+   "id": "202611220145-KXNCAAFGAME-26NOV21SDSUBSU-SDSU-no",
+   "last_seen": 0.91,
+   "league": "CFB",
+   "limit": 0.91,
+   "payout": null,
+   "placed": "2026-11-22T01:45:22.654475+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.09: fading the longshot with a NO limit at 0.91",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T02:30:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "San Diego St.",
+   "ticker": "KXNCAAFGAME-26NOV21SDSUBSU-SDSU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22PORTCBU",
+   "fair": 0.8151,
+   "fee": 0.0,
+   "id": "202611220145-KXNCAAMBGAME-26NOV22PORTCBU-PORT-yes",
+   "last_seen": 0.8,
+   "league": "NCAAMB",
+   "limit": 0.8,
+   "payout": null,
+   "placed": "2026-11-22T01:45:22.654475+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 22,
+   "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.815",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-23T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Portland",
+   "ticker": "KXNCAAMBGAME-26NOV22PORTCBU-PORT"
   }
  ],
- "cash": 918.95,
+ "cash": 924.95,
  "log": [
   {
    "cash": 1000,
@@ -6935,6 +6983,23 @@
    "markets": 700,
    "matched": 66,
    "t": "2026-11-22T00:08:52.268688+00:00"
+  },
+  {
+   "cash": 924.95,
+   "equity": 974.73,
+   "events": [
+    "cancelled KXNBAGAME-26NOV21NOPSAS-NOP no (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV21PRETNTC-TNTC yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV21PITTLOU-LOU yes (not filled before start)",
+    "won KXNCAAFGAME-26NOV21GASOTROY-GASO yes pnl 1.44",
+    "new no-longshot KXNCAAFGAME-26NOV21SDSUBSU-SDSU no x21 @ 0.91",
+    "new fav-maker KXNCAAMBGAME-26NOV22PORTCBU-PORT yes x22 @ 0.8",
+    "demo placed KXNCAAFGAME-26NOV21SDSUBSU-SDSU no x21 @ 91c",
+    "demo placed KXNCAAMBGAME-26NOV22PORTCBU-PORT yes x15 @ 80c"
+   ],
+   "markets": 730,
+   "matched": 61,
+   "t": "2026-11-22T01:45:22.654475+00:00"
   }
  ],
  "peak": 1020.2900000000001
