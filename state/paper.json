@@ -4807,7 +4807,7 @@
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -4843,7 +4843,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T14:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Angers",
    "ticker": "KXLIGUE1GAME-26NOV22PARANG-ANG"
@@ -4895,6 +4895,30 @@
    "strategy": "fav-maker",
    "team": "Cincinnati",
    "ticker": "KXNFLGAME-26NOV23CINWAS-CIN"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22NJITBC",
+   "fair": 0.9857,
+   "fee": 0.0,
+   "id": "202611221421-KXNCAAMBGAME-26NOV22NJITBC-NJIT-no",
+   "last_seen": 0.96,
+   "league": "NCAAMB",
+   "limit": 0.96,
+   "payout": null,
+   "placed": "2026-11-22T14:21:55.992683+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "NJIT",
+   "ticker": "KXNCAAMBGAME-26NOV22NJITBC-NJIT"
   }
  ],
  "cash": 894.91,
@@ -7309,6 +7333,17 @@
    "markets": 607,
    "matched": 56,
    "t": "2026-11-22T13:31:49.211531+00:00"
+  },
+  {
+   "cash": 894.91,
+   "equity": 983.95,
+   "events": [
+    "cancelled KXLIGUE1GAME-26NOV22PARANG-ANG no (not filled before start)",
+    "new no-longshot KXNCAAMBGAME-26NOV22NJITBC-NJIT no x20 @ 0.96"
+   ],
+   "markets": 599,
+   "matched": 57,
+   "t": "2026-11-22T14:21:55.992683+00:00"
   }
  ],
  "peak": 1020.2900000000001
