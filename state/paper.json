@@ -3979,7 +3979,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T02:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Utah",
    "ticker": "KXNCAAFGAME-26NOV21UTAHTCU-UTAH"
@@ -4258,16 +4258,16 @@
    "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.77,
-   "payout": null,
+   "payout": 5.0,
    "placed": "2026-11-21T17:15:41.933468+00:00",
-   "pnl": null,
+   "pnl": 1.15,
    "price": 0.77,
    "qty": 5,
    "reason": "Favorite, limit 0.77 (bid 0.76, ask 0.78), sportsbook 0.774",
-   "settled": null,
+   "settled": "2026-11-22T02:50:52.836624+00:00",
    "side": "yes",
    "start": "2026-11-22T00:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "VMI",
    "ticker": "KXNCAAMBGAME-26NOV21WEBBVMI-VMI"
@@ -4675,7 +4675,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T02:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "San Diego St.",
    "ticker": "KXNCAAFGAME-26NOV21SDSUBSU-SDSU"
@@ -4703,9 +4703,57 @@
    "strategy": "fav-maker",
    "team": "Portland",
    "ticker": "KXNCAAMBGAME-26NOV22PORTCBU-PORT"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22EVANMEM",
+   "fair": 0.9729,
+   "fee": 0.0,
+   "id": "202611220250-KXNCAAMBGAME-26NOV22EVANMEM-EVAN-no",
+   "last_seen": 0.97,
+   "league": "NCAAMB",
+   "limit": 0.97,
+   "payout": null,
+   "placed": "2026-11-22T02:50:52.836624+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T19:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Evansville",
+   "ticker": "KXNCAAMBGAME-26NOV22EVANMEM-EVAN"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22BUTNEB",
+   "fair": 0.902,
+   "fee": 0.0,
+   "id": "202611220250-KXNCAAMBGAME-26NOV22BUTNEB-NEB-yes",
+   "last_seen": 0.88,
+   "league": "NCAAMB",
+   "limit": 0.88,
+   "payout": null,
+   "placed": "2026-11-22T02:50:52.836624+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 33,
+   "reason": "Favorite, limit 0.88 (bid 0.87, ask 0.89), sportsbook 0.902",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T17:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Nebraska",
+   "ticker": "KXNCAAMBGAME-26NOV22BUTNEB-NEB"
   }
  ],
- "cash": 924.95,
+ "cash": 929.95,
  "log": [
   {
    "cash": 1000,
@@ -7000,6 +7048,20 @@
    "markets": 730,
    "matched": 61,
    "t": "2026-11-22T01:45:22.654475+00:00"
+  },
+  {
+   "cash": 929.95,
+   "equity": 975.88,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV21UTAHTCU-UTAH yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV21SDSUBSU-SDSU no (not filled before start)",
+    "won KXNCAAMBGAME-26NOV21WEBBVMI-VMI yes pnl 1.15",
+    "new no-longshot KXNCAAMBGAME-26NOV22EVANMEM-EVAN no x20 @ 0.97",
+    "new fav-maker KXNCAAMBGAME-26NOV22BUTNEB-NEB yes x33 @ 0.88"
+   ],
+   "markets": 684,
+   "matched": 58,
+   "t": "2026-11-22T02:50:52.836624+00:00"
   }
  ],
  "peak": 1020.2900000000001
