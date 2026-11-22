@@ -4090,16 +4090,16 @@
    "last_seen": 0.705,
    "league": "CFB",
    "limit": 0.73,
-   "payout": null,
+   "payout": 12.0,
    "placed": "2026-11-21T03:49:27.102901+00:00",
-   "pnl": null,
+   "pnl": 3.24,
    "price": 0.73,
    "qty": 12,
    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.740",
-   "settled": null,
+   "settled": "2026-11-22T08:10:40.072238+00:00",
    "side": "yes",
    "start": "2026-11-22T03:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Oregon St.",
    "ticker": "KXNCAAFGAME-26NOV21USUORST-ORST"
@@ -4706,24 +4706,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.4,
    "event": "KXNCAAMBGAME-26NOV22EVANMEM",
    "fair": 0.9729,
    "fee": 0.0,
    "id": "202611220250-KXNCAAMBGAME-26NOV22EVANMEM-EVAN-no",
-   "last_seen": 0.97,
+   "last_seen": 0.965,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
    "placed": "2026-11-22T02:50:52.836624+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.97,
    "qty": 20,
    "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
    "settled": null,
    "side": "no",
    "start": "2026-11-22T19:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Evansville",
    "ticker": "KXNCAAMBGAME-26NOV22EVANMEM-EVAN"
@@ -4847,9 +4847,33 @@
    "strategy": "no-longshot",
    "team": "Angers",
    "ticker": "KXLIGUE1GAME-26NOV22PARANG-ANG"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22UTMUVU",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611220810-KXNCAAMBGAME-26NOV22UTMUVU-UVU-yes",
+   "last_seen": 0.75,
+   "league": "NCAAMB",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-22T08:10:40.072238+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 18,
+   "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-23T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Utah Valley",
+   "ticker": "KXNCAAMBGAME-26NOV22UTMUVU-UVU"
   }
  ],
- "cash": 942.91,
+ "cash": 935.51,
  "log": [
   {
    "cash": 1000,
@@ -7203,6 +7227,18 @@
    "markets": 620,
    "matched": 56,
    "t": "2026-11-22T07:00:32.871720+00:00"
+  },
+  {
+   "cash": 935.51,
+   "equity": 983.95,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV22EVANMEM-EVAN no at 0.97",
+    "won KXNCAAFGAME-26NOV21USUORST-ORST yes pnl 3.24",
+    "new fav-maker KXNCAAMBGAME-26NOV22UTMUVU-UVU yes x18 @ 0.75"
+   ],
+   "markets": 610,
+   "matched": 56,
+   "t": "2026-11-22T08:10:40.072238+00:00"
   }
  ],
  "peak": 1020.2900000000001
