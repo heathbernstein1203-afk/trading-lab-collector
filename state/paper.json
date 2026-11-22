@@ -5011,10 +5011,34 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T20:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Anna Bondar",
    "ticker": "KXWTAMATCH-26NOV22GAUBON-BON"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAWBGAME-26NOV22HARVWYO",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611222018-KXNCAAWBGAME-26NOV22HARVWYO-WYO-no",
+   "last_seen": 0.96,
+   "league": "",
+   "limit": 0.96,
+   "payout": null,
+   "placed": "2026-11-22T20:18:47.058617+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T21:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Wyoming",
+   "ticker": "KXNCAAWBGAME-26NOV22HARVWYO-WYO"
   }
  ],
  "cash": 896.81,
@@ -7494,6 +7518,17 @@
    "markets": 587,
    "matched": 43,
    "t": "2026-11-22T19:26:22.233397+00:00"
+  },
+  {
+   "cash": 896.81,
+   "equity": 987.91,
+   "events": [
+    "cancelled KXWTAMATCH-26NOV22GAUBON-BON no (not filled before start)",
+    "new no-longshot KXNCAAWBGAME-26NOV22HARVWYO-WYO no x20 @ 0.96"
+   ],
+   "markets": 588,
+   "matched": 40,
+   "t": "2026-11-22T20:18:47.058617+00:00"
   }
  ],
  "peak": 1020.2900000000001
