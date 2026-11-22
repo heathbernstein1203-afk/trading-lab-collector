@@ -4027,7 +4027,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T03:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Minnesota",
    "ticker": "KXNHLGAME-26NOV21MINVAN-MIN"
@@ -4081,7 +4081,7 @@
    "ticker": "KXNCAAFGAME-26NOV21VTMIA-VT"
   },
   {
-   "close": null,
+   "close": 0.705,
    "cost": 8.76,
    "event": "KXNCAAFGAME-26NOV21USUORST",
    "fair": 0.7402,
@@ -4243,7 +4243,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T03:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Nevada",
    "ticker": "KXNCAAFGAME-26NOV21HAWNEV-NEV"
@@ -4555,7 +4555,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T03:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Pacific",
    "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC"
@@ -4603,7 +4603,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T03:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Boston",
    "ticker": "KXNBAGAME-26NOV21BOSSAC-BOS"
@@ -4751,6 +4751,54 @@
    "strategy": "fav-maker",
    "team": "Nebraska",
    "ticker": "KXNCAAMBGAME-26NOV22BUTNEB-NEB"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV22BOSGSW",
+   "fair": 0.7759,
+   "fee": 0.0,
+   "id": "202611220351-KXNBAGAME-26NOV22BOSGSW-BOS-yes",
+   "last_seen": 0.76,
+   "league": "NBA",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-22T03:51:19.261738+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.776",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-23T01:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Boston",
+   "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV22VALPUSM",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611220351-KXNCAAMBGAME-26NOV22VALPUSM-VALP-yes",
+   "last_seen": 0.76,
+   "league": "NCAAMB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-22T03:51:19.261738+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 5,
+   "reason": "Favorite, limit 0.76 (bid 0.75, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-22T23:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Valparaiso",
+   "ticker": "KXNCAAMBGAME-26NOV22VALPUSM-VALP"
   }
  ],
  "cash": 929.95,
@@ -7062,6 +7110,21 @@
    "markets": 684,
    "matched": 58,
    "t": "2026-11-22T02:50:52.836624+00:00"
+  },
+  {
+   "cash": 929.95,
+   "equity": 975.88,
+   "events": [
+    "cancelled KXNHLGAME-26NOV21MINVAN-MIN yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV21HAWNEV-NEV yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV21BRADPAC-PAC yes (not filled before start)",
+    "cancelled KXNBAGAME-26NOV21BOSSAC-BOS yes (not filled before start)",
+    "new fav-maker KXNBAGAME-26NOV22BOSGSW-BOS yes x21 @ 0.76",
+    "new fav-maker KXNCAAMBGAME-26NOV22VALPUSM-VALP yes x5 @ 0.76"
+   ],
+   "markets": 652,
+   "matched": 52,
+   "t": "2026-11-22T03:51:19.261738+00:00"
   }
  ],
  "peak": 1020.2900000000001
