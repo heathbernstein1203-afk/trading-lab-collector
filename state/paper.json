@@ -4802,24 +4802,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 24.64,
    "event": "KXNBAGAME-26NOV22INDNYK",
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
    "placed": "2026-11-22T04:55:00.788369+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.77,
    "qty": 32,
    "reason": "Favorite, limit 0.77 (bid 0.77, ask 0.78), sportsbook 0.793",
    "settled": null,
    "side": "yes",
    "start": "2026-11-23T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "New York",
    "ticker": "KXNBAGAME-26NOV22INDNYK-NYK"
@@ -4873,7 +4873,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22UTMUVU-UVU"
   }
  ],
- "cash": 935.51,
+ "cash": 910.87,
  "log": [
   {
    "cash": 1000,
@@ -7239,6 +7239,16 @@
    "markets": 610,
    "matched": 56,
    "t": "2026-11-22T08:10:40.072238+00:00"
+  },
+  {
+   "cash": 910.87,
+   "equity": 983.95,
+   "events": [
+    "filled KXNBAGAME-26NOV22INDNYK-NYK yes at 0.77"
+   ],
+   "markets": 606,
+   "matched": 56,
+   "t": "2026-11-22T09:17:20.878637+00:00"
   }
  ],
  "peak": 1020.2900000000001
