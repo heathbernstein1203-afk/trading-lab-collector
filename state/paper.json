@@ -4682,24 +4682,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 17.6,
    "event": "KXNCAAMBGAME-26NOV22PORTCBU",
    "fair": 0.8151,
    "fee": 0.0,
    "id": "202611220145-KXNCAAMBGAME-26NOV22PORTCBU-PORT-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.775,
    "league": "NCAAMB",
    "limit": 0.8,
    "payout": null,
    "placed": "2026-11-22T01:45:22.654475+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.8,
    "qty": 22,
    "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.815",
    "settled": null,
    "side": "yes",
    "start": "2026-11-23T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Portland",
    "ticker": "KXNCAAMBGAME-26NOV22PORTCBU-PORT"
@@ -4850,24 +4850,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 13.5,
    "event": "KXNCAAMBGAME-26NOV22UTMUVU",
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611220810-KXNCAAMBGAME-26NOV22UTMUVU-UVU-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.725,
    "league": "NCAAMB",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-22T08:10:40.072238+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 18,
    "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.764",
    "settled": null,
    "side": "yes",
    "start": "2026-11-23T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Utah Valley",
    "ticker": "KXNCAAMBGAME-26NOV22UTMUVU-UVU"
@@ -4921,7 +4921,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22NJITBC-NJIT"
   }
  ],
- "cash": 894.91,
+ "cash": 863.81,
  "log": [
   {
    "cash": 1000,
@@ -7344,6 +7344,17 @@
    "markets": 599,
    "matched": 57,
    "t": "2026-11-22T14:21:55.992683+00:00"
+  },
+  {
+   "cash": 863.81,
+   "equity": 983.95,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV22PORTCBU-PORT yes at 0.8",
+    "filled KXNCAAMBGAME-26NOV22UTMUVU-UVU yes at 0.75"
+   ],
+   "markets": 588,
+   "matched": 57,
+   "t": "2026-11-22T15:17:28.013031+00:00"
   }
  ],
  "peak": 1020.2900000000001
