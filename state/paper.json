@@ -4711,7 +4711,7 @@
    "fair": 0.9729,
    "fee": 0.0,
    "id": "202611220250-KXNCAAMBGAME-26NOV22EVANMEM-EVAN-no",
-   "last_seen": 0.96,
+   "last_seen": 0.955,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
@@ -4729,7 +4729,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22EVANMEM-EVAN"
   },
   {
-   "close": null,
+   "close": 0.875,
    "cost": 29.04,
    "event": "KXNCAAMBGAME-26NOV22BUTNEB",
    "fair": 0.902,
@@ -4759,7 +4759,7 @@
    "fair": 0.7759,
    "fee": 0.0,
    "id": "202611220351-KXNBAGAME-26NOV22BOSGSW-BOS-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.75,
    "league": "NBA",
    "limit": 0.76,
    "payout": null,
@@ -4807,7 +4807,7 @@
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.75,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -7363,6 +7363,14 @@
    "markets": 584,
    "matched": 57,
    "t": "2026-11-22T16:17:05.690665+00:00"
+  },
+  {
+   "cash": 863.81,
+   "equity": 983.95,
+   "events": [],
+   "markets": 594,
+   "matched": 57,
+   "t": "2026-11-22T17:16:05.951212+00:00"
   }
  ],
  "peak": 1020.2900000000001
