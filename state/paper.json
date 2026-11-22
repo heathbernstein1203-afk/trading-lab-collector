@@ -4705,7 +4705,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22PORTCBU-PORT"
   },
   {
-   "close": null,
+   "close": 0.955,
    "cost": 19.4,
    "event": "KXNCAAMBGAME-26NOV22EVANMEM",
    "fair": 0.9729,
@@ -4738,16 +4738,16 @@
    "last_seen": 0.875,
    "league": "NCAAMB",
    "limit": 0.88,
-   "payout": null,
+   "payout": 33.0,
    "placed": "2026-11-22T02:50:52.836624+00:00",
-   "pnl": null,
+   "pnl": 3.96,
    "price": 0.88,
    "qty": 33,
    "reason": "Favorite, limit 0.88 (bid 0.87, ask 0.89), sportsbook 0.902",
-   "settled": null,
+   "settled": "2026-11-22T19:26:22.233397+00:00",
    "side": "yes",
    "start": "2026-11-22T17:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Nebraska",
    "ticker": "KXNCAAMBGAME-26NOV22BUTNEB-NEB"
@@ -4759,7 +4759,7 @@
    "fair": 0.7759,
    "fee": 0.0,
    "id": "202611220351-KXNBAGAME-26NOV22BOSGSW-BOS-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.755,
    "league": "NBA",
    "limit": 0.76,
    "payout": null,
@@ -4807,7 +4807,7 @@
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.735,
+   "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -4991,9 +4991,33 @@
    "strategy": "fav-maker",
    "team": "Samford",
    "ticker": "KXNCAAMBGAME-26NOV22UNCASAM-SAM"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXWTAMATCH-26NOV22GAUBON",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611221926-KXWTAMATCH-26NOV22GAUBON-BON-no",
+   "last_seen": 0.93,
+   "league": "",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-22T19:26:22.233397+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-22T20:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Anna Bondar",
+   "ticker": "KXWTAMATCH-26NOV22GAUBON-BON"
   }
  ],
- "cash": 863.81,
+ "cash": 896.81,
  "log": [
   {
    "cash": 1000,
@@ -7459,6 +7483,17 @@
    "markets": 607,
    "matched": 50,
    "t": "2026-11-22T18:11:43.498684+00:00"
+  },
+  {
+   "cash": 896.81,
+   "equity": 987.91,
+   "events": [
+    "won KXNCAAMBGAME-26NOV22BUTNEB-NEB yes pnl 3.96",
+    "new no-longshot KXWTAMATCH-26NOV22GAUBON-BON no x21 @ 0.93"
+   ],
+   "markets": 587,
+   "matched": 43,
+   "t": "2026-11-22T19:26:22.233397+00:00"
   }
  ],
  "peak": 1020.2900000000001
