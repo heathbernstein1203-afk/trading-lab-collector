@@ -149,7 +149,10 @@ def attach_fair(markets, games):
         if len(ms) != 2:
             continue
         for g in games:
-            if g["fair_home"] is None or not g["start_dt"] or not same_game(ms[0], g):
+            # Games without a sportsbook line still give us ESPN's real start time (Nov 21: college football
+            # games with no line got Kalshi's time minus 3h, which ran about 3h late, so the Georgia Tech NO
+            # limit order stayed live after kickoff). Only set "fair" when ESPN has a line.
+            if not g["start_dt"] or not same_game(ms[0], g):
                 continue
             a, b = ms
             # Score both orderings and take the clearly better one. Before Nov 20 the first ordering that
@@ -163,10 +166,11 @@ def attach_fair(markets, games):
             if max(scores) == 0 or scores[0] == scores[1]:
                 continue
             x, y = (a, b) if scores[0] > scores[1] else (b, a)
-            x["fair"], y["fair"] = g["fair_home"], g["fair_away"]
+            if g["fair_home"] is not None:
+                x["fair"], y["fair"] = g["fair_home"], g["fair_away"]
+                matched += 1
             x["start_dt"] = y["start_dt"] = g["start_dt"]
             x["league"] = y["league"] = g["league"]
-            matched += 1
             break
     # No ESPN match: Kalshi's occurrence/expected-expiration times are about 3 hours AFTER the real start
     # (e.g. Bucks @ Magic tipped 00:00Z, Kalshi said 03:00Z), so use the earlier of the two minus 3 hours.

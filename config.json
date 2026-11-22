@@ -57,7 +57,7 @@
       "min_edge": 0.08,
       "stake": 5,
       "sd_today": 2.0,
-      "sd_tomorrow": 1.5,
+      "sd_tomorrow": 2.0,
       "max_per_day": 1
     },
     "note": "Separate fake $1,000 pot for Kalshi weather (7 cities), crypto (BTC/ETH hourly) and economics (CPI, jobs, Fed). $2 data bets on one random live outcome per event, plus the weather-forecast strategy vs the National Weather Service forecast. Never copied to the demo."
