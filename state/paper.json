@@ -4387,7 +4387,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T21:25:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Jacksonville",
    "ticker": "KXNFLGAME-26NOV22JACNYG-JAC"
@@ -4579,7 +4579,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T21:25:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Denver",
    "ticker": "KXNFLGAME-26NOV22LVDEN-DEN"
@@ -4759,7 +4759,7 @@
    "fair": 0.7759,
    "fee": 0.0,
    "id": "202611220351-KXNBAGAME-26NOV22BOSGSW-BOS-yes",
-   "last_seen": 0.74,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.76,
    "payout": null,
@@ -4807,7 +4807,7 @@
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.735,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -4915,7 +4915,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T22:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "NJIT",
    "ticker": "KXNCAAMBGAME-26NOV22NJITBC-NJIT"
@@ -4987,7 +4987,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T22:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Samford",
    "ticker": "KXNCAAMBGAME-26NOV22UNCASAM-SAM"
@@ -5059,7 +5059,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-22T21:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "IU Indy",
    "ticker": "KXNCAAMBGAME-26NOV22UMESIUIN-IUIN"
@@ -5087,6 +5087,30 @@
    "strategy": "fav-maker",
    "team": "Arizona",
    "ticker": "KXNCAAMBGAME-26NOV23CSUARIZ-ARIZ"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV23WASHBYU",
+   "fair": 0.8326,
+   "fee": 0.0,
+   "id": "202611222217-KXNCAAMBGAME-26NOV23WASHBYU-BYU-yes",
+   "last_seen": 0.83,
+   "league": "NCAAMB",
+   "limit": 0.83,
+   "payout": null,
+   "placed": "2026-11-22T22:17:11.755838+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.83 (bid 0.82, ask 0.84), sportsbook 0.833",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-23T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "BYU",
+   "ticker": "KXNCAAMBGAME-26NOV23WASHBYU-BYU"
   }
  ],
  "cash": 916.81,
@@ -7591,6 +7615,21 @@
    "markets": 537,
    "matched": 40,
    "t": "2026-11-22T21:16:42.627405+00:00"
+  },
+  {
+   "cash": 916.81,
+   "equity": 988.51,
+   "events": [
+    "cancelled KXNFLGAME-26NOV22JACNYG-JAC yes (not filled before start)",
+    "cancelled KXNFLGAME-26NOV22LVDEN-DEN yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV22NJITBC-NJIT no (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV22UNCASAM-SAM yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV22UMESIUIN-IUIN yes (not filled before start)",
+    "new fav-maker KXNCAAMBGAME-26NOV23WASHBYU-BYU yes x4 @ 0.83"
+   ],
+   "markets": 500,
+   "matched": 31,
+   "t": "2026-11-22T22:17:11.755838+00:00"
   }
  ],
  "peak": 1020.2900000000001
