@@ -4711,7 +4711,7 @@
    "fair": 0.9729,
    "fee": 0.0,
    "id": "202611220250-KXNCAAMBGAME-26NOV22EVANMEM-EVAN-no",
-   "last_seen": 0.965,
+   "last_seen": 0.955,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
@@ -7257,6 +7257,14 @@
    "markets": 600,
    "matched": 56,
    "t": "2026-11-22T10:18:47.632989+00:00"
+  },
+  {
+   "cash": 910.87,
+   "equity": 983.95,
+   "events": [],
+   "markets": 596,
+   "matched": 56,
+   "t": "2026-11-22T11:15:31.084877+00:00"
   }
  ],
  "peak": 1020.2900000000001
