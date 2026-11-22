@@ -3931,7 +3931,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-22T13:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Villarreal",
    "ticker": "KXLALIGAGAME-26NOV22BARVIL-VIL"
@@ -4711,7 +4711,7 @@
    "fair": 0.9729,
    "fee": 0.0,
    "id": "202611220250-KXNCAAMBGAME-26NOV22EVANMEM-EVAN-no",
-   "last_seen": 0.955,
+   "last_seen": 0.965,
    "league": "NCAAMB",
    "limit": 0.97,
    "payout": null,
@@ -4754,24 +4754,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 15.96,
    "event": "KXNBAGAME-26NOV22BOSGSW",
    "fair": 0.7759,
    "fee": 0.0,
    "id": "202611220351-KXNBAGAME-26NOV22BOSGSW-BOS-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.755,
    "league": "NBA",
    "limit": 0.76,
    "payout": null,
    "placed": "2026-11-22T03:51:19.261738+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.76,
    "qty": 21,
    "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.776",
    "settled": null,
    "side": "yes",
    "start": "2026-11-23T01:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Boston",
    "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS"
@@ -4807,7 +4807,7 @@
    "fair": 0.7935,
    "fee": 0.0,
    "id": "202611220455-KXNBAGAME-26NOV22INDNYK-NYK-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.755,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -4871,9 +4871,33 @@
    "strategy": "fav-maker",
    "team": "Utah Valley",
    "ticker": "KXNCAAMBGAME-26NOV22UTMUVU-UVU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNFLGAME-26NOV23CINWAS",
+   "fair": 0.7318,
+   "fee": 0.0,
+   "id": "202611221331-KXNFLGAME-26NOV23CINWAS-CIN-yes",
+   "last_seen": 0.72,
+   "league": "NFL",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-22T13:31:49.211531+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 14,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.732",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T01:15:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Cincinnati",
+   "ticker": "KXNFLGAME-26NOV23CINWAS-CIN"
   }
  ],
- "cash": 910.87,
+ "cash": 894.91,
  "log": [
   {
    "cash": 1000,
@@ -7273,6 +7297,18 @@
    "markets": 612,
    "matched": 56,
    "t": "2026-11-22T12:14:11.300598+00:00"
+  },
+  {
+   "cash": 894.91,
+   "equity": 983.95,
+   "events": [
+    "cancelled KXLALIGAGAME-26NOV22BARVIL-VIL no (not filled before start)",
+    "filled KXNBAGAME-26NOV22BOSGSW-BOS yes at 0.76",
+    "new fav-maker KXNFLGAME-26NOV23CINWAS-CIN yes x14 @ 0.72"
+   ],
+   "markets": 607,
+   "matched": 56,
+   "t": "2026-11-22T13:31:49.211531+00:00"
   }
  ],
  "peak": 1020.2900000000001
