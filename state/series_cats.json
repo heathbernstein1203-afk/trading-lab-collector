@@ -70,6 +70,7 @@
  "KXBELGIANPLGAME": "Sports",
  "KXBELGIANPLSPREAD": "Sports",
  "KXBELGIANPLTOTAL": "Sports",
+ "KXBIDENNYT1": "Politics",
  "KXBIHD1GAME": "Sports",
  "KXBILLBOARDRUNNERUPALBUM": "Entertainment",
  "KXBILLBOARDRUNNERUPSONG": "Entertainment",
@@ -681,6 +682,9 @@
  "KXNWSLTOTAL": "Sports",
  "KXODIMATCH": "Sports",
  "KXOPENSOURCESHARE": "Science and Technology",
+ "KXOPENVREQ": "Science and Technology",
+ "KXOPENVSPEND": "Science and Technology",
+ "KXOSSPEND": "Science and Technology",
  "KXPALLADIUM15M": "Commodities",
  "KXPANAMAWEEKLY": "Politics",
  "KXPERLIGA1BTTS": "Sports",
@@ -842,5 +846,7 @@
  "KXXRP15M": "Crypto",
  "KXXRPD": "Crypto",
  "KXYTVIEWSW": "Entertainment",
+ "KXZAIVREQ": "Science and Technology",
+ "KXZAIVSPEND": "Science and Technology",
  "KXZEC15M": "Crypto"
 }
