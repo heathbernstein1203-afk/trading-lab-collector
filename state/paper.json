@@ -5191,7 +5191,7 @@
    "fair": 0.8136,
    "fee": 0.0,
    "id": "202611230152-KXNBAGAME-26NOV23MILTOR-TOR-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.795,
    "league": "NBA",
    "limit": 0.81,
    "payout": null,
@@ -5351,6 +5351,54 @@
    "strategy": "fav-maker",
    "team": "San Antonio",
    "ticker": "KXNBAGAME-26NOV23SASSAC-SAS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV24MOHWMU",
+   "fair": 0.7323,
+   "fee": 0.0,
+   "id": "202611231311-KXNCAAFGAME-26NOV24MOHWMU-WMU-yes",
+   "last_seen": 0.73,
+   "league": "CFB",
+   "limit": 0.73,
+   "payout": null,
+   "placed": "2026-11-23T13:11:00.818379+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 2,
+   "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.732",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-25T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Western Michigan",
+   "ticker": "KXNCAAFGAME-26NOV24MOHWMU-WMU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV23EWUUNLV",
+   "fair": 0.7568,
+   "fee": 0.0,
+   "id": "202611231311-KXNCAAMBGAME-26NOV23EWUUNLV-UNLV-yes",
+   "last_seen": 0.75,
+   "league": "NCAAMB",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-23T13:11:00.818379+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.75 (bid 0.74, ask 0.76), sportsbook 0.757",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T03:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "UNLV",
+   "ticker": "KXNCAAMBGAME-26NOV23EWUUNLV-UNLV"
   }
  ],
  "cash": 926.01,
@@ -7990,6 +8038,17 @@
    "markets": 572,
    "matched": 50,
    "t": "2026-11-23T11:54:45.120211+00:00"
+  },
+  {
+   "cash": 926.01,
+   "equity": 966.81,
+   "events": [
+    "new fav-maker KXNCAAFGAME-26NOV24MOHWMU-WMU yes x2 @ 0.73",
+    "new fav-maker KXNCAAMBGAME-26NOV23EWUUNLV-UNLV yes x8 @ 0.75"
+   ],
+   "markets": 570,
+   "matched": 50,
+   "t": "2026-11-23T13:11:00.818379+00:00"
   }
  ],
  "peak": 1020.2900000000001
