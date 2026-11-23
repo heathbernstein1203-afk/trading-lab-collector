@@ -4753,7 +4753,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22BUTNEB-NEB"
   },
   {
-   "close": null,
+   "close": 0.745,
    "cost": 15.96,
    "event": "KXNBAGAME-26NOV22BOSGSW",
    "fair": 0.7759,
@@ -4801,7 +4801,7 @@
    "ticker": "KXNCAAMBGAME-26NOV22VALPUSM-VALP"
   },
   {
-   "close": null,
+   "close": 0.735,
    "cost": 24.64,
    "event": "KXNBAGAME-26NOV22INDNYK",
    "fair": 0.7935,
@@ -4849,7 +4849,7 @@
    "ticker": "KXLIGUE1GAME-26NOV22PARANG-ANG"
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 13.5,
    "event": "KXNCAAMBGAME-26NOV22UTMUVU",
    "fair": 0.7644,
@@ -5159,6 +5159,54 @@
    "strategy": "fav-maker",
    "team": "Houston",
    "ticker": "KXNBAGAME-26NOV23LACHOU-HOU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV23BKNMIN",
+   "fair": 0.8396,
+   "fee": 0.0,
+   "id": "202611230152-KXNBAGAME-26NOV23BKNMIN-MIN-yes",
+   "last_seen": 0.83,
+   "league": "NBA",
+   "limit": 0.83,
+   "payout": null,
+   "placed": "2026-11-23T01:52:40.331654+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 16,
+   "reason": "Favorite, limit 0.83 (bid 0.83, ask 0.84), sportsbook 0.840",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Minnesota",
+   "ticker": "KXNBAGAME-26NOV23BKNMIN-MIN"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV23MILTOR",
+   "fair": 0.8136,
+   "fee": 0.0,
+   "id": "202611230152-KXNBAGAME-26NOV23MILTOR-TOR-yes",
+   "last_seen": 0.81,
+   "league": "NBA",
+   "limit": 0.81,
+   "payout": null,
+   "placed": "2026-11-23T01:52:40.331654+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 5,
+   "reason": "Favorite, limit 0.81 (bid 0.80, ask 0.82), sportsbook 0.814",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Toronto",
+   "ticker": "KXNBAGAME-26NOV23MILTOR-TOR"
   }
  ],
  "cash": 916.81,
@@ -7702,6 +7750,19 @@
    "markets": 553,
    "matched": 38,
    "t": "2026-11-23T00:15:02.333554+00:00"
+  },
+  {
+   "cash": 916.81,
+   "equity": 988.51,
+   "events": [
+    "new fav-maker KXNBAGAME-26NOV23BKNMIN-MIN yes x16 @ 0.83",
+    "new fav-maker KXNBAGAME-26NOV23MILTOR-TOR yes x5 @ 0.81",
+    "demo placed KXNBAGAME-26NOV23BKNMIN-MIN yes x16 @ 83c",
+    "demo placed KXNBAGAME-26NOV23MILTOR-TOR yes x5 @ 81c"
+   ],
+   "markets": 572,
+   "matched": 36,
+   "t": "2026-11-23T01:52:40.331654+00:00"
   }
  ],
  "peak": 1020.2900000000001
