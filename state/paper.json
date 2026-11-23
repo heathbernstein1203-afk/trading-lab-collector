@@ -5113,7 +5113,7 @@
    "ticker": "KXNCAAMBGAME-26NOV23WASHBYU-BYU"
   },
   {
-   "close": null,
+   "close": 0.945,
    "cost": 19.95,
    "event": "KXNCAAMBGAME-26NOV23IUSBEIU",
    "fair": null,
@@ -5311,7 +5311,7 @@
    "fair": 0.8104,
    "fee": 0.0,
    "id": "202611230358-KXNCAAMBGAME-26NOV23CARKUNF-CARK-yes",
-   "last_seen": 0.785,
+   "last_seen": 0.775,
    "league": "NCAAMB",
    "limit": 0.8,
    "payout": null,
@@ -5359,7 +5359,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611231311-KXNCAAFGAME-26NOV24MOHWMU-WMU-yes",
-   "last_seen": 0.705,
+   "last_seen": 0.7,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -8140,6 +8140,14 @@
    "markets": 642,
    "matched": 55,
    "t": "2026-11-23T17:56:05.836415+00:00"
+  },
+  {
+   "cash": 865.4,
+   "equity": 966.81,
+   "events": [],
+   "markets": 662,
+   "matched": 52,
+   "t": "2026-11-23T18:56:40.252387+00:00"
   }
  ],
  "peak": 1020.2900000000001
