@@ -4651,7 +4651,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-23T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Denver",
    "ticker": "KXNBAGAME-26NOV22DENCHI-DEN"
@@ -4681,7 +4681,7 @@
    "ticker": "KXNCAAFGAME-26NOV21SDSUBSU-SDSU"
   },
   {
-   "close": null,
+   "close": 0.735,
    "cost": 17.6,
    "event": "KXNCAAMBGAME-26NOV22PORTCBU",
    "fair": 0.8151,
@@ -5135,6 +5135,30 @@
    "strategy": "no-longshot",
    "team": "Indiana-South Bend",
    "ticker": "KXNCAAMBGAME-26NOV23IUSBEIU-IUSB"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV23LACHOU",
+   "fair": 0.8462,
+   "fee": 0.0,
+   "id": "202611230015-KXNBAGAME-26NOV23LACHOU-HOU-yes",
+   "last_seen": 0.82,
+   "league": "NBA",
+   "limit": 0.82,
+   "payout": null,
+   "placed": "2026-11-23T00:15:02.333554+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 36,
+   "reason": "Favorite, limit 0.82 (bid 0.82, ask 0.83), sportsbook 0.846",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T01:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Houston",
+   "ticker": "KXNBAGAME-26NOV23LACHOU-HOU"
   }
  ],
  "cash": 916.81,
@@ -7666,6 +7690,18 @@
    "markets": 502,
    "matched": 36,
    "t": "2026-11-22T23:15:15.132937+00:00"
+  },
+  {
+   "cash": 916.81,
+   "equity": 988.51,
+   "events": [
+    "cancelled KXNBAGAME-26NOV22DENCHI-DEN yes (not filled before start)",
+    "new fav-maker KXNBAGAME-26NOV23LACHOU-HOU yes x36 @ 0.82",
+    "demo placed KXNBAGAME-26NOV23LACHOU-HOU yes x36 @ 82c"
+   ],
+   "markets": 553,
+   "matched": 38,
+   "t": "2026-11-23T00:15:02.333554+00:00"
   }
  ],
  "peak": 1020.2900000000001
