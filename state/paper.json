@@ -5167,7 +5167,7 @@
    "fair": 0.8396,
    "fee": 0.0,
    "id": "202611230152-KXNBAGAME-26NOV23BKNMIN-MIN-yes",
-   "last_seen": 0.825,
+   "last_seen": 0.815,
    "league": "NBA",
    "limit": 0.83,
    "payout": null,
@@ -5410,16 +5410,16 @@
    "last_seen": 0.725,
    "league": "NCAAMB",
    "limit": 0.73,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-23T14:40:08.313419+00:00",
-   "pnl": null,
+   "pnl": 0.54,
    "price": 0.73,
    "qty": 2,
    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.732",
-   "settled": null,
+   "settled": "2026-11-23T23:47:04.631825+00:00",
    "side": "yes",
    "start": "2026-11-23T20:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Arkansas St.",
    "ticker": "KXNCAAMBGAME-26NOV23ARSTSUU-ARST"
@@ -5546,30 +5546,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 2.88,
    "event": "KXNCAAMBGAME-26NOV24TCUMIA",
    "fair": 0.7234,
    "fee": 0.0,
    "id": "202611232250-KXNCAAMBGAME-26NOV24TCUMIA-MIA-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.715,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
    "placed": "2026-11-23T22:50:35.686946+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.72,
    "qty": 4,
    "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.723",
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Miami (FL)",
    "ticker": "KXNCAAMBGAME-26NOV24TCUMIA-MIA"
   }
  ],
- "cash": 912.4,
+ "cash": 911.52,
  "log": [
   {
    "cash": 1000,
@@ -8313,6 +8313,17 @@
    "markets": 728,
    "matched": 51,
    "t": "2026-11-23T22:50:35.686946+00:00"
+  },
+  {
+   "cash": 911.52,
+   "equity": 975.94,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV24TCUMIA-MIA yes at 0.72",
+    "won KXNCAAMBGAME-26NOV23ARSTSUU-ARST yes pnl 0.54"
+   ],
+   "markets": 730,
+   "matched": 71,
+   "t": "2026-11-23T23:47:04.631825+00:00"
   }
  ],
  "peak": 1020.2900000000001
