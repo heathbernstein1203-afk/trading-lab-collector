@@ -5311,7 +5311,7 @@
    "fair": 0.8104,
    "fee": 0.0,
    "id": "202611230358-KXNCAAMBGAME-26NOV23CARKUNF-CARK-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.795,
    "league": "NCAAMB",
    "limit": 0.8,
    "payout": null,
@@ -5354,24 +5354,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 1.46,
    "event": "KXNCAAFGAME-26NOV24MOHWMU",
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611231311-KXNCAAFGAME-26NOV24MOHWMU-WMU-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.725,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
    "placed": "2026-11-23T13:11:00.818379+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.73,
    "qty": 2,
    "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.732",
    "settled": null,
    "side": "yes",
    "start": "2026-11-25T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Western Michigan",
    "ticker": "KXNCAAFGAME-26NOV24MOHWMU-WMU"
@@ -5399,9 +5399,33 @@
    "strategy": "fav-maker",
    "team": "UNLV",
    "ticker": "KXNCAAMBGAME-26NOV23EWUUNLV-UNLV"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV23ARSTSUU",
+   "fair": 0.7323,
+   "fee": 0.0,
+   "id": "202611231440-KXNCAAMBGAME-26NOV23ARSTSUU-ARST-yes",
+   "last_seen": 0.73,
+   "league": "NCAAMB",
+   "limit": 0.73,
+   "payout": null,
+   "placed": "2026-11-23T14:40:08.313419+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 2,
+   "reason": "Favorite, limit 0.73 (bid 0.73, ask 0.74), sportsbook 0.732",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-23T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Arkansas St.",
+   "ticker": "KXNCAAMBGAME-26NOV23ARSTSUU-ARST"
   }
  ],
- "cash": 926.01,
+ "cash": 924.55,
  "log": [
   {
    "cash": 1000,
@@ -8049,6 +8073,17 @@
    "markets": 570,
    "matched": 50,
    "t": "2026-11-23T13:11:00.818379+00:00"
+  },
+  {
+   "cash": 924.55,
+   "equity": 966.81,
+   "events": [
+    "filled KXNCAAFGAME-26NOV24MOHWMU-WMU yes at 0.73",
+    "new fav-maker KXNCAAMBGAME-26NOV23ARSTSUU-ARST yes x2 @ 0.73"
+   ],
+   "markets": 574,
+   "matched": 50,
+   "t": "2026-11-23T14:40:08.313419+00:00"
   }
  ],
  "peak": 1020.2900000000001
