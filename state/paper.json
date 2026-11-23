@@ -5281,7 +5281,7 @@
    "ticker": "KXNCAAWBGAME-26NOV23MICHMIA-MIA"
   },
   {
-   "close": null,
+   "close": 0.665,
    "cost": 18.46,
    "event": "KXNCAAMBGAME-26NOV23TLSAORST",
    "fair": 0.7323,
@@ -8148,6 +8148,14 @@
    "markets": 662,
    "matched": 52,
    "t": "2026-11-23T18:56:40.252387+00:00"
+  },
+  {
+   "cash": 865.4,
+   "equity": 966.81,
+   "events": [],
+   "markets": 686,
+   "matched": 52,
+   "t": "2026-11-23T19:59:05.528338+00:00"
   }
  ],
  "peak": 1020.2900000000001
