@@ -5122,16 +5122,16 @@
    "last_seen": 0.945,
    "league": "NCAAMB",
    "limit": 0.95,
-   "payout": null,
+   "payout": 21.0,
    "placed": "2026-11-22T23:15:15.132937+00:00",
-   "pnl": null,
+   "pnl": 1.05,
    "price": 0.95,
    "qty": 21,
    "reason": "YES at 0.05: fading the longshot with a NO limit at 0.95",
-   "settled": null,
+   "settled": "2026-11-23T20:49:13.307428+00:00",
    "side": "no",
    "start": "2026-11-23T18:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "no-longshot",
    "team": "Indiana-South Bend",
    "ticker": "KXNCAAMBGAME-26NOV23IUSBEIU-IUSB"
@@ -5239,7 +5239,7 @@
    "fair": 0.7761,
    "fee": 0.0,
    "id": "202611230254-KXNBAGAME-26NOV23CLECHI-CLE-yes",
-   "last_seen": 0.745,
+   "last_seen": 0.755,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -5401,7 +5401,7 @@
    "ticker": "KXNCAAMBGAME-26NOV23EWUUNLV-UNLV"
   },
   {
-   "close": null,
+   "close": 0.725,
    "cost": 1.46,
    "event": "KXNCAAMBGAME-26NOV23ARSTSUU",
    "fair": 0.7323,
@@ -5447,9 +5447,33 @@
    "strategy": "fav-maker",
    "team": "Ottawa",
    "ticker": "KXNHLGAME-26NOV23CGYOTT-OTT"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXUCLGAME-26NOV24COMAEK",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611232049-KXUCLGAME-26NOV24COMAEK-AEK-no",
+   "last_seen": 0.91,
+   "league": "",
+   "limit": 0.91,
+   "payout": null,
+   "placed": "2026-11-23T20:49:13.307428+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.09: fading the longshot with a NO limit at 0.91",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-24T20:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "AEK Athens",
+   "ticker": "KXUCLGAME-26NOV24COMAEK-AEK"
   }
  ],
- "cash": 865.4,
+ "cash": 886.4,
  "log": [
   {
    "cash": 1000,
@@ -8156,6 +8180,17 @@
    "markets": 686,
    "matched": 52,
    "t": "2026-11-23T19:59:05.528338+00:00"
+  },
+  {
+   "cash": 886.4,
+   "equity": 967.86,
+   "events": [
+    "won KXNCAAMBGAME-26NOV23IUSBEIU-IUSB no pnl 1.05",
+    "new no-longshot KXUCLGAME-26NOV24COMAEK-AEK no x21 @ 0.91"
+   ],
+   "markets": 707,
+   "matched": 50,
+   "t": "2026-11-23T20:49:13.307428+00:00"
   }
  ],
  "peak": 1020.2900000000001
