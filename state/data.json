@@ -38607,7 +38607,7 @@
    "fair": null,
    "fee": 0.09,
    "id": "202611230514-KXVALORANTGAME-26NOV230400FPXAT-AT-yes",
-   "last_seen": 0.405,
+   "last_seen": 0.375,
    "league": "",
    "mid": 0.38,
    "payout": null,
@@ -38632,7 +38632,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611230639-KXVALORANTGAME-26NOV230600SECAQ-SEC-yes",
-   "last_seen": 0.135,
+   "last_seen": 0.125,
    "league": "",
    "mid": 0.14,
    "payout": null,
@@ -38649,9 +38649,34 @@
    "team": "SEC",
    "ticker": "KXVALORANTGAME-26NOV230600SECAQ-SEC",
    "volume": 116
+  },
+  {
+   "close": null,
+   "cost": 1.96,
+   "event": "KXT20MATCH-26NOV230930DESSW",
+   "fair": null,
+   "fee": 0.07,
+   "id": "202611230952-KXT20MATCH-26NOV230930DESSW-DES-yes",
+   "last_seen": 0.485,
+   "league": "",
+   "mid": 0.485,
+   "payout": null,
+   "placed": "2026-11-23T09:52:41.869276+00:00",
+   "pnl": null,
+   "price": 0.49,
+   "qty": 4,
+   "series": "KXT20MATCH",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.01,
+   "start": "2026-11-23T15:30:00+00:00",
+   "status": "open",
+   "team": "Desert Vipers",
+   "ticker": "KXT20MATCH-26NOV230930DESSW-DES",
+   "volume": 10213
   }
  ],
- "cash": 916.52,
+ "cash": 914.49,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -40071,6 +40096,7 @@
   "KXT20MATCH-26NOV220600BIHARTN",
   "KXT20MATCH-26NOV220600JKANDUP",
   "KXT20MATCH-26NOV220930ADKRDUB",
+  "KXT20MATCH-26NOV230930DESSW",
   "KXUFCFIGHT-26NOV14BORBEL",
   "KXUFCFIGHT-26NOV14CHIMES",
   "KXUFCFIGHT-26NOV14COSGOR",
@@ -40998,5 +41024,5 @@
    "won": 12
   }
  },
- "updated": "2026-11-23T08:32:45.548279+00:00"
+ "updated": "2026-11-23T09:52:41.869276+00:00"
 }
