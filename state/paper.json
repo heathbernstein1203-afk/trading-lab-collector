@@ -5191,7 +5191,7 @@
    "fair": 0.8136,
    "fee": 0.0,
    "id": "202611230152-KXNBAGAME-26NOV23MILTOR-TOR-yes",
-   "last_seen": 0.795,
+   "last_seen": 0.8,
    "league": "NBA",
    "limit": 0.81,
    "payout": null,
@@ -5311,7 +5311,7 @@
    "fair": 0.8104,
    "fee": 0.0,
    "id": "202611230358-KXNCAAMBGAME-26NOV23CARKUNF-CARK-yes",
-   "last_seen": 0.795,
+   "last_seen": 0.8,
    "league": "NCAAMB",
    "limit": 0.8,
    "payout": null,
@@ -7974,6 +7974,14 @@
    "markets": 566,
    "matched": 50,
    "t": "2026-11-23T09:52:41.869276+00:00"
+  },
+  {
+   "cash": 926.01,
+   "equity": 966.81,
+   "events": [],
+   "markets": 568,
+   "matched": 50,
+   "t": "2026-11-23T11:03:46.681068+00:00"
   }
  ],
  "peak": 1020.2900000000001
