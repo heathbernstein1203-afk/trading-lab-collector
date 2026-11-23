@@ -5239,7 +5239,7 @@
    "fair": 0.7761,
    "fee": 0.0,
    "id": "202611230254-KXNBAGAME-26NOV23CLECHI-CLE-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -8096,6 +8096,14 @@
    "markets": 576,
    "matched": 50,
    "t": "2026-11-23T15:59:57.984166+00:00"
+  },
+  {
+   "cash": 898.63,
+   "equity": 966.81,
+   "events": [],
+   "markets": 598,
+   "matched": 56,
+   "t": "2026-11-23T16:58:33.249600+00:00"
   }
  ],
  "peak": 1020.2900000000001
