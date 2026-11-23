@@ -5191,7 +5191,7 @@
    "fair": 0.8136,
    "fee": 0.0,
    "id": "202611230152-KXNBAGAME-26NOV23MILTOR-TOR-yes",
-   "last_seen": 0.805,
+   "last_seen": 0.795,
    "league": "NBA",
    "limit": 0.81,
    "payout": null,
@@ -7958,6 +7958,14 @@
    "markets": 556,
    "matched": 50,
    "t": "2026-11-23T06:39:56.170187+00:00"
+  },
+  {
+   "cash": 926.01,
+   "equity": 966.81,
+   "events": [],
+   "markets": 562,
+   "matched": 50,
+   "t": "2026-11-23T08:32:45.548279+00:00"
   }
  ],
  "peak": 1020.2900000000001
