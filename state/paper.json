@@ -5234,24 +5234,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 24.75,
    "event": "KXNBAGAME-26NOV23CLECHI",
    "fair": 0.7761,
    "fee": 0.0,
    "id": "202611230254-KXNBAGAME-26NOV23CLECHI-CLE-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-23T02:54:36.591030+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 33,
    "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.776",
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Cleveland",
    "ticker": "KXNBAGAME-26NOV23CLECHI-CLE"
@@ -5306,24 +5306,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 12.0,
    "event": "KXNCAAMBGAME-26NOV23CARKUNF",
    "fair": 0.8104,
    "fee": 0.0,
    "id": "202611230358-KXNCAAMBGAME-26NOV23CARKUNF-CARK-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.795,
    "league": "NCAAMB",
    "limit": 0.8,
    "payout": null,
    "placed": "2026-11-23T03:58:56.289292+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.8,
    "qty": 15,
    "reason": "Favorite, limit 0.80 (bid 0.79, ask 0.81), sportsbook 0.810",
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Central Arkansas",
    "ticker": "KXNCAAMBGAME-26NOV23CARKUNF-CARK"
@@ -5353,7 +5353,7 @@
    "ticker": "KXNBAGAME-26NOV23SASSAC-SAS"
   }
  ],
- "cash": 962.76,
+ "cash": 926.01,
  "log": [
   {
    "cash": 1000,
@@ -7947,6 +7947,17 @@
    "markets": 554,
    "matched": 48,
    "t": "2026-11-23T05:14:11.279080+00:00"
+  },
+  {
+   "cash": 926.01,
+   "equity": 966.81,
+   "events": [
+    "filled KXNBAGAME-26NOV23CLECHI-CLE yes at 0.75",
+    "filled KXNCAAMBGAME-26NOV23CARKUNF-CARK yes at 0.8"
+   ],
+   "markets": 556,
+   "matched": 50,
+   "t": "2026-11-23T06:39:56.170187+00:00"
   }
  ],
  "peak": 1020.2900000000001
