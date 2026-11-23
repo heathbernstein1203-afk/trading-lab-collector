@@ -4762,16 +4762,16 @@
    "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.76,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-22T03:51:19.261738+00:00",
-   "pnl": null,
+   "pnl": -15.96,
    "price": 0.76,
    "qty": 21,
    "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.776",
-   "settled": null,
+   "settled": "2026-11-23T05:14:11.279080+00:00",
    "side": "yes",
    "start": "2026-11-23T01:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "strategy": "fav-maker",
    "team": "Boston",
    "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS"
@@ -5186,24 +5186,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 4.05,
    "event": "KXNBAGAME-26NOV23MILTOR",
    "fair": 0.8136,
    "fee": 0.0,
    "id": "202611230152-KXNBAGAME-26NOV23MILTOR-TOR-yes",
-   "last_seen": 0.81,
+   "last_seen": 0.805,
    "league": "NBA",
    "limit": 0.81,
    "payout": null,
    "placed": "2026-11-23T01:52:40.331654+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.81,
    "qty": 5,
    "reason": "Favorite, limit 0.81 (bid 0.80, ask 0.82), sportsbook 0.814",
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T00:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Toronto",
    "ticker": "KXNBAGAME-26NOV23MILTOR-TOR"
@@ -5327,9 +5327,33 @@
    "strategy": "fav-maker",
    "team": "Central Arkansas",
    "ticker": "KXNCAAMBGAME-26NOV23CARKUNF-CARK"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV23SASSAC",
+   "fair": 0.815,
+   "fee": 0.0,
+   "id": "202611230514-KXNBAGAME-26NOV23SASSAC-SAS-yes",
+   "last_seen": 0.8,
+   "league": "NBA",
+   "limit": 0.8,
+   "payout": null,
+   "placed": "2026-11-23T05:14:11.279080+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 22,
+   "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.815",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T03:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "San Antonio",
+   "ticker": "KXNBAGAME-26NOV23SASSAC-SAS"
   }
  ],
- "cash": 966.81,
+ "cash": 962.76,
  "log": [
   {
    "cash": 1000,
@@ -7911,6 +7935,18 @@
    "markets": 554,
    "matched": 45,
    "t": "2026-11-23T03:58:56.289292+00:00"
+  },
+  {
+   "cash": 962.76,
+   "equity": 966.81,
+   "events": [
+    "filled KXNBAGAME-26NOV23MILTOR-TOR yes at 0.81",
+    "lost KXNBAGAME-26NOV22BOSGSW-BOS yes pnl -15.96",
+    "new fav-maker KXNBAGAME-26NOV23SASSAC-SAS yes x22 @ 0.8"
+   ],
+   "markets": 554,
+   "matched": 48,
+   "t": "2026-11-23T05:14:11.279080+00:00"
   }
  ],
  "peak": 1020.2900000000001
