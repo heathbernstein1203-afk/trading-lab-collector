@@ -5623,7 +5623,7 @@
    "fair": 0.7477,
    "fee": 0.0,
    "id": "202611240214-KXNBAGAME-26NOV24DALDEN-DEN-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.73,
    "league": "NBA",
    "limit": 0.74,
    "payout": null,
@@ -5762,24 +5762,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 16.56,
    "event": "KXNCAAMBGAME-26NOV24UICRICE",
    "fair": 0.7402,
    "fee": 0.0,
    "id": "202611240436-KXNCAAMBGAME-26NOV24UICRICE-UIC-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.715,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
    "placed": "2026-11-24T04:36:00.453604+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.72,
    "qty": 23,
    "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.740",
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T18:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "UIC",
    "ticker": "KXNCAAMBGAME-26NOV24UICRICE-UIC"
@@ -5857,7 +5857,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24MERFAU-FAU"
   }
  ],
- "cash": 905.13,
+ "cash": 888.57,
  "log": [
   {
    "cash": 1000,
@@ -8694,6 +8694,16 @@
    "markets": 761,
    "matched": 78,
    "t": "2026-11-24T05:34:09.121791+00:00"
+  },
+  {
+   "cash": 888.57,
+   "equity": 959.26,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV24UICRICE-UIC yes at 0.72"
+   ],
+   "markets": 753,
+   "matched": 78,
+   "t": "2026-11-24T06:27:06.307260+00:00"
   }
  ],
  "peak": 1020.2900000000001
