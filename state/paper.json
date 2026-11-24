@@ -5359,7 +5359,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611231311-KXNCAAFGAME-26NOV24MOHWMU-WMU-yes",
-   "last_seen": 0.665,
+   "last_seen": 0.645,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -5851,7 +5851,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T23:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Florida Atlantic",
    "ticker": "KXNCAAMBGAME-26NOV24MERFAU-FAU"
@@ -6043,7 +6043,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-24T23:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "SIU Edwardsville",
    "ticker": "KXNCAAWBGAME-26NOV24SIUEMIZZ-SIUE"
@@ -6071,9 +6071,57 @@
    "strategy": "fav-maker",
    "team": "Georgia Tech",
    "ticker": "KXNCAAMBGAME-26NOV24SAMGT-GT"
+  },
+  {
+   "close": null,
+   "cost": 28.2,
+   "event": "KXNCAAMBGAME-26NOV24SLUGC",
+   "fair": 0.5454,
+   "fee": 1.05,
+   "id": "202611242347-KXNCAAMBGAME-26NOV24SLUGC-GC-no",
+   "last_seen": 0.47,
+   "league": "NCAAMB",
+   "limit": null,
+   "payout": null,
+   "placed": "2026-11-24T23:47:15.337178+00:00",
+   "pnl": null,
+   "price": 0.47,
+   "qty": 60,
+   "reason": "Sportsbook fair 0.545 vs ask 0.47, edge 5.8c after fees",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-25T02:30:00+00:00",
+   "status": "open",
+   "strategy": "line-edge",
+   "team": "Grand Canyon",
+   "ticker": "KXNCAAMBGAME-26NOV24SLUGC-GC"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV24HAMPODU",
+   "fair": 0.7644,
+   "fee": 0.0,
+   "id": "202611242347-KXNCAAMBGAME-26NOV24HAMPODU-ODU-yes",
+   "last_seen": 0.76,
+   "league": "NCAAMB",
+   "limit": 0.76,
+   "payout": null,
+   "placed": "2026-11-24T23:47:15.337178+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 5,
+   "reason": "Favorite, limit 0.76 (bid 0.76, ask 0.77), sportsbook 0.764",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-25T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Old Dominion",
+   "ticker": "KXNCAAMBGAME-26NOV24HAMPODU-ODU"
   }
  ],
- "cash": 895.15,
+ "cash": 865.9,
  "log": [
   {
    "cash": 1000,
@@ -9067,6 +9115,19 @@
    "markets": 724,
    "matched": 90,
    "t": "2026-11-24T22:54:43.411673+00:00"
+  },
+  {
+   "cash": 865.9,
+   "equity": 945.8,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV24MERFAU-FAU yes (not filled before start)",
+    "cancelled KXNCAAWBGAME-26NOV24SIUEMIZZ-SIUE no (not filled before start)",
+    "new line-edge KXNCAAMBGAME-26NOV24SLUGC-GC no x60 @ 0.47",
+    "new fav-maker KXNCAAMBGAME-26NOV24HAMPODU-ODU yes x5 @ 0.76"
+   ],
+   "markets": 716,
+   "matched": 86,
+   "t": "2026-11-24T23:47:15.337178+00:00"
   }
  ],
  "peak": 1020.2900000000001
