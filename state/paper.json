@@ -5449,7 +5449,7 @@
    "ticker": "KXNHLGAME-26NOV23CGYOTT-OTT"
   },
   {
-   "close": null,
+   "close": 0.915,
    "cost": 19.11,
    "event": "KXUCLGAME-26NOV24COMAEK",
    "fair": null,
@@ -5491,7 +5491,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-24T20:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Eindhoven",
    "ticker": "KXUCLGAME-26NOV24RMAPSV-PSV"
@@ -5521,7 +5521,7 @@
    "ticker": "KXNCAAWBGAME-26NOV23ARIZVAN-ARIZ"
   },
   {
-   "close": null,
+   "close": 0.905,
    "cost": 19.8,
    "event": "KXUCLGAME-26NOV24MCINAP",
    "fair": null,
@@ -5545,7 +5545,7 @@
    "ticker": "KXUCLGAME-26NOV24MCINAP-NAP"
   },
   {
-   "close": null,
+   "close": 0.665,
    "cost": 2.88,
    "event": "KXNCAAMBGAME-26NOV24TCUMIA",
    "fair": 0.7234,
@@ -5569,7 +5569,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24TCUMIA-MIA"
   },
   {
-   "close": null,
+   "close": 0.885,
    "cost": 19.11,
    "event": "KXUCLGAME-26NOV24SLORBB",
    "fair": null,
@@ -5770,16 +5770,16 @@
    "last_seen": 0.73,
    "league": "NCAAMB",
    "limit": 0.72,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-24T04:36:00.453604+00:00",
-   "pnl": null,
+   "pnl": -16.56,
    "price": 0.72,
    "qty": 23,
    "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.740",
-   "settled": null,
+   "settled": "2026-11-24T20:50:42.939899+00:00",
    "side": "yes",
    "start": "2026-11-24T18:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "strategy": "fav-maker",
    "team": "UIC",
    "ticker": "KXNCAAMBGAME-26NOV24UICRICE-UIC"
@@ -5855,6 +5855,78 @@
    "strategy": "fav-maker",
    "team": "Florida Atlantic",
    "ticker": "KXNCAAMBGAME-26NOV24MERFAU-FAU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV24PROVARIZ",
+   "fair": 0.7568,
+   "fee": 0.0,
+   "id": "202611242050-KXNCAAMBGAME-26NOV24PROVARIZ-ARIZ-yes",
+   "last_seen": 0.75,
+   "league": "NCAAMB",
+   "limit": 0.75,
+   "payout": null,
+   "placed": "2026-11-24T20:50:42.939899+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.757",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-24T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Arizona",
+   "ticker": "KXNCAAMBGAME-26NOV24PROVARIZ-ARIZ"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV24BUPWAG",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611242050-KXNCAAMBGAME-26NOV24BUPWAG-BUP-no",
+   "last_seen": 0.96,
+   "league": "NCAAMB",
+   "limit": 0.96,
+   "payout": null,
+   "placed": "2026-11-24T20:50:42.939899+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-24T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Bloomsburg",
+   "ticker": "KXNCAAMBGAME-26NOV24BUPWAG-BUP"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV24BUCKCOR",
+   "fair": 0.8625,
+   "fee": 0.0,
+   "id": "202611242050-KXNCAAMBGAME-26NOV24BUCKCOR-COR-yes",
+   "last_seen": 0.86,
+   "league": "NCAAMB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-24T20:50:42.939899+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.863",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-25T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Cornell",
+   "ticker": "KXNCAAMBGAME-26NOV24BUCKCOR-COR"
   }
  ],
  "cash": 831.15,
@@ -8806,6 +8878,20 @@
    "markets": 743,
    "matched": 89,
    "t": "2026-11-24T19:59:28.376556+00:00"
+  },
+  {
+   "cash": 831.15,
+   "equity": 942.7,
+   "events": [
+    "cancelled KXUCLGAME-26NOV24RMAPSV-PSV no (not filled before start)",
+    "lost KXNCAAMBGAME-26NOV24UICRICE-UIC yes pnl -16.56",
+    "new fav-maker KXNCAAMBGAME-26NOV24PROVARIZ-ARIZ yes x8 @ 0.75",
+    "new no-longshot KXNCAAMBGAME-26NOV24BUPWAG-BUP no x20 @ 0.96",
+    "new fav-maker KXNCAAMBGAME-26NOV24BUCKCOR-COR yes x4 @ 0.86"
+   ],
+   "markets": 767,
+   "matched": 85,
+   "t": "2026-11-24T20:50:42.939899+00:00"
   }
  ],
  "peak": 1020.2900000000001
