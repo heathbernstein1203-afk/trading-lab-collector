@@ -5623,7 +5623,7 @@
    "fair": 0.7477,
    "fee": 0.0,
    "id": "202611240214-KXNBAGAME-26NOV24DALDEN-DEN-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.74,
    "payout": null,
@@ -8712,6 +8712,14 @@
    "markets": 751,
    "matched": 81,
    "t": "2026-11-24T07:54:58.569677+00:00"
+  },
+  {
+   "cash": 888.57,
+   "equity": 959.26,
+   "events": [],
+   "markets": 745,
+   "matched": 80,
+   "t": "2026-11-24T08:59:02.499447+00:00"
   }
  ],
  "peak": 1020.2900000000001
