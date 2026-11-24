@@ -5455,7 +5455,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611232049-KXUCLGAME-26NOV24COMAEK-AEK-no",
-   "last_seen": 0.905,
+   "last_seen": 0.915,
    "league": "",
    "limit": 0.91,
    "payout": null,
@@ -5570,24 +5570,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.11,
    "event": "KXUCLGAME-26NOV24SLORBB",
    "fair": null,
    "fee": 0.0,
    "id": "202611240214-KXUCLGAME-26NOV24SLORBB-SLO-no",
-   "last_seen": 0.91,
+   "last_seen": 0.885,
    "league": "",
    "limit": 0.91,
    "payout": null,
    "placed": "2026-11-24T02:14:39.707355+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.91,
    "qty": 21,
    "reason": "YES at 0.09: fading the longshot with a NO limit at 0.91",
    "settled": null,
    "side": "no",
    "start": "2026-11-24T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Slovan Bratislava",
    "ticker": "KXUCLGAME-26NOV24SLORBB-SLO"
@@ -5647,7 +5647,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611240214-KXNCAAMBGAME-26NOV24SDSUISU-ISU-yes",
-   "last_seen": 0.785,
+   "last_seen": 0.795,
    "league": "NCAAMB",
    "limit": 0.76,
    "payout": null,
@@ -5695,7 +5695,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611240326-KXNCAAMBGAME-26NOV25GONZKSU-KSU-no",
-   "last_seen": 0.925,
+   "last_seen": 0.915,
    "league": "NCAAMB",
    "limit": 0.93,
    "payout": null,
@@ -5857,7 +5857,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24MERFAU-FAU"
   }
  ],
- "cash": 850.26,
+ "cash": 831.15,
  "log": [
   {
    "cash": 1000,
@@ -8796,6 +8796,16 @@
    "markets": 757,
    "matched": 91,
    "t": "2026-11-24T18:55:42.576516+00:00"
+  },
+  {
+   "cash": 831.15,
+   "equity": 959.26,
+   "events": [
+    "filled KXUCLGAME-26NOV24SLORBB-SLO no at 0.91"
+   ],
+   "markets": 743,
+   "matched": 89,
+   "t": "2026-11-24T19:59:28.376556+00:00"
   }
  ],
  "peak": 1020.2900000000001
