@@ -5551,7 +5551,7 @@
    "fair": 0.7234,
    "fee": 0.0,
    "id": "202611232250-KXNCAAMBGAME-26NOV24TCUMIA-MIA-yes",
-   "last_seen": 0.675,
+   "last_seen": 0.665,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -5761,7 +5761,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24SJUORE-SJU"
   },
   {
-   "close": null,
+   "close": 0.73,
    "cost": 16.56,
    "event": "KXNCAAMBGAME-26NOV24UICRICE",
    "fair": 0.7402,
@@ -8788,6 +8788,14 @@
    "markets": 763,
    "matched": 94,
    "t": "2026-11-24T17:51:09.623736+00:00"
+  },
+  {
+   "cash": 850.26,
+   "equity": 959.26,
+   "events": [],
+   "markets": 757,
+   "matched": 91,
+   "t": "2026-11-24T18:55:42.576516+00:00"
   }
  ],
  "peak": 1020.2900000000001
