@@ -5161,7 +5161,7 @@
    "ticker": "KXNBAGAME-26NOV23LACHOU-HOU"
   },
   {
-   "close": null,
+   "close": 0.815,
    "cost": 13.28,
    "event": "KXNBAGAME-26NOV23BKNMIN",
    "fair": 0.8396,
@@ -5185,7 +5185,7 @@
    "ticker": "KXNBAGAME-26NOV23BKNMIN-MIN"
   },
   {
-   "close": null,
+   "close": 0.795,
    "cost": 4.05,
    "event": "KXNBAGAME-26NOV23MILTOR",
    "fair": 0.8136,
@@ -5239,7 +5239,7 @@
    "fair": 0.7761,
    "fee": 0.0,
    "id": "202611230254-KXNBAGAME-26NOV23CLECHI-CLE-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -5305,7 +5305,7 @@
    "ticker": "KXNCAAMBGAME-26NOV23TLSAORST-ORST"
   },
   {
-   "close": null,
+   "close": 0.775,
    "cost": 12.0,
    "event": "KXNCAAMBGAME-26NOV23CARKUNF",
    "fair": 0.8104,
@@ -5383,7 +5383,7 @@
    "fair": 0.7568,
    "fee": 0.0,
    "id": "202611231311-KXNCAAMBGAME-26NOV23EWUUNLV-UNLV-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.75,
    "payout": null,
@@ -5443,7 +5443,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-24T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Ottawa",
    "ticker": "KXNHLGAME-26NOV23CGYOTT-OTT"
@@ -5551,7 +5551,7 @@
    "fair": 0.7234,
    "fee": 0.0,
    "id": "202611232250-KXNCAAMBGAME-26NOV24TCUMIA-MIA-yes",
-   "last_seen": 0.715,
+   "last_seen": 0.72,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -8324,6 +8324,16 @@
    "markets": 730,
    "matched": 71,
    "t": "2026-11-23T23:47:04.631825+00:00"
+  },
+  {
+   "cash": 911.52,
+   "equity": 975.94,
+   "events": [
+    "cancelled KXNHLGAME-26NOV23CGYOTT-OTT yes (not filled before start)"
+   ],
+   "markets": 778,
+   "matched": 60,
+   "t": "2026-11-24T00:59:55.494645+00:00"
   }
  ],
  "peak": 1020.2900000000001
