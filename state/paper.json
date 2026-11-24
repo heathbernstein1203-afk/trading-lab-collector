@@ -5359,7 +5359,7 @@
    "fair": 0.7323,
    "fee": 0.0,
    "id": "202611231311-KXNCAAFGAME-26NOV24MOHWMU-WMU-yes",
-   "last_seen": 0.685,
+   "last_seen": 0.675,
    "league": "CFB",
    "limit": 0.73,
    "payout": null,
@@ -8780,6 +8780,14 @@
    "markets": 735,
    "matched": 97,
    "t": "2026-11-24T17:00:38.678355+00:00"
+  },
+  {
+   "cash": 850.26,
+   "equity": 959.26,
+   "events": [],
+   "markets": 763,
+   "matched": 94,
+   "t": "2026-11-24T17:51:09.623736+00:00"
   }
  ],
  "peak": 1020.2900000000001
