@@ -5551,7 +5551,7 @@
    "fair": 0.7234,
    "fee": 0.0,
    "id": "202611232250-KXNCAAMBGAME-26NOV24TCUMIA-MIA-yes",
-   "last_seen": 0.685,
+   "last_seen": 0.675,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -5647,7 +5647,7 @@
    "fair": 0.7644,
    "fee": 0.0,
    "id": "202611240214-KXNCAAMBGAME-26NOV24SDSUISU-ISU-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.785,
    "league": "NCAAMB",
    "limit": 0.76,
    "payout": null,
@@ -5767,7 +5767,7 @@
    "fair": 0.7402,
    "fee": 0.0,
    "id": "202611240436-KXNCAAMBGAME-26NOV24UICRICE-UIC-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.73,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -8772,6 +8772,14 @@
    "markets": 737,
    "matched": 84,
    "t": "2026-11-24T15:37:56.812860+00:00"
+  },
+  {
+   "cash": 850.26,
+   "equity": 959.26,
+   "events": [],
+   "markets": 735,
+   "matched": 97,
+   "t": "2026-11-24T17:00:38.678355+00:00"
   }
  ],
  "peak": 1020.2900000000001
