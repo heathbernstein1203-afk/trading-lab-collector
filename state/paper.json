@@ -5623,7 +5623,7 @@
    "fair": 0.7477,
    "fee": 0.0,
    "id": "202611240214-KXNBAGAME-26NOV24DALDEN-DEN-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.735,
    "league": "NBA",
    "limit": 0.74,
    "payout": null,
@@ -5767,7 +5767,7 @@
    "fair": 0.7402,
    "fee": 0.0,
    "id": "202611240436-KXNCAAMBGAME-26NOV24UICRICE-UIC-yes",
-   "last_seen": 0.72,
+   "last_seen": 0.725,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -8746,6 +8746,14 @@
    "markets": 735,
    "matched": 85,
    "t": "2026-11-24T11:55:19.452724+00:00"
+  },
+  {
+   "cash": 869.46,
+   "equity": 959.26,
+   "events": [],
+   "markets": 735,
+   "matched": 85,
+   "t": "2026-11-24T13:10:33.442435+00:00"
   }
  ],
  "peak": 1020.2900000000001
