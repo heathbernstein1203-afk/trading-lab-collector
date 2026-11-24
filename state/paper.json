@@ -5450,24 +5450,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.11,
    "event": "KXUCLGAME-26NOV24COMAEK",
    "fair": null,
    "fee": 0.0,
    "id": "202611232049-KXUCLGAME-26NOV24COMAEK-AEK-no",
-   "last_seen": 0.91,
+   "last_seen": 0.905,
    "league": "",
    "limit": 0.91,
    "payout": null,
    "placed": "2026-11-23T20:49:13.307428+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.91,
    "qty": 21,
    "reason": "YES at 0.09: fading the longshot with a NO limit at 0.91",
    "settled": null,
    "side": "no",
    "start": "2026-11-24T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "AEK Athens",
    "ticker": "KXUCLGAME-26NOV24COMAEK-AEK"
@@ -5551,7 +5551,7 @@
    "fair": 0.7234,
    "fee": 0.0,
    "id": "202611232250-KXNCAAMBGAME-26NOV24TCUMIA-MIA-yes",
-   "last_seen": 0.7,
+   "last_seen": 0.695,
    "league": "NCAAMB",
    "limit": 0.72,
    "payout": null,
@@ -5857,7 +5857,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24MERFAU-FAU"
   }
  ],
- "cash": 888.57,
+ "cash": 869.46,
  "log": [
   {
    "cash": 1000,
@@ -8736,6 +8736,16 @@
    "markets": 741,
    "matched": 85,
    "t": "2026-11-24T10:56:34.034194+00:00"
+  },
+  {
+   "cash": 869.46,
+   "equity": 959.26,
+   "events": [
+    "filled KXUCLGAME-26NOV24COMAEK-AEK no at 0.91"
+   ],
+   "markets": 735,
+   "matched": 85,
+   "t": "2026-11-24T11:55:19.452724+00:00"
   }
  ],
  "peak": 1020.2900000000001

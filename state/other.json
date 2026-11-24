@@ -10384,7 +10384,7 @@
    "fee": 0.26,
    "id": "202611231856-KXHIGHMIA-26NOV24-B81.5-yes",
    "kind": "weather",
-   "last_seen": 0.405,
+   "last_seen": 0.395,
    "mid": 0.235,
    "payout": null,
    "placed": "2026-11-23T18:56:40.252387+00:00",
@@ -10409,7 +10409,7 @@
    "fee": 0.14,
    "id": "202611231856-KXHIGHNY-26NOV24-B51.5-no",
    "kind": "weather",
-   "last_seen": 0.475,
+   "last_seen": 0.465,
    "mid": 0.585,
    "payout": null,
    "placed": "2026-11-23T18:56:40.252387+00:00",
@@ -10459,7 +10459,7 @@
    "fee": 0.11,
    "id": "202611231856-KXHIGHMIA-26NOV24-B81.5-yes",
    "kind": "weather",
-   "last_seen": 0.405,
+   "last_seen": 0.395,
    "mid": 0.235,
    "payout": null,
    "placed": "2026-11-23T18:56:40.252387+00:00",
@@ -10484,7 +10484,7 @@
    "fee": 0.07,
    "id": "202611231856-KXHIGHNY-26NOV24-B49.5-yes",
    "kind": "weather",
-   "last_seen": 0.485,
+   "last_seen": 0.445,
    "mid": 0.475,
    "payout": null,
    "placed": "2026-11-23T18:56:40.252387+00:00",
@@ -10534,7 +10534,7 @@
    "fee": 0.19,
    "id": "202611231959-KXHIGHAUS-26NOV24-B53.5-no",
    "kind": "weather",
-   "last_seen": 0.445,
+   "last_seen": 0.465,
    "mid": 0.425,
    "payout": null,
    "placed": "2026-11-23T19:59:05.528338+00:00",
@@ -10559,7 +10559,7 @@
    "fee": 0.19,
    "id": "202611231959-KXHIGHCHI-26NOV24-B40.5-no",
    "kind": "weather",
-   "last_seen": 0.45,
+   "last_seen": 0.44,
    "mid": 0.425,
    "payout": null,
    "placed": "2026-11-23T19:59:05.528338+00:00",
@@ -10759,7 +10759,7 @@
    "fee": 0.1,
    "id": "202611232049-KXHIGHDEN-26NOV24-B52.5-yes",
    "kind": "weather",
-   "last_seen": 0.325,
+   "last_seen": 0.335,
    "mid": 0.25,
    "payout": null,
    "placed": "2026-11-23T20:49:13.307428+00:00",
@@ -11076,7 +11076,7 @@
    "ticker": "KXETHD-26NOV2402-T1704.99"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-24T11:00:00Z",
    "cost": 1.76,
    "event": "KXBTCD-26NOV2406",
@@ -11086,22 +11086,22 @@
    "kind": "crypto",
    "last_seen": 0.005,
    "mid": 0.435,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-24T10:04:40.883948+00:00",
-   "pnl": null,
+   "pnl": -1.83,
    "price": 0.44,
    "qty": 4,
    "reason": "random live outcome for calibration",
    "series": "KXBTCD",
-   "settled": null,
+   "settled": "2026-11-24T11:55:19.452724+00:00",
    "side": "yes",
-   "status": "open",
+   "status": "lost",
    "strategy": "data",
    "sub": "$60,000 or above",
    "ticker": "KXBTCD-26NOV2406-T59999.99"
   },
   {
-   "close": null,
+   "close": 0.005,
    "close_time": "2026-11-24T11:00:00Z",
    "cost": 1.82,
    "event": "KXETHD-26NOV2406",
@@ -11111,16 +11111,16 @@
    "kind": "crypto",
    "last_seen": 0.005,
    "mid": 0.25,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-24T10:04:40.883948+00:00",
-   "pnl": null,
+   "pnl": -1.92,
    "price": 0.26,
    "qty": 7,
    "reason": "random live outcome for calibration",
    "series": "KXETHD",
-   "settled": null,
+   "settled": "2026-11-24T11:55:19.452724+00:00",
    "side": "yes",
-   "status": "open",
+   "status": "lost",
    "strategy": "data",
    "sub": "$1,690 or above",
    "ticker": "KXETHD-26NOV2406-T1689.99"
@@ -11506,9 +11506,9 @@
  ],
  "summary": {
   "data:crypto": {
-   "avg_clv": -0.005,
+   "avg_clv": -0.0074,
    "avg_fair": null,
-   "avg_price": 0.602,
+   "avg_price": 0.6,
    "buckets": {
     "00-10c": [
      2,
@@ -11519,7 +11519,7 @@
      6
     ],
     "20-30c": [
-     24,
+     25,
      5
     ],
     "30-40c": [
@@ -11527,7 +11527,7 @@
      7
     ],
     "40-50c": [
-     27,
+     28,
      11
     ],
     "50-60c": [
@@ -11551,14 +11551,14 @@
      68
     ]
    },
-   "clv_n": 281,
+   "clv_n": 283,
    "fair": 0.0,
    "fair_n": 0,
-   "n": 281,
-   "pnl": -26.69,
-   "roi": -0.051,
-   "staked": 519.69,
-   "win_rate": 0.598,
+   "n": 283,
+   "pnl": -30.44,
+   "roi": -0.058,
+   "staked": 523.44,
+   "win_rate": 0.594,
    "won": 168
   },
   "data:weather": {
@@ -11657,5 +11657,5 @@
    "won": 29
   }
  },
- "updated": "2026-11-24T10:56:34.034194+00:00"
+ "updated": "2026-11-24T11:55:19.452724+00:00"
 }
