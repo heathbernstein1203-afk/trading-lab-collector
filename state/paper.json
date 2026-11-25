@@ -5954,24 +5954,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.2,
    "event": "KXUCLGAME-26NOV25ATMVIK",
    "fair": null,
    "fee": 0.0,
    "id": "202611242154-KXUCLGAME-26NOV25ATMVIK-VIK-no",
-   "last_seen": 0.96,
+   "last_seen": 0.955,
    "league": "",
    "limit": 0.96,
    "payout": null,
    "placed": "2026-11-24T21:54:33.880788+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.96,
    "qty": 20,
    "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
    "settled": null,
    "side": "no",
    "start": "2026-11-25T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Viking",
    "ticker": "KXUCLGAME-26NOV25ATMVIK-VIK"
@@ -6314,24 +6314,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 5.67,
    "event": "KXNCAAMBGAME-26NOV25CSBPEPP",
    "fair": 0.8151,
    "fee": 0.0,
    "id": "202611250333-KXNCAAMBGAME-26NOV25CSBPEPP-PEPP-yes",
-   "last_seen": 0.81,
+   "last_seen": 0.805,
    "league": "NCAAMB",
    "limit": 0.81,
    "payout": null,
    "placed": "2026-11-25T03:33:29.543799+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.81,
    "qty": 7,
    "reason": "Favorite, limit 0.81 (bid 0.81, ask 0.82), sportsbook 0.815",
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Pepperdine",
    "ticker": "KXNCAAMBGAME-26NOV25CSBPEPP-PEPP"
@@ -6463,7 +6463,7 @@
    "fair": 0.7568,
    "fee": 0.0,
    "id": "202611250848-KXNCAAMBGAME-26NOV25ACSDST-SDST-yes",
-   "last_seen": 0.745,
+   "last_seen": 0.735,
    "league": "NCAAMB",
    "limit": 0.75,
    "payout": null,
@@ -6505,7 +6505,7 @@
    "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-UVA"
   }
  ],
- "cash": 903.8,
+ "cash": 878.93,
  "log": [
   {
    "cash": 1000,
@@ -9650,6 +9650,17 @@
    "markets": 573,
    "matched": 85,
    "t": "2026-11-25T13:52:35.105020+00:00"
+  },
+  {
+   "cash": 878.93,
+   "equity": 911.9,
+   "events": [
+    "filled KXUCLGAME-26NOV25ATMVIK-VIK no at 0.96",
+    "filled KXNCAAMBGAME-26NOV25CSBPEPP-PEPP yes at 0.81"
+   ],
+   "markets": 576,
+   "matched": 86,
+   "t": "2026-11-25T14:59:26.729252+00:00"
   }
  ],
  "peak": 1020.2900000000001
