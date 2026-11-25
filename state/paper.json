@@ -6667,7 +6667,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-25T23:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Oregon St.",
    "ticker": "KXNCAAWBGAME-26NOV25ORSTVAN-ORST"
@@ -6775,7 +6775,7 @@
    "fair": 0.5993,
    "fee": 0.78,
    "id": "202611252252-KXNCAAMBGAME-26NOV26MIAMICH-MICH-no",
-   "last_seen": 0.55,
+   "last_seen": 0.555,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -6839,6 +6839,54 @@
    "strategy": "fav-maker",
    "team": "UCLA",
    "ticker": "KXNCAAMBGAME-26NOV26SMCUCLA-UCLA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXUECLGAME-26NOV26BRICSU",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611252346-KXUECLGAME-26NOV26BRICSU-CSU-no",
+   "last_seen": 0.96,
+   "league": "",
+   "limit": 0.96,
+   "payout": null,
+   "placed": "2026-11-25T23:46:44.313445+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-26T17:45:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Uni Craiova",
+   "ticker": "KXUECLGAME-26NOV26BRICSU-CSU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV25BELLNKU",
+   "fair": 0.7273,
+   "fee": 0.0,
+   "id": "202611252346-KXNCAAMBGAME-26NOV25BELLNKU-NKU-yes",
+   "last_seen": 0.72,
+   "league": "NCAAMB",
+   "limit": 0.72,
+   "payout": null,
+   "placed": "2026-11-25T23:46:44.313445+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.72 (bid 0.72, ask 0.73), sportsbook 0.727",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-26T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Northern Kentucky",
+   "ticker": "KXNCAAMBGAME-26NOV25BELLNKU-NKU"
   }
  ],
  "cash": 836.29,
@@ -10100,6 +10148,18 @@
    "markets": 640,
    "matched": 62,
    "t": "2026-11-25T22:52:49.078935+00:00"
+  },
+  {
+   "cash": 836.29,
+   "equity": 905.5,
+   "events": [
+    "cancelled KXNCAAWBGAME-26NOV25ORSTVAN-ORST no (not filled before start)",
+    "new no-longshot KXUECLGAME-26NOV26BRICSU-CSU no x20 @ 0.96",
+    "new fav-maker KXNCAAMBGAME-26NOV25BELLNKU-NKU yes x8 @ 0.72"
+   ],
+   "markets": 656,
+   "matched": 64,
+   "t": "2026-11-25T23:46:44.313445+00:00"
   }
  ],
  "peak": 1020.2900000000001
