@@ -5617,7 +5617,7 @@
    "ticker": "KXNCAAMBGAME-26NOV23ALSTCAL-ALST"
   },
   {
-   "close": null,
+   "close": 0.715,
    "cost": 6.66,
    "event": "KXNBAGAME-26NOV24DALDEN",
    "fair": 0.7477,
@@ -5755,7 +5755,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-25T03:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "St. John's",
    "ticker": "KXNCAAMBGAME-26NOV24SJUORE-SJU"
@@ -6073,7 +6073,7 @@
    "ticker": "KXNCAAMBGAME-26NOV24SAMGT-GT"
   },
   {
-   "close": null,
+   "close": 0.465,
    "cost": 28.2,
    "event": "KXNCAAMBGAME-26NOV24SLUGC",
    "fair": 0.5454,
@@ -6287,6 +6287,78 @@
    "strategy": "fav-maker",
    "team": "Charlotte",
    "ticker": "KXNCAAMBGAME-26NOV25UNICHAR-CHAR"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV25HCDART",
+   "fair": 0.8766,
+   "fee": 0.0,
+   "id": "202611250333-KXNCAAMBGAME-26NOV25HCDART-DART-yes",
+   "last_seen": 0.85,
+   "league": "NCAAMB",
+   "limit": 0.85,
+   "payout": null,
+   "placed": "2026-11-25T03:33:29.543799+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 33,
+   "reason": "Favorite, limit 0.85 (bid 0.85, ask 0.86), sportsbook 0.877",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-25T22:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Dartmouth",
+   "ticker": "KXNCAAMBGAME-26NOV25HCDART-DART"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV25CSBPEPP",
+   "fair": 0.8151,
+   "fee": 0.0,
+   "id": "202611250333-KXNCAAMBGAME-26NOV25CSBPEPP-PEPP-yes",
+   "last_seen": 0.81,
+   "league": "NCAAMB",
+   "limit": 0.81,
+   "payout": null,
+   "placed": "2026-11-25T03:33:29.543799+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 7,
+   "reason": "Favorite, limit 0.81 (bid 0.81, ask 0.82), sportsbook 0.815",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-26T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Pepperdine",
+   "ticker": "KXNCAAMBGAME-26NOV25CSBPEPP-PEPP"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV25LONGGMU",
+   "fair": 0.9059,
+   "fee": 0.0,
+   "id": "202611250333-KXNCAAMBGAME-26NOV25LONGGMU-GMU-yes",
+   "last_seen": 0.9,
+   "league": "NCAAMB",
+   "limit": 0.9,
+   "payout": null,
+   "placed": "2026-11-25T03:33:29.543799+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 15,
+   "reason": "Favorite, limit 0.90 (bid 0.89, ask 0.91), sportsbook 0.906",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-26T00:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "George Mason",
+   "ticker": "KXNCAAMBGAME-26NOV25LONGGMU-GMU"
   }
  ],
  "cash": 870.9,
@@ -9339,6 +9411,19 @@
    "markets": 638,
    "matched": 51,
    "t": "2026-11-25T02:21:09.652658+00:00"
+  },
+  {
+   "cash": 870.9,
+   "equity": 947.0,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV24SJUORE-SJU yes (not filled before start)",
+    "new fav-maker KXNCAAMBGAME-26NOV25HCDART-DART yes x33 @ 0.85",
+    "new fav-maker KXNCAAMBGAME-26NOV25CSBPEPP-PEPP yes x7 @ 0.81",
+    "new fav-maker KXNCAAMBGAME-26NOV25LONGGMU-GMU yes x15 @ 0.9"
+   ],
+   "markets": 590,
+   "matched": 69,
+   "t": "2026-11-25T03:33:29.543799+00:00"
   }
  ],
  "peak": 1020.2900000000001
