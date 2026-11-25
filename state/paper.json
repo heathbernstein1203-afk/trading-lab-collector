@@ -6479,6 +6479,30 @@
    "strategy": "fav-maker",
    "team": "South Dakota St.",
    "ticker": "KXNCAAMBGAME-26NOV25ACSDST-SDST"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV25UVAMARQ",
+   "fair": 0.7034,
+   "fee": 0.0,
+   "id": "202611251233-KXNCAAMBGAME-26NOV25UVAMARQ-UVA-yes",
+   "last_seen": 0.7,
+   "league": "NCAAMB",
+   "limit": 0.7,
+   "payout": null,
+   "placed": "2026-11-25T12:33:56.404678+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 3,
+   "reason": "Favorite, limit 0.70 (bid 0.70, ask 0.71), sportsbook 0.703",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-25T17:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Virginia",
+   "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-UVA"
   }
  ],
  "cash": 909.8,
@@ -9606,6 +9630,16 @@
    "markets": 561,
    "matched": 84,
    "t": "2026-11-25T11:28:53.221427+00:00"
+  },
+  {
+   "cash": 909.8,
+   "equity": 911.9,
+   "events": [
+    "new fav-maker KXNCAAMBGAME-26NOV25UVAMARQ-UVA yes x3 @ 0.7"
+   ],
+   "markets": 559,
+   "matched": 83,
+   "t": "2026-11-25T12:33:56.404678+00:00"
   }
  ],
  "peak": 1020.2900000000001
