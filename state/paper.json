@@ -5947,7 +5947,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-25T17:45:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Sabah Masazir",
    "ticker": "KXUCLGAME-26NOV25SBHBAR-SBH"
@@ -6361,7 +6361,7 @@
    "ticker": "KXNCAAMBGAME-26NOV25LONGGMU-GMU"
   },
   {
-   "close": null,
+   "close": 0.645,
    "cost": 2.1,
    "event": "KXNCAAMBGAME-26NOV25YALEWRST",
    "fair": 0.7034,
@@ -6415,7 +6415,7 @@
    "fair": 0.7273,
    "fee": 0.0,
    "id": "202611250558-KXNCAAMBGAME-26NOV25USTUNCW-UNCW-yes",
-   "last_seen": 0.695,
+   "last_seen": 0.685,
    "league": "NCAAMB",
    "limit": 0.7,
    "payout": null,
@@ -6551,6 +6551,30 @@
    "strategy": "fav-maker",
    "team": "Texas Tech",
    "ticker": "KXNCAAFGAME-26NOV26TCUTTU-TTU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAWBGAME-26NOV25UTRGVRICE",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611251747-KXNCAAWBGAME-26NOV25UTRGVRICE-UTRGV-no",
+   "last_seen": 0.97,
+   "league": "",
+   "limit": 0.97,
+   "payout": null,
+   "placed": "2026-11-25T17:47:56.571645+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.03: fading the longshot with a NO limit at 0.97",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-25T18:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "UT Rio Grande Valley",
+   "ticker": "KXNCAAWBGAME-26NOV25UTRGVRICE-UTRGV"
   }
  ],
  "cash": 856.53,
@@ -9733,6 +9757,17 @@
    "markets": 616,
    "matched": 83,
    "t": "2026-11-25T17:01:44.453631+00:00"
+  },
+  {
+   "cash": 856.53,
+   "equity": 911.9,
+   "events": [
+    "cancelled KXUCLGAME-26NOV25SBHBAR-SBH no (not filled before start)",
+    "new no-longshot KXNCAAWBGAME-26NOV25UTRGVRICE-UTRGV no x20 @ 0.97"
+   ],
+   "markets": 618,
+   "matched": 80,
+   "t": "2026-11-25T17:47:56.571645+00:00"
   }
  ],
  "peak": 1020.2900000000001
