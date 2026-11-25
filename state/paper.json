@@ -6367,7 +6367,7 @@
    "fair": 0.7034,
    "fee": 0.0,
    "id": "202611250440-KXNCAAMBGAME-26NOV25YALEWRST-WRST-yes",
-   "last_seen": 0.665,
+   "last_seen": 0.645,
    "league": "NCAAMB",
    "limit": 0.7,
    "payout": null,
@@ -6481,7 +6481,7 @@
    "ticker": "KXNCAAMBGAME-26NOV25ACSDST-SDST"
   },
   {
-   "close": null,
+   "close": 0.685,
    "cost": 2.1,
    "event": "KXNCAAMBGAME-26NOV25UVAMARQ",
    "fair": 0.7034,
@@ -6527,6 +6527,30 @@
    "strategy": "fav-maker",
    "team": "Dallas",
    "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV26TCUTTU",
+   "fair": 0.8625,
+   "fee": 0.0,
+   "id": "202611251701-KXNCAAFGAME-26NOV26TCUTTU-TTU-yes",
+   "last_seen": 0.86,
+   "league": "CFB",
+   "limit": 0.86,
+   "payout": null,
+   "placed": "2026-11-25T17:01:44.453631+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 4,
+   "reason": "Favorite, limit 0.86 (bid 0.86, ask 0.87), sportsbook 0.863",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-27T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Texas Tech",
+   "ticker": "KXNCAAFGAME-26NOV26TCUTTU-TTU"
   }
  ],
  "cash": 856.53,
@@ -9699,6 +9723,16 @@
    "markets": 594,
    "matched": 85,
    "t": "2026-11-25T16:00:07.013946+00:00"
+  },
+  {
+   "cash": 856.53,
+   "equity": 911.9,
+   "events": [
+    "new fav-maker KXNCAAFGAME-26NOV26TCUTTU-TTU yes x4 @ 0.86"
+   ],
+   "markets": 616,
+   "matched": 83,
+   "t": "2026-11-25T17:01:44.453631+00:00"
   }
  ],
  "peak": 1020.2900000000001
