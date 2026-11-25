@@ -6458,24 +6458,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 6.0,
    "event": "KXNCAAMBGAME-26NOV25ACSDST",
    "fair": 0.7568,
    "fee": 0.0,
    "id": "202611250848-KXNCAAMBGAME-26NOV25ACSDST-SDST-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.745,
    "league": "NCAAMB",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-25T08:48:31.107550+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 8,
    "reason": "Favorite, limit 0.75 (bid 0.74, ask 0.76), sportsbook 0.757",
    "settled": null,
    "side": "yes",
    "start": "2026-11-25T19:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "South Dakota St.",
    "ticker": "KXNCAAMBGAME-26NOV25ACSDST-SDST"
@@ -6505,7 +6505,7 @@
    "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-UVA"
   }
  ],
- "cash": 909.8,
+ "cash": 903.8,
  "log": [
   {
    "cash": 1000,
@@ -9640,6 +9640,16 @@
    "markets": 559,
    "matched": 83,
    "t": "2026-11-25T12:33:56.404678+00:00"
+  },
+  {
+   "cash": 903.8,
+   "equity": 911.9,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV25ACSDST-SDST yes at 0.75"
+   ],
+   "markets": 573,
+   "matched": 85,
+   "t": "2026-11-25T13:52:35.105020+00:00"
   }
  ],
  "peak": 1020.2900000000001
