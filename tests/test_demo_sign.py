@@ -21,7 +21,9 @@ def fake_urlopen(req, timeout=30):
     if req.get_method() == "GET":
         return Resp(json.dumps({"balance": 260000}).encode())
     body = json.loads(req.data)
-    assert body["action"] == "buy" and body["type"] == "limit" and 1 <= (body.get("yes_price") or body.get("no_price")) <= 99
+    # v2 order format (POST /portfolio/events/orders): YES leg only, side bid/ask, price in dollars
+    assert req.full_url.split("?")[0].endswith("/portfolio/events/orders"), req.full_url
+    assert body["side"] in ("bid", "ask") and 0.01 <= float(body["price"]) <= 0.99 and int(body["count"]) >= 1, body
     return Resp(json.dumps({"order": {"order_id": "abc", **body}}).encode())
 bot.urllib.request.urlopen = fake_urlopen
 cfg = {"demo": {"on": True, "daily_budget": 100, "max_pct_balance": 0.25, "min_balance": 20}}
