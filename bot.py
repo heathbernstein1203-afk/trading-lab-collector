@@ -27,6 +27,7 @@ import datapot
 import other
 import extras
 import backtest
+import refill
 
 CONFIG = os.environ.get("BOT_CONFIG", "config.json")
 STATE = os.environ.get("BOT_STATE", "state/paper.json")
@@ -535,6 +536,11 @@ def run(now, kalshi_rows, espn_rows):
     if not cfg or not cfg.get("on", True):
         print("bot off")
         return
+    try:  # top up any fake pot below 40% of its start (logged in that pot's "refills")
+        for e in refill.run(now, cfg):
+            print(" ", e)
+    except Exception as e:
+        print("refill error:", type(e).__name__, e)
     state = load(STATE, {"cash": cfg["bankroll_start"], "peak": cfg["bankroll_start"], "bets": [], "log": []})
     markets = kalshi_markets(kalshi_rows)
     matched = attach_fair(markets, espn_games(espn_rows))
