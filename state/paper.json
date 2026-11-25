@@ -5953,7 +5953,7 @@
    "ticker": "KXUCLGAME-26NOV25SBHBAR-SBH"
   },
   {
-   "close": null,
+   "close": 0.955,
    "cost": 19.2,
    "event": "KXUCLGAME-26NOV25ATMVIK",
    "fair": null,
@@ -6490,16 +6490,16 @@
    "last_seen": 0.685,
    "league": "NCAAMB",
    "limit": 0.7,
-   "payout": null,
+   "payout": 3.0,
    "placed": "2026-11-25T12:33:56.404678+00:00",
-   "pnl": null,
+   "pnl": 0.9,
    "price": 0.7,
    "qty": 3,
    "reason": "Favorite, limit 0.70 (bid 0.70, ask 0.71), sportsbook 0.703",
-   "settled": null,
+   "settled": "2026-11-25T20:53:02.129148+00:00",
    "side": "yes",
    "start": "2026-11-25T17:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Virginia",
    "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-UVA"
@@ -6697,7 +6697,7 @@
    "ticker": "KXNCAAMBGAME-26NOV26GTWNTEX-TEX"
   }
  ],
- "cash": 856.53,
+ "cash": 859.53,
  "log": [
   {
    "cash": 1000,
@@ -9915,6 +9915,16 @@
    "markets": 613,
    "matched": 71,
    "t": "2026-11-25T19:54:37.803392+00:00"
+  },
+  {
+   "cash": 859.53,
+   "equity": 910.7,
+   "events": [
+    "won KXNCAAMBGAME-26NOV25UVAMARQ-UVA yes pnl 0.9"
+   ],
+   "markets": 645,
+   "matched": 71,
+   "t": "2026-11-25T20:53:02.129148+00:00"
   }
  ],
  "peak": 1020.2900000000001
