@@ -6679,7 +6679,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611251954-KXNCAAMBGAME-26NOV26GTWNTEX-TEX-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -6746,24 +6746,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.53,
    "event": "KXUECLGAME-26NOV26ESCFCC",
    "fair": null,
    "fee": 0.0,
    "id": "202611252154-KXUECLGAME-26NOV26ESCFCC-ESC-no",
-   "last_seen": 0.93,
+   "last_seen": 0.925,
    "league": "",
    "limit": 0.93,
    "payout": null,
    "placed": "2026-11-25T21:54:33.175192+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.93,
    "qty": 21,
    "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
    "settled": null,
    "side": "no",
    "start": "2026-11-26T20:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "IC Escaldes",
    "ticker": "KXUECLGAME-26NOV26ESCFCC-ESC"
@@ -7105,7 +7105,7 @@
    "ticker": "KXNCAAFGAME-26NOV27AFAUNM-UNM"
   }
  ],
- "cash": 891.44,
+ "cash": 871.91,
  "log": [
   {
    "cash": 1000,
@@ -10498,6 +10498,16 @@
    "markets": 604,
    "matched": 44,
    "t": "2026-11-26T13:12:41.448134+00:00"
+  },
+  {
+   "cash": 871.91,
+   "equity": 920.82,
+   "events": [
+    "filled KXUECLGAME-26NOV26ESCFCC-ESC no at 0.93"
+   ],
+   "markets": 606,
+   "matched": 44,
+   "t": "2026-11-26T14:39:16.879699+00:00"
   }
  ],
  "peak": 1020.2900000000001
