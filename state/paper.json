@@ -6523,7 +6523,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T21:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Dallas",
    "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL"
@@ -7247,6 +7247,54 @@
    "strategy": "fav-maker",
    "team": "Portland",
    "ticker": "KXNBAGAME-26NOV27GSWPOR-POR"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAWBGAME-26NOV26AFATTU",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611262151-KXNCAAWBGAME-26NOV26AFATTU-AFA-no",
+   "last_seen": 0.96,
+   "league": "",
+   "limit": 0.96,
+   "payout": null,
+   "placed": "2026-11-26T21:51:32.045693+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 20,
+   "reason": "YES at 0.04: fading the longshot with a NO limit at 0.96",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-26T22:30:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Air Force",
+   "ticker": "KXNCAAWBGAME-26NOV26AFATTU-AFA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNBAGAME-26NOV27DENUTA",
+   "fair": 0.7919,
+   "fee": 0.0,
+   "id": "202611262151-KXNBAGAME-26NOV27DENUTA-DEN-yes",
+   "last_seen": 0.79,
+   "league": "NBA",
+   "limit": 0.79,
+   "payout": null,
+   "placed": "2026-11-26T21:51:32.045693+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 2,
+   "reason": "Favorite, limit 0.79 (bid 0.78, ask 0.80), sportsbook 0.792",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T02:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Denver",
+   "ticker": "KXNBAGAME-26NOV27DENUTA-DEN"
   }
  ],
  "cash": 843.74,
@@ -10717,6 +10765,18 @@
    "markets": 831,
    "matched": 56,
    "t": "2026-11-26T20:52:02.884816+00:00"
+  },
+  {
+   "cash": 843.74,
+   "equity": 923.09,
+   "events": [
+    "cancelled KXNFLGAME-26NOV26PHIDAL-DAL yes (not filled before start)",
+    "new no-longshot KXNCAAWBGAME-26NOV26AFATTU-AFA no x20 @ 0.96",
+    "new fav-maker KXNBAGAME-26NOV27DENUTA-DEN yes x2 @ 0.79"
+   ],
+   "markets": 851,
+   "matched": 63,
+   "t": "2026-11-26T21:51:32.045693+00:00"
   }
  ],
  "peak": 1020.2900000000001
