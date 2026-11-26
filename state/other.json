@@ -12184,7 +12184,7 @@
    "fee": 0.16,
    "id": "202611251849-KXHIGHMIA-26NOV26-B80.5-no",
    "kind": "weather",
-   "last_seen": 0.67,
+   "last_seen": 0.695,
    "mid": 0.525,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12209,7 +12209,7 @@
    "fee": 0.3,
    "id": "202611251849-KXHIGHNY-26NOV26-T56-no",
    "kind": "weather",
-   "last_seen": 0.165,
+   "last_seen": 0.175,
    "mid": 0.155,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12234,7 +12234,7 @@
    "fee": 0.22,
    "id": "202611251849-KXHIGHPHIL-26NOV26-T57-no",
    "kind": "weather",
-   "last_seen": 0.125,
+   "last_seen": 0.135,
    "mid": 0.365,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12259,7 +12259,7 @@
    "fee": 0.07,
    "id": "202611251849-KXHIGHMIA-26NOV26-B80.5-yes",
    "kind": "weather",
-   "last_seen": 0.33,
+   "last_seen": 0.305,
    "mid": 0.475,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12284,7 +12284,7 @@
    "fee": 0.02,
    "id": "202611251849-KXHIGHNY-26NOV26-T56-yes",
    "kind": "weather",
-   "last_seen": 0.835,
+   "last_seen": 0.825,
    "mid": 0.845,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12309,7 +12309,7 @@
    "fee": 0.11,
    "id": "202611251849-KXHIGHPHIL-26NOV26-B57.5-yes",
    "kind": "weather",
-   "last_seen": 0.095,
+   "last_seen": 0.085,
    "mid": 0.18,
    "payout": null,
    "placed": "2026-11-25T18:49:36.726032+00:00",
@@ -12334,7 +12334,7 @@
    "fee": 0.2,
    "id": "202611251954-KXHIGHAUS-26NOV26-B60.5-no",
    "kind": "weather",
-   "last_seen": 0.305,
+   "last_seen": 0.31,
    "mid": 0.375,
    "payout": null,
    "placed": "2026-11-25T19:54:37.803392+00:00",
@@ -12359,7 +12359,7 @@
    "fee": 0.05,
    "id": "202611251954-KXHIGHAUS-26NOV26-B60.5-yes",
    "kind": "weather",
-   "last_seen": 0.695,
+   "last_seen": 0.69,
    "mid": 0.625,
    "payout": null,
    "placed": "2026-11-25T19:54:37.803392+00:00",
@@ -12409,7 +12409,7 @@
    "fee": 0.19,
    "id": "202611252053-KXHIGHCHI-26NOV26-B44.5-no",
    "kind": "weather",
-   "last_seen": 0.445,
+   "last_seen": 0.435,
    "mid": 0.415,
    "payout": null,
    "placed": "2026-11-25T20:53:02.129148+00:00",
@@ -12434,7 +12434,7 @@
    "fee": 0.18,
    "id": "202611252053-KXHIGHDEN-26NOV26-B60.5-no",
    "kind": "weather",
-   "last_seen": 0.53,
+   "last_seen": 0.51,
    "mid": 0.485,
    "payout": null,
    "placed": "2026-11-25T20:53:02.129148+00:00",
@@ -12509,7 +12509,7 @@
    "fee": 0.09,
    "id": "202611252053-KXHIGHDEN-26NOV26-B58.5-yes",
    "kind": "weather",
-   "last_seen": 0.255,
+   "last_seen": 0.315,
    "mid": 0.295,
    "payout": null,
    "placed": "2026-11-25T20:53:02.129148+00:00",
@@ -12534,7 +12534,7 @@
    "fee": 0.14,
    "id": "202611252154-KXHIGHLAX-26NOV26-B82.5-no",
    "kind": "weather",
-   "last_seen": 0.715,
+   "last_seen": 0.69,
    "mid": 0.595,
    "payout": null,
    "placed": "2026-11-25T21:54:33.175192+00:00",
@@ -12559,7 +12559,7 @@
    "fee": 0.01,
    "id": "202611252154-KXHIGHLAX-26NOV26-B84.5-no",
    "kind": "weather",
-   "last_seen": 0.945,
+   "last_seen": 0.93,
    "mid": 0.945,
    "payout": null,
    "placed": "2026-11-25T21:54:33.175192+00:00",
@@ -12726,7 +12726,7 @@
    "ticker": "KXETHD-26NOV2523-T1699.99"
   },
   {
-   "close": null,
+   "close": 0.915,
    "close_time": "2026-11-26T11:00:00Z",
    "cost": 1.84,
    "event": "KXBTCD-26NOV2606",
@@ -12736,22 +12736,22 @@
    "kind": "crypto",
    "last_seen": 0.915,
    "mid": 0.915,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-26T10:06:15.808496+00:00",
-   "pnl": null,
+   "pnl": 0.14,
    "price": 0.92,
    "qty": 2,
    "reason": "random live outcome for calibration",
    "series": "KXBTCD",
-   "settled": null,
+   "settled": "2026-11-26T11:56:55.787397+00:00",
    "side": "no",
-   "status": "open",
+   "status": "won",
    "strategy": "data",
    "sub": "$61,100 or above",
    "ticker": "KXBTCD-26NOV2606-T61099.99"
   },
   {
-   "close": null,
+   "close": 0.57,
    "close_time": "2026-11-26T11:00:00Z",
    "cost": 1.74,
    "event": "KXETHD-26NOV2606",
@@ -12761,16 +12761,16 @@
    "kind": "crypto",
    "last_seen": 0.57,
    "mid": 0.57,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-26T10:06:15.808496+00:00",
-   "pnl": null,
+   "pnl": -1.8,
    "price": 0.58,
    "qty": 3,
    "reason": "random live outcome for calibration",
    "series": "KXETHD",
-   "settled": null,
+   "settled": "2026-11-26T11:56:55.787397+00:00",
    "side": "yes",
-   "status": "open",
+   "status": "lost",
    "strategy": "data",
    "sub": "$1,700 or above",
    "ticker": "KXETHD-26NOV2606-T1699.99"
@@ -12784,7 +12784,7 @@
    "fee": 0.02,
    "id": "202611261059-KXBTCD-26NOV2607-T60199.99-yes",
    "kind": "crypto",
-   "last_seen": 0.845,
+   "last_seen": 0.995,
    "mid": 0.845,
    "payout": null,
    "placed": "2026-11-26T10:59:25.536848+00:00",
@@ -12801,7 +12801,7 @@
    "ticker": "KXBTCD-26NOV2607-T60199.99"
   }
  ],
- "cash": 812.26,
+ "cash": 814.26,
  "nws_grid": {
   "KXHIGHAUS": "https://api.weather.gov/gridpoints/EWX/159,88/forecast",
   "KXHIGHCHI": "https://api.weather.gov/gridpoints/LOT/72,69/forecast",
@@ -13236,7 +13236,7 @@
   "data:crypto": {
    "avg_clv": -0.0037,
    "avg_fair": null,
-   "avg_price": 0.599,
+   "avg_price": 0.6,
    "buckets": {
     "00-10c": [
      2,
@@ -13259,7 +13259,7 @@
      11
     ],
     "50-60c": [
-     24,
+     25,
      13
     ],
     "60-70c": [
@@ -13275,19 +13275,19 @@
      30
     ],
     "90-100c": [
-     84,
-     78
+     85,
+     79
     ]
    },
-   "clv_n": 319,
+   "clv_n": 321,
    "fair": 0.0,
    "fair_n": 0,
-   "n": 319,
-   "pnl": -58.5,
-   "roi": -0.099,
-   "staked": 589.5,
+   "n": 321,
+   "pnl": -60.16,
+   "roi": -0.101,
+   "staked": 593.16,
    "win_rate": 0.583,
-   "won": 186
+   "won": 187
   },
   "data:weather": {
    "avg_clv": -0.0176,
@@ -13385,5 +13385,5 @@
    "won": 35
   }
  },
- "updated": "2026-11-26T10:59:25.536848+00:00"
+ "updated": "2026-11-26T11:56:55.787397+00:00"
 }

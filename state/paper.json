@@ -6775,7 +6775,7 @@
    "fair": 0.5993,
    "fee": 0.78,
    "id": "202611252252-KXNCAAMBGAME-26NOV26MIAMICH-MICH-no",
-   "last_seen": 0.555,
+   "last_seen": 0.545,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -10482,6 +10482,14 @@
    "markets": 604,
    "matched": 44,
    "t": "2026-11-26T10:59:25.536848+00:00"
+  },
+  {
+   "cash": 891.44,
+   "equity": 920.82,
+   "events": [],
+   "markets": 600,
+   "matched": 44,
+   "t": "2026-11-26T11:56:55.787397+00:00"
   }
  ],
  "peak": 1020.2900000000001
