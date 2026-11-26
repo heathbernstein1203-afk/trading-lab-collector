@@ -6955,7 +6955,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-26T15:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Southern University",
    "ticker": "KXNCAAWBGAME-26NOV26SOUAUB-SOU"
@@ -7103,6 +7103,54 @@
    "strategy": "fav-maker",
    "team": "New Mexico",
    "ticker": "KXNCAAFGAME-26NOV27AFAUNM-UNM"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV27TEXTXAM",
+   "fair": 0.8055,
+   "fee": 0.0,
+   "id": "202611261558-KXNCAAFGAME-26NOV27TEXTXAM-TEX-yes",
+   "last_seen": 0.8,
+   "league": "CFB",
+   "limit": 0.8,
+   "payout": null,
+   "placed": "2026-11-26T15:58:07.213270+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 7,
+   "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.805",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T00:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Texas",
+   "ticker": "KXNCAAFGAME-26NOV27TEXTXAM-TEX"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNHLGAME-26NOV27CGYNJ",
+   "fair": 0.7088,
+   "fee": 0.0,
+   "id": "202611261558-KXNHLGAME-26NOV27CGYNJ-NJ-yes",
+   "last_seen": 0.7,
+   "league": "NHL",
+   "limit": 0.7,
+   "payout": null,
+   "placed": "2026-11-26T15:58:07.213270+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 9,
+   "reason": "Favorite, limit 0.70 (bid 0.70, ask 0.71), sportsbook 0.709",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-27T18:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "New Jersey",
+   "ticker": "KXNHLGAME-26NOV27CGYNJ-NJ"
   }
  ],
  "cash": 871.91,
@@ -10508,6 +10556,18 @@
    "markets": 606,
    "matched": 44,
    "t": "2026-11-26T14:39:16.879699+00:00"
+  },
+  {
+   "cash": 871.91,
+   "equity": 920.82,
+   "events": [
+    "cancelled KXNCAAWBGAME-26NOV26SOUAUB-SOU no (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV27TEXTXAM-TEX yes x7 @ 0.8",
+    "new fav-maker KXNHLGAME-26NOV27CGYNJ-NJ yes x9 @ 0.7"
+   ],
+   "markets": 617,
+   "matched": 59,
+   "t": "2026-11-26T15:58:07.213270+00:00"
   }
  ],
  "peak": 1020.2900000000001
