@@ -6535,7 +6535,7 @@
    "fair": 0.8625,
    "fee": 0.0,
    "id": "202611251701-KXNCAAFGAME-26NOV26TCUTTU-TTU-yes",
-   "last_seen": 0.855,
+   "last_seen": 0.845,
    "league": "CFB",
    "limit": 0.86,
    "payout": null,
@@ -6775,7 +6775,7 @@
    "fair": 0.5993,
    "fee": 0.78,
    "id": "202611252252-KXNCAAMBGAME-26NOV26MIAMICH-MICH-no",
-   "last_seen": 0.545,
+   "last_seen": 0.525,
    "league": "NCAAMB",
    "limit": null,
    "payout": null,
@@ -6841,7 +6841,7 @@
    "ticker": "KXNCAAMBGAME-26NOV26SMCUCLA-UCLA"
   },
   {
-   "close": null,
+   "close": 0.955,
    "cost": 19.2,
    "event": "KXUECLGAME-26NOV26BRICSU",
    "fair": null,
@@ -7009,7 +7009,7 @@
    "ticker": "KXUECLGAME-26NOV26BRAKUPS-KUPS"
   },
   {
-   "close": null,
+   "close": 0.925,
    "cost": 19.53,
    "event": "KXUECLGAME-26NOV26AJATHU",
    "fair": null,
@@ -10606,6 +10606,14 @@
    "markets": 656,
    "matched": 57,
    "t": "2026-11-26T17:03:40.192432+00:00"
+  },
+  {
+   "cash": 802.74,
+   "equity": 920.82,
+   "events": [],
+   "markets": 666,
+   "matched": 56,
+   "t": "2026-11-26T17:54:15.913954+00:00"
   }
  ],
  "peak": 1020.2900000000001
