@@ -6130,16 +6130,16 @@
    "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
-   "payout": null,
+   "payout": 23.0,
    "placed": "2026-11-25T01:04:23.393516+00:00",
-   "pnl": null,
+   "pnl": 5.29,
    "price": 0.77,
    "qty": 23,
    "reason": "Favorite, limit 0.77 (bid 0.77, ask 0.78), sportsbook 0.788",
-   "settled": null,
+   "settled": "2026-11-26T04:38:39.113264+00:00",
    "side": "yes",
    "start": "2026-11-26T01:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Houston",
    "ticker": "KXNBAGAME-26NOV25PHXHOU-HOU"
@@ -7007,9 +7007,33 @@
    "strategy": "no-longshot",
    "team": "Kuopion Palloseura",
    "ticker": "KXUECLGAME-26NOV26BRAKUPS-KUPS"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXUECLGAME-26NOV26AJATHU",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611260438-KXUECLGAME-26NOV26AJATHU-THU-no",
+   "last_seen": 0.93,
+   "league": "",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-26T04:38:39.113264+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-26T17:45:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Thun",
+   "ticker": "KXUECLGAME-26NOV26AJATHU-THU"
   }
  ],
- "cash": 872.29,
+ "cash": 895.29,
  "log": [
   {
    "cash": 1000,
@@ -10325,6 +10349,17 @@
    "markets": 662,
    "matched": 42,
    "t": "2026-11-26T03:32:12.611200+00:00"
+  },
+  {
+   "cash": 895.29,
+   "equity": 920.82,
+   "events": [
+    "won KXNBAGAME-26NOV25PHXHOU-HOU yes pnl 5.29",
+    "new no-longshot KXUECLGAME-26NOV26AJATHU-THU no x21 @ 0.93"
+   ],
+   "markets": 646,
+   "matched": 42,
+   "t": "2026-11-26T04:38:39.113264+00:00"
   }
  ],
  "peak": 1020.2900000000001
