@@ -6679,7 +6679,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611251954-KXNCAAMBGAME-26NOV26GTWNTEX-TEX-yes",
-   "last_seen": 0.79,
+   "last_seen": 0.77,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -7079,6 +7079,30 @@
    "strategy": "fav-maker",
    "team": "North Dakota St.",
    "ticker": "KXNCAAFGAME-26NOV27NDSUSJSU-NDSU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV27AFAUNM",
+   "fair": 0.7034,
+   "fee": 0.0,
+   "id": "202611261006-KXNCAAFGAME-26NOV27AFAUNM-UNM-yes",
+   "last_seen": 0.7,
+   "league": "CFB",
+   "limit": 0.7,
+   "payout": null,
+   "placed": "2026-11-26T10:06:15.808496+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 3,
+   "reason": "Favorite, limit 0.70 (bid 0.70, ask 0.71), sportsbook 0.703",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-27T21:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "New Mexico",
+   "ticker": "KXNCAAFGAME-26NOV27AFAUNM-UNM"
   }
  ],
  "cash": 891.44,
@@ -10440,6 +10464,16 @@
    "markets": 622,
    "matched": 44,
    "t": "2026-11-26T08:44:56.820246+00:00"
+  },
+  {
+   "cash": 891.44,
+   "equity": 920.82,
+   "events": [
+    "new fav-maker KXNCAAFGAME-26NOV27AFAUNM-UNM yes x3 @ 0.7"
+   ],
+   "markets": 610,
+   "matched": 44,
+   "t": "2026-11-26T10:06:15.808496+00:00"
   }
  ],
  "peak": 1020.2900000000001
