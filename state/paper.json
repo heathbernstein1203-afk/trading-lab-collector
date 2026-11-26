@@ -6313,7 +6313,7 @@
    "ticker": "KXNCAAMBGAME-26NOV25HCDART-DART"
   },
   {
-   "close": null,
+   "close": 0.805,
    "cost": 5.67,
    "event": "KXNCAAMBGAME-26NOV25CSBPEPP",
    "fair": 0.8151,
@@ -6355,7 +6355,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "George Mason",
    "ticker": "KXNCAAMBGAME-26NOV25LONGGMU-GMU"
@@ -6409,7 +6409,7 @@
    "ticker": "KXNCAAWBGAME-26NOV25SYRSOU-SOU"
   },
   {
-   "close": null,
+   "close": 0.685,
    "cost": 20.3,
    "event": "KXNCAAMBGAME-26NOV25USTUNCW",
    "fair": 0.7273,
@@ -6451,7 +6451,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-26T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Northeastern",
    "ticker": "KXNCAAMBGAME-26NOV25NEWIS-NE"
@@ -6595,7 +6595,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T01:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Memphis",
    "ticker": "KXNBAGAME-26NOV25LACMEM-MEM"
@@ -6883,10 +6883,58 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T00:00:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Northern Kentucky",
    "ticker": "KXNCAAMBGAME-26NOV25BELLNKU-NKU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV26IWHAW",
+   "fair": 0.9466,
+   "fee": 0.0,
+   "id": "202611260104-KXNCAAMBGAME-26NOV26IWHAW-IW-no",
+   "last_seen": 0.93,
+   "league": "NCAAMB",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-26T01:04:40.855239+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-26T04:59:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Incarnate Word",
+   "ticker": "KXNCAAMBGAME-26NOV26IWHAW-IW"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV26TTUORE",
+   "fair": 0.8104,
+   "fee": 0.0,
+   "id": "202611260104-KXNCAAMBGAME-26NOV26TTUORE-TTU-yes",
+   "last_seen": 0.79,
+   "league": "NCAAMB",
+   "limit": 0.79,
+   "payout": null,
+   "placed": "2026-11-26T01:04:40.855239+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 27,
+   "reason": "Favorite, limit 0.79 (bid 0.79, ask 0.80), sportsbook 0.810",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-27T04:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Texas Tech",
+   "ticker": "KXNCAAMBGAME-26NOV26TTUORE-TTU"
   }
  ],
  "cash": 836.29,
@@ -10160,6 +10208,23 @@
    "markets": 656,
    "matched": 64,
    "t": "2026-11-25T23:46:44.313445+00:00"
+  },
+  {
+   "cash": 836.29,
+   "equity": 905.5,
+   "events": [
+    "cancelled KXNCAAMBGAME-26NOV25LONGGMU-GMU yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV25NEWIS-NE no (not filled before start)",
+    "cancelled KXNBAGAME-26NOV25LACMEM-MEM yes (not filled before start)",
+    "cancelled KXNCAAMBGAME-26NOV25BELLNKU-NKU yes (not filled before start)",
+    "new no-longshot KXNCAAMBGAME-26NOV26IWHAW-IW no x21 @ 0.93",
+    "new fav-maker KXNCAAMBGAME-26NOV26TTUORE-TTU yes x27 @ 0.79",
+    "demo placed KXNCAAMBGAME-26NOV26IWHAW-IW no x21 @ 93c",
+    "demo placed KXNCAAMBGAME-26NOV26TTUORE-TTU yes x27 @ 79c"
+   ],
+   "markets": 707,
+   "matched": 54,
+   "t": "2026-11-26T01:04:40.855239+00:00"
   }
  ],
  "peak": 1020.2900000000001
