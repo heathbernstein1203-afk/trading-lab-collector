@@ -6679,7 +6679,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611251954-KXNCAAMBGAME-26NOV26GTWNTEX-TEX-yes",
-   "last_seen": 0.775,
+   "last_seen": 0.79,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -7055,6 +7055,30 @@
    "strategy": "no-longshot",
    "team": "Himachal Pradesh",
    "ticker": "KXT20MATCH-26NOV260030HPKER-HP"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV27NDSUSJSU",
+   "fair": 0.7598,
+   "fee": 0.0,
+   "id": "202611260844-KXNCAAFGAME-26NOV27NDSUSJSU-NDSU-yes",
+   "last_seen": 0.74,
+   "league": "CFB",
+   "limit": 0.74,
+   "payout": null,
+   "placed": "2026-11-26T08:44:56.820246+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 23,
+   "reason": "Favorite, limit 0.74 (bid 0.73, ask 0.77), sportsbook 0.760",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-27T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "North Dakota St.",
+   "ticker": "KXNCAAFGAME-26NOV27NDSUSJSU-NDSU"
   }
  ],
  "cash": 891.44,
@@ -10406,6 +10430,16 @@
    "markets": 626,
    "matched": 44,
    "t": "2026-11-26T07:11:12.104873+00:00"
+  },
+  {
+   "cash": 891.44,
+   "equity": 920.82,
+   "events": [
+    "new fav-maker KXNCAAFGAME-26NOV27NDSUSJSU-NDSU yes x23 @ 0.74"
+   ],
+   "markets": 622,
+   "matched": 44,
+   "t": "2026-11-26T08:44:56.820246+00:00"
   }
  ],
  "peak": 1020.2900000000001

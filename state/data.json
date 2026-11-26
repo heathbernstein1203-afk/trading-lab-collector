@@ -48410,17 +48410,17 @@
    "last_seen": 0.375,
    "league": "NCAAMB",
    "mid": 0.395,
-   "payout": null,
+   "payout": 4.0,
    "placed": "2026-11-25T23:46:44.313445+00:00",
-   "pnl": null,
+   "pnl": 2.33,
    "price": 0.4,
    "qty": 4,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-26T08:44:56.820246+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-26T05:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Colorado St.",
    "ticker": "KXNCAAMBGAME-26NOV26CLEMCSU-CSU",
    "volume": 3729
@@ -48551,7 +48551,7 @@
    "volume": 305
   },
   {
-   "close": null,
+   "close": 0.405,
    "cost": 2.0,
    "event": "KXT20MATCH-26NOV260200ODSHHYD",
    "fair": null,
@@ -48607,7 +48607,7 @@
    "fair": null,
    "fee": 0.03,
    "id": "202611260558-KXVALORANTGAME-26NOV260400AQUR-AQ-yes",
-   "last_seen": 0.67,
+   "last_seen": 0.715,
    "league": "",
    "mid": 0.675,
    "payout": null,
@@ -48632,7 +48632,7 @@
    "fair": null,
    "fee": 0.12,
    "id": "202611260711-KXT20MATCH-26NOV260300BIHARPNJB-BIHAR-yes",
-   "last_seen": 0.17,
+   "last_seen": 0.19,
    "league": "",
    "mid": 0.17,
    "payout": null,
@@ -48657,7 +48657,7 @@
    "fair": null,
    "fee": 0.01,
    "id": "202611260711-KXT20MATCH-26NOV260600UPMIZOR-UP-yes",
-   "last_seen": 0.925,
+   "last_seen": 0.93,
    "league": "",
    "mid": 0.925,
    "payout": null,
@@ -48682,7 +48682,7 @@
    "fair": null,
    "fee": 0.06,
    "id": "202611260711-KXVALORANTGAME-26NOV260600YOUVIC-VIC-yes",
-   "last_seen": 0.515,
+   "last_seen": 0.525,
    "league": "",
    "mid": 0.515,
    "payout": null,
@@ -48699,9 +48699,34 @@
    "team": "Victory No Limits",
    "ticker": "KXVALORANTGAME-26NOV260600YOUVIC-VIC",
    "volume": 119
+  },
+  {
+   "close": null,
+   "cost": 1.82,
+   "event": "KXSAUDIPLGAME-26NOV26FATRIY",
+   "fair": null,
+   "fee": 0.1,
+   "id": "202611260844-KXSAUDIPLGAME-26NOV26FATRIY-TIE-yes",
+   "last_seen": 0.255,
+   "league": "",
+   "mid": 0.255,
+   "payout": null,
+   "placed": "2026-11-26T08:44:56.820246+00:00",
+   "pnl": null,
+   "price": 0.26,
+   "qty": 7,
+   "series": "KXSAUDIPLGAME",
+   "settled": null,
+   "side": "yes",
+   "spread": 0.01,
+   "start": "2026-11-26T14:25:00+00:00",
+   "status": "open",
+   "team": "Tie",
+   "ticker": "KXSAUDIPLGAME-26NOV26FATRIY-TIE",
+   "volume": 270
   }
  ],
- "cash": 910.28,
+ "cash": 912.36,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -50351,6 +50376,7 @@
   "KXNHLGAME-26NOV25VANDET",
   "KXNHLGAME-26NOV25WPGBOS",
   "KXSAUDIPLGAME-26NOV20AASALN",
+  "KXSAUDIPLGAME-26NOV26FATRIY",
   "KXSERIEAGAME-26NOV21COMCAG",
   "KXSERIEAGAME-26NOV21LAZLEC",
   "KXSERIEAGAME-26NOV21NAPTOR",
@@ -51036,8 +51062,8 @@
    "won": 141
   },
   "KXNCAAMBGAME": {
-   "avg_clv": -0.0063,
-   "avg_price": 0.634,
+   "avg_clv": -0.0064,
+   "avg_price": 0.633,
    "buckets": {
     "10-20c": [
      31,
@@ -51048,8 +51074,8 @@
      11
     ],
     "30-40c": [
-     56,
-     24
+     57,
+     25
     ],
     "40-50c": [
      71,
@@ -51076,13 +51102,13 @@
      134
     ]
    },
-   "clv_n": 572,
-   "n": 573,
-   "pnl": 79.93,
-   "roi": 0.076,
-   "staked": 1053.07,
-   "win_rate": 0.661,
-   "won": 379
+   "clv_n": 573,
+   "n": 574,
+   "pnl": 82.26,
+   "roi": 0.078,
+   "staked": 1054.74,
+   "win_rate": 0.662,
+   "won": 380
   },
   "KXNCAAWBGAME": {
    "avg_clv": -0.0129,
@@ -51499,5 +51525,5 @@
    "won": 12
   }
  },
- "updated": "2026-11-26T07:11:12.104873+00:00"
+ "updated": "2026-11-26T08:44:56.820246+00:00"
 }
