@@ -6769,7 +6769,7 @@
    "ticker": "KXUECLGAME-26NOV26ESCFCC-ESC"
   },
   {
-   "close": null,
+   "close": 0.515,
    "cost": 24.75,
    "event": "KXNCAAMBGAME-26NOV26MIAMICH",
    "fair": 0.5993,
@@ -10709,6 +10709,14 @@
    "markets": 821,
    "matched": 57,
    "t": "2026-11-26T20:00:06.507112+00:00"
+  },
+  {
+   "cash": 843.74,
+   "equity": 923.09,
+   "events": [],
+   "markets": 831,
+   "matched": 56,
+   "t": "2026-11-26T20:52:02.884816+00:00"
   }
  ],
  "peak": 1020.2900000000001
