@@ -6674,24 +6674,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 3.85,
    "event": "KXNCAAMBGAME-26NOV26GTWNTEX",
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611251954-KXNCAAMBGAME-26NOV26GTWNTEX-TEX-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
    "placed": "2026-11-25T19:54:37.803392+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.77,
    "qty": 5,
    "reason": "Favorite, limit 0.77 (bid 0.76, ask 0.78), sportsbook 0.774",
    "settled": null,
    "side": "yes",
    "start": "2026-11-26T19:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Texas",
    "ticker": "KXNCAAMBGAME-26NOV26GTWNTEX-TEX"
@@ -6907,7 +6907,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-26T04:59:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Incarnate Word",
    "ticker": "KXNCAAMBGAME-26NOV26IWHAW-IW"
@@ -7031,9 +7031,33 @@
    "strategy": "no-longshot",
    "team": "Thun",
    "ticker": "KXUECLGAME-26NOV26AJATHU-THU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXT20MATCH-26NOV260030HPKER",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611260558-KXT20MATCH-26NOV260030HPKER-HP-no",
+   "last_seen": 0.91,
+   "league": "",
+   "limit": 0.91,
+   "payout": null,
+   "placed": "2026-11-26T05:58:17.185501+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.10: fading the longshot with a NO limit at 0.91",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-26T06:30:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Himachal Pradesh",
+   "ticker": "KXT20MATCH-26NOV260030HPKER-HP"
   }
  ],
- "cash": 895.29,
+ "cash": 891.44,
  "log": [
   {
    "cash": 1000,
@@ -10360,6 +10384,18 @@
    "markets": 646,
    "matched": 42,
    "t": "2026-11-26T04:38:39.113264+00:00"
+  },
+  {
+   "cash": 891.44,
+   "equity": 920.82,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV26GTWNTEX-TEX yes at 0.77",
+    "cancelled KXNCAAMBGAME-26NOV26IWHAW-IW no (not filled before start)",
+    "new no-longshot KXT20MATCH-26NOV260030HPKER-HP no x21 @ 0.91"
+   ],
+   "markets": 626,
+   "matched": 43,
+   "t": "2026-11-26T05:58:17.185501+00:00"
   }
  ],
  "peak": 1020.2900000000001
