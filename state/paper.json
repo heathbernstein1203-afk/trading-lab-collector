@@ -6679,7 +6679,7 @@
    "fair": 0.7741,
    "fee": 0.0,
    "id": "202611251954-KXNCAAMBGAME-26NOV26GTWNTEX-TEX-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.775,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -7051,7 +7051,7 @@
    "settled": null,
    "side": "no",
    "start": "2026-11-26T06:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "no-longshot",
    "team": "Himachal Pradesh",
    "ticker": "KXT20MATCH-26NOV260030HPKER-HP"
@@ -10396,6 +10396,16 @@
    "markets": 626,
    "matched": 43,
    "t": "2026-11-26T05:58:17.185501+00:00"
+  },
+  {
+   "cash": 891.44,
+   "equity": 920.82,
+   "events": [
+    "cancelled KXT20MATCH-26NOV260030HPKER-HP no (not filled before start)"
+   ],
+   "markets": 626,
+   "matched": 44,
+   "t": "2026-11-26T07:11:12.104873+00:00"
   }
  ],
  "peak": 1020.2900000000001
