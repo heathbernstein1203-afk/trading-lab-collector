@@ -6751,7 +6751,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611252154-KXUECLGAME-26NOV26ESCFCC-ESC-no",
-   "last_seen": 0.935,
+   "last_seen": 0.925,
    "league": "",
    "limit": 0.93,
    "payout": null,
@@ -10614,6 +10614,14 @@
    "markets": 666,
    "matched": 56,
    "t": "2026-11-26T17:54:15.913954+00:00"
+  },
+  {
+   "cash": 802.74,
+   "equity": 920.82,
+   "events": [],
+   "markets": 694,
+   "matched": 59,
+   "t": "2026-11-26T18:54:47.206870+00:00"
   }
  ],
  "peak": 1020.2900000000001
