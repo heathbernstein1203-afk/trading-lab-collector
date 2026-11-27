@@ -7423,7 +7423,7 @@
    "fair": 0.7767,
    "fee": 0.0,
    "id": "202611262353-KXNCAAMBGAME-26NOV27UVAXAV-UVA-yes",
-   "last_seen": 0.745,
+   "last_seen": 0.735,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -7495,7 +7495,7 @@
    "fair": 0.7946,
    "fee": 0.0,
    "id": "202611270439-KXNBAGAME-26NOV27ATLBOS-BOS-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -11223,6 +11223,14 @@
    "markets": 1007,
    "matched": 138,
    "t": "2026-11-27T14:32:13.495734+00:00"
+  },
+  {
+   "cash": 882.42,
+   "equity": 938.54,
+   "events": [],
+   "markets": 1010,
+   "matched": 138,
+   "t": "2026-11-27T15:29:14.541502+00:00"
   }
  ],
  "peak": 1020.2900000000001
