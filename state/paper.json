@@ -7129,7 +7129,7 @@
    "ticker": "KXNCAAFGAME-26NOV27TEXTXAM-TEX"
   },
   {
-   "close": null,
+   "close": 0.685,
    "cost": 6.3,
    "event": "KXNHLGAME-26NOV27CGYNJ",
    "fair": 0.7088,
@@ -7426,16 +7426,16 @@
    "last_seen": 0.735,
    "league": "NCAAMB",
    "limit": 0.77,
-   "payout": null,
+   "payout": 8.0,
    "placed": "2026-11-26T23:53:27.666510+00:00",
-   "pnl": null,
+   "pnl": 1.84,
    "price": 0.77,
    "qty": 8,
    "reason": "Favorite, limit 0.77 (bid 0.77, ask 0.78), sportsbook 0.777",
-   "settled": null,
+   "settled": "2026-11-27T18:17:37.931881+00:00",
    "side": "yes",
    "start": "2026-11-27T16:00:00+00:00",
-   "status": "open",
+   "status": "won",
    "strategy": "fav-maker",
    "team": "Virginia",
    "ticker": "KXNCAAMBGAME-26NOV27UVAXAV-UVA"
@@ -7655,9 +7655,33 @@
    "strategy": "fav-maker",
    "team": "BYU",
    "ticker": "KXNCAAFGAME-26NOV28CINBYU-BYU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAMBGAME-26NOV27NENW",
+   "fair": 0.8932,
+   "fee": 0.0,
+   "id": "202611271817-KXNCAAMBGAME-26NOV27NENW-NW-yes",
+   "last_seen": 0.89,
+   "league": "NCAAMB",
+   "limit": 0.89,
+   "payout": null,
+   "placed": "2026-11-27T18:17:37.931881+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 7,
+   "reason": "Favorite, limit 0.89 (bid 0.89, ask 0.90), sportsbook 0.893",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T01:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Northwestern",
+   "ticker": "KXNCAAMBGAME-26NOV27NENW-NW"
   }
  ],
- "cash": 882.42,
+ "cash": 890.42,
  "log": [
   {
    "cash": 1000,
@@ -11324,6 +11348,17 @@
    "markets": 1036,
    "matched": 145,
    "t": "2026-11-27T17:30:40.490505+00:00"
+  },
+  {
+   "cash": 890.42,
+   "equity": 940.38,
+   "events": [
+    "won KXNCAAMBGAME-26NOV27UVAXAV-UVA yes pnl 1.84",
+    "new fav-maker KXNCAAMBGAME-26NOV27NENW-NW yes x7 @ 0.89"
+   ],
+   "markets": 1060,
+   "matched": 139,
+   "t": "2026-11-27T18:17:37.931881+00:00"
   }
  ],
  "peak": 1020.2900000000001
