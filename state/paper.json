@@ -7447,7 +7447,7 @@
    "fair": 0.7539,
    "fee": 0.0,
    "id": "202611270336-KXNBAGAME-26NOV27BKNTOR-TOR-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.755,
    "league": "NBA",
    "limit": 0.74,
    "payout": null,
@@ -7658,24 +7658,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 6.23,
    "event": "KXNCAAMBGAME-26NOV27NENW",
    "fair": 0.8932,
    "fee": 0.0,
    "id": "202611271817-KXNCAAMBGAME-26NOV27NENW-NW-yes",
-   "last_seen": 0.89,
+   "last_seen": 0.885,
    "league": "NCAAMB",
    "limit": 0.89,
    "payout": null,
    "placed": "2026-11-27T18:17:37.931881+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.89,
    "qty": 7,
    "reason": "Favorite, limit 0.89 (bid 0.89, ask 0.90), sportsbook 0.893",
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Northwestern",
    "ticker": "KXNCAAMBGAME-26NOV27NENW-NW"
@@ -7730,30 +7730,30 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 5.95,
    "event": "KXNCAAFGAME-26NOV28DUKEWAKE",
    "fair": 0.8538,
    "fee": 0.0,
    "id": "202611272227-KXNCAAFGAME-26NOV28DUKEWAKE-WAKE-yes",
-   "last_seen": 0.85,
+   "last_seen": 0.845,
    "league": "CFB",
    "limit": 0.85,
    "payout": null,
    "placed": "2026-11-27T22:27:55.419581+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.85,
    "qty": 7,
    "reason": "Favorite, limit 0.85 (bid 0.84, ask 0.86), sportsbook 0.854",
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T20:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Wake Forest",
    "ticker": "KXNCAAFGAME-26NOV28DUKEWAKE-WAKE"
   }
  ],
- "cash": 887.85,
+ "cash": 875.67,
  "log": [
   {
    "cash": 1000,
@@ -11475,6 +11475,17 @@
    "markets": 1097,
    "matched": 105,
    "t": "2026-11-27T22:27:55.419581+00:00"
+  },
+  {
+   "cash": 875.67,
+   "equity": 943.08,
+   "events": [
+    "filled KXNCAAMBGAME-26NOV27NENW-NW yes at 0.89",
+    "filled KXNCAAFGAME-26NOV28DUKEWAKE-WAKE yes at 0.85"
+   ],
+   "markets": 1073,
+   "matched": 100,
+   "t": "2026-11-27T23:24:18.903535+00:00"
   }
  ],
  "peak": 1020.2900000000001
