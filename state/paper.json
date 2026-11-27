@@ -7099,7 +7099,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-27T21:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "New Mexico",
    "ticker": "KXNCAAFGAME-26NOV27AFAUNM-UNM"
@@ -7231,7 +7231,7 @@
    "fair": 0.7597,
    "fee": 0.0,
    "id": "202611262000-KXNBAGAME-26NOV27GSWPOR-POR-yes",
-   "last_seen": 0.725,
+   "last_seen": 0.735,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
@@ -7727,6 +7727,30 @@
    "strategy": "fav-maker",
    "team": "Alabama",
    "ticker": "KXNCAAFGAME-26NOV28AUBALA-ALA"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV28DUKEWAKE",
+   "fair": 0.8538,
+   "fee": 0.0,
+   "id": "202611272227-KXNCAAFGAME-26NOV28DUKEWAKE-WAKE-yes",
+   "last_seen": 0.85,
+   "league": "CFB",
+   "limit": 0.85,
+   "payout": null,
+   "placed": "2026-11-27T22:27:55.419581+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 7,
+   "reason": "Favorite, limit 0.85 (bid 0.84, ask 0.86), sportsbook 0.854",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T20:30:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Wake Forest",
+   "ticker": "KXNCAAFGAME-26NOV28DUKEWAKE-WAKE"
   }
  ],
  "cash": 887.85,
@@ -11440,6 +11464,17 @@
    "markets": 1136,
    "matched": 112,
    "t": "2026-11-27T21:27:29.299109+00:00"
+  },
+  {
+   "cash": 887.85,
+   "equity": 943.08,
+   "events": [
+    "cancelled KXNCAAFGAME-26NOV27AFAUNM-UNM yes (not filled before start)",
+    "new fav-maker KXNCAAFGAME-26NOV28DUKEWAKE-WAKE yes x7 @ 0.85"
+   ],
+   "markets": 1097,
+   "matched": 105,
+   "t": "2026-11-27T22:27:55.419581+00:00"
   }
  ],
  "peak": 1020.2900000000001
