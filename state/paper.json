@@ -7135,7 +7135,7 @@
    "fair": 0.7088,
    "fee": 0.0,
    "id": "202611261558-KXNHLGAME-26NOV27CGYNJ-NJ-yes",
-   "last_seen": 0.695,
+   "last_seen": 0.685,
    "league": "NHL",
    "limit": 0.7,
    "payout": null,
@@ -7417,7 +7417,7 @@
    "ticker": "KXNCAAFGAME-26NOV27MINNWIS-WIS"
   },
   {
-   "close": null,
+   "close": 0.735,
    "cost": 6.16,
    "event": "KXNCAAMBGAME-26NOV27UVAXAV",
    "fair": 0.7767,
@@ -11231,6 +11231,14 @@
    "markets": 1010,
    "matched": 138,
    "t": "2026-11-27T15:29:14.541502+00:00"
+  },
+  {
+   "cash": 882.42,
+   "equity": 938.54,
+   "events": [],
+   "markets": 1018,
+   "matched": 151,
+   "t": "2026-11-27T16:35:52.649820+00:00"
   }
  ],
  "peak": 1020.2900000000001
