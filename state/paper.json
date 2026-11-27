@@ -7495,7 +7495,7 @@
    "fair": 0.7946,
    "fee": 0.0,
    "id": "202611270439-KXNBAGAME-26NOV27ATLBOS-BOS-yes",
-   "last_seen": 0.765,
+   "last_seen": 0.76,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -11181,6 +11181,14 @@
    "markets": 981,
    "matched": 134,
    "t": "2026-11-27T08:45:22.713922+00:00"
+  },
+  {
+   "cash": 888.72,
+   "equity": 938.54,
+   "events": [],
+   "markets": 979,
+   "matched": 134,
+   "t": "2026-11-27T10:02:40.132782+00:00"
   }
  ],
  "peak": 1020.2900000000001
