@@ -50435,17 +50435,17 @@
    "last_seen": 0.745,
    "league": "NCAAMB",
    "mid": 0.745,
-   "payout": null,
+   "payout": 2.0,
    "placed": "2026-11-26T21:51:32.045693+00:00",
-   "pnl": null,
+   "pnl": 0.47,
    "price": 0.75,
    "qty": 2,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-27T05:59:33.853218+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-27T03:30:00+00:00",
-   "status": "open",
+   "status": "won",
    "team": "Pacific",
    "ticker": "KXNCAAMBGAME-26NOV26NEOMPAC-PAC",
    "volume": 15138
@@ -50607,7 +50607,7 @@
    "fair": null,
    "fee": 0.04,
    "id": "202611270439-KXVALORANTGAME-26NOV270400YOUAQ-AQ-yes",
-   "last_seen": 0.675,
+   "last_seen": 0.69,
    "league": "",
    "mid": 0.675,
    "payout": null,
@@ -50626,7 +50626,7 @@
    "volume": 1608
   }
  ],
- "cash": 894.7,
+ "cash": 896.7,
  "seen_events": [
   "KXAHLGAME-26NOV131900TORSYR",
   "KXAHLGAME-26NOV131900WILHER",
@@ -53039,7 +53039,7 @@
   },
   "KXNCAAMBGAME": {
    "avg_clv": -0.0063,
-   "avg_price": 0.632,
+   "avg_price": 0.633,
    "buckets": {
     "10-20c": [
      31,
@@ -53066,8 +53066,8 @@
      42
     ],
     "70-80c": [
-     50,
-     40
+     51,
+     41
     ],
     "80-90c": [
      47,
@@ -53078,13 +53078,13 @@
      136
     ]
    },
-   "clv_n": 592,
-   "n": 593,
-   "pnl": 76.29,
+   "clv_n": 593,
+   "n": 594,
+   "pnl": 76.76,
    "roi": 0.07,
-   "staked": 1088.71,
-   "win_rate": 0.656,
-   "won": 389
+   "staked": 1090.24,
+   "win_rate": 0.657,
+   "won": 390
   },
   "KXNCAAWBGAME": {
    "avg_clv": -0.0135,
@@ -53554,5 +53554,5 @@
    "won": 12
   }
  },
- "updated": "2026-11-27T04:39:39.759773+00:00"
+ "updated": "2026-11-27T05:59:33.853218+00:00"
 }
