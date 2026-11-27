@@ -50460,17 +50460,17 @@
    "last_seen": 0.415,
    "league": "NCAAMB",
    "mid": 0.395,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-26T22:53:54.309528+00:00",
-   "pnl": null,
+   "pnl": -1.67,
    "price": 0.4,
    "qty": 4,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-27T07:12:04.068136+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-27T04:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Baylor",
    "ticker": "KXNCAAMBGAME-26NOV26BAYGONZ-BAY",
    "volume": 22421
@@ -50485,17 +50485,17 @@
    "last_seen": 0.165,
    "league": "NCAAMB",
    "mid": 0.175,
-   "payout": null,
+   "payout": 0.0,
    "placed": "2026-11-26T22:53:54.309528+00:00",
-   "pnl": null,
+   "pnl": -2.1,
    "price": 0.18,
    "qty": 11,
    "series": "KXNCAAMBGAME",
-   "settled": null,
+   "settled": "2026-11-27T07:12:04.068136+00:00",
    "side": "yes",
    "spread": 0.01,
    "start": "2026-11-27T04:30:00+00:00",
-   "status": "open",
+   "status": "lost",
    "team": "Oregon",
    "ticker": "KXNCAAMBGAME-26NOV26TTUORE-ORE",
    "volume": 6605
@@ -50557,7 +50557,7 @@
    "fair": null,
    "fee": 0.07,
    "id": "202611270336-KXT20MATCH-26NOV270315ENGAUS-AUS-yes",
-   "last_seen": 0.465,
+   "last_seen": 0.455,
    "league": "",
    "mid": 0.455,
    "payout": null,
@@ -53039,10 +53039,10 @@
   },
   "KXNCAAMBGAME": {
    "avg_clv": -0.0063,
-   "avg_price": 0.633,
+   "avg_price": 0.632,
    "buckets": {
     "10-20c": [
-     31,
+     32,
      9
     ],
     "20-30c": [
@@ -53050,7 +53050,7 @@
      11
     ],
     "30-40c": [
-     60,
+     61,
      27
     ],
     "40-50c": [
@@ -53078,12 +53078,12 @@
      136
     ]
    },
-   "clv_n": 593,
-   "n": 594,
-   "pnl": 76.76,
-   "roi": 0.07,
-   "staked": 1090.24,
-   "win_rate": 0.657,
+   "clv_n": 595,
+   "n": 596,
+   "pnl": 72.99,
+   "roi": 0.067,
+   "staked": 1094.01,
+   "win_rate": 0.654,
    "won": 390
   },
   "KXNCAAWBGAME": {
@@ -53554,5 +53554,5 @@
    "won": 12
   }
  },
- "updated": "2026-11-27T05:59:33.853218+00:00"
+ "updated": "2026-11-27T07:12:04.068136+00:00"
 }

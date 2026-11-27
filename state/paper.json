@@ -7423,7 +7423,7 @@
    "fair": 0.7767,
    "fee": 0.0,
    "id": "202611262353-KXNCAAMBGAME-26NOV27UVAXAV-UVA-yes",
-   "last_seen": 0.755,
+   "last_seen": 0.745,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -7490,24 +7490,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 24.64,
    "event": "KXNBAGAME-26NOV27ATLBOS",
    "fair": 0.7946,
    "fee": 0.0,
    "id": "202611270439-KXNBAGAME-26NOV27ATLBOS-BOS-yes",
-   "last_seen": 0.77,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
    "placed": "2026-11-27T04:39:39.759773+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.77,
    "qty": 32,
    "reason": "Favorite, limit 0.77 (bid 0.76, ask 0.78), sportsbook 0.795",
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T01:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Boston",
    "ticker": "KXNBAGAME-26NOV27ATLBOS-BOS"
@@ -7559,9 +7559,33 @@
    "strategy": "fav-maker",
    "team": "Ohio St.",
    "ticker": "KXNCAAFGAME-26NOV28MICHOSU-OSU"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV28SHSUFIU",
+   "fair": 0.8055,
+   "fee": 0.0,
+   "id": "202611270712-KXNCAAFGAME-26NOV28SHSUFIU-FIU-yes",
+   "last_seen": 0.8,
+   "league": "CFB",
+   "limit": 0.8,
+   "payout": null,
+   "placed": "2026-11-27T07:12:04.068136+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 8,
+   "reason": "Favorite, limit 0.80 (bid 0.80, ask 0.81), sportsbook 0.805",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T19:00:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "Florida International",
+   "ticker": "KXNCAAFGAME-26NOV28SHSUFIU-FIU"
   }
  ],
- "cash": 913.36,
+ "cash": 888.72,
  "log": [
   {
    "cash": 1000,
@@ -11137,6 +11161,18 @@
    "markets": 979,
    "matched": 117,
    "t": "2026-11-27T05:59:33.853218+00:00"
+  },
+  {
+   "cash": 888.72,
+   "equity": 938.54,
+   "events": [
+    "filled KXNBAGAME-26NOV27ATLBOS-BOS yes at 0.77",
+    "new fav-maker KXNCAAFGAME-26NOV28SHSUFIU-FIU yes x8 @ 0.8",
+    "demo placed KXNCAAFGAME-26NOV28SHSUFIU-FIU yes x4 @ 80c"
+   ],
+   "markets": 973,
+   "matched": 120,
+   "t": "2026-11-27T07:12:04.068136+00:00"
   }
  ],
  "peak": 1020.2900000000001
