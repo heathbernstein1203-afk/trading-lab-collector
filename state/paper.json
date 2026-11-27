@@ -7279,7 +7279,7 @@
    "fair": 0.7919,
    "fee": 0.0,
    "id": "202611262151-KXNBAGAME-26NOV27DENUTA-DEN-yes",
-   "last_seen": 0.795,
+   "last_seen": 0.8,
    "league": "NBA",
    "limit": 0.79,
    "payout": null,
@@ -7321,7 +7321,7 @@
    "ticker": "KXNBAGAME-26NOV27MILDET-DET"
   },
   {
-   "close": null,
+   "close": 0.895,
    "cost": 19.8,
    "event": "KXNCAAMBGAME-26NOV26ALAKSU",
    "fair": 0.9059,
@@ -7423,7 +7423,7 @@
    "fair": 0.7767,
    "fee": 0.0,
    "id": "202611262353-KXNCAAMBGAME-26NOV27UVAXAV-UVA-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.755,
    "league": "NCAAMB",
    "limit": 0.77,
    "payout": null,
@@ -10965,6 +10965,14 @@
    "markets": 941,
    "matched": 119,
    "t": "2026-11-27T01:10:12.400754+00:00"
+  },
+  {
+   "cash": 853.2,
+   "equity": 924.18,
+   "events": [],
+   "markets": 972,
+   "matched": 118,
+   "t": "2026-11-27T02:36:56.228362+00:00"
   }
  ],
  "peak": 1020.2900000000001
