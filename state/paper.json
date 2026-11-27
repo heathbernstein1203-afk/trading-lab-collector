@@ -7111,7 +7111,7 @@
    "fair": 0.8055,
    "fee": 0.0,
    "id": "202611261558-KXNCAAFGAME-26NOV27TEXTXAM-TEX-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.805,
    "league": "CFB",
    "limit": 0.8,
    "payout": null,
@@ -7130,24 +7130,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 6.3,
    "event": "KXNHLGAME-26NOV27CGYNJ",
    "fair": 0.7088,
    "fee": 0.0,
    "id": "202611261558-KXNHLGAME-26NOV27CGYNJ-NJ-yes",
-   "last_seen": 0.7,
+   "last_seen": 0.695,
    "league": "NHL",
    "limit": 0.7,
    "payout": null,
    "placed": "2026-11-26T15:58:07.213270+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.7,
    "qty": 9,
    "reason": "Favorite, limit 0.70 (bid 0.70, ask 0.71), sportsbook 0.709",
    "settled": null,
    "side": "yes",
    "start": "2026-11-27T18:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "New Jersey",
    "ticker": "KXNHLGAME-26NOV27CGYNJ-NJ"
@@ -7447,7 +7447,7 @@
    "fair": 0.7539,
    "fee": 0.0,
    "id": "202611270336-KXNBAGAME-26NOV27BKNTOR-TOR-yes",
-   "last_seen": 0.73,
+   "last_seen": 0.745,
    "league": "NBA",
    "limit": 0.74,
    "payout": null,
@@ -7495,7 +7495,7 @@
    "fair": 0.7946,
    "fee": 0.0,
    "id": "202611270439-KXNBAGAME-26NOV27ATLBOS-BOS-yes",
-   "last_seen": 0.76,
+   "last_seen": 0.765,
    "league": "NBA",
    "limit": 0.77,
    "payout": null,
@@ -7585,7 +7585,7 @@
    "ticker": "KXNCAAFGAME-26NOV28SHSUFIU-FIU"
   }
  ],
- "cash": 888.72,
+ "cash": 882.42,
  "log": [
   {
    "cash": 1000,
@@ -11205,6 +11205,16 @@
    "markets": 982,
    "matched": 134,
    "t": "2026-11-27T11:55:28.623269+00:00"
+  },
+  {
+   "cash": 882.42,
+   "equity": 938.54,
+   "events": [
+    "filled KXNHLGAME-26NOV27CGYNJ-NJ yes at 0.7"
+   ],
+   "markets": 984,
+   "matched": 134,
+   "t": "2026-11-27T13:08:41.072511+00:00"
   }
  ],
  "peak": 1020.2900000000001
