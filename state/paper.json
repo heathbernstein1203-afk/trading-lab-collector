@@ -7279,7 +7279,7 @@
    "fair": 0.7919,
    "fee": 0.0,
    "id": "202611262151-KXNBAGAME-26NOV27DENUTA-DEN-yes",
-   "last_seen": 0.8,
+   "last_seen": 0.795,
    "league": "NBA",
    "limit": 0.79,
    "payout": null,
@@ -11173,6 +11173,14 @@
    "markets": 973,
    "matched": 120,
    "t": "2026-11-27T07:12:04.068136+00:00"
+  },
+  {
+   "cash": 888.72,
+   "equity": 938.54,
+   "events": [],
+   "markets": 981,
+   "matched": 134,
+   "t": "2026-11-27T08:45:22.713922+00:00"
   }
  ],
  "peak": 1020.2900000000001
