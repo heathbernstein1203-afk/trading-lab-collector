@@ -7226,24 +7226,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 8.25,
    "event": "KXNBAGAME-26NOV27GSWPOR",
    "fair": 0.7597,
    "fee": 0.0,
    "id": "202611262000-KXNBAGAME-26NOV27GSWPOR-POR-yes",
-   "last_seen": 0.75,
+   "last_seen": 0.725,
    "league": "NBA",
    "limit": 0.75,
    "payout": null,
    "placed": "2026-11-26T20:00:06.507112+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.75,
    "qty": 11,
    "reason": "Favorite, limit 0.75 (bid 0.75, ask 0.76), sportsbook 0.760",
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T02:30:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Portland",
    "ticker": "KXNBAGAME-26NOV27GSWPOR-POR"
@@ -7610,24 +7610,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 3.32,
    "event": "KXNCAAFGAME-26NOV28TENNVAN",
    "fair": 0.8326,
    "fee": 0.0,
    "id": "202611271730-KXNCAAFGAME-26NOV28TENNVAN-TENN-yes",
-   "last_seen": 0.83,
+   "last_seen": 0.825,
    "league": "CFB",
    "limit": 0.83,
    "payout": null,
    "placed": "2026-11-27T17:30:40.490505+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.83,
    "qty": 4,
    "reason": "Favorite, limit 0.83 (bid 0.83, ask 0.84), sportsbook 0.833",
    "settled": null,
    "side": "yes",
    "start": "2026-11-29T00:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "fav-maker",
    "team": "Tennessee",
    "ticker": "KXNCAAFGAME-26NOV28TENNVAN-TENN"
@@ -7681,7 +7681,7 @@
    "ticker": "KXNCAAMBGAME-26NOV27NENW-NW"
   }
  ],
- "cash": 890.42,
+ "cash": 878.85,
  "log": [
   {
    "cash": 1000,
@@ -11359,6 +11359,17 @@
    "markets": 1060,
    "matched": 139,
    "t": "2026-11-27T18:17:37.931881+00:00"
+  },
+  {
+   "cash": 878.85,
+   "equity": 940.38,
+   "events": [
+    "filled KXNBAGAME-26NOV27GSWPOR-POR yes at 0.75",
+    "filled KXNCAAFGAME-26NOV28TENNVAN-TENN yes at 0.83"
+   ],
+   "markets": 1105,
+   "matched": 134,
+   "t": "2026-11-27T19:30:17.905657+00:00"
   }
  ],
  "peak": 1020.2900000000001
