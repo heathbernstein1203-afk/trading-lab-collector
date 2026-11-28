@@ -7105,7 +7105,7 @@
    "ticker": "KXNCAAFGAME-26NOV27AFAUNM-UNM"
   },
   {
-   "close": null,
+   "close": 0.775,
    "cost": 5.6,
    "event": "KXNCAAFGAME-26NOV27TEXTXAM",
    "fair": 0.8055,
@@ -7315,7 +7315,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Detroit",
    "ticker": "KXNBAGAME-26NOV27MILDET-DET"
@@ -7411,7 +7411,7 @@
    "settled": null,
    "side": "yes",
    "start": "2026-11-28T00:30:00+00:00",
-   "status": "pending",
+   "status": "cancelled",
    "strategy": "fav-maker",
    "team": "Wisconsin",
    "ticker": "KXNCAAFGAME-26NOV27MINNWIS-WIS"
@@ -7441,7 +7441,7 @@
    "ticker": "KXNCAAMBGAME-26NOV27UVAXAV-UVA"
   },
   {
-   "close": null,
+   "close": 0.755,
    "cost": 11.84,
    "event": "KXNBAGAME-26NOV27BKNTOR",
    "fair": 0.7539,
@@ -7489,7 +7489,7 @@
    "ticker": "KXNCAAMBGAME-26NOV26TTUORE-TTU"
   },
   {
-   "close": null,
+   "close": 0.765,
    "cost": 24.64,
    "event": "KXNBAGAME-26NOV27ATLBOS",
    "fair": 0.7946,
@@ -7657,7 +7657,7 @@
    "ticker": "KXNCAAFGAME-26NOV28CINBYU-BYU"
   },
   {
-   "close": null,
+   "close": 0.885,
    "cost": 6.23,
    "event": "KXNCAAMBGAME-26NOV27NENW",
    "fair": 0.8932,
@@ -7751,6 +7751,54 @@
    "strategy": "fav-maker",
    "team": "Wake Forest",
    "ticker": "KXNCAAFGAME-26NOV28DUKEWAKE-WAKE"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV28DAYTNTC",
+   "fair": null,
+   "fee": 0.0,
+   "id": "202611280151-KXNCAAFGAME-26NOV28DAYTNTC-DAY-no",
+   "last_seen": 0.93,
+   "league": "",
+   "limit": 0.93,
+   "payout": null,
+   "placed": "2026-11-28T01:51:34.845984+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 21,
+   "reason": "YES at 0.07: fading the longshot with a NO limit at 0.93",
+   "settled": null,
+   "side": "no",
+   "start": "2026-11-28T19:00:00+00:00",
+   "status": "pending",
+   "strategy": "no-longshot",
+   "team": "Dayton",
+   "ticker": "KXNCAAFGAME-26NOV28DAYTNTC-DAY"
+  },
+  {
+   "close": null,
+   "cost": 0.0,
+   "event": "KXNCAAFGAME-26NOV28LSUARK",
+   "fair": 0.849,
+   "fee": 0.0,
+   "id": "202611280151-KXNCAAFGAME-26NOV28LSUARK-LSU-yes",
+   "last_seen": 0.84,
+   "league": "CFB",
+   "limit": 0.84,
+   "payout": null,
+   "placed": "2026-11-28T01:51:34.845984+00:00",
+   "pnl": null,
+   "price": null,
+   "qty": 15,
+   "reason": "Favorite, limit 0.84 (bid 0.84, ask 0.85), sportsbook 0.849",
+   "settled": null,
+   "side": "yes",
+   "start": "2026-11-28T17:45:00+00:00",
+   "status": "pending",
+   "strategy": "fav-maker",
+   "team": "LSU",
+   "ticker": "KXNCAAFGAME-26NOV28LSUARK-LSU"
   }
  ],
  "cash": 875.67,
@@ -11494,6 +11542,21 @@
    "markets": 1043,
    "matched": 104,
    "t": "2026-11-28T00:20:39.246723+00:00"
+  },
+  {
+   "cash": 875.67,
+   "equity": 943.08,
+   "events": [
+    "cancelled KXNBAGAME-26NOV27MILDET-DET yes (not filled before start)",
+    "cancelled KXNCAAFGAME-26NOV27MINNWIS-WIS yes (not filled before start)",
+    "new no-longshot KXNCAAFGAME-26NOV28DAYTNTC-DAY no x21 @ 0.93",
+    "new fav-maker KXNCAAFGAME-26NOV28LSUARK-LSU yes x15 @ 0.84",
+    "demo placed KXNCAAFGAME-26NOV28DAYTNTC-DAY no x21 @ 93c",
+    "demo placed KXNCAAFGAME-26NOV28LSUARK-LSU yes x15 @ 84c"
+   ],
+   "markets": 1017,
+   "matched": 131,
+   "t": "2026-11-28T01:51:34.845984+00:00"
   }
  ],
  "peak": 1020.2900000000001
