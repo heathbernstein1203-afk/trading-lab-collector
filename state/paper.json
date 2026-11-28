@@ -7682,24 +7682,24 @@
   },
   {
    "close": null,
-   "cost": 0.0,
+   "cost": 19.95,
    "event": "KXNCAAFGAME-26NOV28BCMIA",
    "fair": 0.9586,
    "fee": 0.0,
    "id": "202611272127-KXNCAAFGAME-26NOV28BCMIA-BC-no",
-   "last_seen": 0.95,
+   "last_seen": 0.945,
    "league": "CFB",
    "limit": 0.95,
    "payout": null,
    "placed": "2026-11-27T21:27:29.299109+00:00",
    "pnl": null,
-   "price": null,
+   "price": 0.95,
    "qty": 21,
    "reason": "YES at 0.05: fading the longshot with a NO limit at 0.95",
    "settled": null,
    "side": "no",
    "start": "2026-11-28T17:00:00+00:00",
-   "status": "pending",
+   "status": "open",
    "strategy": "no-longshot",
    "team": "Boston College",
    "ticker": "KXNCAAFGAME-26NOV28BCMIA-BC"
@@ -7921,7 +7921,7 @@
    "ticker": "KXNCAAFGAME-26NOV28SMUSTAN-SMU"
   }
  ],
- "cash": 879.59,
+ "cash": 859.64,
  "log": [
   {
    "cash": 1000,
@@ -11740,6 +11740,16 @@
    "markets": 919,
    "matched": 139,
    "t": "2026-11-28T07:05:11.025664+00:00"
+  },
+  {
+   "cash": 859.64,
+   "equity": 927.94,
+   "events": [
+    "filled KXNCAAFGAME-26NOV28BCMIA-BC no at 0.95"
+   ],
+   "markets": 931,
+   "matched": 141,
+   "t": "2026-11-28T08:16:26.370714+00:00"
   }
  ],
  "peak": 1020.2900000000001
