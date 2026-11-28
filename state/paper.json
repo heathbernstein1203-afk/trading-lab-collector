@@ -7711,7 +7711,7 @@
    "fair": 0.8625,
    "fee": 0.0,
    "id": "202611272127-KXNCAAFGAME-26NOV28AUBALA-ALA-yes",
-   "last_seen": 0.845,
+   "last_seen": 0.855,
    "league": "CFB",
    "limit": 0.85,
    "payout": null,
@@ -11732,6 +11732,14 @@
    "markets": 923,
    "matched": 138,
    "t": "2026-11-28T05:55:21.053975+00:00"
+  },
+  {
+   "cash": 879.59,
+   "equity": 927.94,
+   "events": [],
+   "markets": 919,
+   "matched": 139,
+   "t": "2026-11-28T07:05:11.025664+00:00"
   }
  ],
  "peak": 1020.2900000000001
