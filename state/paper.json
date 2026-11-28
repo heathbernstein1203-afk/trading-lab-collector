@@ -7759,7 +7759,7 @@
    "fair": null,
    "fee": 0.0,
    "id": "202611280151-KXNCAAFGAME-26NOV28DAYTNTC-DAY-no",
-   "last_seen": 0.925,
+   "last_seen": 0.915,
    "league": "",
    "limit": 0.93,
    "payout": null,
@@ -11758,6 +11758,14 @@
    "markets": 931,
    "matched": 141,
    "t": "2026-11-28T09:21:07.600761+00:00"
+  },
+  {
+   "cash": 859.64,
+   "equity": 927.94,
+   "events": [],
+   "markets": 929,
+   "matched": 141,
+   "t": "2026-11-28T10:23:49.676524+00:00"
   }
  ],
  "peak": 1020.2900000000001
