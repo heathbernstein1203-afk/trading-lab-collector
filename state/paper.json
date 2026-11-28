@@ -7111,7 +7111,7 @@
    "fair": 0.8055,
    "fee": 0.0,
    "id": "202611261558-KXNCAAFGAME-26NOV27TEXTXAM-TEX-yes",
-   "last_seen": 0.805,
+   "last_seen": 0.775,
    "league": "CFB",
    "limit": 0.8,
    "payout": null,
@@ -11486,6 +11486,14 @@
    "markets": 1073,
    "matched": 100,
    "t": "2026-11-27T23:24:18.903535+00:00"
+  },
+  {
+   "cash": 875.67,
+   "equity": 943.08,
+   "events": [],
+   "markets": 1043,
+   "matched": 104,
+   "t": "2026-11-28T00:20:39.246723+00:00"
   }
  ],
  "peak": 1020.2900000000001
